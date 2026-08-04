@@ -1,6 +1,10 @@
+"use client";
 import Link from "next/link";
+import { useAuth } from "@/context/AuthContext";
 
 export default function Home() {
+  const { user, signInWithGoogle, loading } = useAuth();
+
   return (
     <main className="bg-gradient">
       <div className="container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
@@ -16,10 +20,21 @@ export default function Home() {
             Your comprehensive guide to Labor Laws, Statutory Benefits, and HR Management Principles.
           </p>
           
-          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-            <Link href="/dashboard" className="btn btn-primary">
-              Get Started
-            </Link>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'center', justifyContent: 'center', minHeight: '80px' }}>
+            {loading ? (
+              <div style={{ padding: '0.75rem', color: 'var(--text-secondary)' }}>Loading...</div>
+            ) : user ? (
+              <Link href="/dashboard" className="btn btn-primary">
+                Go to Dashboard
+              </Link>
+            ) : (
+              <>
+                <button onClick={signInWithGoogle} className="btn btn-primary">
+                  Sign in with Google
+                </button>
+                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>to get started</span>
+              </>
+            )}
           </div>
         </div>
       </div>

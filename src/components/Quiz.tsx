@@ -36,7 +36,7 @@ export default function Quiz({ questions, moduleId }: { questions: Question[], m
     if (!user) return;
     setSaving(true);
     try {
-      const resultDoc = doc(db, "users", user.uid, "results", moduleId);
+      const resultDoc = doc(db, "chra_reviewer_users", user.uid, "results", moduleId);
       await setDoc(resultDoc, {
         score: finalScore,
         total: questions.length,

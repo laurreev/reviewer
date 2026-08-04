@@ -1,38 +1,42 @@
-import Quiz from "@/components/Quiz";
+"use client";
+import ExamEngine from "@/components/ExamEngine";
 import Link from "next/link";
-
-const mockQuestions = [
-  {
-    id: "q1",
-    text: "Under the Labor Code of the Philippines, what is the normal hours of work of any employee?",
-    options: ["8 hours a day", "9 hours a day", "10 hours a day", "12 hours a day"],
-    correctOptionIndex: 0
-  },
-  {
-    id: "q2",
-    text: "Which government agency is primarily responsible for the administration and enforcement of labor laws?",
-    options: ["NEDA", "DOLE", "DTI", "DSWD"],
-    correctOptionIndex: 1
-  },
-  {
-    id: "q3",
-    text: "How many months of service is required before an employee is entitled to 13th month pay?",
-    options: ["1 month", "3 months", "6 months", "12 months"],
-    correctOptionIndex: 0
-  }
-];
+import { questionBank } from "@/data/questionBank";
+import { useAuth } from "@/context/AuthContext";
 
 export default function ExamPage() {
+  const { user, loading } = useAuth();
+  
+  // Filter the master bank into Set A and Set B
+  const setAData = questionBank.filter(q => q.setId === 'A');
+  const setBData = questionBank.filter(q => q.setId === 'B');
+
+  if (loading) {
+    return <div className="container section" style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>Loading Exam Engine...</div>;
+  }
+
+  if (!user) {
+    return (
+      <div className="container section" style={{ textAlign: 'center' }}>
+        <h2>Sign In Required</h2>
+        <p style={{ color: 'var(--text-secondary)' }}>You must be signed in to take the practice exam and save your scores.</p>
+        <div style={{ marginTop: '2rem' }}>
+          <Link href="/" className="btn btn-primary">Go to Home</Link>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="container" style={{ paddingTop: '4rem', paddingBottom: '4rem', maxWidth: '800px' }}>
+    <div className="container section" style={{ maxWidth: '800px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h2>Practice Exam</h2>
-        <Link href="/practice" style={{ color: 'var(--primary-color)', fontWeight: 500 }}>
-          Cancel Exam
+        <h2>CHRA Full Mock Exam</h2>
+        <Link href="/practice" style={{ color: 'var(--error-color)', fontWeight: 500, padding: '0.5rem', border: '1px solid var(--error-color)', borderRadius: '8px' }}>
+          Quit Exam
         </Link>
       </div>
 
-      <Quiz questions={mockQuestions} moduleId="mock-exam-1" />
+      <ExamEngine setAData={setAData} setBData={setBData} />
     </div>
   );
 }

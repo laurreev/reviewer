@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Practice() {
   return (
-    <div className="container" style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
+    <div className="container section">
       <h2>Practice Exams</h2>
       <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
         Simulate the actual CHRA exam environment to test your readiness.
@@ -11,7 +11,7 @@ export default function Practice() {
       <div className="glass-card" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
         <h3>Full Mock Exam</h3>
         <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem' }}>
-          3 items covering Labor Laws (Demo).
+          200 items covering all CHRA exam subjects.
         </p>
         
         <div style={{ marginTop: '2rem' }}>
