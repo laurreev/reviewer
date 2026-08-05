@@ -22,7 +22,7 @@ export interface ExamQuestion extends QuestionData {
 
 type ExamState = 'INTRO' | 'SET_A' | 'TRANSITION' | 'SET_B' | 'REVIEW';
 
-export default function ExamEngine({ setAData, setBData }: { setAData: QuestionData[], setBData: QuestionData[] }) {
+export default function ExamEngine({ setAData, setBData, mode = 'Both' }: { setAData: QuestionData[], setBData: QuestionData[], mode?: 'A' | 'B' | 'Both' }) {
   const { user } = useAuth();
   const [examState, setExamState] = useState<ExamState>('INTRO');
   
@@ -67,7 +67,8 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
 
   const handleTimeUp = () => {
     if (examState === 'SET_A') {
-      setExamState('TRANSITION');
+      if (mode === 'A') finishExam();
+      else setExamState('TRANSITION');
     } else if (examState === 'SET_B') {
       finishExam();
     }
@@ -99,8 +100,12 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
       setCurrentIndex(prev => prev + 1);
     } else {
       if (examState === 'SET_A') {
-        setExamState('TRANSITION');
-      } else {
+        if (mode === 'A') {
+          finishExam();
+        } else {
+          setExamState('TRANSITION');
+        }
+      } else if (examState === 'SET_B') {
         finishExam();
       }
     }
@@ -149,16 +154,33 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
     
     setSaving(true);
     try {
-      const scoreA = calculateScore(setA, answersA);
-      const scoreB = calculateScore(setB, answersB);
+      const scoreA = (mode === 'A' || mode === 'Both') ? calculateScore(setA, answersA) : null;
+      const scoreB = (mode === 'B' || mode === 'Both') ? calculateScore(setB, answersB) : null;
       const categoryScores = calculateCategoryScores();
+      
+      let passedA = null;
+      let passedB = null;
+      let passedOverall = false;
+      
+      if (mode === 'Both') {
+        passedA = scoreA! >= 50;
+        passedB = scoreB! >= 50;
+        passedOverall = passedA && passedB;
+      } else if (mode === 'A') {
+        passedA = scoreA! >= 50;
+        passedOverall = passedA;
+      } else if (mode === 'B') {
+        passedB = scoreB! >= 50;
+        passedOverall = passedB;
+      }
       
       await addDoc(collection(db, "usersREVIEWER", user.uid, "historyREVIEWER"), {
         scoreA,
         scoreB,
-        passedA: scoreA >= 50,
-        passedB: scoreB >= 50,
-        passedOverall: scoreA >= 50 && scoreB >= 50,
+        passedA,
+        passedB,
+        passedOverall,
+        mode,
         userEmail: user.email || 'unknown',
         categoryScores,
         timestamp: serverTimestamp()
@@ -173,17 +195,17 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
   if (examState === 'INTRO') {
     return (
       <div className="glass-card" style={{ textAlign: 'center' }}>
-        <h2 style={{ color: 'var(--primary-color)' }}>CHRA Full Mock Exam</h2>
+        <h2 style={{ color: 'var(--primary-color)' }}>CHRA Practice Exam</h2>
         <p style={{ marginBottom: '1rem', color: 'var(--text-secondary)' }}>
-          This exam consists of 200 items split into two sets, strictly simulating the actual CHRA exam.
+          {mode === 'Both' ? 'This exam consists of 200 items split into two sets, strictly simulating the actual CHRA exam.' : `This exam consists of 100 items from Set ${mode}.`}
         </p>
         <ul style={{ textAlign: 'left', margin: '0 auto 2rem auto', maxWidth: '400px', paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>
-          <li><strong>Set A (1.5 Hours):</strong> Recruitment, L&D, Compensation, Performance, Job Analysis, Risk.</li>
-          <li><strong>Set B (1.5 Hours):</strong> Labor and HR-related laws.</li>
-          <li><strong>Passing Score:</strong> You must score at least 50% on Set A <strong>AND</strong> 50% on Set B independently to pass.</li>
+          {(mode === 'Both' || mode === 'A') && <li><strong>Set A (1.5 Hours):</strong> Recruitment, L&D, Compensation, Performance, Job Analysis, Risk.</li>}
+          {(mode === 'Both' || mode === 'B') && <li><strong>Set B (1.5 Hours):</strong> Labor and HR-related laws.</li>}
+          <li><strong>Passing Score:</strong> You must score at least 50% {mode === 'Both' ? 'on both sets independently ' : ''}to pass.</li>
         </ul>
-        <button onClick={startSetA} className="btn btn-primary" style={{ padding: '1rem 3rem' }}>
-          Begin Set A
+        <button onClick={mode === 'B' ? startSetB : startSetA} className="btn btn-primary" style={{ padding: '1rem 3rem' }}>
+          Begin Exam
         </button>
       </div>
     );
@@ -204,37 +226,47 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
   }
 
   if (examState === 'REVIEW') {
-    const scoreA = calculateScore(setA, answersA);
-    const scoreB = calculateScore(setB, answersB);
-    const passed = scoreA >= 50 && scoreB >= 50;
+    const scoreA = mode !== 'B' ? calculateScore(setA, answersA) : null;
+    const scoreB = mode !== 'A' ? calculateScore(setB, answersB) : null;
+    
+    let passed = false;
+    if (mode === 'Both') passed = scoreA! >= 50 && scoreB! >= 50;
+    else if (mode === 'A') passed = scoreA! >= 50;
+    else if (mode === 'B') passed = scoreB! >= 50;
 
     return (
       <div>
         <div className="glass-card" style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <h2>Exam Results</h2>
           <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
-            <div>
-              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: scoreA >= 50 ? 'var(--success-color)' : 'var(--error-color)' }}>{scoreA}%</div>
-              <div>Set A Score</div>
-            </div>
-            <div>
-              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: scoreB >= 50 ? 'var(--success-color)' : 'var(--error-color)' }}>{scoreB}%</div>
-              <div>Set B Score</div>
-            </div>
+            {mode !== 'B' && (
+              <div>
+                <div style={{ fontSize: '2rem', fontWeight: 'bold', color: scoreA! >= 50 ? 'var(--success-color)' : 'var(--error-color)' }}>{scoreA}%</div>
+                <div>Set A Score</div>
+              </div>
+            )}
+            {mode !== 'A' && (
+              <div>
+                <div style={{ fontSize: '2rem', fontWeight: 'bold', color: scoreB! >= 50 ? 'var(--success-color)' : 'var(--error-color)' }}>{scoreB}%</div>
+                <div>Set B Score</div>
+              </div>
+            )}
           </div>
           
           <h3 style={{ color: passed ? 'var(--success-color)' : 'var(--error-color)', fontSize: '2rem' }}>
             {passed ? "PASSED! 🎉" : "FAILED ❌"}
           </h3>
           <p style={{ color: 'var(--text-secondary)', marginTop: '0.5rem' }}>
-            {passed ? "Congratulations! You met the 50% passing mark on both sets." : "Keep studying! You must score 50% or above on both sets independently to pass."}
+            {passed ? "Congratulations! You met the 50% passing mark." : "Keep studying! You must score 50% or above to pass."}
           </p>
           
           {saving && <p style={{ color: 'var(--text-secondary)', marginTop: '1rem' }}>Saving results to dashboard...</p>}
         </div>
 
-        <h3 style={{ marginBottom: '1.5rem' }}>Detailed Review (Set A)</h3>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '3rem' }}>
+        {mode !== 'B' && (
+          <>
+            <h3 style={{ marginBottom: '1.5rem' }}>Detailed Review (Set A)</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '3rem' }}>
           {setA.map((q, i) => (
             <div key={i} className="glass-card" style={{ borderLeft: answersA[i] === q.correctOptionIndex ? '4px solid var(--success-color)' : '4px solid var(--error-color)' }}>
               <p><strong>Q{i+1}: {q.text}</strong></p>
@@ -248,10 +280,14 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
                 <strong>Rationale:</strong> {q.rationale}
               </div>
             </div>
-          ))}
-        </div>
+            ))}
+            </div>
+          </>
+        )}
 
-        <h3 style={{ marginBottom: '1.5rem' }}>Detailed Review (Set B)</h3>
+        {mode !== 'A' && (
+          <>
+            <h3 style={{ marginBottom: '1.5rem' }}>Detailed Review (Set B)</h3>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {setB.map((q, i) => (
              <div key={i} className="glass-card" style={{ borderLeft: answersB[i] === q.correctOptionIndex ? '4px solid var(--success-color)' : '4px solid var(--error-color)' }}>
@@ -266,8 +302,10 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
                <strong>Rationale:</strong> {q.rationale}
              </div>
            </div>
-          ))}
-        </div>
+            ))}
+            </div>
+          </>
+        )}
       </div>
     );
   }
@@ -346,7 +384,7 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
           className="btn btn-primary"
           disabled={!hasAnswered}
         >
-          {currentIndex === currentSet.length - 1 ? (examState === 'SET_A' ? 'Submit Set A' : 'Finish Exam') : 'Next'}
+          {currentIndex === currentSet.length - 1 ? (examState === 'SET_A' && mode === 'Both' ? 'Submit Set A' : 'Finish Exam') : 'Next'}
         </button>
       </div>
     </div>

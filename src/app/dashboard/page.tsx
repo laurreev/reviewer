@@ -20,6 +20,7 @@ export default function Dashboard() {
   const { user, loading } = useAuth();
   const [history, setHistory] = useState<ExamResult[]>([]);
   const [fetching, setFetching] = useState(true);
+  const [showExamModal, setShowExamModal] = useState(false);
 
   const [overallAccuracy, setOverallAccuracy] = useState(0);
   const [categoryStats, setCategoryStats] = useState<{name: string, accuracy: number, correct: number, total: number}[]>([]);
@@ -62,8 +63,15 @@ export default function Dashboard() {
 
       history.forEach(h => {
         if (h.passedOverall) passed++;
-        totalQuestions += 200; // 100 per set
-        totalCorrect += (h.scoreA + h.scoreB); // scoreA and scoreB represent correct out of 100
+        
+        if (h.scoreA !== undefined && h.scoreA !== null) {
+          totalQuestions += 100;
+          totalCorrect += h.scoreA;
+        }
+        if (h.scoreB !== undefined && h.scoreB !== null) {
+          totalQuestions += 100;
+          totalCorrect += h.scoreB;
+        }
 
         if (h.categoryScores) {
           Object.entries(h.categoryScores).forEach(([cat, stats]) => {
@@ -109,7 +117,7 @@ export default function Dashboard() {
           <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
             Review Labor Laws, Statutory Benefits, and HR Principles.
           </p>
-          <Link href="/modules" className="btn btn-primary">
+          <Link href="/modules" className="btn btn-primary" style={{ width: '100%' }}>
             Start Studying
           </Link>
         </div>
@@ -119,11 +127,24 @@ export default function Dashboard() {
           <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
             Test your knowledge with timed practice quizzes.
           </p>
-          <Link href="/practice" className="btn btn-primary" style={{ background: 'linear-gradient(135deg, #10b981, #059669)' }}>
+          <button onClick={() => setShowExamModal(true)} className="btn btn-primary" style={{ width: '100%', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none', cursor: 'pointer' }}>
             Take Exam
-          </Link>
+          </button>
         </div>
       </div>
+
+      {showExamModal && (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => setShowExamModal(false)}>
+          <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '2rem' }} onClick={e => e.stopPropagation()}>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Select Exam Set</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <Link href="/practice/exam?mode=A" className="btn btn-primary" style={{ textAlign: 'center' }}>Set A Only (100 items)</Link>
+              <Link href="/practice/exam?mode=B" className="btn btn-primary" style={{ textAlign: 'center' }}>Set B Only (100 items)</Link>
+              <Link href="/practice/exam?mode=Both" className="btn btn-primary" style={{ textAlign: 'center' }}>Both Sets (200 items)</Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       {user && !fetching && history.length > 0 && (
         <>
@@ -183,14 +204,18 @@ export default function Dashboard() {
                       </div>
                     </div>
                     <div style={{ display: 'flex', gap: '1.5rem', textAlign: 'center' }}>
-                      <div>
-                        <div style={{ fontWeight: 600, color: h.passedA ? 'var(--success-color)' : 'var(--error-color)' }}>{h.scoreA}%</div>
-                        <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Set A</div>
-                      </div>
-                      <div>
-                        <div style={{ fontWeight: 600, color: h.passedB ? 'var(--success-color)' : 'var(--error-color)' }}>{h.scoreB}%</div>
-                        <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Set B</div>
-                      </div>
+                      {h.scoreA !== undefined && h.scoreA !== null && (
+                        <div>
+                          <div style={{ fontWeight: 600, color: h.passedA ? 'var(--success-color)' : 'var(--error-color)' }}>{h.scoreA}%</div>
+                          <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Set A</div>
+                        </div>
+                      )}
+                      {h.scoreB !== undefined && h.scoreB !== null && (
+                        <div>
+                          <div style={{ fontWeight: 600, color: h.passedB ? 'var(--success-color)' : 'var(--error-color)' }}>{h.scoreB}%</div>
+                          <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Set B</div>
+                        </div>
+                      )}
                       <div style={{ display: 'flex', alignItems: 'center' }}>
                         <span style={{ fontWeight: 700, fontSize: '0.8rem', padding: '0.25rem 0.5rem', borderRadius: '4px', backgroundColor: h.passedOverall ? 'rgba(16, 185, 129, 0.1)' : 'rgba(239, 68, 68, 0.1)', color: h.passedOverall ? 'var(--success-color)' : 'var(--error-color)' }}>
                           {h.passedOverall ? 'PASS' : 'FAIL'}
