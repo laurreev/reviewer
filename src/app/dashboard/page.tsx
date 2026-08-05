@@ -103,6 +103,28 @@ export default function Dashboard() {
         </div>
       )}
 
+      <div className="grid-cards" style={{ marginBottom: '2rem' }}>
+        <div className="glass-card">
+          <h3>Study Modules</h3>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
+            Review Labor Laws, Statutory Benefits, and HR Principles.
+          </p>
+          <Link href="/modules" className="btn btn-primary">
+            Start Studying
+          </Link>
+        </div>
+
+        <div className="glass-card">
+          <h3>Practice Exams</h3>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
+            Test your knowledge with timed practice quizzes.
+          </p>
+          <Link href="/practice" className="btn btn-primary" style={{ background: 'linear-gradient(135deg, #10b981, #059669)' }}>
+            Take Exam
+          </Link>
+        </div>
+      </div>
+
       {user && !fetching && history.length > 0 && (
         <>
           <div className="grid-cards" style={{ marginBottom: '2rem' }}>
@@ -183,27 +205,6 @@ export default function Dashboard() {
         </>
       )}
 
-      <div className="grid-cards">
-        <div className="glass-card">
-          <h3>Study Modules</h3>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-            Review Labor Laws, Statutory Benefits, and HR Principles.
-          </p>
-          <Link href="/modules" className="btn btn-primary">
-            Start Studying
-          </Link>
-        </div>
-
-        <div className="glass-card">
-          <h3>Practice Exams</h3>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-            Test your knowledge with timed practice quizzes.
-          </p>
-          <Link href="/practice" className="btn btn-primary" style={{ background: 'linear-gradient(135deg, #10b981, #059669)' }}>
-            Take Exam
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }

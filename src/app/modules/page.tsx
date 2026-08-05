@@ -4,6 +4,11 @@ import { modulesData } from "@/data/modulesData";
 export default function Modules() {
   return (
     <div className="container section">
+      <div style={{ marginBottom: "2rem" }}>
+        <Link href="/dashboard" style={{ color: "var(--primary-color)", fontWeight: 500 }}>
+          ← Back to Dashboard
+        </Link>
+      </div>
       <h2>Study Modules</h2>
       <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
         Select a module to start reading and reviewing the material.
