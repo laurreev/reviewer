@@ -8,8 +8,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function ModulePage({ params }: { params: { id: string } }) {
-  const module = modulesData.find((m) => m.id === params.id);
+export default async function ModulePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const module = modulesData.find((m) => m.id === id);
 
   if (!module) {
     return (

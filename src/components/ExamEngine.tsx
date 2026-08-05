@@ -122,6 +122,27 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
     return Math.round((score / set.length) * 100); 
   };
 
+  const calculateCategoryScores = () => {
+    const categoryScores: Record<string, { correct: number, total: number }> = {};
+    
+    const processSet = (set: ExamQuestion[], answers: Record<number, number>) => {
+      set.forEach((q, i) => {
+        if (!categoryScores[q.category]) {
+          categoryScores[q.category] = { correct: 0, total: 0 };
+        }
+        categoryScores[q.category].total += 1;
+        if (answers[i] === q.correctOptionIndex) {
+          categoryScores[q.category].correct += 1;
+        }
+      });
+    };
+
+    processSet(setA, answersA);
+    processSet(setB, answersB);
+
+    return categoryScores;
+  };
+
   const finishExam = async () => {
     setExamState('REVIEW');
     if (!user) return;
@@ -130,6 +151,7 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
     try {
       const scoreA = calculateScore(setA, answersA);
       const scoreB = calculateScore(setB, answersB);
+      const categoryScores = calculateCategoryScores();
       
       await addDoc(collection(db, "usersREVIEWER", user.uid, "historyREVIEWER"), {
         scoreA,
@@ -137,6 +159,8 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
         passedA: scoreA >= 50,
         passedB: scoreB >= 50,
         passedOverall: scoreA >= 50 && scoreB >= 50,
+        userEmail: user.email || 'unknown',
+        categoryScores,
         timestamp: serverTimestamp()
       });
     } catch (e) {
@@ -258,10 +282,28 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
 
   return (
     <div className="glass-card">
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-        <span style={{ fontWeight: 600, color: 'var(--primary-color)' }}>{examState === 'SET_A' ? 'Set A' : 'Set B'}</span>
-        <span>Question {currentIndex + 1} of {currentSet.length}</span>
-        <span style={{ color: timeLeft < 300 ? 'var(--error-color)' : 'inherit' }}>Time: {formatTime(timeLeft)}</span>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+        <span style={{ fontWeight: 600, color: 'var(--primary-color)', fontSize: '1.1rem' }}>{examState === 'SET_A' ? 'Set A' : 'Set B'}</span>
+        <span style={{ fontSize: '1.1rem' }}>Question {currentIndex + 1} of {currentSet.length}</span>
+        <div style={{ 
+          background: timeLeft < 300 ? 'rgba(239, 68, 68, 0.1)' : 'rgba(79, 70, 229, 0.1)', 
+          color: timeLeft < 300 ? 'var(--error-color)' : 'var(--primary-color)',
+          border: `1px solid ${timeLeft < 300 ? 'var(--error-color)' : 'var(--primary-color)'}`,
+          padding: '0.5rem 1rem',
+          borderRadius: '9999px',
+          fontWeight: 'bold',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          fontSize: '1rem',
+          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+        }}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          {formatTime(timeLeft)}
+        </div>
       </div>
       <ProgressBar progress={progress} />
       
@@ -274,11 +316,14 @@ export default function ExamEngine({ setAData, setBData }: { setAData: QuestionD
             onClick={() => handleAnswer(i)}
             className="btn"
             style={{ 
-              background: currentAnswers[currentIndex] === i ? 'rgba(79, 70, 229, 0.1)' : 'var(--surface-color)', 
-              border: currentAnswers[currentIndex] === i ? '2px solid var(--primary-color)' : '1px solid var(--glass-border)',
+              background: currentAnswers[currentIndex] === i ? 'rgba(79, 70, 229, 0.1)' : '#ffffff', 
+              border: currentAnswers[currentIndex] === i ? '2px solid var(--primary-color)' : '1px solid #e2e8f0',
+              boxShadow: currentAnswers[currentIndex] === i ? 'none' : '0 2px 4px rgba(0,0,0,0.05)',
+              borderRadius: '12px',
               textAlign: 'left',
               padding: '1rem 1.5rem',
-              color: 'var(--text-primary)'
+              color: 'var(--text-primary)',
+              transition: 'all 0.2s ease'
             }}
           >
             {opt}
