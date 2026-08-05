@@ -19,9 +19,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of a realistic job preview (RJP) during the selection process?',
     correctAnswer: 'To provide candidates with both the positive and negative aspects of the job to reduce early turnover.',
     incorrectAnswers: [
-      'To strictly enforce compliance with OSH regulations during onboarding.',
-      'To assess a candidate’s stress tolerance during a situational interview.',
-      'To artificially inflate the attractiveness of the role to secure top talent.'
+      'To weed out unqualified applicants by making the job seem extremely difficult.',
+      'To test the candidate’s practical skills in a simulated environment.',
+      'To negotiate salary expectations before the final interview.'
     ],
     rationale: 'An RJP gives a balanced, honest view of the job, helping candidates make informed decisions, which significantly reduces dissatisfaction and early turnover.'
   },
@@ -33,8 +33,8 @@ export const questionBank: QuestionData[] = [
     correctAnswer: 'Job Specification',
     incorrectAnswers: [
       'Job Description',
-      'Job Analysis Report',
-      'Position Classification Profile'
+      'Job Evaluation',
+      'Job Posting'
     ],
     rationale: 'A Job Specification outlines the specific knowledge, skills, abilities, and other characteristics (KSAOs) required to perform the job, whereas a Job Description outlines the duties of the job itself.'
   },
@@ -45,9 +45,9 @@ export const questionBank: QuestionData[] = [
     text: 'In performance appraisals, the "halo effect" occurs when an evaluator:',
     correctAnswer: 'Rates an employee highly on all dimensions because of a single positive trait or achievement.',
     incorrectAnswers: [
-      'Evaluates the employee based strictly on their most recent project success.',
-      'Artificially inflates ratings across the board to avoid demotivating the team.',
-      'Allows a severe negative incident to unfairly drag down all other independent metrics.'
+      'Focuses only on the most recent behavior of the employee.',
+      'Rates all employees as "average" to avoid conflict.',
+      'Allows a single negative trait to inappropriately lower the employee’s overall rating.'
     ],
     rationale: 'The halo effect is a cognitive bias where a single positive attribute influences the observer\'s overall judgment favorably across other independent traits.'
   },
@@ -62,9 +62,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Philippine Labor Code, how long is the probationary employment period for a typical employee unless covered by an apprenticeship agreement?',
     correctAnswer: 'Not exceeding six (6) months from the date the employee started working.',
     incorrectAnswers: [
-      'Three (3) months, extendable by another three months upon mutual agreement.',
-      'One (1) year for specialized or highly technical roles.',
-      'At the absolute discretion of the employer provided it is stipulated in the contract.'
+      'Three (3) months',
+      'One (1) year',
+      'At the absolute discretion of the employer.'
     ],
     rationale: 'Article 296 of the Labor Code states that probationary employment shall not exceed six (6) months. If the employee is allowed to work beyond this period, they are considered a regular employee.'
   },
@@ -75,9 +75,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following employees is NOT entitled to 13th month pay under PD 851?',
     correctAnswer: 'Managerial employees',
     incorrectAnswers: [
-      'Rank-and-file employees who have worked for exactly 1 month.',
-      'Piece-rate workers and those paid on a commission basis.',
-      'Probationary rank-and-file employees who were terminated in November.'
+      'Rank-and-file employees who have worked for 1 month',
+      'Piece-rate workers',
+      'Probationary rank-and-file employees'
     ],
     rationale: 'Presidential Decree 851 specifies that only rank-and-file employees are legally entitled to receive the 13th month pay. Employers are not mandated by law to provide it to managerial employees, though they may do so voluntarily.'
   },
@@ -89,8 +89,8 @@ export const questionBank: QuestionData[] = [
     correctAnswer: '200% of the regular daily wage.',
     incorrectAnswers: [
       '130% of the regular daily wage.',
-      '150% of the regular daily wage plus a compensatory day off.',
-      '100% of the regular daily wage plus a 30% premium.'
+      '150% of the regular daily wage.',
+      '100% of the regular daily wage plus a day off.'
     ],
     rationale: 'Under the Labor Code, an employee who works on a regular holiday shall be paid 200% of their regular daily wage for the first eight hours.'
   },
@@ -106,7 +106,7 @@ export const questionBank: QuestionData[] = [
     incorrectAnswers: [
       'Situational Interview',
       'Stress Interview',
-      'Non-directive Interview'
+      'Unstructured Interview'
     ],
     rationale: 'Behavioral interviews ask candidates to describe specific examples of how they handled past situations, relying on the principle that past actions predict future performance.'
   },
@@ -130,9 +130,9 @@ export const questionBank: QuestionData[] = [
     text: 'In compensation management, what does "internal equity" refer to?',
     correctAnswer: 'Paying employees fairly compared to others within the same organization based on the relative value of their jobs.',
     incorrectAnswers: [
-      'Matching the company’s compensation package with competitors in the same geographic labor market.',
-      'Providing a uniform, standardized salary to all employees regardless of tenure or position.',
-      'Ensuring strict parity between executive compensation and rank-and-file wages.'
+      'Paying employees salaries that match market rates outside the company.',
+      'Providing the exact same salary to every employee regardless of position.',
+      'Ensuring that female and male employees get equal maternity and paternity benefits.'
     ],
     rationale: 'Internal equity ensures fairness in pay structures inside the company, meaning jobs of similar value and responsibility are paid similarly.'
   },
@@ -143,9 +143,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a 360-degree feedback system?',
     correctAnswer: 'A process where performance data is collected from supervisors, peers, subordinates, and sometimes customers.',
     incorrectAnswers: [
-      'A rigid top-down appraisal system where only the direct manager provides an annual rating.',
-      'A self-evaluation matrix where the employee maps their performance against 360 distinct competencies.',
-      'An objective, metric-driven system focused strictly on quantitative outputs over a 360-day period.'
+      'A system where an employee is evaluated only by their direct manager twice a year.',
+      'A self-evaluation tool where the employee rates their own performance globally.',
+      'An appraisal system focused solely on an employee’s technical output over 360 days.'
     ],
     rationale: '360-degree feedback provides a comprehensive view of an employee’s performance by gathering anonymous feedback from all directions around the employee.'
   },
@@ -156,9 +156,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which method of job analysis involves the HR analyst actually performing the job to understand its requirements?',
     correctAnswer: 'Actual Performance / Participation Method',
     incorrectAnswers: [
-      'Direct Observation Method',
-      'Critical Incident Technique',
-      'Behavioral Anchored Rating'
+      'Observation Method',
+      'Critical Incident Method',
+      'Interview Method'
     ],
     rationale: 'In the actual performance or participation method, the analyst learns exactly what the job entails by doing it themselves, which is highly effective for manual or routine jobs.'
   },
@@ -169,9 +169,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of applying ergonomics in the workplace?',
     correctAnswer: 'To design the work environment to fit the physical capabilities of workers, thereby reducing injury risks and improving efficiency.',
     incorrectAnswers: [
-      'To monitor employee productivity metrics through advanced tracking hardware.',
-      'To establish a financial risk mitigation framework against workers\' compensation claims.',
-      'To mandate strict compliance with DOLE Occupational Safety Health (OSH) reporting standards.'
+      'To strictly monitor employee computer usage for cybersecurity risks.',
+      'To create financial risk mitigation strategies for corporate investments.',
+      'To enforce mandatory health insurance policies for all rank-and-file staff.'
     ],
     rationale: 'Ergonomics focuses on matching the physical requirements of a job (like chair design or desk height) to the anatomical capabilities of the worker to prevent musculoskeletal injuries.'
   },
@@ -182,9 +182,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the HR metric "Time-to-Fill" measure?',
     correctAnswer: 'The number of days from when a job requisition is approved to when a candidate accepts the job offer.',
     incorrectAnswers: [
-      'The duration it takes for a newly hired employee to reach full productivity (Time-to-Productivity).',
-      'The time interval between the initial screening interview and the final executive interview.',
-      'The total cumulative hours HR spends sourcing, interviewing, and onboarding a single candidate.'
+      'The time it takes for a new hire to become fully productive.',
+      'The duration of the initial interview process.',
+      'The total hours spent by HR sorting through resumes.'
     ],
     rationale: 'Time-to-fill tracks the efficiency of the recruitment process, measuring the calendar days from the opening of a job req to the acceptance of the offer.'
   },
@@ -195,9 +195,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following best describes "On-the-Job Training" (OJT)?',
     correctAnswer: 'Training that occurs in the actual work environment while the trainee performs real tasks.',
     incorrectAnswers: [
-      'Classroom-style vestibule training conducted by external subject matter experts.',
-      'Self-paced asynchronous e-learning modules completed before the first day of work.',
-      'Highly stressful simulation exercises conducted in an isolated off-site environment.'
+      'Classroom-style lectures conducted by external consultants.',
+      'Online modules completed before an employee’s first day of work.',
+      'Role-playing exercises conducted in a simulation lab.'
     ],
     rationale: 'OJT allows employees to learn by doing in the actual workspace, often under the guidance of an experienced peer or manager.'
   },
@@ -208,9 +208,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "compa-ratio" (comparative ratio)?',
     correctAnswer: 'The ratio of an employee’s actual salary to the midpoint of their salary grade.',
     incorrectAnswers: [
-      'The comparison of an organization’s total benefits expenditure against its closest industry competitor.',
-      'The percentage of gross revenue dedicated strictly to rank-and-file employee compensation.',
-      'The statistical variance between the highest paid executive and the lowest paid entry-level worker.'
+      'The comparison of a company’s benefits package to its competitors.',
+      'The percentage of revenue dedicated to employee compensation.',
+      'The difference between the highest and lowest paid employee in a department.'
     ],
     rationale: 'A compa-ratio calculates how far an employee’s pay is from the midpoint of their pay band (Salary / Midpoint). A ratio of 1.0 means they are paid exactly at the midpoint.'
   },
@@ -221,9 +221,9 @@ export const questionBank: QuestionData[] = [
     text: 'In performance appraisals, what is the "horns effect"?',
     correctAnswer: 'A cognitive bias where a single negative trait or incident overshadows all other positive traits, resulting in an unfairly low overall rating.',
     incorrectAnswers: [
-      'Rating an employee highly based on their physical attractiveness or charisma (Beauty Bias).',
-      'The cognitive tendency to cluster all employees in the absolute middle of a rating scale (Central Tendency).',
-      'Evaluating an employee based purely on a severe mistake made in the last two weeks of the year (Recency Effect).'
+      'Rating an employee highly based on their physical attractiveness.',
+      'The tendency to rate all employees in the middle of the scale.',
+      'Evaluating an employee based only on their most recent behavior prior to the appraisal.'
     ],
     rationale: 'The horns effect is the opposite of the halo effect. One negative characteristic biases the evaluator to rate the employee poorly across all independent performance dimensions.'
   },
@@ -240,7 +240,7 @@ export const questionBank: QuestionData[] = [
     incorrectAnswers: [
       '200% of the regular daily wage.',
       '150% of the regular daily wage.',
-      '100% of the regular daily wage plus a 10% premium.'
+      '110% of the regular daily wage.'
     ],
     rationale: 'For work performed on a special non-working day, the employee is entitled to an additional 30% of their basic wage on the first eight hours of work (130%).'
   },
@@ -251,9 +251,9 @@ export const questionBank: QuestionData[] = [
     text: 'How much is the mandated night shift differential under Philippine law?',
     correctAnswer: 'Not less than 10% of the regular wage for each hour of work performed between 10:00 PM and 6:00 AM.',
     incorrectAnswers: [
-      'Not less than 20% of the regular wage for work performed between 8:00 PM and 5:00 AM.',
-      'Not less than 15% of the regular wage for work performed between 10:00 PM and 6:00 AM.',
-      'An additional flat premium of PHP 150 per night shift regardless of the hourly rate.'
+      'Not less than 20% of the regular wage for each hour of work performed between 8:00 PM and 5:00 AM.',
+      'Not less than 15% of the regular wage for each hour of work performed between 10:00 PM and 6:00 AM.',
+      'An additional flat rate of PHP 100 per night shift.'
     ],
     rationale: 'Article 86 of the Labor Code dictates a night shift differential of not less than 10% of the regular wage for work between 10:00 PM and 6:00 AM.'
   },
@@ -264,9 +264,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the Service Incentive Leave (SIL) entitlement in the Philippines?',
     correctAnswer: 'Five (5) days of leave with pay for employees who have rendered at least one (1) year of service.',
     incorrectAnswers: [
-      'Ten (10) days of commutable leave with pay immediately upon regularization.',
-      'Fifteen (15) days of sick leave and fifteen (15) days of vacation leave credited annually.',
-      'Seven (7) days of leave with pay granted incrementally after six months of continuous service.'
+      'Ten (10) days of leave with pay upon regularization.',
+      'Fifteen (15) days of sick leave and fifteen (15) days of vacation leave per year.',
+      'Seven (7) days of leave with pay after six months of service.'
     ],
     rationale: 'Under Article 95 of the Labor Code, every employee who has rendered at least one year of service is entitled to a yearly service incentive leave of five days with pay.'
   },
@@ -277,9 +277,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under RA 11210 (Expanded Maternity Leave Law), how many days of paid maternity leave is a female worker entitled to for a live childbirth?',
     correctAnswer: '105 days, regardless of whether the delivery was normal or caesarean.',
     incorrectAnswers: [
-      '60 days for normal delivery and 78 days for caesarean delivery.',
-      '120 days for all types of deliveries, provided the employee notifies the employer within 30 days.',
-      '90 days of fully paid leave, with an absolute option to extend for 30 unpaid days.'
+      '60 days for normal delivery and 78 days for caesarean.',
+      '120 days for all types of deliveries.',
+      '90 days, with an option to extend for 30 unpaid days.'
     ],
     rationale: 'The Expanded Maternity Leave Law grants 105 days of paid maternity leave for live childbirth, regardless of the mode of delivery, with an option to extend for an additional 30 days without pay.'
   },
@@ -291,8 +291,8 @@ export const questionBank: QuestionData[] = [
     correctAnswer: 'Seven (7) days for the first four (4) deliveries of his legitimate spouse with whom he is cohabiting.',
     incorrectAnswers: [
       'Ten (10) days for any childbirth of his legitimate or common-law spouse.',
-      'Seven (7) days for unlimited deliveries of his legitimate spouse, provided they cohabit.',
-      'Fourteen (14) days if the legitimate spouse underwent an emergency caesarean delivery.'
+      'Seven (7) days for unlimited deliveries of his legitimate spouse.',
+      'Fourteen (14) days if the spouse underwent a caesarean delivery.'
     ],
     rationale: 'Paternity leave of 7 days with full pay is granted to all married male employees in the private and public sectors for the first four deliveries (or miscarriages) of the legitimate spouse with whom he is cohabiting.'
   },
@@ -303,9 +303,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following constitutes an "Authorized Cause" for terminating employment under the Labor Code?',
     correctAnswer: 'Retrenchment to prevent losses',
     incorrectAnswers: [
-      'Gross and habitual neglect by the employee of their duties.',
-      'Fraud or willful breach of trust by the employee.',
-      'Commission of a crime by the employee against the employer or their family.'
+      'Gross and habitual neglect by the employee of their duties',
+      'Fraud or willful breach of trust by the employee',
+      'Commission of a crime by the employee against the employer'
     ],
     rationale: 'Authorized causes are initiated by the employer for business reasons (e.g., retrenchment, redundancy, closure). Gross neglect, fraud, and commission of a crime are "Just Causes" due to the employee’s fault.'
   },
@@ -316,9 +316,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can an employer terminate an employee for a "just cause" immediately without giving them a chance to explain?',
     correctAnswer: 'No, the employer must observe the twin-notice requirement (Notice to Explain and Notice of Termination) and conduct a hearing/conference.',
     incorrectAnswers: [
-      'Yes, if the employee committed a severe, documented crime like grand theft on company premises.',
-      'Yes, provided the employer immediately pays severance equivalent to one month’s salary.',
-      'No, the employer must secure clearance from the DOLE before terminating any regular employee.'
+      'Yes, if the employee committed a serious crime like theft on company premises.',
+      'Yes, as long as the employer pays severance pay equivalent to one month’s salary.',
+      'No, the employer must get a court order before terminating any regular employee.'
     ],
     rationale: 'Procedural due process in termination for just causes requires a Notice to Explain (NTE), a hearing or opportunity to be heard, and a final Notice of Termination.'
   },
@@ -329,9 +329,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Constructive Dismissal" in Philippine Labor Law?',
     correctAnswer: 'A situation where an employee is forced to quit because continued employment is rendered impossible, unreasonable, or unlikely; an involuntary resignation.',
     incorrectAnswers: [
-      'When an employer physically barricades an employee from entering the workplace premises.',
-      'The premature termination of a probationary employee before the expiration of the 6-month period.',
-      'When an employee preemptively resigns upon discovering they will be terminated for a just cause.'
+      'When an employer physically blocks an employee from entering the workplace.',
+      'The termination of a probationary employee before the 6-month period ends.',
+      'When an employee resigns specifically to join a competitor company.'
     ],
     rationale: 'Constructive dismissal occurs when an employer creates a hostile work environment or acts in a way that leaves the employee with no reasonable alternative but to resign.'
   },
@@ -356,7 +356,7 @@ export const questionBank: QuestionData[] = [
     correctAnswer: 'Any solo parent who has rendered at least one (1) year of service, entitling them to seven (7) days of leave.',
     incorrectAnswers: [
       'Any solo parent regardless of tenure, entitling them to five (5) days of leave.',
-      'Only female solo parents who have rendered at least six (6) months of aggregate service.',
+      'Only female solo parents who have rendered at least six (6) months of service.',
       'Any solo parent who has rendered at least one (1) year of service, entitling them to twelve (12) days of leave.'
     ],
     rationale: 'The Solo Parents Welfare Act grants 7 days of parental leave with pay every year to any solo parent who has rendered at least one year of service, to be used for parental duties.'
@@ -371,9 +371,9 @@ export const questionBank: QuestionData[] = [
     text: 'In Kirkpatrick’s Four-Level Training Evaluation Model, what does Level 3 evaluate?',
     correctAnswer: 'Behavior (whether trainees are applying what they learned on the job).',
     incorrectAnswers: [
-      'Reaction (whether the trainees found the training enjoyable and engaging).',
-      'Learning (the measurable increase in cognitive knowledge or technical skills).',
-      'Results (the tangible financial or operational impact on the business, such as ROI).'
+      'Reaction (how trainees felt about the training).',
+      'Learning (the increase in knowledge or skills).',
+      'Results (the tangible impact on the business, such as ROI).'
     ],
     rationale: 'Kirkpatrick’s levels are: 1. Reaction, 2. Learning, 3. Behavior, and 4. Results. Level 3 assesses the transfer of learning to actual workplace behavior.'
   },
@@ -384,9 +384,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "validity" and "reliability" in employment testing?',
     correctAnswer: 'Validity refers to whether a test measures what it claims to measure, while reliability refers to the consistency of the test scores over time.',
     incorrectAnswers: [
-      'Validity is the consistency of scores, while reliability is whether it measures the intended trait.',
-      'Validity applies exclusively to cognitive ability tests, while reliability applies to physical assessments.',
-      'Validity is a strict legal requirement under DOLE, while reliability is an optional internal HR metric.'
+      'Validity is the consistency of scores, while reliability is whether it measures what it claims to measure.',
+      'Validity applies only to cognitive tests, while reliability applies to physical tests.',
+      'Validity is a legal requirement, while reliability is an optional HR metric.'
     ],
     rationale: 'A test must be reliable (consistent) to be valid, but a reliable test is not necessarily valid (it might consistently measure the wrong thing).'
   },
@@ -398,8 +398,8 @@ export const questionBank: QuestionData[] = [
     correctAnswer: 'Management by Objectives (MBO)',
     incorrectAnswers: [
       'Behaviorally Anchored Rating Scales (BARS)',
-      '360-Degree Feedback System',
-      'Forced Distribution (Stack Ranking)'
+      'Critical Incident Method',
+      'Graphic Rating Scale'
     ],
     rationale: 'MBO is a collaborative goal-setting process where management and employees agree on objectives and use them to evaluate performance over a period.'
   },
@@ -410,9 +410,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "broadbanding" in compensation management?',
     correctAnswer: 'Collapsing multiple salary grades into a few wide salary bands to encourage lateral skill development.',
     incorrectAnswers: [
-      'Increasing the base salary of all employees by a flat percentage across the board.',
-      'Providing a comprehensive flexible benefits package tailored to senior management.',
-      'Outsourcing the entire compensation and payroll processing to a third-party vendor.'
+      'Increasing the base salary of all employees by a flat percentage.',
+      'Providing a comprehensive benefits package that covers extended family members.',
+      'Outsourcing the payroll processing to a third-party vendor.'
     ],
     rationale: 'Broadbanding reduces hierarchical levels and creates wide pay ranges, which gives managers more flexibility in pay and encourages employees to develop laterally rather than strictly climbing a vertical ladder.'
   },
@@ -423,9 +423,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the Position Analysis Questionnaire (PAQ)?',
     correctAnswer: 'A standardized, structured job analysis questionnaire containing 194 items used to evaluate job behaviors and conditions.',
     incorrectAnswers: [
-      'A survey given to employees upon resignation to identify toxic workplace cultures.',
-      'A mandatory legal document filed with the DOLE regarding hazardous working conditions.',
-      'A quantitative performance appraisal tool used exclusively for executive-level management.'
+      'A survey given to employees upon resignation to understand their reasons for leaving.',
+      'A legal document filed with the Department of Labor regarding hazard pay.',
+      'A performance appraisal tool used exclusively for executive-level management.'
     ],
     rationale: 'The PAQ is one of the most widely used standardized quantitative job analysis tools, assessing information input, mental processes, work output, and relationships.'
   },
@@ -436,9 +436,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Occupational Safety and Health (OSH) standards, who is primarily responsible for providing a safe and healthful workplace?',
     correctAnswer: 'The Employer',
     incorrectAnswers: [
-      'The Department of Labor and Employment (DOLE) through its safety inspectors.',
-      'The Employee, through strict adherence to the company handbook.',
-      'The Local Government Unit (LGU) where the business is registered.'
+      'The Department of Labor and Employment (DOLE)',
+      'The Employee',
+      'The Local Government Unit (LGU)'
     ],
     rationale: 'While DOLE enforces the standards, OSH laws explicitly mandate that the employer bears the primary legal responsibility to furnish a workplace free from recognized hazards.'
   },
@@ -449,9 +449,9 @@ export const questionBank: QuestionData[] = [
     text: 'How does succession planning differ from replacement planning?',
     correctAnswer: 'Succession planning focuses on long-term leadership development, while replacement planning focuses on immediately filling a sudden vacancy.',
     incorrectAnswers: [
-      'Succession planning is only for the C-Suite, while replacement planning is for rank-and-file.',
-      'Succession planning involves external hires, while replacement planning relies strictly on internal lateral moves.',
-      'Succession planning is a statutory requirement, whereas replacement planning is an optional HR practice.'
+      'Succession planning is only for the CEO, while replacement planning is for all staff.',
+      'Succession planning involves external hires, while replacement planning relies strictly on internal promotions.',
+      'They are identical terms used interchangeably in HR management.'
     ],
     rationale: 'Replacement planning is a reactive risk management tactic (who takes over if someone dies tomorrow?), whereas succession planning is a proactive, long-term developmental strategy.'
   },
@@ -462,9 +462,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "similar-to-me" bias in candidate interviews?',
     correctAnswer: 'The tendency for interviewers to favor candidates who share their personal characteristics, background, or attitudes.',
     incorrectAnswers: [
-      'The tendency for an interviewer to compare all subsequent candidates to the first candidate interviewed.',
-      'A bias where candidates artificially mimic the body language of the interviewer to gain favor.',
-      'The practice of hiring immediate family members over highly qualified external candidates.'
+      'The tendency for an interviewer to compare all candidates to the company\'s CEO.',
+      'A bias where candidates pretend to have the same hobbies as the interviewer.',
+      'The practice of hiring family members over qualified external candidates.'
     ],
     rationale: 'Similar-to-me bias (or affinity bias) occurs when an interviewer rates a candidate higher simply because they share a hometown, alma mater, or personal interest.'
   },
@@ -475,9 +475,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "piece-rate" pay system?',
     correctAnswer: 'A system where workers are paid a fixed rate for every unit produced or action performed, regardless of time.',
     incorrectAnswers: [
-      'A system where employees receive a fluctuating percentage of the company’s annual net profits.',
-      'Paying an employee a fixed annual salary divided into guaranteed bi-monthly pieces.',
-      'Compensating executives exclusively with stock options rather than liquid cash.'
+      'A system where employees receive a percentage of the company’s annual profits.',
+      'Paying an employee a fixed salary divided into bi-monthly pieces.',
+      'Compensating executives with stock options instead of cash.'
     ],
     rationale: 'Piece-rate compensation incentivizes high output by paying per item produced (e.g., garments sewn, articles written) rather than paying for time spent.'
   },
@@ -505,9 +505,9 @@ export const questionBank: QuestionData[] = [
     text: 'Who determines and fixes the minimum wage rates in the Philippines?',
     correctAnswer: 'The Regional Tripartite Wages and Productivity Boards (RTWPB)',
     incorrectAnswers: [
-      'One (1) month pay for every year of service (1MP/YS).',
-      'One (1) month pay or One-half (1/2) month pay per year of service, whichever is lower.',
-      'No separation pay is required for closure due to any reason.'
+      'The President of the Philippines',
+      'The Department of Labor and Employment (DOLE) Secretary',
+      'The National Economic and Development Authority (NEDA)'
     ],
     rationale: 'Minimum wage rates vary by region and are determined by the RTWPB of each specific region based on cost of living, employer capacity, and economic conditions.'
   },
@@ -518,9 +518,9 @@ export const questionBank: QuestionData[] = [
     text: 'How is the mandatory 13th-month pay calculated for a rank-and-file employee under Philippine law?',
     correctAnswer: 'Not less than one-twelfth (1/12) of the total basic salary earned by an employee within a calendar year.',
     incorrectAnswers: [
-      'Exactly equal to the employee’s basic salary for the month of December including all bonuses.',
-      '10% of the employee’s total gross earnings for the year, including overtime and night differential.',
-      'A flat rate equivalent to one month of the prevailing regional minimum wage.'
+      'Exactly equal to the employee’s basic salary for the month of December.',
+      '10% of the employee’s total gross earnings including overtime and allowances.',
+      'A flat rate of PHP 15,000 for all employees regardless of tenure.'
     ],
     rationale: 'The formula is (Total Basic Salary earned during the year) ÷ 12. It explicitly excludes overtime pay, premium pay, and allowances unless these are treated as part of the basic salary by company practice.'
   },
@@ -531,9 +531,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can a probationary period be extended beyond six months in the Philippines?',
     correctAnswer: 'Yes, but only by mutual agreement between the employer and the employee, usually to give the employee a chance to improve their performance.',
     incorrectAnswers: [
-      'No, under no circumstances can it exceed 6 months; it is strictly prohibited by the Labor Code.',
+      'No, under no circumstances can it exceed 6 months; it is strictly prohibited by law.',
       'Yes, the employer can unilaterally extend it up to 12 months without the employee’s consent.',
-      'Yes, but only if the extension is explicitly approved by the DOLE Regional Director.'
+      'Yes, but only if approved by the DOLE Regional Director.'
     ],
     rationale: 'Jurisprudence allows the extension of the probationary period beyond 6 months if both parties mutually agree, particularly when the purpose is to give the employee a second chance to pass the standards.'
   },
@@ -544,9 +544,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following constitutes "Serious Misconduct" as a Just Cause for termination?',
     correctAnswer: 'A transgression of some established and definite rule of action, characterized by a wrongful intent, that relates to the performance of the employee’s duties.',
     incorrectAnswers: [
-      'A minor, unintentional mistake in a weekly operational report resulting in financial loss.',
-      'Arriving 10 minutes late to work on three consecutive days due to severe weather.',
-      'A heated argument with a spouse that occurs completely outside of working hours and premises.'
+      'A minor, unintentional mistake in a weekly report.',
+      'Arriving 10 minutes late to work on a rainy day.',
+      'An argument with a spouse that occurs completely outside of working hours and premises.'
     ],
     rationale: 'For misconduct to be serious and warrant dismissal, it must be grave, intentional, and directly related to the performance of the employee\'s duties, rendering them unfit to continue working.'
   },
@@ -557,9 +557,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal consequence for union officers who knowingly participate in an illegal strike?',
     correctAnswer: 'They may be declared to have lost their employment status.',
     incorrectAnswers: [
-      'They will be fined PHP 50,000 and suspended, but cannot be legally terminated.',
-      'They will only be suspended for a maximum of 30 days pending DOLE arbitration.',
-      'There is no consequence as the right to strike is absolutely protected by the Constitution.'
+      'They will be fined PHP 50,000 but cannot be fired.',
+      'They will only be suspended for a maximum of 30 days.',
+      'There is no consequence as the right to strike is absolutely protected.'
     ],
     rationale: 'Under Article 264 of the Labor Code, any union officer who knowingly participates in an illegal strike may be validly terminated. Ordinary workers who merely participate are generally not terminated unless they commit illegal acts during the strike.'
   },
@@ -570,9 +570,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Management Prerogative"?',
     correctAnswer: 'The inherent right of the employer to regulate all aspects of employment, including hiring, work assignments, working methods, and discipline, provided it is exercised in good faith.',
     incorrectAnswers: [
-      'The absolute right of management to bypass labor laws to save the company from imminent bankruptcy.',
-      'The statutory right of managers to receive higher non-taxable benefits than rank-and-file employees.',
-      'The exclusive right of the CEO to negotiate and sign collective bargaining agreements.'
+      'The absolute right of management to bypass labor laws to save the company from bankruptcy.',
+      'The right of managers to receive higher benefits than rank-and-file employees.',
+      'The exclusive right of the CEO to negotiate with labor unions.'
     ],
     rationale: 'Management prerogative allows employers to run their business as they see fit. However, it is not absolute; it is limited by law, collective bargaining agreements, and the general principles of fairness and justice.'
   },
@@ -583,9 +583,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine law, how is the minimum retirement pay calculated for eligible employees?',
     correctAnswer: '22.5 days’ worth of salary for every year of service.',
     incorrectAnswers: [
-      '15 days’ worth of basic salary for every year of continuous service.',
-      'One full month’s salary for every year of service, inclusive of allowances.',
-      'A lump sum of PHP 100,000 plus the accumulated SSS pension benefits.'
+      '15 days’ worth of salary for every year of service.',
+      'One full month’s salary for every year of service.',
+      'A lump sum of PHP 100,000 plus SSS benefits.'
     ],
     rationale: 'The law mandates retirement pay equivalent to at least half a month\'s salary for every year of service. This is computed as 15 days basic pay + 5 days SIL + 2.5 days (1/12 of 13th month pay), totaling 22.5 days per year of service.'
   },
@@ -596,9 +596,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is the 13th-month pay taxable?',
     correctAnswer: 'It is tax-exempt up to a certain statutory limit (currently PHP 90,000 combined with other benefits); any excess is subject to income tax.',
     incorrectAnswers: [
-      'No, the 13th-month pay is absolutely tax-free regardless of the total amount received.',
-      'Yes, the entire amount is automatically subject to the standard withholding income tax.',
-      'It is only taxable if the employee is classified as a managerial or supervisory employee.'
+      'No, the 13th-month pay is absolutely tax-free regardless of the amount.',
+      'Yes, the entire amount is subject to standard income tax.',
+      'It is only taxable for managerial employees.'
     ],
     rationale: 'Under the TRAIN Law (RA 10963), the 13th-month pay and other benefits are exempt from income tax up to a maximum of PHP 90,000.'
   },
@@ -609,9 +609,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the concept of "Security of Tenure" guaranteed by the Philippine Constitution?',
     correctAnswer: 'An employee cannot be dismissed from work without just or authorized cause and without observance of due process.',
     incorrectAnswers: [
-      'An employee is guaranteed lifetime employment and can never be fired under any circumstance.',
-      'An employee cannot be transferred to another branch or department without their written consent.',
-      'An employer must guarantee a minimum wage increase every year regardless of performance.'
+      'An employee is guaranteed lifetime employment and can never be fired.',
+      'An employee cannot be transferred to another branch without their written consent.',
+      'An employer must guarantee a minimum wage increase every year.'
     ],
     rationale: 'Security of tenure protects workers from arbitrary dismissal. The employer bears the burden of proving that a dismissal is valid and lawful.'
   },
@@ -622,9 +622,9 @@ export const questionBank: QuestionData[] = [
     text: 'What constitutes an "employer-employee relationship" in the Philippines (The Four-Fold Test)?',
     correctAnswer: 'Selection and engagement, payment of wages, power of dismissal, and the power of control over the employee’s conduct.',
     incorrectAnswers: [
-      'Signing a formal contract, working in the office premises, wearing a uniform, and using company equipment.',
-      'Mutual agreement, profitability of the business, regular working hours, and exclusivity of service.',
-      'Government registration, mandatory tax deductions, issuance of an ID card, and daily time records.'
+      'Signing a contract, working in the office, wearing a uniform, and using company equipment.',
+      'Mutual agreement, profitability of the business, regular hours, and exclusivity.',
+      'Government registration, tax deductions, issuance of an ID card, and daily time records.'
     ],
     rationale: 'The Supreme Court consistently applies the four-fold test to determine the existence of an employer-employee relationship, with the "control test" (how the work is done) being the most crucial element.'
   },
@@ -638,9 +638,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary characteristic of a "stress interview"?',
     correctAnswer: 'The interviewer intentionally creates an uncomfortable or hostile environment to see how the candidate handles pressure.',
     incorrectAnswers: [
-      'The candidate is asked to perform a complex physical or technical task within a strict time limit.',
-      'The interview is conducted by a panel of at least five senior executives simultaneously.',
-      'The candidate is interrogated about their personal financial stressors and marital stability.'
+      'The candidate is asked to perform a complex physical task within a strict time limit.',
+      'The interview is conducted by a panel of at least five senior executives.',
+      'The candidate is asked about their personal financial stressors.'
     ],
     rationale: 'A stress interview aims to evaluate a candidate’s emotional resilience and ability to remain calm under pressure by deliberately making them uncomfortable.'
   },
@@ -651,9 +651,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following best defines "cross-training"?',
     correctAnswer: 'Training employees to perform tasks and duties outside their primary role.',
     incorrectAnswers: [
-      'Training employees from different competing companies in a joint industry seminar.',
-      'A mandatory physical fitness program provided as a holistic employee health benefit.',
-      'Training that relies exclusively on online, self-paced modules across different platforms.'
+      'Training employees from different companies in a joint seminar.',
+      'A physical fitness program provided as an employee benefit.',
+      'Training that relies exclusively on online, self-paced modules.'
     ],
     rationale: 'Cross-training builds workforce flexibility by equipping employees with the skills to cover for absent colleagues or assist in different departments during peak periods.'
   },
@@ -664,9 +664,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of "hazard pay"?',
     correctAnswer: 'To provide additional compensation to employees who perform work under dangerous or extreme conditions.',
     incorrectAnswers: [
-      'To penalize employees who frequently violate safety protocols by deducting from this pay.',
-      'To completely cover the medical expenses of an employee who was recently injured on the job.',
-      'To compensate employees who are forced to work consecutive night shifts for a month.'
+      'To penalize employees who frequently violate safety protocols.',
+      'To cover the medical expenses of an employee injured on the job.',
+      'To compensate employees who are forced to work night shifts.'
     ],
     rationale: 'Hazard pay is a premium added to the base salary of an employee whose job involves physical hardships or severe occupational risks.'
   },
@@ -677,9 +677,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "forced distribution" method of performance appraisal?',
     correctAnswer: 'A system that requires managers to rank employees into predefined categories (e.g., top 10%, middle 80%, bottom 10%).',
     incorrectAnswers: [
-      'A system where every employee must receive a salary increase strictly based on company profits.',
-      'A 360-degree method where employees are forced to evaluate their own direct managers.',
-      'A ranking system where employees are rated strictly on their attendance and punctuality records.'
+      'A system where every employee must receive a salary increase based on company profits.',
+      'A method where employees are forced to evaluate their own managers.',
+      'A ranking system where employees are rated strictly on their attendance records.'
     ],
     rationale: 'Forced distribution (or a bell curve) prevents rating inflation by forcing managers to identify both their highest and lowest performing employees within fixed quotas.'
   },
@@ -690,9 +690,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "competency model"?',
     correctAnswer: 'A framework that defines the specific skills, knowledge, and behaviors required to successfully perform a job.',
     incorrectAnswers: [
-      'A mathematical algorithm used by compensation analysts to determine an employee’s salary grade.',
-      'A 3D physical or architectural model of a proposed ergonomic office layout.',
-      'A legally binding contract detailing an employee’s job description and hazard exposures.'
+      'A mathematical formula used to determine an employee’s salary grade.',
+      'A 3D physical model of a proposed office layout.',
+      'A legally binding contract detailing an employee’s job description.'
     ],
     rationale: 'Competency models go beyond basic job duties to outline the specific behavioral traits, skills, and knowledge domains that lead to high performance in a role.'
   },
@@ -703,9 +703,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the context of workplace risk, what is the primary function of Workers\' Compensation?',
     correctAnswer: 'To provide medical expenses and wage replacement to employees who are injured on the job, in exchange for relinquishing the right to sue the employer for negligence.',
     incorrectAnswers: [
-      'To compensate employees who are laid off due to severe company downsizing or retrenchment.',
-      'To pay for an employee’s legal fees if they decide to sue a coworker for harassment.',
-      'To provide monetary bonuses to workers who maintain a zero-accident safety record for the year.'
+      'To compensate employees who are laid off due to company downsizing.',
+      'To pay for an employee’s legal fees if they decide to sue a coworker.',
+      'To provide bonuses to workers who maintain a zero-accident record.'
     ],
     rationale: 'Workers\' compensation is a form of insurance providing wage replacement and medical benefits to employees injured in the course of employment.'
   },
@@ -716,9 +716,9 @@ export const questionBank: QuestionData[] = [
     text: 'In HR, what does the term "nepotism" refer to?',
     correctAnswer: 'The practice of showing favoritism toward relatives or friends, especially by hiring them over more qualified candidates.',
     incorrectAnswers: [
-      'The process of hiring highly paid external consultants to perform executive searches.',
-      'A cognitive bias where an interviewer prefers candidates who graduated from their own university.',
-      'The illegal practice of asking candidates about their religious beliefs or political affiliations.'
+      'The process of hiring external consultants to perform executive searches.',
+      'A bias where an interviewer prefers candidates from their own university.',
+      'The illegal practice of asking candidates about their religious beliefs.'
     ],
     rationale: 'Nepotism undermines the merit-based selection process by prioritizing personal relationships and familial ties over qualifications.'
   },
@@ -729,9 +729,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "microlearning"?',
     correctAnswer: 'An educational approach that delivers training content in small, highly focused, and easily digestible chunks.',
     incorrectAnswers: [
-      'Training that is strictly limited to entry-level employees during their first week of onboarding.',
-      'A week-long intensive seminar covering the microscopic, granular details of a specific software.',
-      'Learning that occurs exclusively on mobile devices during an employee’s unpaid break times.'
+      'Training that is strictly limited to entry-level employees.',
+      'A week-long intensive seminar covering microscopic details of a process.',
+      'Learning that occurs exclusively on mobile devices during break times.'
     ],
     rationale: 'Microlearning tackles reducing attention spans by breaking down complex topics into short modules (often 3-5 minutes) focused on a single learning objective.'
   },
@@ -742,9 +742,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "signing bonus"?',
     correctAnswer: 'A one-time financial incentive offered to a candidate to encourage them to accept a job offer.',
     incorrectAnswers: [
-      'A bonus given to employees when they formally sign and acknowledge their annual performance review.',
-      'A cash reward given to HR personnel for successfully closing a highly specialized, hard-to-fill role.',
-      'An annual guaranteed bonus mandated by a collective bargaining agreement upon contract signing.'
+      'A bonus given to employees when they sign their annual performance review.',
+      'A cash reward given to HR personnel for successfully closing a hard-to-fill role.',
+      'An annual bonus guaranteed by a collective bargaining agreement.'
     ],
     rationale: 'Signing bonuses (or sign-on bonuses) are upfront lump-sum payments used to attract top talent, often to offset a candidate leaving a secure job or walking away from unpaid bonuses at their current firm.'
   },
@@ -755,9 +755,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "leniency bias" in performance appraisals?',
     correctAnswer: 'The tendency of a rater to consistently give higher ratings than are actually warranted by the employee’s performance.',
     incorrectAnswers: [
-      'The tendency of a rater to give all employees an average rating to deliberately avoid workplace conflict.',
-      'The tendency of a rater to evaluate employees favorably based strictly on their physical appearance.',
-      'The tendency of a rater to be overly strict and give unjustifiably low scores to motivate the team.'
+      'The tendency of a rater to give all employees an average rating to avoid conflict.',
+      'The tendency of a rater to evaluate employees based on their physical appearance.',
+      'The tendency of a rater to be overly strict and give unjustifiably low scores.'
     ],
     rationale: 'Leniency error occurs when managers avoid giving negative feedback, resulting in inflated performance ratings across the board.'
   },
@@ -772,9 +772,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Philippine Labor Code, what is the mandatory meal period that employers must provide to their employees?',
     correctAnswer: 'Not less than sixty (60) minutes of time-off for regular meals.',
     incorrectAnswers: [
-      'Not less than thirty (30) minutes of compensable time-off for regular meals.',
-      'A continuous ninety (90) minute break for employees working 12-hour shifts.',
-      'There is no legally mandated meal period; it is entirely subject to management prerogative.'
+      'Not less than thirty (30) minutes of time-off for regular meals.',
+      'A continuous ninety (90) minute break.',
+      'There is no mandated meal period; it is subject to employer discretion.'
     ],
     rationale: 'Article 85 of the Labor Code mandates that employers shall give their employees not less than 60 minutes time-off for regular meals.'
   },
@@ -785,8 +785,8 @@ export const questionBank: QuestionData[] = [
     text: 'Are regular meal periods (1 hour) compensable under Philippine law?',
     correctAnswer: 'Generally, no. Meal periods are not considered compensable working time.',
     incorrectAnswers: [
-      'Yes, all meal periods must be paid as part of the standard 8-hour workday.',
-      'Yes, but only if the employee is forced to eat inside the company premises.',
+      'Yes, all meal periods must be paid as part of the 8-hour workday.',
+      'Yes, but only if the employee eats inside the company premises.',
       'No, but the employer must provide free meals to compensate for the unpaid time.'
     ],
     rationale: 'Because the employee is completely relieved from duty during the 60-minute meal period, it is not counted as compensable working time.'
@@ -799,8 +799,8 @@ export const questionBank: QuestionData[] = [
     correctAnswer: 'An arrangement where the normal 40 or 48-hour workweek is completed in fewer than six days (e.g., working 10 hours a day for 4 days) without triggering overtime pay.',
     incorrectAnswers: [
       'An arrangement where employees are paid full-time wages for working only 20 hours a week.',
-      'A mandatory reduction of work hours during a financial crisis to prevent mass layoffs.',
-      'A flexible policy allowing employees to choose their own start and end times every day.'
+      'A mandatory reduction of work hours during a financial crisis.',
+      'A policy allowing employees to choose their own start and end times every day.'
     ],
     rationale: 'A compressed workweek allows employees to work longer hours on fewer days, giving them an extra day off without the employer incurring overtime premiums, provided it is mutually agreed upon.'
   },
@@ -811,9 +811,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine law, can an employer pay employee wages using promissory notes or vouchers?',
     correctAnswer: 'No, wages must be paid in legal tender (cash or through automated teller machines).',
     incorrectAnswers: [
-      'Yes, as long as the employee signs a voluntary waiver accepting the promissory note.',
-      'Yes, but only during a declared state of national calamity or severe economic crisis.',
-      'No, wages must strictly be paid in physical cash; bank transfers are considered illegal.'
+      'Yes, as long as the employee signs a waiver accepting the voucher.',
+      'Yes, but only during a declared state of national calamity.',
+      'No, wages must strictly be paid in cash; bank transfers are illegal.'
     ],
     rationale: 'Article 102 of the Labor Code strictly prohibits the payment of wages using promissory notes, vouchers, coupons, tokens, or tickets.'
   },
@@ -905,9 +905,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between a panel interview and a sequential interview?',
     correctAnswer: 'A panel interview involves multiple interviewers questioning the candidate at the same time, while a sequential interview involves the candidate meeting with interviewers one after another.',
     incorrectAnswers: [
-      'A panel interview is conducted exclusively for executive-level roles, while sequential is strictly for entry-level applicants.',
-      'A panel interview utilizes entirely unstructured behavioral questions, while sequential utilizes strict situational questions.',
-      'A panel interview allows candidates to interview each other in a group setting, while sequential is a traditional 1-on-1.'
+      'A panel interview is for executives, while a sequential interview is for rank-and-file.',
+      'A panel interview is conducted online, while a sequential interview is conducted face-to-face.',
+      'A panel interview allows candidates to interview each other, while sequential is traditional.'
     ],
     rationale: 'Panel interviews pool the interviewers into one session to save time and reduce individual bias, whereas sequential interviews pass the candidate from one interviewer to the next in separate sessions.'
   },
@@ -918,9 +918,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "blended learning"?',
     correctAnswer: 'An educational program that combines online digital media with traditional classroom methods.',
     incorrectAnswers: [
-      'A cross-functional training program where employees are deliberately taught skills completely unrelated to their current role.',
-      'An exclusively virtual reality-based training environment that entirely replaces human instruction.',
-      'A highly unstructured method where trainees are forced to learn strictly by observing senior staff without formal guidance.'
+      'A training program where employees from different departments learn entirely unrelated skills.',
+      'A completely virtual reality-based training environment.',
+      'A method where trainees are forced to learn by observing without any formal instruction.'
     ],
     rationale: 'Blended learning combines the flexibility of e-learning (self-paced digital content) with the immediate feedback and social interaction of instructor-led classroom training.'
   },
@@ -931,9 +931,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "profit-sharing" plan?',
     correctAnswer: 'An incentive plan where employees receive a direct share of the company’s profits based on its financial performance.',
     incorrectAnswers: [
-      'A mandatory statutory requirement where executives share their personal dividends with rank-and-file workers.',
-      'A guaranteed fixed annual bonus given uniformly to all employees regardless of the company’s actual financial performance.',
-      'A retirement funding mechanism where the employer strictly matches the employee’s voluntary 401(k) contributions.'
+      'A plan where employees share their personal profits with the company.',
+      'A guaranteed fixed bonus given to all employees regardless of company performance.',
+      'A retirement plan where the employer matches the employee’s 401(k) contributions.'
     ],
     rationale: 'Profit-sharing ties a portion of employee compensation directly to the company’s bottom line, fostering a sense of ownership and aligning employee interests with organizational success.'
   },
@@ -944,9 +944,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Graphic Rating Scale" in performance appraisals?',
     correctAnswer: 'A checklist of traits or characteristics evaluated on a numbered scale (e.g., 1 to 5) from poor to excellent.',
     incorrectAnswers: [
-      'A visual infographic chart detailing the company’s stock performance over the fiscal year.',
-      'A strict quantitative metric that exclusively measures the physical, tangible output (weight/volume) of a production worker.',
-      'A 360-degree appraisal method where subordinates anonymously plot their manager’s leadership traits on a scatter graph.'
+      'A visual graph showing the company’s stock price over the year.',
+      'A scale that strictly measures the physical output (weight or volume) of a worker.',
+      'An appraisal method where employees draw a picture of their ideal workplace.'
     ],
     rationale: 'Graphic rating scales are the most common and simplest appraisal method, listing traits (like teamwork, punctuality) and asking the manager to rate them on a continuum.'
   },
@@ -957,9 +957,9 @@ export const questionBank: QuestionData[] = [
     text: 'In job analysis, what is the "Critical Incident Technique"?',
     correctAnswer: 'A method that relies on recording specific examples of highly effective and highly ineffective behaviors by employees.',
     incorrectAnswers: [
-      'A post-mortem analysis method used strictly after a major workplace accident to determine legal liability for DOLE reporting.',
-      'An employee engagement survey specifically asking workers to list the most physically dangerous aspects of their jobs.',
-      'A predictive statistical model used by HR analytics to forecast the exact likelihood of a key employee resigning.'
+      'A method used only after a major workplace accident to determine liability.',
+      'A survey asking employees to list the most dangerous parts of their jobs.',
+      'A statistical model used to predict the likelihood of an employee quitting.'
     ],
     rationale: 'The Critical Incident Technique focuses on actual observable behaviors (both extreme successes and failures) rather than abstract traits, making it highly useful for creating behaviorally anchored rating scales.'
   },
@@ -970,9 +970,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an Employee Assistance Program (EAP)?',
     correctAnswer: 'A work-based intervention program designed to assist employees in resolving personal problems that may be adversely affecting their performance.',
     incorrectAnswers: [
-      'A corporate financial program that guarantees low-interest loans to employees for purchasing their first home.',
-      'A highly structured mentoring program where C-suite executives assist junior staff with complex daily operational tasks.',
-      'A legal defense fund fully subsidized by the incumbent labor union to protect workers against management lawsuits.'
+      'A financial program that gives loans to employees to buy houses.',
+      'A mentoring program where senior executives assist junior staff with their daily tasks.',
+      'A legal assistance fund provided by the labor union.'
     ],
     rationale: 'EAPs provide confidential support services, such as counseling for mental health, substance abuse, or financial/legal stress, to help employees maintain their well-being and productivity.'
   },
@@ -983,9 +983,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the "attrition rate" measure?',
     correctAnswer: 'The rate at which employees leave a workforce over a given period, often indicating issues with retention.',
     incorrectAnswers: [
-      'The velocity at which external candidates complete the pre-employment medical examinations.',
-      'The exact percentage of applicants who fail the cognitive ability screening during the first phase of hiring.',
-      'The speed and efficiency at which an employee successfully completes their mandated daily operational KPIs.'
+      'The rate at which new candidates apply for a job posting.',
+      'The percentage of candidates who fail the pre-employment medical exam.',
+      'The speed at which an employee completes their daily tasks.'
     ],
     rationale: 'Attrition rate (or turnover rate) is a key HR metric indicating the percentage of the workforce that leaves the organization, voluntarily or involuntarily, over a specific timeframe.'
   },
@@ -996,9 +996,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "gamification" in the context of employee training?',
     correctAnswer: 'The application of game-design elements (like point scoring, competition, and rules of play) in non-game training contexts to improve engagement.',
     incorrectAnswers: [
-      'Mandating that all employees participate in competitive e-sports tournaments during work hours to reduce burnout.',
-      'Evaluating candidates strictly based on their strategic decision-making performance in a controlled chess match.',
-      'Utilizing actual casino gambling mechanics, such as slot machine algorithms, to distribute variable annual bonuses.'
+      'Forcing employees to play video games during their lunch break to reduce stress.',
+      'Evaluating candidates strictly based on their performance in a chess match.',
+      'Using actual casino gambling mechanics to distribute annual bonuses.'
     ],
     rationale: 'Gamification leverages human psychology\'s love for rewards and competition (leaderboards, badges, points) to make mundane training modules more interactive and engaging.'
   },
@@ -1009,9 +1009,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are "fringe benefits"?',
     correctAnswer: 'Various non-wage compensations provided to employees in addition to their normal wages or salaries (e.g., company cars, gym memberships).',
     incorrectAnswers: [
-      'Strictly statutory benefits mandated by the national government for all workers regardless of industry.',
-      'Hazard pay given exclusively to employees who work in remote, peripheral areas (fringes) of the country.',
-      'Mandatory payroll deductions taken from an employee’s gross salary to pay for union agency fees.'
+      'Benefits that are strictly mandated by the government for all workers.',
+      'Pay given to employees who work on the outer fringes (borders) of the country.',
+      'Deductions taken from an employee’s salary to pay for union dues.'
     ],
     rationale: 'Fringe benefits are extra perks, often tax-advantaged, used by employers to attract and retain talent beyond the standard base salary.'
   },
@@ -1022,9 +1022,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "contrast error" in performance appraisals?',
     correctAnswer: 'A bias where a manager evaluates an employee by comparing them to the previous person evaluated, rather than against absolute performance standards.',
     incorrectAnswers: [
-      'A cognitive bias where a manager rates an employee poorly simply because their introverted personality contrasts with the manager’s extroversion.',
-      'A computational error in the HRIS where an employee’s final performance score is corrupted due to a faulty spreadsheet formula.',
-      'An appraisal anomaly where an employee is rated exceptionally high on technical skills but fails completely on interpersonal soft skills.'
+      'Rating an employee poorly because their personality contrasts with the manager’s.',
+      'An error in calculating the employee’s final score due to a faulty spreadsheet.',
+      'Rating an employee high on technical skills but low on soft skills.'
     ],
     rationale: 'Contrast error occurs if an average employee is evaluated immediately after a terrible employee, causing the manager to rate the average employee artificially high simply by comparison.'
   },
@@ -1039,9 +1039,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine law, which establishments are explicitly EXEMPT from paying the mandatory holiday pay?',
     correctAnswer: 'Retail and service establishments regularly employing less than ten (10) workers.',
     incorrectAnswers: [
-      'All multinational BPO corporations operating within designated Special Economic Zones (PEZA).',
-      'Heavy manufacturing companies regularly employing more than 500 rank-and-file workers.',
-      'Business Process Outsourcing (BPO) companies operating exclusively on graveyard night shifts.'
+      'All multinational corporations operating in economic zones.',
+      'Manufacturing companies with more than 500 employees.',
+      'Business Process Outsourcing (BPO) companies operating on night shifts.'
     ],
     rationale: 'Article 94 of the Labor Code exempts retail and service establishments regularly employing fewer than 10 workers from the holiday pay mandate.'
   },
@@ -1052,9 +1052,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are waivers or "quitclaims" signed by employees automatically considered invalid in the Philippines?',
     correctAnswer: 'No, they are valid if entered into voluntarily, with a full understanding of its terms, and if the consideration is reasonable and not unconscionable.',
     incorrectAnswers: [
-      'Yes, the Supreme Court has definitively ruled that all employer-drafted quitclaims are contrary to public policy and void ab initio.',
-      'Yes, but only if the quitclaim is executed without the presence of a DOLE representative or a notary public.',
-      'No, they are absolutely binding and can never be questioned in any judicial court under any circumstance.'
+      'Yes, the Supreme Court has ruled that all quitclaims are entirely void and illegal.',
+      'Yes, but only if they are not notarized by a lawyer.',
+      'No, they are absolutely binding and can never be questioned in court under any circumstance.'
     ],
     rationale: 'While courts generally look at quitclaims with disfavor (due to the unequal bargaining power), they are valid if the employee signed them voluntarily without fraud, and the settlement amount is fair.'
   },
@@ -1065,9 +1065,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the duration of a Collective Bargaining Agreement (CBA) under Philippine law?',
     correctAnswer: 'Five (5) years for the representation aspect, and three (3) years for the economic provisions.',
     incorrectAnswers: [
-      'Three (3) years for all provisions, strictly aligned with the terms of local government elected officials.',
-      'Ten (10) years for the representation aspect, and five (5) years for the economic wage provisions.',
-      'It is entirely dependent on mutual agreement and has no statutory maximum duration under the Labor Code.'
+      'Three (3) years for all provisions.',
+      'Ten (10) years for representation, and five (5) years for economic provisions.',
+      'It is entirely up to the employer and has no legal maximum duration.'
     ],
     rationale: 'Article 265 of the Labor Code dictates that a CBA\'s representation aspect lasts for 5 years, while its economic provisions (wages, benefits) must be renegotiated after 3 years.'
   },
@@ -1078,9 +1078,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Redundancy" and "Retrenchment" as authorized causes for termination?',
     correctAnswer: 'Redundancy occurs when an employee’s services are no longer necessary (e.g., due to automation), while retrenchment is the reduction of personnel to prevent expected or actual business losses.',
     incorrectAnswers: [
-      'Redundancy applies strictly to rank-and-file workers, while retrenchment applies exclusively to managerial employees.',
-      'Redundancy is caused by employee negligence, while retrenchment is caused by employer financial mismanagement.',
-      'Redundancy requires prior clearance from the DOLE Secretary, while retrenchment does not require any DOLE notification.'
+      'Redundancy applies to rank-and-file, while retrenchment applies to managers.',
+      'Redundancy is due to employee fault, while retrenchment is due to employer fault.',
+      'Redundancy requires DOLE approval, while retrenchment does not.'
     ],
     rationale: 'Redundancy happens when a position is superfluous (even if the company is profitable). Retrenchment is a drastic cost-cutting measure to save a struggling business from financial ruin.'
   },
@@ -1091,9 +1091,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the minimum statutory requirement for a weekly rest day in the Philippines?',
     correctAnswer: 'A rest period of not less than twenty-four (24) consecutive hours after every six (6) consecutive normal workdays.',
     incorrectAnswers: [
-      'Two (2) consecutive days off per week (a 48-hour continuous rest period) for all private sector employees.',
-      'There is no statutory minimum requirement; it is entirely dependent on the employment contract or CBA.',
-      'A continuous rest period of twelve (12) hours every weekend, specifically from Saturday night to Sunday morning.'
+      'Two (2) consecutive days off per week for all employees.',
+      'There is no statutory requirement; it depends entirely on the contract.',
+      'A rest period of twelve (12) hours every weekend.'
     ],
     rationale: 'Article 91 of the Labor Code mandates that employers provide their employees a rest period of at least 24 consecutive hours after every six consecutive normal workdays.'
   },
@@ -1104,9 +1104,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under RA 9262 (Anti-Violence Against Women and Their Children Act), how many days of paid leave is a battered woman entitled to?',
     correctAnswer: 'Up to ten (10) days of paid leave, extendable depending on the protection order.',
     incorrectAnswers: [
-      'Three (3) days of unpaid leave, which must be immediately offset by overtime work.',
-      'Thirty (30) days of fully paid leave, strictly non-extendable regardless of court orders.',
-      'There is no specific statutory leave for VAWC; the employee must utilize their existing Service Incentive Leave (SIL).'
+      'Three (3) days of unpaid leave.',
+      'Thirty (30) days of paid leave.',
+      'There is no specific leave for this; she must use her sick leave.'
     ],
     rationale: 'Victims under VAWC are entitled to a paid leave of up to 10 days (in addition to other paid leaves) to attend to medical and legal concerns.'
   },
@@ -1117,9 +1117,9 @@ export const questionBank: QuestionData[] = [
     text: 'Who among the following are strictly prohibited by law from joining, assisting, or forming any labor organization (unions)?',
     correctAnswer: 'Managerial employees and confidential employees.',
     incorrectAnswers: [
-      'Supervisory employees, as they are considered part of the management prerogative structure.',
-      'Rank-and-file employees who are still serving their 6-month probationary period.',
-      'All employees working in the Business Process Outsourcing (BPO) industry due to PEZA regulations.'
+      'Supervisory employees.',
+      'Rank-and-file employees on probationary status.',
+      'Employees working in the Business Process Outsourcing (BPO) industry.'
     ],
     rationale: 'Under Article 255, managerial employees are not eligible to join any labor organization. Jurisprudence extends this prohibition to confidential employees due to their access to sensitive labor relations data.'
   },
@@ -1130,9 +1130,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Wage Distortion" under Philippine Labor Law?',
     correctAnswer: 'A situation where an increase in prescribed wage rates results in the elimination or severe contraction of intentional pay differences between employee groups within a region.',
     incorrectAnswers: [
-      'When an employer intentionally pays highly tenured workers below the regional minimum wage to save costs.',
-      'When male employees are systematically paid significantly more than female employees for exact equivalent work.',
-      'When hyper-inflation causes the purchasing power of the employee’s salary to drop dramatically within a year.'
+      'When an employer intentionally pays below the minimum wage.',
+      'When male employees are paid significantly more than female employees for the same work.',
+      'When inflation causes the purchasing power of the peso to drop dramatically.'
     ],
     rationale: 'Wage distortion usually occurs when a mandated minimum wage increase pushes the salary of lower-tier workers up to the level of higher-tier/tenured workers, erasing the intended hierarchy.'
   },
@@ -1143,9 +1143,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the required separation pay calculation for an employee terminated due to REDUNDANCY?',
     correctAnswer: 'At least one (1) month pay or one (1) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'Exactly one-half (1/2) month pay for every year of service, regardless of the employee’s tenure.',
-      'Two (2) months pay for every year of service, plus a full refund of all mandatory government contributions.',
-      'There is no separation pay required for redundancy as it is considered an authorized cause beyond employer control.'
+      'One-half (1/2) month pay for every year of service.',
+      'Two (2) months pay for every year of service.',
+      'There is no separation pay required for redundancy.'
     ],
     rationale: 'Article 298 states that in cases of installation of labor-saving devices or redundancy, the separation pay is 1 month pay per year of service (or 1 month total, whichever is higher).'
   },
@@ -1156,9 +1156,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the required separation pay calculation for an employee terminated due to RETRENCHMENT to prevent losses?',
     correctAnswer: 'At least one (1) month pay or one-half (1/2) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'Exactly one (1) month pay for every year of service, matching the computation for redundancy.',
-      'Ten percent (10%) of the employee’s total annual gross salary for every year of service.',
-      'There is absolutely no separation pay required if the company can prove it is severely losing money.'
+      'One (1) month pay for every year of service.',
+      'Ten percent (10%) of the employee’s annual salary.',
+      'There is no separation pay required if the company is losing money.'
     ],
     rationale: 'For retrenchment, closures, or disease, the separation pay requirement is lower than redundancy: 1/2 month pay per year of service (or 1 month total, whichever is higher).'
   },
@@ -1172,9 +1172,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Assessment Center" in the context of recruitment?',
     correctAnswer: 'A comprehensive evaluation process, not a physical place, where candidates participate in multiple simulated exercises observed by trained assessors.',
     incorrectAnswers: [
-      'A centralized physical building where all government-mandated pre-employment medical and psychological exams are conducted.',
-      'A specific department within HR dedicated solely to computing, validating, and auditing applicant test scores.',
-      'A massive university campus utilized by corporate recruiters for mass hiring during annual job fairs.'
+      'A physical building where all government-mandated pre-employment medical exams are conducted.',
+      'A specific department in HR dedicated solely to computing applicant test scores.',
+      'A university campus used for mass recruitment during job fairs.'
     ],
     rationale: 'An assessment center is a methodology (often lasting 1-3 days) utilizing role-plays, in-basket exercises, and group discussions to predict managerial or high-level performance.'
   },
@@ -1185,9 +1185,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary difference between "Mentoring" and "Coaching"?',
     correctAnswer: 'Mentoring is typically long-term and focused on overall career and personal development, while coaching is usually short-term and focused on improving specific job skills.',
     incorrectAnswers: [
-      'Mentoring is strictly reserved for C-suite executives, while coaching is designed exclusively for entry-level staff.',
-      'Mentoring involves highly formalized classroom instruction, while coaching is entirely informal and undocumented.',
-      'Mentoring focuses entirely on disciplinary actions, while coaching focuses strictly on monetary rewards.'
+      'Mentoring is strictly for executives, while coaching is for entry-level staff.',
+      'Mentoring involves formal classroom instruction, while coaching is informal.',
+      'Mentoring focuses on disciplinary actions, while coaching focuses on rewards.'
     ],
     rationale: 'Coaching is performance-driven and task-oriented (e.g., how to use new software), whereas mentoring is development-driven and relationship-oriented (e.g., how to navigate corporate politics).'
   },
@@ -1198,9 +1198,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are "Stock Options" as an employee benefit?',
     correctAnswer: 'The right granted to an employee to purchase a specific number of shares of the company’s stock at a predetermined price within a specific timeframe.',
     incorrectAnswers: [
-      'A strict requirement for the employee to invest 10% of their net salary into the company’s internal stock market.',
-      'A guaranteed payout of company stock given freely to an employee upon reaching the compulsory retirement age.',
-      'An option for an employee to receive their monthly salary entirely in company shares to avoid income taxation.'
+      'A requirement for the employee to invest 10% of their salary into the stock market.',
+      'A payout of company stock given freely to an employee upon retirement.',
+      'An option for an employee to receive their monthly salary entirely in company shares.'
     ],
     rationale: 'Stock options incentivize employees to help increase the company’s stock value, as they profit by buying shares at the fixed (lower) grant price and selling at the higher market price.'
   },
@@ -1211,9 +1211,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Central Tendency Error" in performance appraisals?',
     correctAnswer: 'The tendency of a rater to evaluate all employees as "average" or in the middle of the scale, avoiding both high and low extremes.',
     incorrectAnswers: [
-      'The tendency of a rater to strictly focus only on the central, core duties of a job description, ignoring peripheral tasks.',
-      'A cognitive error where an employee rates themselves significantly higher than their direct manager does (Dunning-Kruger Effect).',
-      'The tendency of a rater to be overly critical of all employees, placing everyone at the absolute bottom of the scale.'
+      'The tendency of a rater to focus only on the central duties of a job description.',
+      'An error where an employee rates themselves higher than their manager does.',
+      'The tendency of a rater to be overly critical of all employees.'
     ],
     rationale: 'Central tendency error makes performance appraisals useless for distinguishing between high performers (who deserve promotions) and low performers (who need interventions), as everyone is lumped in the middle.'
   },
@@ -1224,9 +1224,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between a "Job Description" and a "Job Specification"?',
     correctAnswer: 'A job description outlines the duties and responsibilities of the role, while a job specification outlines the human qualities (KSAOs) needed to perform it.',
     incorrectAnswers: [
-      'A job description is an internal document for HR only, while a job specification is posted publicly on job boards.',
-      'A job description is utilized exclusively for rank-and-file roles, while a job specification is reserved for managerial roles.',
-      'They are exactly identical concepts and the terms are used interchangeably in modern HR literature.'
+      'A job description is for internal use only, while a job specification is posted publicly.',
+      'A job description is used for rank-and-file, while a job specification is used for managers.',
+      'They are exactly the same thing and the terms are used interchangeably.'
     ],
     rationale: 'Description focuses on the WORK (what is done, how, and why). Specification focuses on the WORKER (education, experience, skills required).'
   },
@@ -1237,9 +1237,9 @@ export const questionBank: QuestionData[] = [
     text: 'In occupational safety, what is a "near-miss" incident?',
     correctAnswer: 'An unplanned event that did not result in injury, illness, or damage, but had the potential to do so.',
     incorrectAnswers: [
-      'An accident where an employee suffers a minor physical scratch that strictly does not require external first aid.',
-      'A deliberate and malicious violation of a safety protocol by an employee that causes a machine breakdown.',
-      'A worker arriving extremely late and narrowly missing the start of their scheduled production shift.'
+      'An accident where an employee suffers a minor scratch that does not require first aid.',
+      'A deliberate violation of a safety protocol that causes a machine breakdown.',
+      'A worker arriving late and narrowly missing their shift.'
     ],
     rationale: 'Tracking near-misses is a proactive risk management strategy; analyzing these "close calls" helps prevent future incidents that could result in actual harm.'
   },
@@ -1250,9 +1250,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the term "Headhunting" refer to in HR?',
     correctAnswer: 'The process of proactively searching for and recruiting highly qualified candidates, usually for executive or specialized roles, who are often already employed (passive candidates).',
     incorrectAnswers: [
-      'The ruthless practice of immediately terminating employees who fail to meet their quarterly sales quotas.',
-      'A mass recruitment strategy aimed solely at poaching fresh college graduates from top-tier universities.',
-      'Conducting aggressive background checks specifically targeting candidates with undisclosed criminal records.'
+      'The practice of firing employees who fail to meet their sales quotas.',
+      'A mass recruitment strategy aimed solely at fresh college graduates.',
+      'Conducting background checks on candidates with criminal records.'
     ],
     rationale: 'Headhunters (or executive search firms) specifically target "passive" candidates—people who are not actively looking for a job but possess rare or high-level skills.'
   },
@@ -1263,9 +1263,9 @@ export const questionBank: QuestionData[] = [
     text: 'During the Training Needs Assessment (TNA) phase, what are the three levels of analysis typically conducted?',
     correctAnswer: 'Organizational Analysis, Task/Operational Analysis, and Person Analysis.',
     incorrectAnswers: [
-      'Financial Analysis, Risk Mitigation Analysis, and External Competitor Analysis.',
-      'Managerial Behavioral Analysis, Subordinate Analysis, and External Customer Satisfaction Analysis.',
-      'Pre-training Capability Analysis, Mid-training Retention Analysis, and Post-training ROI Analysis.'
+      'Financial Analysis, Risk Analysis, and Competitor Analysis.',
+      'Managerial Analysis, Subordinate Analysis, and Customer Analysis.',
+      'Pre-training Analysis, Mid-training Analysis, and Post-training Analysis.'
     ],
     rationale: 'A comprehensive TNA looks at where training is needed in the company (Organizational), what needs to be taught (Task), and who exactly needs to learn it (Person).'
   },
@@ -1276,9 +1276,9 @@ export const questionBank: QuestionData[] = [
     text: 'In executive compensation, what are "perquisites" (or "perks")?',
     correctAnswer: 'Special privileges or non-cash benefits provided to executives, such as a company car, club memberships, or first-class travel, beyond standard benefits.',
     incorrectAnswers: [
-      'The mandatory statutory government deductions taken directly from an executive\'s gross monthly salary.',
-      'Performance-based cash bonuses that are tied directly to the quarterly fluctuations of company stock prices.',
-      'Massive severance packages paid out when an executive is fired for just causes (Golden Parachutes).'
+      'The mandatory government deductions taken from an executive\'s salary.',
+      'Performance-based cash bonuses tied directly to stock prices.',
+      'Severance packages paid out when an executive is fired.'
     ],
     rationale: 'Perquisites are exclusive fringe benefits used to attract top-tier executives, offering status and lifestyle enhancements.'
   },
@@ -1289,9 +1289,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Management by Walking Around" (MBWA)?',
     correctAnswer: 'An unstructured approach where managers wander through the workplace to spontaneously check on employees, equipment, and the status of ongoing work.',
     incorrectAnswers: [
-      'A strict wellness policy where managers must track their physical steps using pedometers for corporate insurance points.',
-      'A formalized, documented appraisal method conducted exclusively while walking around the external perimeter of the building.',
-      'A punitive disciplinary action where a terminated employee is physically escorted off the premises by security.'
+      'A strict policy where managers must track their physical steps for corporate wellness points.',
+      'A formal appraisal method conducted while walking around the building.',
+      'A disciplinary action where an employee is escorted off the premises.'
     ],
     rationale: 'MBWA emphasizes visibility, approachability, and unstructured communication, allowing managers to gather informal performance data and build relationships.'
   },
@@ -1306,9 +1306,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, are managerial employees entitled to mandatory Holiday Pay?',
     correctAnswer: 'No, managerial employees are explicitly exempt from the statutory holiday pay requirement.',
     incorrectAnswers: [
-      'Yes, all employees without exception are entitled to holiday pay under the equal protection clause.',
-      'Yes, but they are only entitled to pay for regular holidays, completely excluding special non-working days.',
-      'No, but they must be given an equivalent paid compensatory day off (CTO) within the same workweek.'
+      'Yes, all employees without exception are entitled to holiday pay.',
+      'Yes, but only for regular holidays, not special non-working days.',
+      'No, but they must be given an equivalent day off.'
     ],
     rationale: 'Article 82 of the Labor Code exempts managerial employees, field personnel, government employees, and domestic helpers from hours of work regulations, including holiday pay and overtime pay.'
   },
@@ -1319,9 +1319,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which retail and service establishments are EXEMPT from paying the night shift differential?',
     correctAnswer: 'Those regularly employing not more than five (5) workers.',
     incorrectAnswers: [
-      'Those operating in the retail sector regularly employing not more than ten (10) workers.',
-      'Those operating strictly inside PEZA-registered shopping malls and commercial centers.',
-      'There is no statutory exemption; absolutely all establishments must pay night shift differentials.'
+      'Those regularly employing not more than ten (10) workers.',
+      'Those operating strictly inside shopping malls.',
+      'There is no exemption; all establishments must pay night shift differential.'
     ],
     rationale: 'Unlike holiday pay and service incentive leave which exempt retail/service establishments with less than 10 workers, the exemption for night shift differential specifically applies to those with not more than 5 workers.'
   },
@@ -1332,9 +1332,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Magna Carta of Women (RA 9710), what is the Special Leave for Women?',
     correctAnswer: 'A paid leave of up to two (2) months following surgery caused by gynecological disorders.',
     incorrectAnswers: [
-      'A paid leave of ten (10) days strictly reserved for women suffering from documented domestic physical violence.',
-      'An additional thirty (30) days of fully paid maternity leave exclusively for legally verified single mothers.',
-      'A mandatory five (5) days off per year for female employees suffering from severe dysmenorrhea during menstruation.'
+      'A paid leave of ten (10) days for women suffering from domestic violence.',
+      'An additional thirty (30) days of maternity leave for single mothers.',
+      'A mandatory five (5) days off per year for women during menstruation.'
     ],
     rationale: 'To qualify for this 2-month paid leave, the female employee must have rendered continuous aggregate employment service of at least 6 months for the last 12 months and must undergo surgery due to a gynecological disorder.'
   },
@@ -1345,9 +1345,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Kasambahay Law (RA 10361), how is the minimum wage of domestic workers determined?',
     correctAnswer: 'It is set by the Regional Tripartite Wages and Productivity Boards (RTWPB) and varies depending on the region.',
     incorrectAnswers: [
-      'It is a fixed national baseline rate of PHP 5,000 for all domestic workers across the entire Philippines.',
-      'It is negotiated solely between the employer and the kasambahay with absolutely no minimum statutory limit.',
-      'It is exactly mathematically equal to the prevailing minimum wage of rank-and-file corporate workers in the region.'
+      'It is a fixed national rate of PHP 5,000 for all kasambahays across the Philippines.',
+      'It is negotiated solely between the employer and the kasambahay with no minimum limit.',
+      'It is exactly equal to the minimum wage of rank-and-file corporate workers in the region.'
     ],
     rationale: 'The Kasambahay Law established baseline minimum wages, but mandated the RTWPBs to continually review and adjust these rates based on regional economic conditions.'
   },
@@ -1358,9 +1358,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following is considered a VALID deduction from an employee’s wages without needing their written consent?',
     correctAnswer: 'Statutory deductions like SSS, PhilHealth, Pag-IBIG, and withholding taxes.',
     incorrectAnswers: [
-      'Payment for company equipment that the employee accidentally broke, provided the deduction is less than 20% of their wage.',
-      'Deductions for mandatory company uniforms, provided they are issued at cost without profit.',
-      'Contributions to a company-sponsored charity event, provided it is approved by the CEO.'
+      'Payment for company equipment that the employee accidentally broke.',
+      'Deductions for mandatory company uniforms.',
+      'Contributions to a company-sponsored charity event.'
     ],
     rationale: 'Article 113 of the Labor Code prohibits unauthorized deductions. Exceptions include insurance premiums (with consent), union dues (where checked-off), and government-mandated statutory contributions (no consent needed).'
   },
@@ -1371,9 +1371,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period for filing a complaint for Illegal Dismissal in the Philippines?',
     correctAnswer: 'Four (4) years from the date of the illegal dismissal.',
     incorrectAnswers: [
-      'Exactly one (1) year from the exact date of the alleged illegal dismissal.',
-      'Exactly three (3) years from the exact date of the alleged illegal dismissal.',
-      'Exactly ten (10) years from the exact date of the alleged illegal dismissal, similar to breach of written contract.'
+      'One (1) year from the date of the illegal dismissal.',
+      'Three (3) years from the date of the illegal dismissal.',
+      'Ten (10) years from the date of the illegal dismissal.'
     ],
     rationale: 'Illegal dismissal is an injury to the rights of the plaintiff. Under the Civil Code, actions based on an injury to rights prescribe in four years.'
   },
@@ -1384,9 +1384,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period for filing a complaint involving purely money claims (e.g., unpaid overtime, 13th month pay)?',
     correctAnswer: 'Three (3) years from the time the cause of action accrued.',
     incorrectAnswers: [
-      'Exactly one (1) year from the exact time the cause of action accrued.',
-      'Exactly four (4) years from the exact time the cause of action accrued.',
-      'Exactly ten (10) years from the exact time the cause of action accrued.'
+      'One (1) year from the time the cause of action accrued.',
+      'Four (4) years from the time the cause of action accrued.',
+      'Ten (10) years from the time the cause of action accrued.'
     ],
     rationale: 'Article 306 of the Labor Code explicitly states that all money claims arising from employer-employee relations shall be filed within three (3) years from the time the cause of action accrued.'
   },
@@ -1397,9 +1397,9 @@ export const questionBank: QuestionData[] = [
     text: 'Before a labor union can hold a legal strike, what procedural requirement must they fulfill with the National Conciliation and Mediation Board (NCMB)?',
     correctAnswer: 'File a Notice of Strike at least 15 days (for ULP) or 30 days (for CBA deadlock) before the intended date, and conduct a strike vote.',
     incorrectAnswers: [
-      'Pay a mandatory non-refundable strike bond of PHP 100,000 directly to the DOLE Regional Office.',
-      'Secure a written clearance from the local mayor allowing a public assembly outside the factory gates.',
-      'Ensure that absolutely 100% of the union members vote in favor of the strike during a public show of hands.'
+      'Pay a strike bond of PHP 100,000 to the DOLE.',
+      'Obtain a written permission from the company’s CEO.',
+      'File a Notice of Strike 24 hours before the intended walkout.'
     ],
     rationale: 'A strike is strictly regulated. The union must file a notice (15 days for Unfair Labor Practice, 30 days for bargaining deadlock), observe the cooling-off period, and secure a majority strike vote from its members.'
   },
@@ -1410,9 +1410,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Certification Election"?',
     correctAnswer: 'A process conducted by DOLE to determine which labor union, if any, shall be the exclusive bargaining agent of the employees in a bargaining unit.',
     incorrectAnswers: [
-      'An internal election held exclusively by the HR Department to choose the new union president.',
-      'A mandatory government exam taken by HR professionals to become legally certified labor arbiters.',
-      'A formal voting process to decide if the company should declare severe financial retrenchment.'
+      'An election held by the company to choose the HR Director.',
+      'An exam taken by HR professionals to become Certified Human Resource Associates (CHRA).',
+      'A voting process to decide if the company should declare bankruptcy.'
     ],
     rationale: 'When multiple unions exist or when workers want to unionize, a certification election allows the workers to vote (by secret ballot) on which union will exclusively represent them in CBA negotiations with management.'
   },
@@ -1423,9 +1423,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Grievance Machinery" in a Collective Bargaining Agreement (CBA)?',
     correctAnswer: 'An internal mechanism established by the employer and the union for the rapid adjustment and resolution of grievances arising from the interpretation of the CBA or company policies.',
     incorrectAnswers: [
-      'A mechanical sorting machine utilized in large manufacturing plants to physically categorize written employee complaints.',
-      'A specialized quasi-judicial court within the NLRC that exclusively handles appeals for illegal dismissal cases.',
-      'A strict company policy that entirely bans employees from filing civil lawsuits against the corporation.'
+      'A machine used in factories to physically sort employee complaints.',
+      'A specialized court within DOLE that handles all labor disputes.',
+      'A company policy that bans employees from filing lawsuits.'
     ],
     rationale: 'The grievance machinery is the first line of defense in resolving disputes internally. If the dispute is not resolved at this level, it is escalated to Voluntary Arbitration.'
   },
@@ -1439,9 +1439,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Employer Branding"?',
     correctAnswer: 'The process of promoting a company, or an organization, as the employer of choice to a desired target group.',
     incorrectAnswers: [
-      'Designing the physical corporate logo and aesthetic that appears on mandatory company uniforms.',
-      'A targeted marketing strategy aimed strictly at increasing external product sales to retail consumers.',
-      'The formal legal process of registering the company’s corporate name with the Securities and Exchange Commission (SEC).'
+      'Designing the physical logo that appears on company uniforms.',
+      'A marketing strategy aimed strictly at increasing product sales to consumers.',
+      'The process of legally registering the company’s name with the government.'
     ],
     rationale: 'Employer branding is how a company markets itself to potential employees, highlighting its culture, benefits, and work environment to attract top talent.'
   },
@@ -1452,9 +1452,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Vestibule Training"?',
     correctAnswer: 'A training method where employees learn on actual equipment in a simulated environment away from the actual production floor.',
     incorrectAnswers: [
-      'Onboarding training conducted exclusively in the physical lobby (vestibule) of the corporate headquarters.',
-      'An asynchronous online-only training module focusing entirely on interpersonal communication soft skills.',
-      'A high-stress type of on-the-job training where trainee errors directly impact live external customers.'
+      'Training conducted exclusively in the lobby (vestibule) of the company building.',
+      'An online-only training module focusing on soft skills.',
+      'A type of on-the-job training where errors directly impact live customers.'
     ],
     rationale: 'Vestibule training is near-the-job training. It uses the exact equipment used on the job but in a safe, simulated environment to avoid costly mistakes during the learning phase (e.g., flight simulators).'
   },
@@ -1465,9 +1465,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Merit Pay"?',
     correctAnswer: 'An increase in base pay that is tied directly to an employee’s past performance.',
     incorrectAnswers: [
-      'A standard, fixed cost-of-living adjustment (COLA) automatically given to all employees across the board annually.',
-      'A one-time discretionary cash bonus given exclusively for hitting a highly specific quarterly sales quota.',
-      'Statutory premium overtime pay granted specifically for rendering work on a scheduled weekly rest day.'
+      'A standard cost-of-living adjustment given to all employees every year.',
+      'A one-time cash bonus given for hitting a specific sales quota.',
+      'Overtime pay granted for working on a rest day.'
     ],
     rationale: 'Unlike a one-time bonus, merit pay becomes a permanent part of the employee’s base salary, rewarding sustained high performance.'
   },
@@ -1478,9 +1478,9 @@ export const questionBank: QuestionData[] = [
     text: 'In performance management, what is the "Halo Effect"?',
     correctAnswer: 'A cognitive bias where a single positive trait or action by an employee causes the manager to rate them highly across all other independent categories.',
     incorrectAnswers: [
-      'The documented tendency of an employee to act perfectly only when their direct supervisor is actively watching (Hawthorne Effect).',
-      'A severe cognitive bias where an employee is judged and rated strictly on their personal religious or political affiliations.',
-      'The informal process of deliberately giving a highly inflated rating to a senior employee who is about to retire.'
+      'The tendency of an employee to act perfectly only when the manager is watching.',
+      'A bias where an employee is judged strictly on their religious beliefs.',
+      'The process of giving a high rating to an employee who is about to retire.'
     ],
     rationale: 'The halo effect ruins the accuracy of appraisals because the rater lets one outstanding characteristic (like punctuality or friendliness) blind them to the employee’s actual deficiencies in other areas.'
   },
@@ -1491,9 +1491,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Enlargement"?',
     correctAnswer: 'Increasing the scope of a job through extending the range of its job duties and responsibilities, generally at the same level (horizontal expansion).',
     incorrectAnswers: [
-      'Giving an employee significantly more authority, autonomy, and executive decision-making power (vertical expansion).',
-      'Hiring a larger volume of temporary personnel to execute the exact same specialized job role.',
-      'Temporarily transferring an employee to a completely different department to avoid imminent retrenchment.'
+      'Giving an employee more authority and decision-making power (vertical expansion).',
+      'Hiring more people to do the exact same job.',
+      'Moving an employee to a completely different department temporarily.'
     ],
     rationale: 'Job enlargement is horizontal loading. It combats boredom by adding more variety to a job without necessarily increasing the level of responsibility (which would be job enrichment).'
   },
@@ -1504,9 +1504,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the first step in the formal Risk Management process?',
     correctAnswer: 'Hazard Identification',
     incorrectAnswers: [
-      'Risk Evaluation and Cost-Benefit Matrix Analysis',
-      'Implementing Strict Engineering Controls',
-      'Reviewing and Monitoring Incident Reports'
+      'Risk Evaluation',
+      'Implementing Controls',
+      'Reviewing and Monitoring'
     ],
     rationale: 'Before you can assess, control, or monitor a risk, you must first systematically identify the hazards that currently exist in the workplace.'
   },
@@ -1517,9 +1517,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Blind Hiring"?',
     correctAnswer: 'A process that removes personally identifiable information (like name, age, gender, or alma mater) from resumes to reduce unconscious bias.',
     incorrectAnswers: [
-      'Arbitrarily hiring candidates without conducting any review of their submitted resumes or portfolios.',
-      'Conducting panel interviews in a completely darkened room to avoid physical appearance biases.',
-      'Hiring passive candidates based solely on executive referrals without conducting any formal interview.'
+      'Hiring candidates without looking at their resumes at all.',
+      'Conducting interviews in a completely dark room.',
+      'Hiring candidates based solely on referrals without an interview.'
     ],
     rationale: 'Blind hiring focuses the initial screening strictly on skills, experience, and objective assessments, preventing recruiters from being influenced by demographic data.'
   },
@@ -1530,9 +1530,9 @@ export const questionBank: QuestionData[] = [
     text: 'In training theory, what does "Andragogy" refer to?',
     correctAnswer: 'The methods and principles used in adult education, focusing on self-direction and practical application.',
     incorrectAnswers: [
-      'The psychological study of how adolescent children learn in a highly structured, formal classroom setting (Pedagogy).',
-      'A modern method of technical training that strictly utilizes fully immersive virtual reality environments.',
-      'The analytical process of evaluating the definitive financial Return on Investment (ROI) of a training program.'
+      'The study of how children learn in a formal classroom setting.',
+      'A method of training that strictly uses virtual reality.',
+      'The process of evaluating the financial return on investment of a training program.'
     ],
     rationale: 'Andragogy assumes that adult learners are self-directed, bring experience to the learning environment, and want to learn things that have immediate relevance to their jobs.'
   },
@@ -1543,9 +1543,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Cafeteria Plan" (Flexible Benefits Plan)?',
     correctAnswer: 'A benefits arrangement that allows employees to choose from a menu of different benefits options to suit their individual needs.',
     incorrectAnswers: [
-      'A subsidized plan that strictly provides free daily meals to employees within the corporate company cafeteria.',
-      'A mandatory payroll deduction plan that forces all employees to strictly pay for their own HMO health insurance.',
-      'A static retirement plan where the employer unilaterally chooses exactly where to invest the accumulated funds.'
+      'A plan that provides free meals to employees in the company cafeteria.',
+      'A mandatory deduction plan that forces employees to pay for their own health insurance.',
+      'A retirement plan where the employer chooses where to invest the funds.'
     ],
     rationale: 'Like a cafeteria where you pick what you want to eat, flexible benefit plans give employees a set allowance and let them allocate it among various benefits (health, childcare, extra PTO) based on their personal situation.'
   },
@@ -1556,9 +1556,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a potential disadvantage of "Peer Appraisals"?',
     correctAnswer: 'Peers may be reluctant to criticize each other or may use the appraisal to sabotage a rival (friendship/rivalry bias).',
     incorrectAnswers: [
-      'Peers rarely possess the technical knowledge of what the job actually entails compared to senior executive management.',
-      'They are explicitly considered illegal and discriminatory under standard DOLE labor laws.',
-      'They fundamentally require highly expensive, customized proprietary software algorithms to implement properly.'
+      'Peers rarely know what the job actually entails compared to senior management.',
+      'They are illegal under standard labor laws.',
+      'They require expensive software to implement.'
     ],
     rationale: 'While peers often have the most accurate view of an employee’s day-to-day behavior, peer appraisals are highly susceptible to office politics, popularity contests, and reluctance to give negative feedback to friends.'
   },
@@ -1573,9 +1573,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the required separation pay calculation for an employee terminated due to a legally established DISEASE?',
     correctAnswer: 'At least one (1) month salary or one-half (1/2) month salary for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'Exactly one (1) month pay for every year of continuous service, mathematically matching the computation for redundancy.',
-      'The employer is absolutely not required to pay any separation pay if the employee is genuinely medically sick.',
-      'A fixed amount of exactly ten (10) days of basic pay for every year of continuous service.'
+      'One (1) month pay for every year of service.',
+      'The employer is not required to pay separation pay if the employee is sick.',
+      'Ten (10) days of pay for every year of service.'
     ],
     rationale: 'Under Article 299, if an employee is dismissed because their continued employment is prohibited by law or prejudicial to their/co-workers\' health (and cannot be cured in 6 months), they are entitled to separation pay of 1/2 month per year of service.'
   },
@@ -1586,9 +1586,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, is an employer legally required to provide Paid Bereavement Leave?',
     correctAnswer: 'No, there is currently no specific national law mandating paid bereavement leave in the private sector.',
     incorrectAnswers: [
-      'Yes, the Labor Code expressly mandates exactly five (5) days of fully paid bereavement leave.',
-      'Yes, but strictly only for the death of an immediate legitimate spouse or legitimate child.',
-      'Yes, exactly three (3) days of paid leave are explicitly mandated by DOLE Department Orders.'
+      'Yes, the law mandates five (5) days of paid bereavement leave.',
+      'Yes, but only for the death of a spouse or child.',
+      'Yes, three (3) days of paid leave are mandated.'
     ],
     rationale: 'While highly common as a company policy or CBA provision, bereavement leave is NOT a statutory mandate under the Philippine Labor Code for private employees.'
   },
@@ -1599,9 +1599,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Paternity Leave Act (RA 8187), what is a key procedural requirement for the male employee to avail of the benefit?',
     correctAnswer: 'He must notify his employer of the pregnancy of his legitimate spouse and the expected date of delivery.',
     incorrectAnswers: [
-      'He must strictly take the entire leave exactly on the specific day the child is physically born.',
-      'He must submit a notarized DNA test definitively proving biological paternity before the leave is formally approved.',
-      'He must have continuously worked for the company for a minimum period of at least three (3) years.'
+      'He must take the leave exactly on the day the child is born.',
+      'He must submit a DNA test proving paternity before the leave is approved.',
+      'He must have worked for the company for at least 3 years.'
     ],
     rationale: 'To avail of paternity leave, the married male employee must notify the employer of his spouse’s pregnancy within a reasonable period. The leave itself can be taken before, during, or after delivery, but not exceeding 60 days after delivery.'
   },
@@ -1612,9 +1612,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the Telecommuting Act (RA 11165) mandate regarding the rights of telecommuting employees?',
     correctAnswer: 'They must receive fair treatment and have the same rights, minimum labor standards, and benefits as comparable employees working at the employer’s premises.',
     incorrectAnswers: [
-      'They must legally accept a 10% reduction in gross salary since they inherently save on daily transportation costs.',
-      'They are statutorily exempt from the 8-hour workday limit and can be legally required to render work 24/7.',
-      'They automatically forfeit their constitutional right to unionize and form collective bargaining agreements.'
+      'They must accept a 10% reduction in salary since they save on transportation costs.',
+      'They are exempt from the 8-hour workday limit and can be required to work 24/7.',
+      'They lose their right to unionize and form collective bargaining agreements.'
     ],
     rationale: 'The law ensures that work-from-home or telecommuting employees are not treated as second-class workers; they retain all statutory rights and benefits.'
   },
@@ -1625,9 +1625,9 @@ export const questionBank: QuestionData[] = [
     text: 'How is the wage computed if an employee works on a day that is BOTH a Regular Holiday and their scheduled Rest Day?',
     correctAnswer: 'The employee is entitled to 260% of their regular daily wage for the first eight (8) hours.',
     incorrectAnswers: [
-      'The employee is entitled to exactly 200% of their regular daily wage, standard for all holidays.',
-      'The employee is entitled to exactly 300% of their regular daily wage due to the double penalty.',
-      'The employee is entitled to exactly 150% of their regular daily wage as a compromise rate.'
+      'The employee is entitled to 200% of their regular daily wage.',
+      'The employee is entitled to 300% of their regular daily wage.',
+      'The employee is entitled to 150% of their regular daily wage.'
     ],
     rationale: 'Working on a regular holiday pays 200%. If it falls on a rest day, an additional 30% premium is applied to the holiday rate (200% x 1.30 = 260%).'
   },
@@ -1638,9 +1638,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal consequence for an ordinary union member (not an officer) who merely participates in an illegal strike?',
     correctAnswer: 'They generally cannot be terminated for mere participation, UNLESS they commit illegal acts (like violence or coercion) during the strike.',
     incorrectAnswers: [
-      'They are automatically and legally terminated immediately upon physically joining the illegal picket line.',
-      'They are granted absolute immunity from any administrative disciplinary action under all circumstances.',
-      'They must pay a mandatory statutory fine equivalent to their daily salary for the entire duration of the strike.'
+      'They are automatically terminated immediately upon joining the strike.',
+      'They are immune from any disciplinary action under all circumstances.',
+      'They must pay a fine equivalent to their salary for the duration of the strike.'
     ],
     rationale: 'Union officers can be terminated for knowingly participating in an illegal strike. Ordinary members, however, must commit an illegal act during the strike to be validly dismissed.'
   },
@@ -1651,9 +1651,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between Compulsory Arbitration and Voluntary Arbitration?',
     correctAnswer: 'Compulsory arbitration is mandated by law or the government (e.g., DOLE Secretary assuming jurisdiction), while voluntary arbitration is agreed upon by both management and the union.',
     incorrectAnswers: [
-      'Compulsory arbitration applies exclusively to government workers, while voluntary applies exclusively to private sector workers.',
-      'Compulsory arbitration decisions can be appealed to the Supreme Court, while voluntary arbitration decisions absolutely cannot.',
-      'Compulsory arbitration legally requires representation by a lawyer, while voluntary arbitration explicitly bans legal counsel.'
+      'Compulsory arbitration applies only to government workers, while voluntary applies to private workers.',
+      'Compulsory arbitration decisions can be appealed, while voluntary arbitration decisions cannot.',
+      'Compulsory arbitration requires a lawyer, while voluntary does not.'
     ],
     rationale: 'Voluntary arbitration is highly encouraged as it relies on the mutual consent of the parties to submit their dispute to a third party. Compulsory arbitration is an exercise of state police power.'
   },
@@ -1664,9 +1664,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following acts by an employer is considered an Unfair Labor Practice (ULP)?',
     correctAnswer: 'Interfering with, restraining, or coercing employees in the exercise of their right to self-organization.',
     incorrectAnswers: [
-      'Validly terminating an employee for documented theft of critical company property (Just Cause).',
-      'Mandating that all rank-and-file employees strictly wear a designated company uniform during work hours.',
-      'Denying an employee\'s request for an extended vacation leave due to severe operational requirements.'
+      'Terminating an employee for stealing company property.',
+      'Requiring employees to wear a company uniform.',
+      'Denying an employee\'s request for an extended vacation leave.'
     ],
     rationale: 'ULPs are acts that violate the constitutional right of workers to self-organization. Any interference by management in union formation or activities is a classic ULP.'
   },
@@ -1677,9 +1677,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Anti-Age Discrimination in Employment Act (RA 10911), which of the following is PROHIBITED?',
     correctAnswer: 'Declining a job application or denying a promotion strictly on the basis of the individual’s age.',
     incorrectAnswers: [
-      'Setting a mandatory compulsory retirement age explicitly written within a valid collective bargaining agreement.',
-      'Requiring a highly specific age limit if age is proven to be a Bona Fide Occupational Qualification (BFOQ).',
-      'Refusing to hire an underage minor applicant for highly hazardous underground mining work.'
+      'Setting a mandatory retirement age in a collective bargaining agreement.',
+      'Requiring a specific age limit if age is a bona fide occupational qualification (BFOQ).',
+      'Refusing to hire a minor for hazardous work.'
     ],
     rationale: 'RA 10911 makes it illegal to print ads, require age declarations, or deny employment/promotions based on age, EXCEPT when age is a legitimate occupational qualification (e.g., child actors).'
   },
@@ -1690,9 +1690,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the critical distinction between "Valid Job Contracting" and illegal "Labor-Only Contracting"?',
     correctAnswer: 'In valid contracting, the contractor has substantial capital/investment and exercises independent control over the workers. In labor-only contracting, the contractor merely recruits workers who perform tasks directly controlled by the principal company.',
     incorrectAnswers: [
-      'Valid contracting fundamentally involves at least 100 workers, while labor-only strictly involves fewer than 10 workers.',
-      'Valid contracting is strictly reserved for blue-collar manual jobs, while labor-only is for white-collar office jobs.',
-      'Valid contracting must be formally approved by the President, while labor-only is unilaterally approved by the DOLE Secretary.'
+      'Valid contracting involves at least 100 workers, while labor-only involves fewer than 10.',
+      'Valid contracting is for blue-collar jobs, while labor-only is for white-collar jobs.',
+      'Valid contracting must be approved by the President, while labor-only is approved by DOLE.'
     ],
     rationale: 'Labor-only contracting is prohibited because it is a scheme to evade employer obligations. If the principal company controls how the work is done and the tasks are directly related to the core business, the contractor is merely an agent, and an employer-employee relationship is established with the principal.'
   },
@@ -1706,9 +1706,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Boomerang Employee"?',
     correctAnswer: 'An employee who leaves a company and later returns to work for the same company again.',
     incorrectAnswers: [
-      'An employee who is constantly and involuntarily transferred between different regional departments due to poor performance.',
-      'A highly persistent candidate who repeatedly applies for the exact same position immediately after being rejected.',
-      'An expatriate employee who frequently travels internationally on a rotating schedule for corporate work.'
+      'An employee who is constantly transferred between different departments.',
+      'A candidate who repeatedly applies for the same position after being rejected.',
+      'An employee who frequently travels internationally for work.'
     ],
     rationale: 'Boomerang employees are increasingly common and valuable because they already understand the company culture and require less onboarding, while bringing back new skills learned elsewhere.'
   },
@@ -1719,9 +1719,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Action Learning"?',
     correctAnswer: 'A training technique where small groups work on solving real organizational problems while learning from the process.',
     incorrectAnswers: [
-      'A physical outdoor obstacle course utilized exclusively for high-intensity corporate team building.',
-      'A highly fast-paced online gamified quiz utilized strictly to test basic cognitive knowledge.',
-      'A passive learning methodology that involves watching corporate action movies to strictly analyze leadership styles.'
+      'A physical obstacle course used for team building.',
+      'A fast-paced online quiz used to test basic knowledge.',
+      'Learning that involves watching action movies to analyze leadership styles.'
     ],
     rationale: 'Action learning combines real-world problem solving with intentional learning, allowing employees to develop leadership and critical thinking skills by tackling actual business challenges.'
   },
@@ -1732,9 +1732,9 @@ export const questionBank: QuestionData[] = [
     text: 'In compensation management, what does a "red circle rate" indicate?',
     correctAnswer: 'An employee who is being paid above the maximum range for their job grade.',
     incorrectAnswers: [
-      'An employee who is currently being paid significantly below the absolute minimum range for their designated job grade.',
-      'An employee whose base salary has been permanently frozen due to a severe administrative disciplinary action.',
-      'A gross salary that is heavily penalized because it falls into the highest possible statutory income tax bracket.'
+      'An employee who is being paid below the minimum range for their job grade.',
+      'An employee whose salary has been frozen due to disciplinary action.',
+      'A salary that is heavily taxed due to falling into the highest tax bracket.'
     ],
     rationale: 'A red circle rate is a warning flag for HR indicating that an employee is "maxed out" and overpaid relative to the market value of their specific role.'
   },
@@ -1745,9 +1745,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "strictness bias" (or strictness error) in performance appraisals?',
     correctAnswer: 'The tendency of a rater to consistently give lower ratings than are actually warranted by the employee’s performance.',
     incorrectAnswers: [
-      'The tendency of a rater to safely rate absolutely all employees exactly in the middle of the curve (Central Tendency Error).',
-      'Rating an employee highly exclusively because they strictly follow the rules without questioning authority.',
-      'Evaluating a tenured employee severely based on a single isolated negative event (Horn Effect/Recency Error).'
+      'The tendency to rate all employees exactly in the middle.',
+      'Rating an employee highly because they strictly follow the rules.',
+      'Evaluating an employee based on a single negative event.'
     ],
     rationale: 'Strictness bias is the opposite of leniency bias. The manager holds unrealistically high standards, rating even good performers poorly, which can demotivate the team.'
   },
@@ -1758,9 +1758,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of "Job Rotation"?',
     correctAnswer: 'To systematically move employees from one job to another to broaden their skills and reduce boredom.',
     incorrectAnswers: [
-      'To permanently transfer chronically underperforming employees to significantly easier, lower-tier roles.',
-      'To physically and structurally rotate the ergonomic layout of the corporate office every fiscal quarter.',
-      'To systematically replace highly-paid full-time regular workers with cheaper temporary contract workers.'
+      'To permanently transfer underperforming employees to easier roles.',
+      'To physically rotate the layout of the office every month.',
+      'To replace full-time workers with temporary contract workers.'
     ],
     rationale: 'Job rotation is a training and retention strategy that exposes employees to different parts of the business, preventing stagnation and creating a more versatile workforce.'
   },
@@ -1771,9 +1771,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an SDS (Safety Data Sheet), formerly known as MSDS?',
     correctAnswer: 'A document containing information on the potential hazards (health, fire, reactivity, and environmental) of a chemical product and how to work safely with it.',
     incorrectAnswers: [
-      'A daily administrative log sheet strictly recording the attendance of third-party security personnel.',
-      'A highly confidential financial document detailing the company’s executive liability insurance policies.',
-      'A restricted medical record documenting an employee’s previous workplace injuries and HMO claims.'
+      'A daily log sheet recording the attendance of security personnel.',
+      'A financial document detailing the company’s insurance policies.',
+      'A medical record of an employee’s previous workplace injuries.'
     ],
     rationale: 'Under OSH standards, employers must maintain Safety Data Sheets for all hazardous chemicals in the workplace to ensure workers know the risks and first-aid measures.'
   },
@@ -1797,9 +1797,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does "training transfer" refer to?',
     correctAnswer: 'The extent to which trainees effectively apply the knowledge, skills, and attitudes learned in training to their actual jobs.',
     incorrectAnswers: [
-      'Moving a highly structured training program from an asynchronous online platform to a physical classroom setting.',
-      'Transferring the financial cost of a specialized training program to a completely different corporate department.',
-      'The physical and logistical relocation of an employee to an external offshore training facility.'
+      'Moving a training program from an online platform to a physical classroom.',
+      'Transferring the cost of a training program to a different department.',
+      'The physical relocation of an employee to a training facility.'
     ],
     rationale: 'A training program is only successful if "transfer" occurs—meaning the employee actually changes their behavior or improves their performance on the job as a result of the training.'
   },
@@ -1810,9 +1810,9 @@ export const questionBank: QuestionData[] = [
     text: 'In compensation management, what does a "green circle rate" indicate?',
     correctAnswer: 'An employee who is being paid below the minimum range for their job grade.',
     incorrectAnswers: [
-      'An employee who is being paid significantly above the absolute maximum range for their designated job grade.',
-      'An employee who voluntarily chooses to receive their salary entirely in eco-friendly corporate investments.',
-      'A newly hired rank-and-file employee who is still officially serving their 6-month probationary period.'
+      'An employee who is being paid above the maximum range for their job grade.',
+      'An employee who receives their salary entirely in eco-friendly investments.',
+      'A new hire who is still on their probationary period.'
     ],
     rationale: 'A green circle rate indicates an employee is underpaid relative to the company\'s established pay structure, often requiring an immediate salary adjustment to meet the minimum threshold.'
   },
@@ -1823,9 +1823,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Recency Error" in performance appraisals?',
     correctAnswer: 'A bias where the rater focuses primarily on the employee’s most recent behavior rather than their performance over the entire appraisal period.',
     incorrectAnswers: [
-      'Evaluating a tenured employee strictly based on their very first month on the job (Primacy Effect).',
-      'An administrative error involving the use of an outdated appraisal form from a previous fiscal year.',
-      'Rating an employee highly simply because they are a recent honors graduate from a top-tier university.'
+      'Evaluating an employee based on their very first month on the job.',
+      'Using an outdated appraisal form from a previous year.',
+      'Rating an employee highly simply because they are a recent graduate.'
     ],
     rationale: 'If a manager only remembers what an employee did in the two weeks before the appraisal (whether good or bad) and ignores the previous eleven months, they are committing a recency error.'
   },
@@ -1840,9 +1840,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary function of the National Labor Relations Commission (NLRC)?',
     correctAnswer: 'It is a quasi-judicial body attached to DOLE tasked to resolve labor and management disputes through compulsory arbitration.',
     incorrectAnswers: [
-      'It is the primary government agency that registers new businesses and issues corporate charters.',
-      'It is a specialized police force strictly responsible for arresting violent participants in illegal strikes.',
-      'It is a bicameral legislative body that strictly creates and amends all new national labor laws.'
+      'It is the agency that registers new businesses and corporations.',
+      'It is the police force responsible for arresting illegal strikers.',
+      'It is a legislative body that creates new labor laws.'
     ],
     rationale: 'The NLRC exercises exclusive appellate jurisdiction over all cases decided by Labor Arbiters, resolving disputes involving unfair labor practices, illegal dismissal, and major money claims.'
   },
@@ -1853,9 +1853,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is a resigned or terminated employee still entitled to their 13th-month pay?',
     correctAnswer: 'Yes, they are entitled to a pro-rated 13th-month pay based on the total basic salary they earned during the calendar year before their separation.',
     incorrectAnswers: [
-      'No, the 13th-month pay is absolutely forfeited if the employee does not successfully finish the calendar year.',
-      'Only if they resigned voluntarily; employees who are terminated for just cause absolutely forfeit it.',
-      'Yes, they must receive the full un-prorated amount regardless of how many exact months they worked.'
+      'No, the 13th-month pay is forfeited if the employee does not finish the year.',
+      'Only if they resigned voluntarily; terminated employees forfeit it.',
+      'Yes, they must receive the full amount regardless of how many months they worked.'
     ],
     rationale: 'The 13th-month pay is an earned benefit. If an employee resigns or is fired in June, they are still entitled to 1/12 of the basic salary they earned from January to June.'
   },
@@ -1866,9 +1866,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Solo Parents Welfare Act (RA 8972), what is the condition for the 7-day parental leave?',
     correctAnswer: 'The solo parent must have rendered at least one (1) year of service and must notify the employer within a reasonable period.',
     incorrectAnswers: [
-      'The solo parent must be formally and legally separated or annulled by a valid judicial court order.',
-      'The leave can strictly only be utilized when the legitimate child is physically hospitalized.',
-      'The solo parent must possess and support at least three (3) legitimate dependent children.'
+      'The solo parent must be legally separated or annulled by court order.',
+      'The leave can only be used when the child is hospitalized.',
+      'The solo parent must have at least three (3) children.'
     ],
     rationale: 'The 7-day leave is granted to any solo parent (unmarried, widowed, separated, or spouse is in prison/incapacitated) who has rendered at least 1 year of service, to perform parental duties where their physical presence is required.'
   },
@@ -1879,9 +1879,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an Alien Employment Permit (AEP)?',
     correctAnswer: 'A permit issued by DOLE required for any foreign national seeking admission to the Philippines for employment purposes.',
     incorrectAnswers: [
-      'A mandatory clearance permit strictly required for Filipinos wanting to work abroad as Overseas Filipino Workers (OFWs).',
-      'A special randomized tax identification number issued strictly for foreign direct investors.',
-      'A corporate permit allowing foreign multinational companies to operate locally without paying corporate taxes.'
+      'A permit required for Filipinos wanting to work abroad (OFWs).',
+      'A special tax identification number for foreign investors.',
+      'A permit allowing foreign companies to operate without paying local taxes.'
     ],
     rationale: 'Before a foreigner can work in the Philippines, they must secure an AEP from DOLE, which certifies that no Filipino is competent, able, and willing at the time of application to perform the services for which the alien is desired.'
   },
@@ -1892,9 +1892,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Visitorial and Enforcement Power" of the DOLE Secretary?',
     correctAnswer: 'The power to access employer records, inspect premises, and issue compliance orders to ensure adherence to labor standards.',
     incorrectAnswers: [
-      'The absolute power to unilaterally rewrite and modify the economic provisions of Collective Bargaining Agreements.',
-      'The law enforcement power to physically arrest employees who commit theft against their employers.',
-      'The executive power to shut down any business permanently without securing a valid judicial court order.'
+      'The power to unilaterally rewrite Collective Bargaining Agreements.',
+      'The power to arrest employees who steal from their employers.',
+      'The power to shut down any business permanently without a court order.'
     ],
     rationale: 'Under Article 128, the DOLE Secretary (or their authorized representatives like Labor Inspectors) can enter workplaces during working hours to inspect records and premises to enforce labor standards.'
   },
@@ -1905,9 +1905,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what is the general minimum employable age?',
     correctAnswer: 'Fifteen (15) years old, though minors below 15 can be employed under strict conditions (e.g., under sole responsibility of parents, or in entertainment).',
     incorrectAnswers: [
-      'Eighteen (18) years old with absolutely no statutory exceptions under the Labor Code.',
-      'Sixteen (16) years old, aligned with the legal age of consent.',
-      'Twenty-one (21) years old, aligned with the age of majority for hazardous industrial work.'
+      'Eighteen (18) years old with no exceptions.',
+      'Sixteen (16) years old.',
+      'Twenty-one (21) years old.'
     ],
     rationale: 'The general rule is no child below 15 shall be employed. Exceptions exist, but they require a DOLE permit and must not interfere with the child\'s schooling or involve hazardous work.'
   },
@@ -1918,9 +1918,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between a "Regular Employee" and a "Project Employee"?',
     correctAnswer: 'A regular employee performs activities usually necessary or desirable in the usual business of the employer, while a project employee is hired for a specific project with a predetermined completion date.',
     incorrectAnswers: [
-      'A regular employee strictly works in the corporate office, while a project employee exclusively works in the field.',
-      'A regular employee is strictly paid monthly, while a project employee is exclusively paid on a daily rate.',
-      'A regular employee absolutely cannot be fired, while a project employee can be arbitrarily fired at any time.'
+      'A regular employee works in the office, while a project employee works in the field.',
+      'A regular employee is paid monthly, while a project employee is paid daily.',
+      'A regular employee cannot be fired, while a project employee can be fired anytime.'
     ],
     rationale: 'Project employees enjoy security of tenure only for the duration of their specific project. Once the specific project is completed, their employment is naturally terminated without need for separation pay.'
   },
@@ -1931,9 +1931,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Brent School doctrine, is a "Fixed-Term Employment" contract valid in the Philippines?',
     correctAnswer: 'Yes, provided it is entered into knowingly and voluntarily by the parties without any force, duress, or improper pressure being brought to bear upon the employee.',
     incorrectAnswers: [
-      'No, absolutely all fixed-term contracts are considered illegal labor-only contracting by the Supreme Court.',
-      'Yes, but it can legally only be utilized for high-level expatriates and specialized foreign workers.',
-      'No, signing a fixed-term contract automatically elevates the employee to regular status from day one.'
+      'No, all fixed-term contracts are considered illegal labor-only contracting.',
+      'Yes, but it can only be used for expatriates and foreign workers.',
+      'No, fixed-term contracts automatically make the employee a regular employee from day one.'
     ],
     rationale: 'In Brent School vs. Zamora, the Supreme Court ruled that fixed-term contracts are valid if the term was freely agreed upon, the parties dealt on equal terms, and it was not used to circumvent security of tenure.'
   },
@@ -1944,9 +1944,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Labor Code, what is "Closure of Business" as an authorized cause for termination?',
     correctAnswer: 'The reversal of an employer\'s fortune or a management decision to halt operations, which must be done in good faith and not to defeat unionism.',
     incorrectAnswers: [
-      'A temporary operational shutdown during a nationally declared regular public holiday.',
-      'An aggressive tactic where an employer intentionally locks out legally striking workers from the premises.',
-      'The strategic termination of a single isolated department while the rest of the corporate business aggressively expands.'
+      'A temporary shutdown during a public holiday.',
+      'When an employer locks out striking workers.',
+      'The termination of a single department while the rest of the business expands.'
     ],
     rationale: 'Employers have the management prerogative to close their business (whether due to severe losses or just a desire to stop operating), provided they give a 30-day notice to DOLE and the employees, and pay separation pay (unless the closure is due to serious business losses).'
   },
@@ -1957,9 +1957,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Principle of Social Justice" in the context of Philippine Labor Law?',
     correctAnswer: 'The state\'s mandate to protect the working class, ensuring that those who have less in life should have more in law, often resolving doubts in favor of labor.',
     incorrectAnswers: [
-      'A rigid statutory rule that strictly requires large companies to donate exactly 5% of their net profits to charity.',
-      'An economic law that strictly and mathematically equalizes the salaries of top managers and rank-and-file workers.',
-      'The constitutional and absolute protection of employer property rights over employee general welfare.'
+      'A rule that requires companies to donate 5% of their profits to charity.',
+      'A law that strictly equalizes the salaries of managers and rank-and-file workers.',
+      'The absolute protection of employer property rights over employee welfare.'
     ],
     rationale: 'The Constitution mandates the State to afford full protection to labor. Under Article 4 of the Labor Code, all doubts in the implementation and interpretation of the law shall be resolved in favor of labor, reflecting the principle of social justice.'
   },
@@ -2107,9 +2107,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what defines a "Seasonal Employee"?',
     correctAnswer: 'An employee hired to perform work or services that are seasonal in nature, and the employment is strictly for the duration of that specific season.',
     incorrectAnswers: [
-      'An employee strictly hired only during the peak Christmas holiday season to drastically augment sales quotas.',
-      'An employee who is automatically and illegally terminated at the end of every calendar fiscal year.',
-      'An employee who is strictly utilized only when the tenured regular employees are on mandatory vacation leave.'
+      'An employee hired only during the Christmas holiday to sell specific goods.',
+      'An employee who is automatically terminated at the end of every calendar year.',
+      'An employee who works only when the regular employees are on vacation leave.'
     ],
     rationale: 'Seasonal employees are common in agriculture (e.g., harvesting season). Their employment is legally terminated upon the end of the season, but they are considered on "leave without pay" until re-hired the next season.'
   },
@@ -2120,9 +2120,9 @@ export const questionBank: QuestionData[] = [
     text: 'When does a "Casual Employee" legally become a "Regular Employee" under the Labor Code?',
     correctAnswer: 'When they have rendered at least one (1) year of service, whether continuous or broken, with respect to the activity in which they are employed.',
     incorrectAnswers: [
-      'After exactly six (6) months of continuous service, consistent with standard probationary periods.',
-      'As soon as they officially pass a highly structured performance evaluation given by their immediate supervisor.',
-      'Casual employees absolutely can never become regular employees by operation of any statutory labor law.'
+      'After six (6) months of continuous service.',
+      'As soon as they pass a performance evaluation given by their supervisor.',
+      'Casual employees can never become regular employees by operation of law.'
     ],
     rationale: 'A casual employee performs work NOT usually necessary or desirable to the employer\'s main business. However, the law stipulates that rendering 1 year of service automatically converts them to a regular employee for that specific activity.'
   },
@@ -2133,9 +2133,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are Barangay Micro Business Enterprises (BMBEs) exempt from paying the minimum wage?',
     correctAnswer: 'Yes, BMBEs are legally exempt from the coverage of the Minimum Wage Law, provided they are properly registered.',
     incorrectAnswers: [
-      'No, absolutely all commercial businesses without exception must pay the mandated regional minimum wage.',
-      'Yes, but strictly only for their very first operational calendar year after securing their SEC registration.',
-      'Yes, they are statutorily exempt from paying any wages entirely and can legally rely exclusively on profit sharing.'
+      'No, all businesses without exception must pay the regional minimum wage.',
+      'Yes, but only for their first year of operation.',
+      'Yes, they are exempt from paying wages entirely and can rely on profit sharing.'
     ],
     rationale: 'Under RA 9178 (BMBE Act), registered micro-enterprises are exempt from minimum wage laws to encourage the formation and growth of small businesses, though they must still provide standard statutory benefits (SSS, PhilHealth).'
   },
@@ -2146,9 +2146,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Social Security System (SSS), what is the "Sickness Benefit"?',
     correctAnswer: 'A daily cash allowance paid for the number of days a member is unable to work due to sickness or injury, equivalent to 90% of their average daily salary credit.',
     incorrectAnswers: [
-      'A full 100% financial reimbursement of absolutely all hospital and medical bills incurred by the sick employee.',
-      'A mandatory, fully paid leave of 30 days provided directly by the employer, completely separate from existing sick leaves.',
-      'A discretionary one-time lump sum payment of exactly PHP 50,000 for any terminal or critical illness.'
+      'A full reimbursement of all hospital and medical bills incurred by the employee.',
+      'A mandatory paid leave of 30 days provided by the employer, separate from sick leaves.',
+      'A one-time lump sum payment of PHP 50,000 for any critical illness.'
     ],
     rationale: 'The SSS Sickness Benefit is an income replacement program. The employer advances the payment (90% of ADSC) to the sick employee and is subsequently reimbursed 100% by the SSS.'
   },
@@ -2159,9 +2159,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of the Home Development Mutual Fund (HDMF), commonly known as Pag-IBIG?',
     correctAnswer: 'To establish a national savings program and provide affordable shelter financing (housing loans) for Filipino workers.',
     incorrectAnswers: [
-      'To strictly provide free comprehensive healthcare and hospitalization coverage for all private employees.',
-      'To act as the sole exclusive provider of statutory retirement pensions in the entire Philippines.',
-      'To explicitly provide emergency cash loans directly to employers during a severe national financial crisis.'
+      'To provide free healthcare and hospitalization for all employees.',
+      'To act as the sole provider of retirement pensions in the Philippines.',
+      'To provide emergency cash loans to employers during a financial crisis.'
     ],
     rationale: 'Pag-IBIG was created primarily to answer the need for a national savings program and affordable housing financing, funded through mandatory contributions from both employers and employees.'
   },
@@ -2172,9 +2172,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary significance of DOLE Department Order No. 174 (D.O. 174)?',
     correctAnswer: 'It provides the updated rules and strict regulations implementing the provisions of the Labor Code regarding legitimate job contracting and prohibiting labor-only contracting.',
     incorrectAnswers: [
-      'It legally mandates the immediate and unconditional regularization of all contractual employees across the Philippines.',
-      'It completely removes absolutely all statutory restrictions on companies outsourcing their core business functions.',
-      'It unilaterally establishes the new strict minimum wage rates for all economic regions in the country.'
+      'It mandates the immediate regularization of all contractual employees in the Philippines.',
+      'It removes all restrictions on companies outsourcing their core business functions.',
+      'It establishes the new minimum wage rates for all regions.'
     ],
     rationale: 'D.O. 174 strictly regulates contracting arrangements to ensure that workers’ rights are protected and explicitly defines and bans the practice of labor-only contracting (often called "endo").'
   },
@@ -2185,9 +2185,9 @@ export const questionBank: QuestionData[] = [
     text: 'When issuing a Notice to Explain (NTE) to an employee facing disciplinary action, what is the minimum reasonable period given to them to respond, according to DOLE guidelines?',
     correctAnswer: 'At least five (5) calendar days from receipt of the notice.',
     incorrectAnswers: [
-      'Exactly twenty-four (24) hours from the exact moment of physical receipt of the disciplinary notice.',
-      'Exactly forty-eight (48) hours from the exact moment of physical receipt of the disciplinary notice.',
-      'Exactly ten (10) working business days from the exact moment of physical receipt of the disciplinary notice.'
+      'Twenty-four (24) hours from receipt of the notice.',
+      'Forty-eight (48) hours from receipt of the notice.',
+      'Ten (10) working days from receipt of the notice.'
     ],
     rationale: 'To satisfy procedural due process, DOLE stipulates that "ample opportunity to be heard" means giving the employee at least 5 calendar days to study the accusations, gather evidence, and submit their written explanation.'
   },
@@ -2198,9 +2198,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the dismissal of an employee, what does the "Two-Fold Due Process" requirement mean?',
     correctAnswer: 'The employer must satisfy both Substantive Due Process (a valid just or authorized cause) AND Procedural Due Process (the twin-notice rule and hearing).',
     incorrectAnswers: [
-      'The employee must be strictly notified twice by corporate email and twice by registered postal mail.',
-      'The employer must definitively secure the written approval of both the DOLE Secretary and the NLRC before firing.',
-      'The employee maintains the absolute right to legally appeal the dismissal twice before it becomes judicially final.'
+      'The employee must be notified twice by email and twice by registered mail.',
+      'The employer must get the approval of both the DOLE Secretary and the NLRC before firing.',
+      'The employee has the right to appeal the dismissal twice before it becomes final.'
     ],
     rationale: 'A dismissal is only completely valid if there is a legal reason to do it (substantive) and the correct legal procedure was followed in doing it (procedural).'
   },
@@ -2211,9 +2211,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the "Principle of Co-determination" mean under the Philippine Constitution?',
     correctAnswer: 'The right of workers to participate in policy and decision-making processes of the establishment where they are employed, especially on matters affecting their rights and benefits.',
     incorrectAnswers: [
-      'The strict requirement that an employee’s salary must be bilaterally determined by both the CEO and the HR Director.',
-      'The statutory rule that both the private employer and the government must collectively determine the minimum wage.',
-      'The constitutional principle that male and female employees must absolutely receive the exact same base salary.'
+      'The requirement that an employee’s salary must be determined by both the CEO and the HR Director.',
+      'The rule that both the employer and the government must determine the minimum wage.',
+      'The principle that male and female employees must receive the exact same salary.'
     ],
     rationale: 'Co-determination gives workers a voice (usually through Labor-Management Councils or Unions) in formulating policies that directly affect their welfare, rather than management making unilateral decisions.'
   },
@@ -2224,9 +2224,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following is a limitation to the Visitorial and Enforcement Power of the DOLE Secretary (or Labor Inspector)?',
     correctAnswer: 'It cannot be exercised if the employer-employee relationship no longer exists and a case has already been filed before the NLRC.',
     incorrectAnswers: [
-      'It absolutely cannot be exercised on multinational companies with a workforce of more than 1,000 regular employees.',
-      'It absolutely cannot be legally exercised during the peak operational month of December.',
-      'It strictly requires a formal search and seizure warrant issued by a regional trial court judge.'
+      'It cannot be exercised on companies with more than 1,000 employees.',
+      'It cannot be exercised during the month of December.',
+      'It requires a search warrant issued by a regional trial court judge.'
     ],
     rationale: 'If the employee has already been terminated (employer-employee relationship severed) and they have filed an illegal dismissal case with the NLRC, the Labor Arbiter, not the DOLE Inspector, has jurisdiction.'
   },
@@ -2240,9 +2240,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Panel Interview"?',
     correctAnswer: 'An interview where a single candidate is interviewed by multiple interviewers simultaneously.',
     incorrectAnswers: [
-      'An interview where multiple competing candidates are simultaneously interviewed by a single hiring manager.',
-      'An interview conducted exclusively and strictly through a specialized proprietary software panel.',
-      'A grueling series of back-to-back one-on-one sequential interviews spanning an entire full business day.'
+      'An interview where multiple candidates are interviewed by a single manager.',
+      'An interview conducted exclusively through a specialized software panel.',
+      'A series of back-to-back one-on-one interviews over a full day.'
     ],
     rationale: 'Panel interviews (or board interviews) allow multiple stakeholders (e.g., HR, the hiring manager, and a team member) to evaluate the candidate at the same time, reducing individual bias.'
   },
@@ -2253,9 +2253,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Microlearning"?',
     correctAnswer: 'A training approach that delivers content in short, highly focused, bite-sized bursts (e.g., 3-5 minute videos) designed to meet a specific learning outcome.',
     incorrectAnswers: [
-      'Training that is strictly and exclusively limited to entry-level, minimum-wage, or "micro" operational positions.',
-      'A massive year-long corporate training program systematically broken down into weekly 4-hour rigorous sessions.',
-      'A highly specialized technical course strictly teaching employees how to utilize microscopes and other precision scientific equipment.'
+      'Training that is strictly limited to entry-level or "micro" positions.',
+      'A year-long training program broken down into weekly 4-hour sessions.',
+      'Teaching employees how to use microscopes and other precision equipment.'
     ],
     rationale: 'Microlearning caters to modern attention spans and busy schedules, allowing employees to quickly learn and apply a specific skill right when they need it.'
   },
@@ -2266,9 +2266,9 @@ export const questionBank: QuestionData[] = [
     text: 'In HR, what does the concept of "Total Rewards" encompass?',
     correctAnswer: 'Everything the employee perceives to be of value resulting from the employment relationship, including base pay, benefits, work-life balance, performance recognition, and career development.',
     incorrectAnswers: [
-      'Strictly only the exact monetary value of the employee’s annualized base salary and guaranteed cash bonuses.',
-      'The mathematically computed total amount of all statutory government benefits mandated by the Labor Code.',
-      'The cumulative sum total of physical corporate gifts (like gold watches or plaques) given explicitly during retirement.'
+      'Only the exact monetary value of the employee’s base salary and cash bonuses.',
+      'The total amount of statutory government benefits mandated by law.',
+      'The sum total of physical gifts (like watches or plaques) given during retirement.'
     ],
     rationale: 'Total Rewards is a holistic strategy. It recognizes that employees are motivated by more than just money; they also value non-financial rewards like flexible hours, training, and a positive culture.'
   },
@@ -2279,9 +2279,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Contrast Error" in performance evaluation?',
     correctAnswer: 'A bias where an employee’s rating is unfairly influenced by the performance of the person evaluated just before them, rather than by objective standards.',
     incorrectAnswers: [
-      'An intentional cognitive bias where an employee is rated poorly simply because their introverted personality sharply contrasts with the manager\'s.',
-      'Evaluating an employee solely based on how severely their physical attire contrasts with the corporate dress code.',
-      'The administrative error of giving completely different numerical ratings to two employees who perform the exact same job.'
+      'Rating an employee poorly because their personality contrasts with the manager\'s.',
+      'Evaluating an employee solely based on how they dress compared to the dress code.',
+      'Giving different ratings to two employees who perform the exact same job.'
     ],
     rationale: 'If a manager interviews an average candidate immediately after interviewing a truly terrible one, the average candidate might be rated exceptionally high simply by contrast, not actual merit.'
   },
@@ -2292,9 +2292,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of "Job Evaluation"?',
     correctAnswer: 'To systematically determine the relative internal worth or value of jobs within an organization to establish a fair and equitable pay structure.',
     incorrectAnswers: [
-      'To formally and legally appraise an individual employee’s annual performance at the absolute end of the fiscal year.',
-      'To strictly and unilaterally decide which specific employees should be immediately promoted or severely retrenched.',
-      'To legally write the absolute initial draft of a job description for external recruitment job board postings.'
+      'To formally appraise an individual employee’s performance at the end of the year.',
+      'To decide which employees should be promoted or fired.',
+      'To write the initial draft of a job description for recruitment.'
     ],
     rationale: 'Job Evaluation (using methods like point factor, ranking, or classification) compares jobs against each other (e.g., is the IT Manager job "worth" more to the company than the HR Manager job?) to ensure internal equity in pay.'
   },
@@ -2305,9 +2305,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the focus of "Ergonomics" in the workplace?',
     correctAnswer: 'Designing and arranging workspaces, tools, and equipment so that they fit the physical capabilities and limitations of the worker, thereby preventing musculoskeletal disorders.',
     incorrectAnswers: [
-      'The highly analytical study of how macroeconomic financial risks directly impact executive employee compensation.',
-      'Designing physical office layouts strictly and exclusively to maximize visual and aesthetic appeal to VIP clients.',
-      'The deep psychological study of employee intrinsic motivation, clinical depression, and overall corporate morale.'
+      'The study of how financial risks impact employee compensation.',
+      'Designing office layouts strictly to maximize aesthetic appeal to clients.',
+      'The psychological study of employee motivation and morale.'
     ],
     rationale: 'Ergonomics (human factors engineering) aims to reduce physical stress on employees (e.g., providing adjustable chairs, monitor stands, or proper lifting equipment) to prevent injuries like carpal tunnel syndrome.'
   },
@@ -2331,9 +2331,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the main goal of "Succession Planning"?',
     correctAnswer: 'To proactively identify and develop high-potential employees to fill key leadership positions when current leaders leave or retire.',
     incorrectAnswers: [
-      'To meticulously plan the exact chronological sequence of operational tasks an employee must execute during their shift.',
-      'To strictly determine the legal designated heirs of a deceased employee’s final separation pay and death benefits.',
-      'To structurally map out the physical architectural evacuation routes utilized strictly during a mandatory fire drill.'
+      'To plan the sequence of tasks an employee must do during their shift.',
+      'To determine the legal heirs of an employee’s final pay upon death.',
+      'To map out the physical evacuation routes during a fire drill.'
     ],
     rationale: 'Succession planning ensures business continuity. It mitigates the risk of a sudden leadership vacuum by having trained, ready-to-promote employees waiting in the pipeline.'
   },
@@ -2344,9 +2344,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Broadbanding" in compensation?',
     correctAnswer: 'Collapsing multiple traditional salary grades into a few wide salary bands to provide more flexibility in pay and encourage lateral career moves.',
     incorrectAnswers: [
-      'Providing highly subsidized, high-speed broadband internet stipends exclusively to all remote telecommuting employees.',
-      'Strictly paying all regular employees in a specific operational department the exact same flat non-negotiable rate.',
-      'Aggressively expanding the company’s HMO benefit plan to include premium international executive travel coverage.'
+      'Providing high-speed internet stipends to all remote employees.',
+      'Paying all employees in a specific department the exact same flat rate.',
+      'Expanding the company’s benefit plan to include international travel.'
     ],
     rationale: 'Broadbanding replaces, for example, 15 narrow salary grades with 4 or 5 wide bands. This allows managers to reward employees for taking on new tasks without needing a formal promotion to a new grade.'
   },
@@ -2357,9 +2357,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Leniency Error" in performance appraisals?',
     correctAnswer: 'The tendency of a rater to consistently give overly high ratings to all employees, ignoring objective performance issues.',
     incorrectAnswers: [
-      'The documented psychological tendency to consistently give overly low, extremely harsh numerical ratings to absolutely everyone.',
-      'The informal practice of allowing a tenured employee to completely skip the annual appraisal if they are operationally busy.',
-      'Evaluating an employee exceptionally high strictly based on a single isolated positive incident (Halo Effect).'
+      'The tendency to consistently give overly low, harsh ratings to everyone.',
+      'Allowing an employee to skip the appraisal if they are busy.',
+      'Evaluating an employee based on a single positive incident.'
     ],
     rationale: 'Managers often commit leniency errors because they want to avoid conflict, be liked by their staff, or ensure their team gets the maximum possible bonuses.'
   },
@@ -2374,9 +2374,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Labor Code, what are the distinct terms of a Collective Bargaining Agreement (CBA)?',
     correctAnswer: 'The representation aspect is valid for 5 years, while all other provisions (economic/non-economic) are renegotiated every 3 years.',
     incorrectAnswers: [
-      'The entire holistic CBA is valid for exactly 10 years without any possibility of interim renegotiation.',
-      'The entire holistic CBA must be mandatorily and exhaustively renegotiated every single calendar year.',
-      'The representation aspect is valid for 3 years, while the economic wage provisions are valid for 5 years.'
+      'The entire CBA is valid for 10 years without renegotiation.',
+      'The entire CBA must be renegotiated every single year.',
+      'The representation aspect is valid for 3 years, and economic provisions for 5 years.'
     ],
     rationale: 'To maintain industrial peace, the exclusive bargaining agent status (representation) cannot be challenged for 5 years. However, wages and benefits (economic provisions) must be renegotiated after 3 years.'
   },
@@ -2400,9 +2400,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are waivers or "Quitclaims" signed by resigning/terminated employees valid in the Philippines?',
     correctAnswer: 'Yes, but they are generally frowned upon. They are only valid if voluntarily signed without fraud/duress, and the consideration (amount paid) is reasonable and credible.',
     incorrectAnswers: [
-      'No, the Supreme Court has definitively declared that absolutely all employer-drafted quitclaims are void and strictly illegal.',
-      'Yes, they are absolutely always valid and binding regardless of how mathematically minuscule the amount paid to the employee was.',
-      'Yes, but strictly only if the document is formally notarized by the company’s internal in-house legal counsel.'
+      'No, the Supreme Court has declared all quitclaims absolutely void and illegal.',
+      'Yes, they are always valid regardless of how much was paid to the employee.',
+      'Yes, but only if the document is notarized by the company’s internal lawyer.'
     ],
     rationale: 'While valid if executed fairly, quitclaims do not bar an employee from filing a case later if they can prove they were forced to sign it or if the settlement amount was shockingly disproportionate to what they were legally owed.'
   },
@@ -2413,9 +2413,9 @@ export const questionBank: QuestionData[] = [
     text: 'In labor law, what is the legal difference between simple AWOL (Absence Without Official Leave) and "Abandonment of Work"?',
     correctAnswer: 'AWOL is merely being absent without permission; Abandonment requires AWOL PLUS a clear, deliberate intent by the employee to sever the employer-employee relationship.',
     incorrectAnswers: [
-      'AWOL is strictly an unauthorized absence for exactly 1 day, while Abandonment is strictly an absence for exactly 3 days.',
-      'There is absolutely no legal distinction; both terms mean exactly the same thing under the Philippine Labor Code.',
-      'AWOL strictly applies only to private corporate employees, while Abandonment strictly applies to tenured government civil servants.'
+      'AWOL is absence for 1 day, while Abandonment is absence for 3 days.',
+      'There is no difference; they mean exactly the same thing.',
+      'AWOL applies to private employees, while Abandonment applies to government workers.'
     ],
     rationale: 'To validly dismiss for abandonment, the employer must prove both the unjustified absence AND overt acts showing the employee’s definite intention not to return (e.g., taking a full-time job elsewhere).'
   },
@@ -2426,9 +2426,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the "Principle of Non-Diminution of Benefits" mean?',
     correctAnswer: 'An employer cannot unilaterally eliminate or reduce benefits that have already ripened into a vested right through established company practice, policy, or agreement.',
     incorrectAnswers: [
-      'An employer must automatically and statutorily increase all non-wage benefits by exactly 10% every single fiscal year.',
-      'An employer absolutely cannot structurally terminate any tenured employee who legally receives high executive benefits.',
-      'An employer absolutely cannot legally lower the retail market price of their manufactured commercial products.'
+      'An employer must automatically increase benefits by 10% every year.',
+      'An employer cannot terminate an employee who receives high benefits.',
+      'An employer cannot lower the price of their products.'
     ],
     rationale: 'Article 100 of the Labor Code states that nothing shall be construed to eliminate or diminish supplements/benefits. If a company has been giving a monthly rice subsidy for years voluntarily, it becomes a binding company practice that cannot be withdrawn.'
   },
@@ -2439,9 +2439,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Compressed Workweek" (CWW) scheme?',
     correctAnswer: 'An arrangement where the normal workweek is reduced to less than 6 days, but the normal work hours per day are increased (up to 12 hours) without the payment of overtime premiums.',
     incorrectAnswers: [
-      'A grueling arrangement of working exactly 8 hours a day for 7 straight continuous days without any scheduled rest.',
-      'Aggressively compressing the entire operational workload of two separated employees onto one single remaining employee.',
-      'A modern flexible policy exclusively allowing tenured employees to work from home indefinitely.'
+      'Working 8 hours a day for 7 straight days without rest.',
+      'Compressing the workload of two employees onto one employee.',
+      'Allowing employees to work from home exclusively.'
     ],
     rationale: 'Under DOLE advisories, a CWW (e.g., working 4 days at 10 hours/day) is valid if voluntarily agreed upon by the majority of employees, does not exceed 48 hours a week, and does not pose health risks.'
   },
@@ -2452,9 +2452,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under RA 11313 (Safe Spaces Act or Bawal Bastos Law), what is required of employers regarding gender-based sexual harassment in the workplace?',
     correctAnswer: 'Employers are mandated to create a Committee on Decorum and Investigation (CODI) to investigate and address complaints of gender-based sexual harassment.',
     incorrectAnswers: [
-      'Employers must mandatorily construct completely separate physical office buildings for male and female employees.',
-      'Employers must strictly and legally ban absolutely all consensual office romances and internal dating.',
-      'Employers are strictly only required to post a single "No Harassment" sign in the main corporate lobby.'
+      'Employers must mandate separate office buildings for men and women.',
+      'Employers must ban all office romances.',
+      'Employers are only required to post a "No Harassment" sign in the lobby.'
     ],
     rationale: 'The Safe Spaces Act expands previous anti-harassment laws by penalizing gender-based harassment (including sexist remarks and homophobic slurs) and strictly requires employers to have a functional CODI to handle complaints.'
   },
@@ -2465,9 +2465,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum duration an employee can be placed on "Floating Status" (bona fide suspension of business operations) before it becomes constructive dismissal?',
     correctAnswer: 'Six (6) months.',
     incorrectAnswers: [
-      'A maximum of exactly one (1) month.',
-      'A maximum of exactly three (3) months.',
-      'A maximum of exactly one (1) year.'
+      'One (1) month.',
+      'Three (3) months.',
+      'One (1) year.'
     ],
     rationale: 'Under Article 301, an employer can suspend operations (e.g., lack of raw materials, client pulled out) for up to 6 months. If the employee is not recalled to work after 6 months, they are deemed permanently terminated and entitled to separation pay.'
   },
@@ -2478,9 +2478,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the statutory rate for Night Shift Differential pay?',
     correctAnswer: 'Not less than ten percent (10%) of the employee’s regular wage for each hour of work performed between 10:00 PM and 6:00 AM.',
     incorrectAnswers: [
-      'Exactly twenty percent (20%) of the employee\'s regular baseline wage.',
-      'Exactly twenty-five percent (25%) of the employee\'s regular baseline wage.',
-      'Exactly fifty percent (50%) of the employee\'s regular baseline wage.'
+      'Twenty percent (20%) of the regular wage.',
+      'Twenty-five percent (25%) of the regular wage.',
+      'Fifty percent (50%) of the regular wage.'
     ],
     rationale: 'Article 86 mandates a 10% premium for night work to compensate for the physical and biological strain of working during normal sleeping hours.'
   },
@@ -2491,9 +2491,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can Supervisory employees join the same labor union as the Rank-and-File employees?',
     correctAnswer: 'No, supervisory employees cannot join the rank-and-file union, but they may form their own separate union.',
     incorrectAnswers: [
-      'Yes, absolutely all employees regardless of rank can legally join the exact same unified labor union.',
-      'No, supervisory employees are absolutely and constitutionally banned from joining any labor union whatsoever.',
-      'Yes, but they are statutorily required to pay exactly double the standard monthly union dues.'
+      'Yes, all employees can join the exact same union.',
+      'No, supervisory employees are absolutely banned from joining any union.',
+      'Yes, but they must pay double the union dues.'
     ],
     rationale: 'To prevent conflicts of interest (since supervisors evaluate and discipline rank-and-file), the law prohibits them from mixing. Managerial employees, however, are absolutely barred from joining or forming ANY labor union.'
   },
@@ -2507,9 +2507,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Attrition Rate" in human resources?',
     correctAnswer: 'The rate at which employees leave a workforce over a given period of time, usually expressed as a percentage of the total workforce.',
     incorrectAnswers: [
-      'The specific statistical rate at which entirely new external candidates apply for a single exclusive job opening.',
-      'The exact percentage of regular employees who fail their mandatory annual corporate physical medical examination.',
-      'The financial and accounting rate at which a company’s physical heavy equipment mathematically depreciates.'
+      'The rate at which new candidates apply for a single job opening.',
+      'The percentage of employees who fail their annual physical examination.',
+      'The rate at which a company’s physical equipment depreciates.'
     ],
     rationale: 'Attrition rate (or turnover rate) is a key HR metric. High attrition indicates potential issues with compensation, management, or company culture.'
   },
@@ -2520,9 +2520,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Gamification" in the context of corporate training?',
     correctAnswer: 'The application of game-design elements (like points, badges, and leaderboards) to non-game contexts, such as learning modules, to increase engagement.',
     incorrectAnswers: [
-      'Strictly requiring employees to play commercial video games during their mandated break time to reduce psychological stress.',
-      'Literally converting the entire formalized performance appraisal process into a physical tabletop board game.',
-      'Exclusively and mandatorily utilizing highly expensive virtual reality headsets for absolutely all training programs.'
+      'Requiring employees to play video games during their break time to reduce stress.',
+      'Turning the entire performance appraisal process into a literal board game.',
+      'Using virtual reality exclusively for all training programs.'
     ],
     rationale: 'Gamification taps into psychological motivators like competition and achievement to make dry or mandatory training more engaging and memorable.'
   },
@@ -2533,9 +2533,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Golden Parachute"?',
     correctAnswer: 'A substantial severance agreement that provides massive benefits to top executives if they are terminated, often due to a corporate merger or takeover.',
     incorrectAnswers: [
-      'A specialized retirement plan where executives receive actual physical gold bullion bars instead of liquid cash.',
-      'A highly specific hazardous duty premium pay given strictly to employees actively working in commercial aviation.',
-      'An exclusive company-sponsored recreational skydiving trip given as a high-tier executive team-building reward.'
+      'A retirement plan where employees receive physical gold bars instead of cash.',
+      'A hazardous duty pay given strictly to employees working in aviation.',
+      'A company-sponsored skydiving trip given as a team-building reward.'
     ],
     rationale: 'Golden parachutes are highly lucrative packages (cash bonuses, stock options) designed to cushion the fall of ousted executives, though they are often criticized by shareholders.'
   },
@@ -2546,9 +2546,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is generally considered the most effective primary purpose for utilizing 360-Degree Feedback?',
     correctAnswer: 'Employee development and coaching, rather than tying it directly to compensation or disciplinary actions.',
     incorrectAnswers: [
-      'To strictly determine exactly how much variable cash bonus an individual employee should mathematically receive.',
-      'To provide undeniable, documented legal grounds for the immediate termination of an employee without just cause.',
-      'To aggressively force rank-and-file employees to publicly criticize their direct managers during open team meetings.'
+      'Determining exactly how much cash bonus an employee should receive.',
+      'Providing legal grounds for immediate termination without cause.',
+      'Forcing employees to publicly criticize their managers in team meetings.'
     ],
     rationale: 'If 360-degree feedback is tied strictly to pay, peers and subordinates often manipulate their ratings (either colluding to give high scores or sabotaging rivals). It is best used strictly for developmental insight.'
   },
@@ -2559,9 +2559,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between traditional Job Analysis and "Competency Modeling"?',
     correctAnswer: 'Job analysis focuses on the specific tasks and duties of a job, while competency modeling focuses on the broader behavioral traits and skills required across the organization.',
     incorrectAnswers: [
-      'Job analysis is utilized exclusively for C-suite executives, while competency modeling is utilized strictly for entry-level roles.',
-      'Competency modeling is a strict quantitative mathematical formula, while job analysis is highly subjective and qualitative.',
-      'There is absolutely no distinction; they are completely synonymous terms used interchangeably by HR professionals.'
+      'Job analysis is used only for executives, while competency modeling is used for entry-level roles.',
+      'Competency modeling is a mathematical formula, while job analysis is qualitative.',
+      'There is no difference; they are synonymous terms.'
     ],
     rationale: 'Competency modeling is more strategic and future-focused. Instead of asking "What are the tasks of this role?", it asks "What behavioral competencies (e.g., leadership, agility) does our company need to succeed?"'
   },
@@ -2572,9 +2572,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an Employee Assistance Program (EAP)?',
     correctAnswer: 'A voluntary, work-based program that offers free and confidential assessments, short-term counseling, and referrals to employees with personal or work-related problems.',
     incorrectAnswers: [
-      'A corporate financial program that gives highly subsidized, interest-free cash loans to employees purchasing new houses.',
-      'A highly adversarial union-led program that aggressively assists workers in filing class-action lawsuits against the company.',
-      'A structured corporate mentoring program that strictly and exclusively teaches complex technical software coding skills.'
+      'A financial program that gives interest-free loans to employees buying houses.',
+      'A union-led program that assists workers in filing lawsuits against the company.',
+      'A mentoring program that strictly teaches technical software skills.'
     ],
     rationale: 'EAPs help manage risks associated with mental health, substance abuse, and personal stress, which can lead to absenteeism, accidents, or reduced productivity if left unaddressed.'
   },
@@ -2585,9 +2585,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the context of hiring practices, what is the difference between "Nepotism" and "Cronyism"?',
     correctAnswer: 'Nepotism is showing favoritism to relatives or family members, while cronyism is showing favoritism to friends or associates.',
     incorrectAnswers: [
-      'Nepotism inherently involves direct financial bribery, while cronyism strictly involves informal verbal recommendations.',
-      'Nepotism is entirely legal, while cronyism is strictly and explicitly illegal in absolutely all private corporations.',
-      'Nepotism applies strictly and exclusively to hiring decisions, while cronyism applies exclusively to termination decisions.'
+      'Nepotism involves financial bribery, while cronyism involves verbal recommendations.',
+      'Nepotism is legal, while cronyism is strictly illegal in all private companies.',
+      'Nepotism applies only to hiring, while cronyism applies only to firing.'
     ],
     rationale: 'Both are forms of unfair favoritism that bypass merit. Nepotism focuses on blood/marriage ties, while cronyism focuses on social friendships.'
   },
@@ -2598,9 +2598,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary benefit of "Cross-Training" employees?',
     correctAnswer: 'It increases workforce flexibility by ensuring multiple people know how to perform critical tasks, reducing bottlenecks when someone is absent.',
     incorrectAnswers: [
-      'It legally allows the company to aggressively force employees to work mandatory overtime without any additional premium pay.',
-      'It legally and immediately elevates an employee’s official job title to a significantly higher executive rank without a pay raise.',
-      'It mathematically allows the corporation to entirely eliminate the internal HR department to drastically save overhead costs.'
+      'It forces employees to work overtime without additional pay.',
+      'It legally changes an employee’s job title to a higher rank immediately.',
+      'It allows the company to entirely eliminate the HR department.'
     ],
     rationale: 'Cross-training creates a more agile workforce. If the only person who knows how to run payroll gets sick, cross-training ensures someone else can step in seamlessly.'
   },
@@ -2611,9 +2611,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Hazard Pay"?',
     correctAnswer: 'Additional compensation provided to employees who perform duties that involve physical danger or extreme discomfort.',
     incorrectAnswers: [
-      'A severe monetary penalty directly deducted from an employee\'s gross salary if they cause a major workplace accident.',
-      'A standard, uniform cash bonus mandated to be given to all employees during the peak of the annual flu season.',
-      'A massive severance pay package given exclusively to executives who are fired for creating a catastrophic safety hazard.'
+      'A penalty deducted from an employee\'s salary if they cause a workplace accident.',
+      'A standard bonus given to all employees during the flu season.',
+      'Severance pay given to employees who are fired for creating a safety hazard.'
     ],
     rationale: 'Hazard pay compensates workers for taking on risks beyond standard occupational norms (e.g., healthcare workers during a pandemic, miners, or combat zone contractors).'
   },
@@ -2624,9 +2624,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Forced Distribution" (or Stack Ranking) method of performance appraisal?',
     correctAnswer: 'A system where managers are required to place a predetermined percentage of employees into specific performance categories (e.g., 20% top, 70% middle, 10% bottom).',
     incorrectAnswers: [
-      'A highly controversial system where subordinate employees anonymously evaluate and mathematically rank their direct managers.',
-      'A randomized lottery system strictly utilized to determine exactly which department receives the annual corporate bonus.',
-      'A socialist-style appraisal method where absolutely all employees are forced to receive the exact same average numerical rating.'
+      'A system where employees evaluate their managers anonymously.',
+      'A random lottery system used to determine who gets a bonus.',
+      'A method where all employees are forced to receive the exact same average rating.'
     ],
     rationale: 'While forced distribution prevents leniency bias (managers can\'t rate everyone as "excellent"), it can create a cutthroat culture and force the ranking of solid performers into "bottom" tiers just to meet the quota.'
   },
@@ -2641,9 +2641,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are domestic workers (Kasambahays) legally entitled to receive a 13th-month pay?',
     correctAnswer: 'Yes, under the Kasambahay Law (RA 10361), they are strictly entitled to a 13th-month pay provided they have rendered at least one (1) month of service.',
     incorrectAnswers: [
-      'No, the 13th-month pay law strictly and exclusively applies only to corporate employees in registered commercial enterprises.',
-      'Yes, but strictly only if they have continuously worked for the exact same employer for at least 5 consecutive years.',
-      'No, they are legally only entitled to a discretionary Christmas bonus at the absolute whim of the employer.'
+      'No, the 13th-month pay law applies only to corporate employees.',
+      'Yes, but only if they have worked for the same employer for 5 continuous years.',
+      'No, they are only entitled to a Christmas bonus at the employer\'s discretion.'
     ],
     rationale: 'The Kasambahay Law elevated the rights of domestic workers, explicitly mandating statutory benefits including 13th-month pay, SSS, PhilHealth, and Pag-IBIG.'
   },
@@ -2654,9 +2654,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the DOLE "SEnA" (Single Entry Approach)?',
     correctAnswer: 'An administrative approach providing a speedy, impartial, and inexpensive 30-day mandatory conciliation-mediation process for all labor issues before they can mature into formal cases.',
     incorrectAnswers: [
-      'A strict DOLE policy that allows employees exactly one single chance to file a labor complaint in their entire lifetime.',
-      'A literal physical single entry door in all DOLE regional offices where all written complaints must be exclusively dropped off.',
-      'A rigid administrative rule that strictly prevents labor unions from filing more than one collective grievance per fiscal year.'
+      'A strict policy that allows employees only one chance to file a complaint in their lifetime.',
+      'A physical single door in DOLE offices where all complaints must be dropped off.',
+      'A rule that prevents unions from filing more than one grievance per year.'
     ],
     rationale: 'SEnA aims to declog the labor courts by requiring parties to attempt settlement amicably with a DOLE Desk Officer for a maximum of 30 days before formal arbitration begins.'
   },
@@ -2667,9 +2667,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum legal duration that an employer can place an employee under "Preventive Suspension" pending investigation?',
     correctAnswer: 'A maximum of thirty (30) days.',
     incorrectAnswers: [
-      'A maximum of exactly fourteen (14) days.',
-      'A maximum of exactly sixty (60) days.',
-      'A maximum of exactly six (6) months.'
+      'A maximum of fourteen (14) days.',
+      'A maximum of sixty (60) days.',
+      'A maximum of six (6) months.'
     ],
     rationale: 'Preventive suspension is not a penalty; it is a measure to protect company property/lives during an investigation. If it lasts longer than 30 days, the employer must reinstate the employee or start paying their salary while the investigation continues.'
   },
@@ -2680,9 +2680,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following scenarios is a classic example of "Constructive Dismissal"?',
     correctAnswer: 'An employer transferring an employee to a significantly lower-ranking position with reduced pay, making continued employment unbearable.',
     incorrectAnswers: [
-      'An employee resigning completely voluntarily simply because they successfully secured a significantly better-paying external job.',
-      'An employer validly terminating an employee after they were explicitly caught stealing massive amounts of company funds.',
-      'An employer legally enforcing a highly strict but entirely valid and documented corporate dress code policy.'
+      'An employee resigning voluntarily because they found a better-paying job.',
+      'An employer firing an employee for caught stealing company funds.',
+      'An employer enforcing a strict but legal dress code policy.'
     ],
     rationale: 'Constructive dismissal happens when an employer creates a hostile or unbearable work environment (like a demotion without cause), effectively forcing the employee to resign. The law treats this as an illegal dismissal.'
   },
@@ -2693,9 +2693,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can a six-month Probationary Period be legally extended?',
     correctAnswer: 'Yes, but only if both the employer and the employee mutually agree to the extension BEFORE the initial six-month period expires.',
     incorrectAnswers: [
-      'No, the Labor Code strictly and absolutely forbids extending a probationary period under any circumstance whatsoever.',
-      'Yes, the employer possesses the absolute prerogative to unilaterally extend it up to two full years without the employee\'s consent.',
-      'Yes, but absolutely only upon the issuance of a formal written order directly from the DOLE Secretary.'
+      'No, the Labor Code strictly forbids extending a probationary period under any circumstance.',
+      'Yes, the employer can unilaterally extend it up to two years without the employee\'s consent.',
+      'Yes, but only by order of the DOLE Secretary.'
     ],
     rationale: 'While generally 6 months, it can be extended if the nature of the work requires a longer training period to determine fitness, provided the employee consents to this extension prior to becoming regular by default.'
   },
@@ -2706,9 +2706,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are part-time hourly-paid teachers in private schools legally entitled to statutory Holiday Pay?',
     correctAnswer: 'No, hourly-paid private school teachers are generally exempt from statutory holiday pay unless otherwise provided by school policy or contract.',
     incorrectAnswers: [
-      'Yes, absolutely all teachers in the Philippines must legally receive exactly double pay on all regular national holidays.',
-      'Yes, but strictly only for the two major holidays: Christmas Day and New Year’s Day.',
-      'No, because absolutely all private school teachers are legally classified as exempt managerial employees.'
+      'Yes, all teachers in the Philippines must receive double pay on regular holidays.',
+      'Yes, but only for Christmas and New Year.',
+      'No, because teachers are classified as managerial employees.'
     ],
     rationale: 'The Supreme Court has ruled that part-time teachers who are paid on an hourly basis are not entitled to holiday pay, as their employment contracts are essentially "no work, no pay".'
   },
@@ -2719,9 +2719,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what are the standard optional and compulsory retirement ages for private employees?',
     correctAnswer: 'Optional retirement at sixty (60) years old, and Compulsory retirement at sixty-five (65) years old.',
     incorrectAnswers: [
-      'Optional at exactly fifty (50), Compulsory at exactly sixty (60).',
-      'Optional at exactly fifty-five (55), Compulsory at exactly seventy (70).',
-      'Optional at exactly sixty-five (65), Compulsory at exactly seventy-five (75).'
+      'Optional at fifty (50), Compulsory at sixty (60).',
+      'Optional at fifty-five (55), Compulsory at seventy (70).',
+      'Optional at sixty-five (65), Compulsory at seventy-five (75).'
     ],
     rationale: 'Upon reaching 60 (with at least 5 years of service), an employee MAY retire. Upon reaching 65, the employer CAN forcefully retire the employee, and they are entitled to retirement pay.'
   },
@@ -2732,9 +2732,9 @@ export const questionBank: QuestionData[] = [
     text: 'How is the minimum statutory Retirement Pay calculated in the absence of a company retirement plan?',
     correctAnswer: 'Minimum of 22.5 days of salary for every year of service.',
     incorrectAnswers: [
-      'A minimum of exactly 15 days of basic salary for every single year of continuous service.',
-      'A minimum of exactly 30 days of basic salary for every single year of continuous service.',
-      'A fixed flat lump sum of exactly PHP 100,000 regardless of the employee\'s total years of service.'
+      'Minimum of 15 days of salary for every year of service.',
+      'Minimum of 30 days of salary for every year of service.',
+      'A flat lump sum of PHP 100,000 regardless of years of service.'
     ],
     rationale: 'The 22.5 days formula consists of: 15 days basic salary + 5 days service incentive leave (SIL) + 2.5 days (1/12 of 13th month pay).'
   },
@@ -2745,9 +2745,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the employment status of Filipino Seafarers working on international vessels?',
     correctAnswer: 'They are considered contractual employees whose employment terminates upon the expiration of their POEA-approved contract.',
     incorrectAnswers: [
-      'They are explicitly considered regular, tenured employees of the foreign international vessel owner.',
-      'They are legally considered probationary employees for the entire duration of their first 5 years of service.',
-      'They are officially considered government employees strictly managed and paid by the POEA.'
+      'They are considered regular employees of the foreign vessel owner.',
+      'They are considered probationary employees for the first 5 years.',
+      'They are considered government employees managed by the POEA.'
     ],
     rationale: 'The Supreme Court has consistently ruled that seafarers are contractual employees. They do not attain regular status, regardless of how many times their contracts are renewed by the same manning agency.'
   },
@@ -2758,9 +2758,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary legal limitation on "Management Prerogative"?',
     correctAnswer: 'It must be exercised in good faith, with due regard to the rights of labor, and not for the purpose of circumventing the law or defeating unionism.',
     incorrectAnswers: [
-      'It absolutely must be formally approved by a strict 2/3 majority vote of the recognized employee labor union.',
-      'It can legally only be exercised directly by the CEO and absolutely cannot be delegated to the HR department.',
-      'It explicitly must be formally published in a national newspaper of general circulation before legally taking effect.'
+      'It must be approved by a 2/3 vote of the employee union.',
+      'It can only be exercised by the CEO and cannot be delegated to HR.',
+      'It must be published in a national newspaper before taking effect.'
     ],
     rationale: 'While employers have the inherent right to run their business (hiring, firing, transferring, setting policies), this prerogative is not absolute and cannot be used maliciously to oppress workers.'
   },
@@ -2774,9 +2774,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the key difference between a "Behavioral Interview" and a "Situational Interview"?',
     correctAnswer: 'Behavioral interviews ask how the candidate handled a situation in the past, while situational interviews ask how they would handle a hypothetical future situation.',
     incorrectAnswers: [
-      'Behavioral interviews strictly focus on hard technical skills, while situational interviews strictly focus on soft personality traits.',
-      'Behavioral interviews are exclusively conducted by HR staff, while situational interviews are exclusively conducted by the CEO.',
-      'There is absolutely no distinction; the two terms are completely synonymous and used interchangeably in all HR literature.'
+      'Behavioral interviews focus on technical skills, while situational interviews focus on personality.',
+      'Behavioral interviews are conducted by HR, while situational interviews are conducted by the CEO.',
+      'There is no difference; the terms are completely synonymous.'
     ],
     rationale: 'Behavioral ("Tell me about a time when you...") operates on the premise that past behavior predicts future behavior. Situational ("What would you do if...") tests problem-solving in real-time.'
   },
@@ -2787,9 +2787,9 @@ export const questionBank: QuestionData[] = [
     text: 'In educational psychology and training design, what is "Bloom’s Taxonomy"?',
     correctAnswer: 'A hierarchical framework used to classify educational learning objectives into levels of complexity and specificity, from basic recall to higher-order creation.',
     incorrectAnswers: [
-      'A complex financial mathematical model utilized by CFOs to calculate the exact return on investment of a training program.',
-      'A highly strict biological assessment matrix used to determine an employee\'s absolute physical fitness for a hazardous job.',
-      'A strict legal framework dictating the exact mandatory minimum hours of training required per employee per calendar year.'
+      'A financial model used to calculate the return on investment of a training program.',
+      'A biological assessment used to determine an employee\'s physical fitness for a job.',
+      'A legal framework dictating the mandatory hours of training required per year.'
     ],
     rationale: 'Trainers use Bloom’s Taxonomy (Remember, Understand, Apply, Analyze, Evaluate, Create) to ensure they are designing training that moves beyond just memorization into actual skill application.'
   },
@@ -2800,9 +2800,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Piece-Rate Pay"?',
     correctAnswer: 'A compensation system where an employee is paid a fixed rate for each unit produced or action performed, regardless of the time it takes.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding paying an employee based strictly on the number of hours they log on the clock, requiring highly expensive proprietary software algorithms to implement.',
-      'A specialized administrative procedure focused on a system where employees receive a piece of the company’s annual profits, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A specialized administrative procedure focused on paying an employee in physical goods or "pieces" rather than cash, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Paying an employee based strictly on the number of hours they log on the clock.',
+      'A system where employees receive a piece of the company’s annual profits.',
+      'Paying an employee in physical goods or "pieces" rather than cash.'
     ],
     rationale: 'Piece-rate (or piece-work) incentivizes speed and volume, commonly used in manufacturing or garments, though minimum wage laws still apply if quotas are met.'
   },
@@ -2813,9 +2813,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the acronym "MBO" stand for in performance management?',
     correctAnswer: 'Management by Objectives',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of measurement of Business Outcomes, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding managers Based Overseas, requiring highly expensive proprietary software algorithms to implement.',
-      'The rigorous quantitative psychological assessment of mandatory Behavioral Observation, heavily criticized for significantly eroding long-term employee morale.'
+      'Measurement of Business Outcomes',
+      'Managers Based Overseas',
+      'Mandatory Behavioral Observation'
     ],
     rationale: 'MBO, popularized by Peter Drucker, is a model where managers and employees collaboratively set, record, and monitor specific goals for a specific period, aligning individual goals with corporate objectives.'
   },
@@ -2826,9 +2826,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Position Analysis Questionnaire" (PAQ)?',
     correctAnswer: 'A highly structured, quantitative job analysis questionnaire that evaluates job skill level and basic characteristics of applicants for a set match of employment opportunity.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a casual interview guide used only during the final interview stage, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a survey given to customers to evaluate an employee’s customer service, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of a medical questionnaire given to applicants to check for pre-existing conditions, heavily criticized for significantly eroding long-term employee morale.'
+      'A casual interview guide used only during the final interview stage.',
+      'A survey given to customers to evaluate an employee’s customer service.',
+      'A medical questionnaire given to applicants to check for pre-existing conditions.'
     ],
     rationale: 'The PAQ contains 194 items evaluating Information Input, Mental Processes, Work Output, Relationships, Job Context, and Other Characteristics, making it one of the most scientifically rigorous job analysis tools.'
   },
@@ -2839,9 +2839,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the Philippines, what government body is the primary equivalent to the US OSHA (Occupational Safety and Health Administration) in terms of formulating safety standards?',
     correctAnswer: 'The Occupational Safety and Health Center (OSHC) under the Department of Labor and Employment (DOLE).',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on the Department of Health (DOH), designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An exclusive executive-level methodology regarding the Philippine National Police (PNP), requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of the National Bureau of Investigation (NBI), applicable exclusively to massive multinational PEZA-registered entities.'
+      'The Department of Health (DOH).',
+      'The Philippine National Police (PNP).',
+      'The National Bureau of Investigation (NBI).'
     ],
     rationale: 'The OSHC is the authority on research, training, and formulation of OSH standards in the Philippines to prevent work-related injuries and illnesses.'
   },
@@ -2852,9 +2852,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the term "Gig Economy" refer to in modern workforce planning?',
     correctAnswer: 'A labor market characterized by the prevalence of short-term contracts or freelance work as opposed to permanent jobs.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving an economy driven solely by musicians and entertainment professionals, utilized strictly for C-suite and executive performance metrics.',
-      'The rigorous quantitative psychological assessment of a corporate policy that bans the use of temporary workers entirely, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving a massive hiring surge that happens only during economic booms, utilized strictly for C-suite and executive performance metrics.'
+      'An economy driven solely by musicians and entertainment professionals.',
+      'A corporate policy that bans the use of temporary workers entirely.',
+      'A massive hiring surge that happens only during economic booms.'
     ],
     rationale: 'The gig economy relies heavily on independent contractors and freelancers (e.g., Uber drivers, Upwork freelancers), fundamentally changing how HR approaches talent acquisition and benefits.'
   },
@@ -2865,9 +2865,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are the four levels of evaluation in Kirkpatrick’s Model?',
     correctAnswer: 'Reaction, Learning, Behavior, and Results.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on planning, Execution, Monitoring, and Closing, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The rigorous quantitative psychological assessment of pre-test, Mid-test, Post-test, and Final Exam, heavily criticized for significantly eroding long-term employee morale.',
-      'An advanced organizational development strategy utilizing financial, Customer, Internal Processes, and Learning/Growth, which completely bypasses standard operational DOLE regulations.'
+      'Planning, Execution, Monitoring, and Closing.',
+      'Pre-test, Mid-test, Post-test, and Final Exam.',
+      'Financial, Customer, Internal Processes, and Learning/Growth.'
     ],
     rationale: 'Kirkpatrick’s model is the standard for evaluating training: (1) Did they like it? (2) Did they learn it? (3) Are they using it on the job? (4) Did it impact the business bottom line?'
   },
@@ -2878,9 +2878,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "ESOP" (Employee Stock Ownership Plan)?',
     correctAnswer: 'An employee benefit plan that gives workers ownership interest in the company in the form of shares of stock.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a government-mandated emergency savings program, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing a plan where employees must purchase company products at full retail price, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a specialized health insurance plan for executive officers only, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A government-mandated emergency savings program.',
+      'A plan where employees must purchase company products at full retail price.',
+      'A specialized health insurance plan for executive officers only.'
     ],
     rationale: 'ESOPs align the interests of employees with those of shareholders, as employees benefit directly (through stock value appreciation) when the company performs well.'
   },
@@ -2891,9 +2891,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Spillover Effect" (or carry-over effect) in performance appraisal?',
     correctAnswer: 'A bias where a manager allows an employee’s past performance ratings to unjustifiably influence their current appraisal.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on when an employee’s bad mood spills over and affects the rest of the team, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of when a company’s financial losses cause them to skip performance appraisals, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding rating an employee highly because they are physically attractive, requiring highly expensive proprietary software algorithms to implement.'
+      'When an employee’s bad mood spills over and affects the rest of the team.',
+      'When a company’s financial losses cause them to skip performance appraisals.',
+      'Rating an employee highly because they are physically attractive.'
     ],
     rationale: 'If an employee was a top performer three years ago, a manager suffering from the spillover effect might continue giving them top ratings today, even if their current performance has drastically dropped.'
   },
@@ -2908,9 +2908,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Expanded Maternity Leave Law (RA 11210), how many days of paid leave is a female employee entitled to for a live birth?',
     correctAnswer: 'One hundred five (105) days, with an option to extend for an additional 30 days without pay.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating sixty (60) days for normal delivery, seventy-eight (78) for caesarian, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving one hundred twenty (120) days regardless of the mode of delivery, stripping the employee of absolutely all statutory monetary claims.',
-      'The strict legal prohibition against ninety (90) days for all types of deliveries, explicitly exempting all managerial and supervisory employees.'
+      'Sixty (60) days for normal delivery, seventy-eight (78) for caesarian.',
+      'One hundred twenty (120) days regardless of the mode of delivery.',
+      'Ninety (90) days for all types of deliveries.'
     ],
     rationale: 'RA 11210 significantly expanded the benefit from the old 60/78 days to a uniform 105 days of paid leave for live births, regardless of whether it was normal or caesarian delivery, plus an extra 15 days if the mother is a solo parent.'
   },
@@ -2921,9 +2921,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Paternity Leave Act of 1996 (RA 8187), how many days of paid leave is a married male employee entitled to?',
     correctAnswer: 'Seven (7) days with full pay for the first four deliveries of the legitimate spouse.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring ten (10) days with full pay for unlimited deliveries, unconditionally subjecting the employer to massive punitive damages.',
-      'The mandatory administrative DOLE order dictating fourteen (14) days with half pay, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against thirty (30) days with full pay, explicitly exempting all managerial and supervisory employees.'
+      'Ten (10) days with full pay for unlimited deliveries.',
+      'Fourteen (14) days with half pay.',
+      'Thirty (30) days with full pay.'
     ],
     rationale: 'The law strictly limits paternity leave to 7 days, applies only to married men living with their legitimate spouses, and is capped at the first four deliveries or miscarriages.'
   },
@@ -2934,9 +2934,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Magna Carta of Women (RA 9710), what is the maximum duration of the Special Leave Benefit for gynecological disorders?',
     correctAnswer: 'Two (2) months with full pay.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating one (1) month with full pay, under severe penalty of immediate corporate closure.',
-      'The strict legal prohibition against three (3) months with half pay, explicitly exempting all managerial and supervisory employees.',
-      'An absolute requirement under the Civil Code regarding six (6) months without pay, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'One (1) month with full pay.',
+      'Three (3) months with half pay.',
+      'Six (6) months without pay.'
     ],
     rationale: 'Following surgery caused by gynecological disorders, a qualified female employee (having 6 months of continuous service in the last 12 months) is entitled to a special leave of up to 2 months with full pay.'
   },
@@ -2947,9 +2947,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Anti-Violence Against Women and Their Children Act (RA 9262), how many days of paid leave is a victim entitled to?',
     correctAnswer: 'Ten (10) days of paid leave, which is extendible depending on the protection order.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating five (5) days of paid leave, under severe penalty of immediate corporate closure.',
-      'The strict legal prohibition against thirty (30) days of paid leave, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving sixty (60) days of paid leave, stripping the employee of absolutely all statutory monetary claims.'
+      'Five (5) days of paid leave.',
+      'Thirty (30) days of paid leave.',
+      'Sixty (60) days of paid leave.'
     ],
     rationale: 'The 10-day VAWC leave allows female employees who are victims of violence to attend to medical and legal concerns. The employer cannot require prior notice if it risks the employee’s safety, though a certification from the barangay or court is required.'
   },
@@ -2960,9 +2960,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the required separation pay for an employee terminated due to REDUNDANCY?',
     correctAnswer: 'At least one (1) month pay, or one (1) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving one-half (1/2) month pay for every year of service, stripping the employee of absolutely all statutory monetary claims.',
-      'The strict legal prohibition against two (2) months pay for every year of service, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving there is no separation pay required for redundancy, stripping the employee of absolutely all statutory monetary claims.'
+      'One-half (1/2) month pay for every year of service.',
+      'Two (2) months pay for every year of service.',
+      'There is no separation pay required for redundancy.'
     ],
     rationale: 'Redundancy (when the company hires more people than necessary, or machinery replaces a job) requires a higher separation pay (1 month/year) compared to retrenchment (which is 1/2 month/year).'
   },
@@ -2973,9 +2973,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the required separation pay for an employee terminated due to RETRENCHMENT to prevent losses?',
     correctAnswer: 'At least one (1) month pay, or one-half (1/2) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving one (1) month pay for every year of service, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring one-fourth (1/4) month pay for every year of service, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding retrenchment automatically forfeits all separation pay, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'One (1) month pay for every year of service.',
+      'One-fourth (1/4) month pay for every year of service.',
+      'Retrenchment automatically forfeits all separation pay.'
     ],
     rationale: 'Because retrenchment implies the company is suffering actual or imminent financial losses, the law reduces the separation pay burden to 1/2 month per year of service to prevent the company from going completely bankrupt.'
   },
@@ -2986,9 +2986,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the minimum tenure required for a rank-and-file employee to be entitled to a 13th-month pay?',
     correctAnswer: 'At least one (1) month of service during the calendar year.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating at least six (6) months of service, under severe penalty of immediate corporate closure.',
-      'A rigid statutory DOLE regulation explicitly mandating at least one (1) full year of continuous service, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding they are entitled immediately on day one, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'At least six (6) months of service.',
+      'At least one (1) full year of continuous service.',
+      'They are entitled immediately on day one.'
     ],
     rationale: 'Under PD 851, any rank-and-file employee who has worked for at least one month during the calendar year is entitled to a proportionate 13th-month pay.'
   },
@@ -2999,9 +2999,9 @@ export const questionBank: QuestionData[] = [
     text: 'Where in the Philippine Constitution is the Right to Self-Organization explicitly guaranteed?',
     correctAnswer: 'Article III, Section 8 (Bill of Rights) and Article XIII, Section 3 (Social Justice and Human Rights).',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating article I, Section 1 (National Territory), under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring article VII, Section 1 (Executive Department), unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring it is not in the Constitution; it is only in the Labor Code, unconditionally subjecting the employer to massive punitive damages.'
+      'Article I, Section 1 (National Territory).',
+      'Article VII, Section 1 (Executive Department).',
+      'It is not in the Constitution; it is only in the Labor Code.'
     ],
     rationale: 'The Constitution explicitly guarantees the right of all workers to self-organization, collective bargaining and negotiations, and peaceful concerted activities, including the right to strike in accordance with law.'
   },
@@ -3012,9 +3012,9 @@ export const questionBank: QuestionData[] = [
     text: 'Where must a Collective Bargaining Agreement (CBA) be registered to be legally binding and bar other union elections?',
     correctAnswer: 'With the Department of Labor and Employment (DOLE) through the Bureau of Labor Relations (BLR) or Regional Office.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning with the Securities and Exchange Commission (SEC), strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning with the Local Government Unit (City Hall), strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating with the Supreme Court of the Philippines, under severe penalty of immediate corporate closure.'
+      'With the Securities and Exchange Commission (SEC).',
+      'With the Local Government Unit (City Hall).',
+      'With the Supreme Court of the Philippines.'
     ],
     rationale: 'Registration with DOLE/BLR makes the CBA a public contract, triggering the "Contract Bar Rule," which prevents other labor unions from filing a petition for a certification election during the first 5 years of the CBA.'
   },
@@ -3025,9 +3025,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are the two primary elements that define illegal "Labor-Only Contracting"?',
     correctAnswer: 'The contractor lacks substantial capital or investment, OR the contractor does not exercise the right of control over the performance of the work.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring the contractor operates outside the Philippines, AND pays less than minimum wage, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding the contractor has more than 500 employees, OR operates in multiple regions, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding the contractor refuses to pay taxes, AND refuses to provide uniforms, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The contractor operates outside the Philippines, AND pays less than minimum wage.',
+      'The contractor has more than 500 employees, OR operates in multiple regions.',
+      'The contractor refuses to pay taxes, AND refuses to provide uniforms.'
     ],
     rationale: 'If the contractor is just a recruiter with no real capital/equipment (acting as a dummy), or if the principal company\'s managers are the ones directly commanding the contractor\'s workers, it is illegal labor-only contracting.'
   },
@@ -3041,9 +3041,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Graphology" in the context of employment testing?',
     correctAnswer: 'The analysis of an applicant\'s handwriting to infer psychological traits and personality characteristics.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on the use of lie detector tests during the interview process, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An exclusive executive-level methodology regarding the statistical analysis of an applicant’s college grades, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding a physical medical examination measuring heart rate under stress, requiring highly expensive proprietary software algorithms to implement.'
+      'The use of lie detector tests during the interview process.',
+      'The statistical analysis of an applicant’s college grades.',
+      'A physical medical examination measuring heart rate under stress.'
     ],
     rationale: 'While popular in some countries (like France), graphology is highly controversial in HR and generally considered to have low scientific validity and reliability for predicting job performance.'
   },
@@ -3054,9 +3054,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Shadowing"?',
     correctAnswer: 'A training method where a new or junior employee follows and observes an experienced worker to understand the day-to-day realities of a role.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of secretly monitoring an employee’s internet usage during work hours, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on working the night shift in complete darkness as a team-building exercise, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing a disciplinary action where an employee is constantly followed by security, which completely bypasses standard operational DOLE regulations.'
+      'Secretly monitoring an employee’s internet usage during work hours.',
+      'Working the night shift in complete darkness as a team-building exercise.',
+      'A disciplinary action where an employee is constantly followed by security.'
     ],
     rationale: 'Job shadowing is an observational, on-the-job training technique that provides realistic job previews and cross-training without the trainee taking on the actual work immediately.'
   },
@@ -3067,9 +3067,9 @@ export const questionBank: QuestionData[] = [
     text: 'In compensation metrics, what is a "Compa-Ratio" (comparative ratio)?',
     correctAnswer: 'A ratio that divides an employee\'s current salary by the midpoint of their salary range, used to assess internal equity and market competitiveness.',
     incorrectAnswers: [
-      'The highly theoretical management approach of the ratio of male to female employees in a specific pay grade, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A specialized administrative procedure focused on the comparison of an employee’s salary to the CEO’s salary, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An exclusive executive-level methodology regarding the percentage of an employee’s salary deducted for taxes, requiring highly expensive proprietary software algorithms to implement.'
+      'The ratio of male to female employees in a specific pay grade.',
+      'The comparison of an employee’s salary to the CEO’s salary.',
+      'The percentage of an employee’s salary deducted for taxes.'
     ],
     rationale: 'A compa-ratio of 1.0 means the employee is paid exactly at the market midpoint. A ratio of 0.80 means they are paid 20% below the midpoint, which may flag a retention risk.'
   },
@@ -3080,9 +3080,9 @@ export const questionBank: QuestionData[] = [
     text: 'How does a Behavioral Observation Scale (BOS) differ from a Behaviorally Anchored Rating Scale (BARS)?',
     correctAnswer: 'BOS asks the rater to evaluate the FREQUENCY of specific behaviors (e.g., "Almost Always" to "Almost Never"), whereas BARS asks the rater to choose the specific behavior that best matches the employee.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing bOS is used only for executives, while BARS is used for entry-level, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of bOS is entirely subjective, while BARS is entirely mathematical, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of they are exactly the same; the terms are interchangeable, applicable exclusively to massive multinational PEZA-registered entities.'
+      'BOS is used only for executives, while BARS is used for entry-level.',
+      'BOS is entirely subjective, while BARS is entirely mathematical.',
+      'They are exactly the same; the terms are interchangeable.'
     ],
     rationale: 'BOS focuses on how often an employee exhibits a desired behavior (frequency), making it slightly easier to develop and use than BARS, which requires complex behavioral anchors for every numerical rating.'
   },
@@ -3093,9 +3093,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Crafting"?',
     correctAnswer: 'The proactive, self-initiated changes that employees make to their own job boundaries, tasks, and relationships to make the work more meaningful to them.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of the process of HR officially rewriting an outdated job description, heavily criticized for significantly eroding long-term employee morale.',
-      'The rigorous quantitative psychological assessment of an illegal practice of an employee doing personal hobbies on company time, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly theoretical management approach of the automated division of labor using artificial intelligence, theoretically eliminating absolutely all inherent cognitive biases.'
+      'The process of HR officially rewriting an outdated job description.',
+      'An illegal practice of an employee doing personal hobbies on company time.',
+      'The automated division of labor using artificial intelligence.'
     ],
     rationale: 'Unlike top-down job design (done by HR), job crafting is a bottom-up approach where employees redesign their own work (within limits) to align with their passions, boosting engagement.'
   },
@@ -3106,9 +3106,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the Philippines, what is BOSH training?',
     correctAnswer: 'Basic Occupational Safety and Health training, a mandatory 40-hour course prescribed by DOLE for safety officers.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing basic Organizational Structure and Hierarchy training, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of bureau of Social and Health Administration, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of business Operations and Strategic HR training, heavily criticized for significantly eroding long-term employee morale.'
+      'Basic Organizational Structure and Hierarchy training.',
+      'Bureau of Social and Health Administration.',
+      'Business Operations and Strategic HR training.'
     ],
     rationale: 'DOLE requires designated Safety Officers in a company to undergo the 40-hour BOSH training (or COSH for construction) to ensure they are qualified to implement the company\'s safety programs.'
   },
@@ -3119,9 +3119,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary advantage of an Employee Referral Program?',
     correctAnswer: 'It generally yields higher quality candidates, faster time-to-hire, and lower turnover because current employees pre-screen candidates and only recommend those who fit the culture.',
     incorrectAnswers: [
-      'The highly controversial HR framework of it completely eliminates the need to interview the referred candidates, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of it is legally mandated by the government for companies over 100 employees, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly controversial HR framework of it allows the company to pay the referred candidate below minimum wage, applicable exclusively to massive multinational PEZA-registered entities.'
+      'It completely eliminates the need to interview the referred candidates.',
+      'It is legally mandated by the government for companies over 100 employees.',
+      'It allows the company to pay the referred candidate below minimum wage.'
     ],
     rationale: 'Current employees risk their own reputation when they refer someone, so they act as a filter, bringing in candidates who are usually a strong cultural and technical fit.'
   },
@@ -3132,9 +3132,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a common disadvantage of unstructured On-the-Job Training (OJT)?',
     correctAnswer: 'It can pass on bad habits from the experienced worker to the trainee, and the training quality varies wildly depending on who is doing the training.',
     incorrectAnswers: [
-      'The highly controversial HR framework of it is far more expensive than sending employees to universities, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of it requires the company to build dedicated simulation rooms, heavily criticized for significantly eroding long-term employee morale.',
-      'An advanced organizational development strategy utilizing it is illegal for entry-level positions, which completely bypasses standard operational DOLE regulations.'
+      'It is far more expensive than sending employees to universities.',
+      'It requires the company to build dedicated simulation rooms.',
+      'It is illegal for entry-level positions.'
     ],
     rationale: 'While OJT is cheap and practical, if it lacks structure (unlike JIT), a veteran employee who takes safety shortcuts will teach the new hire to take those same shortcuts.'
   },
@@ -3145,9 +3145,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Pay Compression" (or Salary Compression)?',
     correctAnswer: 'A situation where there is little difference in pay between employees with vastly different levels of experience or responsibility, often caused by rising starting salaries for new hires.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a mandatory government deduction that compresses an employee’s take-home pay, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a disciplinary measure where an employee’s salary is reduced by 50%, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of paying all employees the exact same flat rate regardless of their job title, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A mandatory government deduction that compresses an employee’s take-home pay.',
+      'A disciplinary measure where an employee’s salary is reduced by 50%.',
+      'Paying all employees the exact same flat rate regardless of their job title.'
     ],
     rationale: 'Pay compression destroys morale. It happens when a company has to offer high market rates to attract new hires, resulting in new employees making almost as much as tenured employees or supervisors.'
   },
@@ -3158,9 +3158,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Critical Incident Method" of performance appraisal?',
     correctAnswer: 'A method where the manager keeps a continuous written log of highly effective or highly ineffective behaviors exhibited by the employee throughout the year.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding a method used strictly for evaluating the performance of emergency responders (police, fire), requiring highly expensive proprietary software algorithms to implement.',
-      'A strictly mandated corporate policy involving evaluating an employee based solely on how many accidents they caused, utilized strictly for C-suite and executive performance metrics.',
-      'A specialized administrative procedure focused on a group appraisal where all employees critique each other simultaneously, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A method used strictly for evaluating the performance of emergency responders (police, fire).',
+      'Evaluating an employee based solely on how many accidents they caused.',
+      'A group appraisal where all employees critique each other simultaneously.'
     ],
     rationale: 'By keeping a log of "critical incidents" year-round, managers avoid recency bias and have specific, concrete examples to discuss during the final appraisal meeting.'
   },
@@ -3175,9 +3175,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Magna Carta for Persons with Disability (RA 7277), what employment quota is mandated for government agencies?',
     correctAnswer: 'At least 1% of all positions in all government agencies, offices, or corporations shall be reserved for PWDs.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning at least 10% of all positions in all government agencies, strictly enforceable only during a declared state of national economic crisis.',
-      'A highly contentious Supreme Court jurisprudence involving private corporations must reserve 5% of their workforce for PWDs, stripping the employee of absolutely all statutory monetary claims.',
-      'The strict legal prohibition against there is no mandated employment quota for PWDs in the Philippines, explicitly exempting all managerial and supervisory employees.'
+      'At least 10% of all positions in all government agencies.',
+      'Private corporations must reserve 5% of their workforce for PWDs.',
+      'There is no mandated employment quota for PWDs in the Philippines.'
     ],
     rationale: 'RA 10524 (amending RA 7277) mandates a 1% quota for government agencies. For private corporations with more than 100 employees, the 1% quota is encouraged but not strictly mandatory.'
   },
@@ -3188,9 +3188,9 @@ export const questionBank: QuestionData[] = [
     text: 'Aside from the 7-day parental leave, what other workplace benefit is guaranteed under the Solo Parents Welfare Act (RA 8972)?',
     correctAnswer: 'The right to request a flexible work schedule, provided it does not affect core operations.',
     incorrectAnswers: [
-      'The strict legal prohibition against the right to a mandatory 20% salary increase, explicitly exempting all managerial and supervisory employees.',
-      'The strict legal prohibition against the right to bring children to the office every day, explicitly exempting all managerial and supervisory employees.',
-      'An absolute requirement under the Civil Code regarding the right to be exempted from paying income tax, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The right to a mandatory 20% salary increase.',
+      'The right to bring children to the office every day.',
+      'The right to be exempted from paying income tax.'
     ],
     rationale: 'Solo parents can request a flexible work schedule (e.g., arriving early and leaving early) to attend to their children, and employers are mandated to provide it unless it heavily disrupts operations.'
   },
@@ -3201,9 +3201,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the distinction between a "Just Cause" and an "Authorized Cause" for termination?',
     correctAnswer: 'Just causes are due to the employee\'s fault (e.g., theft), carrying no separation pay. Authorized causes are dictated by business necessity (e.g., retrenchment), requiring separation pay.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating just causes apply to regular employees, while authorized causes apply to probationary employees, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring just causes require DOLE approval, while authorized causes require NLRC approval, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving they mean exactly the same thing and both require separation pay, stripping the employee of absolutely all statutory monetary claims.'
+      'Just causes apply to regular employees, while authorized causes apply to probationary employees.',
+      'Just causes require DOLE approval, while authorized causes require NLRC approval.',
+      'They mean exactly the same thing and both require separation pay.'
     ],
     rationale: 'Just causes (Article 297) blame the employee (misconduct, neglect, fraud). Authorized causes (Article 298/299) do not blame the employee but allow the business to survive (redundancy, closure, disease).'
   },
@@ -3214,9 +3214,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what is the statutory number of days an employee must be absent without leave (AWOL) to be validly terminated for abandonment?',
     correctAnswer: 'There is no statutory number of days; abandonment depends on unjustified absence AND overt acts showing a clear intent not to return, regardless of the number of days.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating exactly three (3) consecutive days, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding exactly five (5) consecutive days, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'A highly contentious Supreme Court jurisprudence involving exactly thirty (30) consecutive days, stripping the employee of absolutely all statutory monetary claims.'
+      'Exactly three (3) consecutive days.',
+      'Exactly five (5) consecutive days.',
+      'Exactly thirty (30) consecutive days.'
     ],
     rationale: 'While many company policies specify 3 or 5 days of AWOL as a ground for dismissal, the Supreme Court rules that simple AWOL is not abandonment unless there is clear proof the employee never intends to return.'
   },
@@ -3227,9 +3227,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the standard probationary period for teaching personnel in private academic institutions?',
     correctAnswer: 'Three (3) consecutive school years of satisfactory service for basic education and tertiary levels.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring six (6) months, same as standard corporate employees, unconditionally subjecting the employer to massive punitive damages.',
-      'The mandatory administrative DOLE order dictating one (1) academic semester, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating five (5) continuous school years, which is absolutely void ab initio due to contrary public policy.'
+      'Six (6) months, same as standard corporate employees.',
+      'One (1) academic semester.',
+      'Five (5) continuous school years.'
     ],
     rationale: 'Under the Manual of Regulations for Private Schools, teachers acquire regular/permanent status only after rendering 3 consecutive school years of satisfactory service (or 6 consecutive semesters in college).'
   },
@@ -3240,9 +3240,9 @@ export const questionBank: QuestionData[] = [
     text: 'To claim the SSS Maternity Benefit, what notification requirement must the female employee fulfill?',
     correctAnswer: 'She must notify her employer of her pregnancy and the probable date of childbirth, and the employer must then transmit this notice to the SSS.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring she must wait until the baby is born before notifying the employer, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving she must notify the NLRC directly within 24 hours of discovering the pregnancy, stripping the employee of absolutely all statutory monetary claims.',
-      'An absolute requirement under the Civil Code regarding she must secure a DOLE permit before going on maternity leave, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'She must wait until the baby is born before notifying the employer.',
+      'She must notify the NLRC directly within 24 hours of discovering the pregnancy.',
+      'She must secure a DOLE permit before going on maternity leave.'
     ],
     rationale: 'Failure to give this notice to the employer (or to the SSS if self-employed/separated) may result in the forfeiture of the maternity benefit or force the employer to pay the benefit out of pocket.'
   },
@@ -3253,9 +3253,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the "Principle of Regular Employment," what primarily determines whether an employee is regular or not?',
     correctAnswer: 'The reasonable connection between the particular activity performed by the employee and the usual business or trade of the employer, NOT the title of their contract.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating the exact wording and title written on the employment contract, under severe penalty of immediate corporate closure.',
-      'The absolute constitutional principle concerning the amount of salary the employee receives, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating the decision of the company’s HR Director, under severe penalty of immediate corporate closure.'
+      'The exact wording and title written on the employment contract.',
+      'The amount of salary the employee receives.',
+      'The decision of the company’s HR Director.'
     ],
     rationale: 'Article 295 states that an employee who performs tasks usually necessary or desirable in the usual business of the employer is a regular employee. A company cannot circumvent this by labeling a permanent worker as a "project" or "fixed-term" worker in a contract.'
   },
@@ -3266,9 +3266,9 @@ export const questionBank: QuestionData[] = [
     text: 'What kind of cases fall under the original and exclusive jurisdiction of Labor Arbiters (NLRC)?',
     correctAnswer: 'Unfair labor practice cases, termination disputes (illegal dismissal), and claims for damages arising from employer-employee relations.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning criminal cases for theft committed by an employee, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning divorce and annulment cases for married employees, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding corporate disputes between the CEO and the Board of Directors, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Criminal cases for theft committed by an employee.',
+      'Divorce and annulment cases for married employees.',
+      'Corporate disputes between the CEO and the Board of Directors.'
     ],
     rationale: 'Labor Arbiters (under the NLRC) have exclusive jurisdiction over major labor disputes that involve the employer-employee relationship, particularly illegal dismissal and large money claims (exceeding PHP 5,000).'
   },
@@ -3279,9 +3279,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following employees is EXEMPT from the mandatory 13th-month pay law?',
     correctAnswer: 'Managerial employees, government employees, and those paid on purely commission/boundary basis.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating rank-and-file employees who have worked for 11 months, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against probationary employees who have worked for 3 months, explicitly exempting all managerial and supervisory employees.',
-      'An absolute requirement under the Civil Code regarding employees working in the BPO (Business Process Outsourcing) industry, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Rank-and-file employees who have worked for 11 months.',
+      'Probationary employees who have worked for 3 months.',
+      'Employees working in the BPO (Business Process Outsourcing) industry.'
     ],
     rationale: 'Under PD 851, the 13th-month pay is strictly for rank-and-file employees. Managers are legally exempt, though many companies voluntarily provide it to managers as a company policy.'
   },
@@ -3292,9 +3292,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, can an employer validly dismiss an employee based solely on "loss of trust and confidence"?',
     correctAnswer: 'Yes, provided the employee holds a position of trust and confidence (managerial/fiduciary) and there is substantial evidence of an actual breach of trust.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring no, loss of trust is a subjective feeling and never a valid ground for dismissal, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring yes, but it applies to all employees, including ordinary janitors and messengers, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating no, it requires the employee to have committed a felony punishable by prison, under severe penalty of immediate corporate closure.'
+      'No, loss of trust is a subjective feeling and never a valid ground for dismissal.',
+      'Yes, but it applies to all employees, including ordinary janitors and messengers.',
+      'No, it requires the employee to have committed a felony punishable by prison.'
     ],
     rationale: 'Loss of trust and confidence is a just cause (Article 297), but it has two requisites: (1) the employee holds a position of trust (managers, cashiers, auditors), and (2) there is a willful act that breaches that trust (e.g., embezzlement, leaking trade secrets).'
   },
@@ -3308,9 +3308,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of a "Stress Interview"?',
     correctAnswer: 'To intentionally place the candidate in an uncomfortable or hostile situation to observe how they handle pressure and emotional stress.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing to test the physical strength of the candidate by making them lift weights, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of to force the candidate to reveal confidential information about their previous employer, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving to make the interview process as fast as possible to save time, utilized strictly for C-suite and executive performance metrics.'
+      'To test the physical strength of the candidate by making them lift weights.',
+      'To force the candidate to reveal confidential information about their previous employer.',
+      'To make the interview process as fast as possible to save time.'
     ],
     rationale: 'Stress interviews (involving rapid-fire questions, aggressive tones, or bizarre scenarios) are sometimes used for high-pressure jobs (like law enforcement or air traffic control) to see if the applicant breaks character under pressure.'
   },
@@ -3321,9 +3321,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Action Learning" in the context of leadership development?',
     correctAnswer: 'A training method where small groups work on real, complex organizational problems, learn from the process, and implement actual solutions.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on learning physical actions through repetitive motion drills, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of a passive seminar where executives watch action movies for inspiration, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving memorizing theoretical frameworks without applying them, utilized strictly for C-suite and executive performance metrics.'
+      'Learning physical actions through repetitive motion drills.',
+      'A passive seminar where executives watch action movies for inspiration.',
+      'Memorizing theoretical frameworks without applying them.'
     ],
     rationale: 'Action learning is highly practical. Instead of doing a case study on a fake company, the group is given a real problem the company is currently facing and tasked with solving it as their training exercise.'
   },
@@ -3334,9 +3334,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Broadbanding" in compensation design?',
     correctAnswer: 'Collapsing multiple traditional salary grades into a few wide "bands" to allow for more flexibility in lateral career moves and pay increases.',
     incorrectAnswers: [
-      'The highly theoretical management approach of paying employees in multiple different currencies to avoid inflation, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of providing high-speed internet as a mandatory employee benefit, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing setting a strict, narrow limit on how much an employee can earn in bonuses, which completely bypasses standard operational DOLE regulations.'
+      'Paying employees in multiple different currencies to avoid inflation.',
+      'Providing high-speed internet as a mandatory employee benefit.',
+      'Setting a strict, narrow limit on how much an employee can earn in bonuses.'
     ],
     rationale: 'Broadbanding flattens the organizational hierarchy. Instead of having 15 narrow pay grades where employees must be promoted to get a raise, broadbanding creates 4 or 5 wide bands, allowing people to grow their salary without needing a new title.'
   },
@@ -3347,9 +3347,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Leniency Bias" in performance appraisals?',
     correctAnswer: 'A rating error where a manager artificially rates almost all employees higher than they actually deserve.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a rating error where a manager rates everyone extremely harshly, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of a bias against older employees when evaluating physical tasks, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The rigorous quantitative psychological assessment of a bias where the manager only remembers the last two weeks of performance, heavily criticized for significantly eroding long-term employee morale.'
+      'A rating error where a manager rates everyone extremely harshly.',
+      'A bias against older employees when evaluating physical tasks.',
+      'A bias where the manager only remembers the last two weeks of performance.'
     ],
     rationale: 'Leniency bias often happens because managers want to avoid conflict, want their team to look good to upper management, or want to ensure everyone gets a bonus, rendering the appraisal useless for identifying top talent.'
   },
@@ -3360,9 +3360,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is O*NET (Occupational Information Network)?',
     correctAnswer: 'A comprehensive, free online database maintained by the US Department of Labor that contains hundreds of occupational definitions, skills, and job requirements.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding a private recruiting firm exclusively for tech executives, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of a mandatory government software used to process payroll taxes, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The rigorous quantitative psychological assessment of an internal company network used to monitor employee emails, heavily criticized for significantly eroding long-term employee morale.'
+      'A private recruiting firm exclusively for tech executives.',
+      'A mandatory government software used to process payroll taxes.',
+      'An internal company network used to monitor employee emails.'
     ],
     rationale: 'O*NET is the gold standard resource for HR professionals conducting job analysis, providing detailed baseline data for almost every known occupation.'
   },
@@ -3373,9 +3373,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary focus of "Ergonomics" in the workplace?',
     correctAnswer: 'Designing and arranging workspaces, tools, and equipment so that they fit the physical capabilities and limitations of the people using them.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding managing the financial economics of the company’s risk portfolio, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding ensuring that all employees speak the exact same language in the office, requiring highly expensive proprietary software algorithms to implement.',
-      'A strictly mandated corporate policy involving strictly enforcing the dress code to ensure a professional appearance, utilized strictly for C-suite and executive performance metrics.'
+      'Managing the financial economics of the company’s risk portfolio.',
+      'Ensuring that all employees speak the exact same language in the office.',
+      'Strictly enforcing the dress code to ensure a professional appearance.'
     ],
     rationale: 'Ergonomics aims to prevent musculoskeletal disorders (like carpal tunnel or back pain) by adapting the job to the worker (e.g., adjustable chairs, proper desk height), rather than forcing the worker to adapt to the job.'
   },
@@ -3386,9 +3386,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Blind Hiring"?',
     correctAnswer: 'A recruitment process that removes personally identifiable information (like name, gender, age, or education) from resumes to prevent unconscious bias.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding hiring candidates without interviewing them at all, requiring highly expensive proprietary software algorithms to implement.',
-      'The rigorous quantitative psychological assessment of hiring solely individuals who are legally blind to meet PWD quotas, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly controversial HR framework of a process where the interviewer wears a blindfold, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Hiring candidates without interviewing them at all.',
+      'Hiring solely individuals who are legally blind to meet PWD quotas.',
+      'A process where the interviewer wears a blindfold.'
     ],
     rationale: 'By stripping names (which might imply race or gender) and graduation years (which imply age), recruiters are forced to evaluate candidates purely on their skills and experience.'
   },
@@ -3399,9 +3399,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the main difference between "E-Learning" and "Blended Learning"?',
     correctAnswer: 'E-learning is conducted entirely online, whereas blended learning combines online digital media with traditional instructor-led classroom methods.',
     incorrectAnswers: [
-      'The highly controversial HR framework of e-learning is for technical skills, while blended learning is for soft skills, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of blended learning is entirely online, while e-learning requires physical books, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding there is no difference; they are exactly the same concept, requiring highly expensive proprietary software algorithms to implement.'
+      'E-learning is for technical skills, while blended learning is for soft skills.',
+      'Blended learning is entirely online, while e-learning requires physical books.',
+      'There is no difference; they are exactly the same concept.'
     ],
     rationale: 'Blended learning (or hybrid learning) provides the flexibility of online modules while retaining the human interaction and immediate feedback of a live instructor.'
   },
@@ -3412,9 +3412,9 @@ export const questionBank: QuestionData[] = [
     text: 'How does "Profit Sharing" differ from "Gainsharing"?',
     correctAnswer: 'Profit sharing distributes a portion of overall company profits, while gainsharing rewards employees for specific improvements in productivity or cost savings, regardless of overall profit.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing profit sharing is illegal, while gainsharing is mandated by the government, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of profit sharing gives employees stock, while gainsharing gives cash, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly controversial HR framework of gainsharing is for executives only, while profit sharing is for rank-and-file, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Profit sharing is illegal, while gainsharing is mandated by the government.',
+      'Profit sharing gives employees stock, while gainsharing gives cash.',
+      'Gainsharing is for executives only, while profit sharing is for rank-and-file.'
     ],
     rationale: 'If a team figures out a way to cut material waste by 20%, they receive a gainsharing bonus for that specific saving. Even if the company loses money that year overall, the gainsharing bonus must still be paid.'
   },
@@ -3425,9 +3425,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Central Tendency Error" in performance evaluation?',
     correctAnswer: 'A rating error where a manager rates all or most employees as "average" or in the middle of the scale, avoiding both high and low ratings.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding a statistical error in calculating the median salary of the team, requiring highly expensive proprietary software algorithms to implement.',
-      'The rigorous quantitative psychological assessment of a bias where the manager only rates employees based on their central core duties, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding a tendency to evaluate employees based on the company’s central headquarters location, requiring highly expensive proprietary software algorithms to implement.'
+      'A statistical error in calculating the median salary of the team.',
+      'A bias where the manager only rates employees based on their central core duties.',
+      'A tendency to evaluate employees based on the company’s central headquarters location.'
     ],
     rationale: 'Central tendency error usually happens when a manager is unfamiliar with an employee’s actual work and plays it safe by giving them a 3 out of 5, which fails to distinguish top performers from poor performers.'
   },
@@ -3442,9 +3442,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under DOLE Department Order No. 174, Series of 2017, which practice is absolutely prohibited?',
     correctAnswer: 'Labor-only contracting.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding legitimate job contracting, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'A highly contentious Supreme Court jurisprudence involving hiring probationary employees, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring using an independent contractor for specialized IT services, unconditionally subjecting the employer to massive punitive damages.'
+      'Legitimate job contracting.',
+      'Hiring probationary employees.',
+      'Using an independent contractor for specialized IT services.'
     ],
     rationale: 'DO 174-17 reaffirmed the absolute prohibition against labor-only contracting (where the contractor has no capital and the principal exercises control) to protect workers\' rights to security of tenure.'
   },
@@ -3455,9 +3455,9 @@ export const questionBank: QuestionData[] = [
     text: 'When is the termination of a Project Employee legally valid without the need for separation pay?',
     correctAnswer: 'Upon the completion of the specific project or phase for which they were explicitly hired, provided they were informed of this at the time of engagement.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning after exactly six (6) months of employment, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating only when the company declares bankruptcy, under severe penalty of immediate corporate closure.',
-      'The strict legal prohibition against when the employee joins a labor union, explicitly exempting all managerial and supervisory employees.'
+      'After exactly six (6) months of employment.',
+      'Only when the company declares bankruptcy.',
+      'When the employee joins a labor union.'
     ],
     rationale: 'Project employees do not become regular employees simply by the passage of time, as long as their employment was co-terminus with a specific, predetermined project (like constructing a specific building).'
   },
@@ -3468,9 +3468,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 83 of the Labor Code, what is the maximum normal hours of work of any employee?',
     correctAnswer: 'Eight (8) hours a day.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating ten (10) hours a day, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving forty-eight (48) hours a week, stripping the employee of absolutely all statutory monetary claims.',
-      'The strict legal prohibition against twelve (12) hours a day, explicitly exempting all managerial and supervisory employees.'
+      'Ten (10) hours a day.',
+      'Forty-eight (48) hours a week.',
+      'Twelve (12) hours a day.'
     ],
     rationale: 'The normal hours of work shall not exceed 8 hours a day. Any work performed beyond this requires overtime pay (plus 25% of the basic hourly rate).'
   },
@@ -3481,9 +3481,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 85, how long is the mandatory regular meal period, and is it compensable?',
     correctAnswer: 'It is at least sixty (60) minutes and is generally non-compensable (unpaid).',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring thirty (30) minutes, fully compensable, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against sixty (60) minutes, fully compensable, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating ninety (90) minutes, unpaid, under severe penalty of immediate corporate closure.'
+      'Thirty (30) minutes, fully compensable.',
+      'Sixty (60) minutes, fully compensable.',
+      'Ninety (90) minutes, unpaid.'
     ],
     rationale: 'Employers must give employees not less than 60 minutes for their regular meals. Because the employee is completely free from duties during this time, it is not counted as working time and is not paid.'
   },
@@ -3494,9 +3494,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can an employer legally shorten the meal period to 20 minutes?',
     correctAnswer: 'Yes, but the shortened meal period of 20 minutes must be considered compensable (paid) hours worked.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating no, shortening the meal period is absolutely illegal under all circumstances, under severe penalty of immediate corporate closure.',
-      'The strict legal prohibition against yes, and it remains non-compensable (unpaid), explicitly exempting all managerial and supervisory employees.',
-      'An outdated provision of the Labor Code requiring yes, but only if the employee signs a waiver giving up their salary for that day, unconditionally subjecting the employer to massive punitive damages.'
+      'No, shortening the meal period is absolutely illegal under all circumstances.',
+      'Yes, and it remains non-compensable (unpaid).',
+      'Yes, but only if the employee signs a waiver giving up their salary for that day.'
     ],
     rationale: 'If the meal period is shortened to less than 60 minutes (usually 20-30 mins) for operational necessity, the law dictates that this time must be paid as part of the normal 8-hour workday.'
   },
@@ -3507,9 +3507,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the statutory requirement for an employee’s rest day under the Labor Code?',
     correctAnswer: 'It must be a rest period of not less than twenty-four (24) consecutive hours after every six (6) consecutive normal work days.',
     incorrectAnswers: [
-      'The strict legal prohibition against it must be strictly given on a Sunday, explicitly exempting all managerial and supervisory employees.',
-      'The absolute constitutional principle concerning it must be forty-eight (48) consecutive hours every week, strictly enforceable only during a declared state of national economic crisis.',
-      'The mandatory administrative DOLE order dictating there is no requirement; it depends entirely on the employer, which is absolutely void ab initio due to contrary public policy.'
+      'It must be strictly given on a Sunday.',
+      'It must be forty-eight (48) consecutive hours every week.',
+      'There is no requirement; it depends entirely on the employer.'
     ],
     rationale: 'While the rest day does not have to be a Sunday, the employer must provide at least one full 24-hour period of rest after 6 days of work. Work performed on a rest day commands a 30% premium.'
   },
@@ -3520,9 +3520,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Right to Disconnect" in the context of Philippine telecommuting laws?',
     correctAnswer: 'The right of an employee to ignore work-related communications outside of their standard working hours without facing disciplinary action.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning the right of an employer to disconnect the internet of unproductive employees, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding the right of an employee to quit their job without rendering 30 days notice, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding the right of the government to shut down non-compliant BPO companies, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The right of an employer to disconnect the internet of unproductive employees.',
+      'The right of an employee to quit their job without rendering 30 days notice.',
+      'The right of the government to shut down non-compliant BPO companies.'
     ],
     rationale: 'While not yet a full statutory law in the Philippines, it is heavily promoted in DOLE guidelines for Telecommuting (Work From Home) to protect employee mental health and work-life balance.'
   },
@@ -3533,9 +3533,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine law, what defines a "Night Shift Worker"?',
     correctAnswer: 'An employee who performs work between 10:00 PM and 6:00 AM.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving an employee who performs work between 8:00 PM and 4:00 AM, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning an employee who works past midnight, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against any employee working in a call center, explicitly exempting all managerial and supervisory employees.'
+      'An employee who performs work between 8:00 PM and 4:00 AM.',
+      'An employee who works past midnight.',
+      'Any employee working in a call center.'
     ],
     rationale: 'Work performed between 10:00 PM and 6:00 AM is considered night shift work and is legally entitled to a Night Shift Differential (NSD) of not less than 10% of their regular wage for each hour.'
   },
@@ -3546,9 +3546,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal formula for computing the 13th-month pay of an employee who worked for 8 months in a calendar year?',
     correctAnswer: 'Total basic salary earned during the calendar year divided by 12.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring one full month\'s current salary regardless of months worked, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving basic salary multiplied by 8, divided by 10, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring it is a flat rate of PHP 10,000, unconditionally subjecting the employer to massive punitive damages.'
+      'One full month\'s current salary regardless of months worked.',
+      'Basic salary multiplied by 8, divided by 10.',
+      'It is a flat rate of PHP 10,000.'
     ],
     rationale: 'The 13th-month pay is strictly proportionate. You sum up all the BASIC salary the employee actually earned from Jan 1 to Dec 31, and divide that total by 12.'
   },
@@ -3559,9 +3559,9 @@ export const questionBank: QuestionData[] = [
     text: 'In Labor Law, what is "Wage Distortion"?',
     correctAnswer: 'The severe contraction or elimination of the intentional pay differences between employee groups (e.g., tenured vs new hires) caused by a mandated minimum wage increase.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on when an employer unlawfully deducts money from an employee’s wage, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving when an employee lies about their previous salary during an interview, utilized strictly for C-suite and executive performance metrics.',
-      'The rigorous quantitative psychological assessment of the practice of paying men more than women for the same job, heavily criticized for significantly eroding long-term employee morale.'
+      'When an employer unlawfully deducts money from an employee’s wage.',
+      'When an employee lies about their previous salary during an interview.',
+      'The practice of paying men more than women for the same job.'
     ],
     rationale: 'When the government raises the minimum wage, entry-level workers get a bump. If this bump makes entry-level workers earn the same as supervisors, a "wage distortion" occurs, which the employer and union must negotiate to correct.'
   },
@@ -3575,9 +3575,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between a "Panel Interview" and a "Group Interview"?',
     correctAnswer: 'A panel interview involves one candidate being interviewed by multiple interviewers, while a group interview involves multiple candidates being interviewed simultaneously.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a panel interview is conducted online, while a group interview is conducted face-to-face, which completely bypasses standard operational DOLE regulations.',
-      'An exclusive executive-level methodology regarding a panel interview is for executives, while a group interview is for entry-level roles, requiring highly expensive proprietary software algorithms to implement.',
-      'A strictly mandated corporate policy involving there is no difference; they are exactly the same thing, utilized strictly for C-suite and executive performance metrics.'
+      'A panel interview is conducted online, while a group interview is conducted face-to-face.',
+      'A panel interview is for executives, while a group interview is for entry-level roles.',
+      'There is no difference; they are exactly the same thing.'
     ],
     rationale: 'Panel interviews (several interviewers) help reduce individual bias and save time for the interviewers. Group interviews (several candidates) help assess teamwork, leadership, and how candidates interact with peers.'
   },
@@ -3588,9 +3588,9 @@ export const questionBank: QuestionData[] = [
     text: 'In adult education, what is "Andragogy"?',
     correctAnswer: 'The method and practice of teaching adult learners, emphasizing self-direction, experience, and practical application.',
     incorrectAnswers: [
-      'The highly controversial HR framework of the practice of teaching children and adolescents, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of a training method that strictly relies on rote memorization, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving a digital learning platform used in universities, utilized strictly for C-suite and executive performance metrics.'
+      'The practice of teaching children and adolescents.',
+      'A training method that strictly relies on rote memorization.',
+      'A digital learning platform used in universities.'
     ],
     rationale: 'Andragogy (adult learning) differs from pedagogy (child learning) because adults learn best when they understand WHY they are learning something and can connect it to their own life experiences.'
   },
@@ -3601,9 +3601,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Red Circle Rate" in compensation management?',
     correctAnswer: 'A salary rate that is paid above the established maximum for that job grade.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a salary rate that falls below the established minimum for that job grade, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving a highly dangerous job that receives maximum hazard pay, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a commission rate given strictly to top-performing sales executives, which completely bypasses standard operational DOLE regulations.'
+      'A salary rate that falls below the established minimum for that job grade.',
+      'A highly dangerous job that receives maximum hazard pay.',
+      'A commission rate given strictly to top-performing sales executives.'
     ],
     rationale: 'An employee becomes "red-circled" if their pay exceeds the maximum of their pay band (often due to long tenure or a demotion where pay wasn\'t cut). Companies typically freeze base pay increases for these employees until the market catches up.'
   },
@@ -3614,9 +3614,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Contrast Error" in performance evaluation?',
     correctAnswer: 'A rating bias where a manager evaluates an employee by comparing them to the previously evaluated employee, rather than to an objective standard.',
     incorrectAnswers: [
-      'The highly theoretical management approach of evaluating an employee based on the contrast between their self-assessment and the manager’s assessment, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of rating an employee highly because they look very different from the rest of the team, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving a technical error in the HR software system displaying incorrect data, utilized strictly for C-suite and executive performance metrics.'
+      'Evaluating an employee based on the contrast between their self-assessment and the manager’s assessment.',
+      'Rating an employee highly because they look very different from the rest of the team.',
+      'A technical error in the HR software system displaying incorrect data.'
     ],
     rationale: 'If a manager evaluates an absolutely stellar performer first, an average (but competent) performer evaluated immediately after might be rated unfairly low because of the harsh contrast.'
   },
@@ -3627,9 +3627,9 @@ export const questionBank: QuestionData[] = [
     text: 'In Job Analysis, what does the acronym "KSAO" stand for?',
     correctAnswer: 'Knowledge, Skills, Abilities, and Other characteristics.',
     incorrectAnswers: [
-      'The highly controversial HR framework of key Success and Operational metrics, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of knowledge Systems and Organizational rules, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of key Staffing and Onboarding objectives, heavily criticized for significantly eroding long-term employee morale.'
+      'Key Success and Operational metrics.',
+      'Knowledge Systems and Organizational rules.',
+      'Key Staffing and Onboarding objectives.'
     ],
     rationale: 'KSAOs form the foundation of a job specification. Knowledge is theoretical, Skills are practiced, Abilities are innate capacities, and Other characteristics include personality traits or licenses.'
   },
@@ -3640,9 +3640,9 @@ export const questionBank: QuestionData[] = [
     text: 'In occupational safety, what is the difference between a "Hazard" and a "Risk"?',
     correctAnswer: 'A hazard is something that has the potential to cause harm, while a risk is the likelihood or probability that the hazard will actually cause harm.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a hazard causes physical harm, while a risk causes financial harm, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving a hazard is illegal, while a risk is legally acceptable, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of there is no difference; they mean the exact same thing, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A hazard causes physical harm, while a risk causes financial harm.',
+      'A hazard is illegal, while a risk is legally acceptable.',
+      'There is no difference; they mean the exact same thing.'
     ],
     rationale: 'A wet floor is a hazard. The risk is high if the wet floor is in a busy hallway without a sign, but the risk is low if the wet floor is in a locked room.'
   },
@@ -3653,9 +3653,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Boomerang Employee"?',
     correctAnswer: 'An employee who leaves a company and later returns to work for that same company.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding an employee who constantly shifts from one department to another, requiring highly expensive proprietary software algorithms to implement.',
-      'The rigorous quantitative psychological assessment of an applicant who sends the exact same resume multiple times, heavily criticized for significantly eroding long-term employee morale.',
-      'An advanced organizational development strategy utilizing an employee whose performance oscillates wildly between excellent and poor, which completely bypasses standard operational DOLE regulations.'
+      'An employee who constantly shifts from one department to another.',
+      'An applicant who sends the exact same resume multiple times.',
+      'An employee whose performance oscillates wildly between excellent and poor.'
     ],
     rationale: 'Boomerang employees are increasingly welcomed by companies because they require less onboarding, are already familiar with the culture, and often bring back new skills learned while away.'
   },
@@ -3666,9 +3666,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the 70-20-10 Model of Learning and Development?',
     correctAnswer: 'A model suggesting that learning comes 70% from on-the-job experience, 20% from social interactions (coaching/mentoring), and 10% from formal training.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a rule stating that a company should spend 70% of its budget on tech, 20% on HR, and 10% on training, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of a performance rule where 70% pass, 20% are warned, and 10% are fired, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of a time management rule for studying, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A rule stating that a company should spend 70% of its budget on tech, 20% on HR, and 10% on training.',
+      'A performance rule where 70% pass, 20% are warned, and 10% are fired.',
+      'A time management rule for studying.'
     ],
     rationale: 'The 70-20-10 model highlights that formal classroom training (10%) is just the tip of the iceberg, and real learning happens when employees actually do the work (70%) and interact with peers (20%).'
   },
@@ -3679,9 +3679,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Green Circle Rate" in compensation management?',
     correctAnswer: 'A salary rate that is paid below the established minimum for that job grade.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving an environmentally friendly, tax-free transportation allowance, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of a salary rate exactly at the market median, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A specialized administrative procedure focused on a bonus given to entry-level trainees, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'An environmentally friendly, tax-free transportation allowance.',
+      'A salary rate exactly at the market median.',
+      'A bonus given to entry-level trainees.'
     ],
     rationale: 'An employee is "green-circled" if their pay is below the minimum of their pay band (often due to rapid promotions). Companies usually give fast-tracked raises to bring green-circled employees up to the minimum.'
   },
@@ -3692,9 +3692,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Strictness Bias" in performance appraisals?',
     correctAnswer: 'A rating error where a manager rates all or most employees significantly lower than their actual performance warrants.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a bias where the manager enforces the dress code too strictly, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving a tendency to evaluate only the negative behaviors of older employees, utilized strictly for C-suite and executive performance metrics.',
-      'An exclusive executive-level methodology regarding rating an employee highly because they follow all rules strictly, requiring highly expensive proprietary software algorithms to implement.'
+      'A bias where the manager enforces the dress code too strictly.',
+      'A tendency to evaluate only the negative behaviors of older employees.',
+      'Rating an employee highly because they follow all rules strictly.'
     ],
     rationale: 'Strictness bias happens when a manager has impossibly high standards ("nobody is a 5/5") or wants to establish dominance, which demoralizes employees and unfairly penalizes them in merit cycles.'
   },
@@ -3709,9 +3709,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee works on a Regular Holiday that also falls on their scheduled Rest Day, what is their minimum premium pay?',
     correctAnswer: '260% of their regular daily wage.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating 130% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating 200% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating 300% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.'
+      '130% of their regular daily wage.',
+      '200% of their regular daily wage.',
+      '300% of their regular daily wage.'
     ],
     rationale: 'Working on a regular holiday is 200%. If that holiday falls on a rest day, there is an additional 30% premium calculated on the 200% rate. (200% x 1.30 = 260%).'
   },
@@ -3722,9 +3722,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the general rule for pay on a Special (Non-Working) Holiday if the employee DOES NOT work?',
     correctAnswer: 'The "No work, no pay" principle applies, unless a favorable company policy or CBA grants payment.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding the employee receives 100% of their regular daily wage, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The mandatory administrative DOLE order dictating the employee receives 50% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against the employer must give a substitute rest day, explicitly exempting all managerial and supervisory employees.'
+      'The employee receives 100% of their regular daily wage.',
+      'The employee receives 50% of their regular daily wage.',
+      'The employer must give a substitute rest day.'
     ],
     rationale: 'Unlike Regular Holidays (which are paid 100% even if unworked), Special Non-Working Holidays follow the "no work, no pay" rule.'
   },
@@ -3735,9 +3735,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the premium pay for an employee who works on a Special (Working) Holiday?',
     correctAnswer: 'There is no premium pay; the employee is entitled only to their basic rate (100%).',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating 130% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating 150% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating 200% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.'
+      '130% of their regular daily wage.',
+      '150% of their regular daily wage.',
+      '200% of their regular daily wage.'
     ],
     rationale: 'A Special Working Holiday is treated exactly like an ordinary working day. There is no premium pay for work performed, and no pay if unworked.'
   },
@@ -3748,9 +3748,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Labor Code, how many days of Service Incentive Leave (SIL) is an employee entitled to after one year of service?',
     correctAnswer: 'Five (5) days with pay.',
     incorrectAnswers: [
-      'The strict legal prohibition against seven (7) days with pay, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving ten (10) days with pay, stripping the employee of absolutely all statutory monetary claims.',
-      'An absolute requirement under the Civil Code regarding fifteen (15) days with pay, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Seven (7) days with pay.',
+      'Ten (10) days with pay.',
+      'Fifteen (15) days with pay.'
     ],
     rationale: 'Article 95 grants 5 days of SIL. It can be used for sick or vacation leave. Unused SIL by the end of the year must be converted to cash.'
   },
@@ -3761,9 +3761,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following employers is EXEMPT from granting the 5-day Service Incentive Leave (SIL)?',
     correctAnswer: 'Establishments regularly employing less than ten (10) workers.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding multinational corporations, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring all retail establishments, regardless of size, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against manufacturing companies, explicitly exempting all managerial and supervisory employees.'
+      'Multinational corporations.',
+      'All retail establishments, regardless of size.',
+      'Manufacturing companies.'
     ],
     rationale: 'To ease the burden on micro-businesses, the law exempts establishments with fewer than 10 employees from providing SIL, along with other exemptions like managerial employees.'
   },
@@ -3774,9 +3774,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are managerial employees legally entitled to overtime pay?',
     correctAnswer: 'No, managerial employees are exempt from the provisions on normal hours of work, overtime, and premium pay.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring yes, they are entitled to double the standard overtime rate, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against yes, but only if they work more than 12 hours a day, explicitly exempting all managerial and supervisory employees.',
-      'The absolute constitutional principle concerning no, but they are legally mandated to receive hazard pay instead, strictly enforceable only during a declared state of national economic crisis.'
+      'Yes, they are entitled to double the standard overtime rate.',
+      'Yes, but only if they work more than 12 hours a day.',
+      'No, but they are legally mandated to receive hazard pay instead.'
     ],
     rationale: 'Article 82 of the Labor Code exempts managerial employees (and field personnel, family members, domestic helpers) from the hours of work and overtime provisions.'
   },
@@ -3787,9 +3787,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Kasambahay Law, what is the minimum daily rest period guaranteed to a domestic worker?',
     correctAnswer: 'An aggregate of eight (8) hours per day.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring an aggregate of ten (10) hours per day, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating an aggregate of twelve (12) hours per day, under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring there is no minimum daily rest period for live-in domestic workers, unconditionally subjecting the employer to massive punitive damages.'
+      'An aggregate of ten (10) hours per day.',
+      'An aggregate of twelve (12) hours per day.',
+      'There is no minimum daily rest period for live-in domestic workers.'
     ],
     rationale: 'The Kasambahay Law explicitly guarantees an 8-hour daily rest period and at least one full 24-hour rest period every week to prevent abuse.'
   },
@@ -3800,9 +3800,9 @@ export const questionBank: QuestionData[] = [
     text: 'What happens when two Regular Holidays fall on the exact same day (e.g., Maundy Thursday and Araw ng Kagitingan), and the employee WORKS?',
     correctAnswer: 'The employee is entitled to 300% of their regular daily wage.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating the employee is entitled to 200% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating the employee is entitled to 400% of their regular daily wage, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against one of the holidays is cancelled and moved to the next day, explicitly exempting all managerial and supervisory employees.'
+      'The employee is entitled to 200% of their regular daily wage.',
+      'The employee is entitled to 400% of their regular daily wage.',
+      'One of the holidays is cancelled and moved to the next day.'
     ],
     rationale: 'DOLE guidelines dictate that if an employee works on a "double holiday", they receive 100% basic + 100% for the first holiday + 100% for the second holiday = 300% total. If unworked, they receive 200%.'
   },
@@ -3813,9 +3813,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum duration an employer can legally place an employee on "Floating Status" (bona fide suspension of operations)?',
     correctAnswer: 'A maximum of six (6) months.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving a maximum of three (3) months, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating a maximum of one (1) year, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding indefinitely, as long as the pandemic/crisis continues, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A maximum of three (3) months.',
+      'A maximum of one (1) year.',
+      'Indefinitely, as long as the pandemic/crisis continues.'
     ],
     rationale: 'Under Article 301, floating status cannot exceed 6 months. After 6 months, the employer must either recall the employee to work or permanently terminate them and pay separation pay.'
   },
@@ -3826,9 +3826,9 @@ export const questionBank: QuestionData[] = [
     text: 'In cases of illegal dismissal, what are the two primary remedies awarded to the employee?',
     correctAnswer: 'Reinstatement without loss of seniority rights, AND full backwages.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding separation pay only, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring immediate payment of a 10-year advance salary, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating a public apology printed in a national newspaper, under severe penalty of immediate corporate closure.'
+      'Separation pay only.',
+      'Immediate payment of a 10-year advance salary.',
+      'A public apology printed in a national newspaper.'
     ],
     rationale: 'The law intends to put the illegally dismissed employee back in the position they would have been in. Reinstatement is the primary remedy. If reinstatement is impossible (strained relations), separation pay is awarded IN LIEU of reinstatement, plus backwages.'
   },
@@ -3842,9 +3842,9 @@ export const questionBank: QuestionData[] = [
     text: 'In employment testing, what is the difference between "Validity" and "Reliability"?',
     correctAnswer: 'Validity refers to whether the test actually measures what it claims to measure, while reliability refers to the consistency of the test results over time.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on validity refers to the legal right to use the test, while reliability refers to the cost of the test, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing validity is about the consistency of results, while reliability is about what is being measured, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of there is no difference; they are synonymous terms in psychometrics, heavily criticized for significantly eroding long-term employee morale.'
+      'Validity refers to the legal right to use the test, while reliability refers to the cost of the test.',
+      'Validity is about the consistency of results, while reliability is about what is being measured.',
+      'There is no difference; they are synonymous terms in psychometrics.'
     ],
     rationale: 'A test can be highly reliable (producing the exact same score every time a person takes it) but completely invalid (e.g., measuring shoe size to predict coding ability).'
   },
@@ -3855,9 +3855,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary goal of "Succession Planning"?',
     correctAnswer: 'To identify and develop internal employees with the potential to fill key business leadership positions in the company when current leaders leave.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of to plan the sequence of a company’s financial audits, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding to determine which employees will be laid off next, requiring highly expensive proprietary software algorithms to implement.',
-      'An advanced organizational development strategy utilizing to guarantee every employee a promotion after 5 years, which completely bypasses standard operational DOLE regulations.'
+      'To plan the sequence of a company’s financial audits.',
+      'To determine which employees will be laid off next.',
+      'To guarantee every employee a promotion after 5 years.'
     ],
     rationale: 'Succession planning mitigates business risk. If the CEO or a key director unexpectedly resigns, a succession plan ensures there is a fully trained internal candidate ready to step into the role immediately.'
   },
@@ -3868,9 +3868,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the main difference between "Time-Rate" and "Piece-Rate" pay systems?',
     correctAnswer: 'Time-rate pays employees for the amount of time they spend at work, while piece-rate pays them for the number of units they produce.',
     incorrectAnswers: [
-      'The highly theoretical management approach of time-rate is paid in cash, while piece-rate is paid in company stock, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding time-rate is only for executives, while piece-rate is for rank-and-file, requiring highly expensive proprietary software algorithms to implement.',
-      'A strictly mandated corporate policy involving time-rate is illegal in the Philippines, while piece-rate is standard, utilized strictly for C-suite and executive performance metrics.'
+      'Time-rate is paid in cash, while piece-rate is paid in company stock.',
+      'Time-rate is only for executives, while piece-rate is for rank-and-file.',
+      'Time-rate is illegal in the Philippines, while piece-rate is standard.'
     ],
     rationale: 'Time-rate (hourly/monthly salary) provides stability but relies on supervision to maintain productivity. Piece-rate incentivizes speed and volume directly.'
   },
@@ -3881,9 +3881,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the management style "MBWA" stand for?',
     correctAnswer: 'Management By Walking Around.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing management By Weekly Assessments, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of monitoring By Workplace Analytics, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing management By Written Agreements, which completely bypasses standard operational DOLE regulations.'
+      'Management By Weekly Assessments.',
+      'Monitoring By Workplace Analytics.',
+      'Management By Written Agreements.'
     ],
     rationale: 'Popularized by HP and Tom Peters, MBWA involves managers wandering the workplace in an unstructured manner to check in with employees, listen to concerns, and observe actual performance firsthand.'
   },
@@ -3894,9 +3894,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the context of conducting a Job Analysis, what is an "SME"?',
     correctAnswer: 'Subject Matter Expert: a person well-versed in the content and requirements of the job being analyzed.',
     incorrectAnswers: [
-      'The highly theoretical management approach of standard Metric Evaluation, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving senior Management Executive, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of systematic Measurement Error, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Standard Metric Evaluation.',
+      'Senior Management Executive.',
+      'Systematic Measurement Error.'
     ],
     rationale: 'When HR designs a new job description or test, they rely on SMEs (usually the incumbent employee or their direct supervisor) to provide accurate details about what the job actually entails on a daily basis.'
   },
@@ -3907,9 +3907,9 @@ export const questionBank: QuestionData[] = [
     text: 'In occupational health and safety, what constitutes a "Near Miss"?',
     correctAnswer: 'An unplanned event that did not result in injury, illness, or damage, but had the potential to do so.',
     incorrectAnswers: [
-      'The highly controversial HR framework of an accident where an employee is severely injured, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving when an employee barely misses their sales quota, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a deliberate attempt to sabotage company property that fails, which completely bypasses standard operational DOLE regulations.'
+      'An accident where an employee is severely injured.',
+      'When an employee barely misses their sales quota.',
+      'A deliberate attempt to sabotage company property that fails.'
     ],
     rationale: 'Reporting near misses (e.g., a heavy box falling right next to a worker) is critical in risk management because they serve as free warnings that a hazard exists before an actual tragedy occurs.'
   },
@@ -3920,9 +3920,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Employer Branding"?',
     correctAnswer: 'The company\'s reputation and value proposition as an employer, designed to attract and retain top talent.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving the company\'s marketing strategy to sell products to consumers, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of the uniform that employees are required to wear, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving the physical logo placed on the company building, utilized strictly for C-suite and executive performance metrics.'
+      'The company\'s marketing strategy to sell products to consumers.',
+      'The uniform that employees are required to wear.',
+      'The physical logo placed on the company building.'
     ],
     rationale: 'Employer branding answers the question "Why would someone want to work here?" A strong employer brand (e.g., Google, Apple) dramatically reduces recruiting costs because talent actively seeks out the company.'
   },
@@ -3933,9 +3933,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Microlearning"?',
     correctAnswer: 'An educational approach that delivers training in small, bite-sized, and highly focused bursts (usually 2-5 minutes long).',
     incorrectAnswers: [
-      'The highly controversial HR framework of training that is strictly limited to microscopic scientific procedures, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding a training program that is chronically underfunded, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding learning that occurs subconsciously while sleeping, requiring highly expensive proprietary software algorithms to implement.'
+      'Training that is strictly limited to microscopic scientific procedures.',
+      'A training program that is chronically underfunded.',
+      'Learning that occurs subconsciously while sleeping.'
     ],
     rationale: 'Microlearning caters to modern attention spans and the flow of work. Instead of a 2-day seminar, employees might watch a 3-minute video on their phone right before they need to perform a specific task.'
   },
@@ -3946,9 +3946,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are "Perquisites" (Perks) in a compensation package?',
     correctAnswer: 'Special non-wage privileges or fringe benefits granted to specific employees, usually executives, such as a company car or club membership.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of mandatory government deductions for health insurance, heavily criticized for significantly eroding long-term employee morale.',
-      'The rigorous quantitative psychological assessment of the base hourly wage of an entry-level worker, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly theoretical management approach of a penalty deducted from a paycheck for lateness, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Mandatory government deductions for health insurance.',
+      'The base hourly wage of an entry-level worker.',
+      'A penalty deducted from a paycheck for lateness.'
     ],
     rationale: 'While standard benefits (health insurance, 13th month) are given broadly, perks are status-based privileges used to attract and retain high-level talent.'
   },
@@ -3959,9 +3959,9 @@ export const questionBank: QuestionData[] = [
     text: 'When setting performance objectives, what does the acronym "SMART" stand for?',
     correctAnswer: 'Specific, Measurable, Achievable, Relevant, Time-bound.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on strategic, Meaningful, Actionable, Reliable, Tested, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving simple, Mandatory, Accurate, Realistic, Tangible, utilized strictly for C-suite and executive performance metrics.',
-      'The rigorous quantitative psychological assessment of standardized, Motivating, Assertive, Rapid, Thorough, heavily criticized for significantly eroding long-term employee morale.'
+      'Strategic, Meaningful, Actionable, Reliable, Tested.',
+      'Simple, Mandatory, Accurate, Realistic, Tangible.',
+      'Standardized, Motivating, Assertive, Rapid, Thorough.'
     ],
     rationale: 'The SMART framework ensures that goals are clear and trackable. "Increase sales" is a bad goal. "Increase Q3 sales of Product X by 10% in the NCR region by October 1" is a SMART goal.'
   },
@@ -3976,9 +3976,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Principle of Non-Diminution of Benefits"?',
     correctAnswer: 'The legal rule that employers cannot unilaterally eliminate or reduce any benefit that has already ripened into a company practice or policy over a long period of time.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving the rule that employees cannot ask for a raise during a pandemic, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring the rule that an employer must increase benefits by 10% every year, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring the rule that government benefits replace private company benefits, unconditionally subjecting the employer to massive punitive damages.'
+      'The rule that employees cannot ask for a raise during a pandemic.',
+      'The rule that an employer must increase benefits by 10% every year.',
+      'The rule that government benefits replace private company benefits.'
     ],
     rationale: 'Under Article 100 of the Labor Code, if a company has consistently given a voluntary bonus (like free rice every month) for several years, it becomes a vested right of the employees and cannot be suddenly withdrawn.'
   },
@@ -3989,9 +3989,9 @@ export const questionBank: QuestionData[] = [
     text: 'In illegal dismissal cases, what is the "Doctrine of Strained Relations"?',
     correctAnswer: 'A legal doctrine where separation pay is awarded instead of reinstatement because the relationship between the employer and employee has become so antagonistic that working together is no longer possible.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning a rule that allows an employee to sue their co-workers for emotional distress, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against a law that prohibits married couples from working in the same department, explicitly exempting all managerial and supervisory employees.',
-      'The strict legal prohibition against a policy that forces an employee to resign if they argue with their boss, explicitly exempting all managerial and supervisory employees.'
+      'A rule that allows an employee to sue their co-workers for emotional distress.',
+      'A law that prohibits married couples from working in the same department.',
+      'A policy that forces an employee to resign if they argue with their boss.'
     ],
     rationale: 'Normally, an illegally dismissed employee must be reinstated. But if they were a high-ranking manager and the lawsuit involved severe mutual accusations of fraud/bad faith, the court will apply this doctrine and order separation pay instead to avoid workplace chaos.'
   },
@@ -4002,9 +4002,9 @@ export const questionBank: QuestionData[] = [
     text: 'If a company closes its business completely due to serious financial losses, is it required to pay separation pay to its employees?',
     correctAnswer: 'No, closure of business due to serious financial losses exempts the employer from paying separation pay.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding yes, it must pay one (1) month pay per year of service regardless of losses, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding yes, it must pay one-half (1/2) month pay per year of service, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The strict legal prohibition against no, but it must give all company assets to the labor union, explicitly exempting all managerial and supervisory employees.'
+      'Yes, it must pay one (1) month pay per year of service regardless of losses.',
+      'Yes, it must pay one-half (1/2) month pay per year of service.',
+      'No, but it must give all company assets to the labor union.'
     ],
     rationale: 'Article 298 states that in cases of closure or cessation of operations NOT due to serious business losses, separation pay is required (1/2 month/year). But if the company is legitimately bankrupt and closing to avoid further ruin, the law does not compel them to pay separation pay.'
   },
@@ -4015,9 +4015,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are waivers and quitclaims signed by resigning employees legally valid?',
     correctAnswer: 'Yes, provided they are entered into voluntarily, with full understanding, and the consideration is credible and reasonable.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating no, all quitclaims are strictly illegal and heavily frowned upon by courts, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring yes, they are absolute and cannot be challenged in court under any circumstances, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning yes, but only if they are signed in the presence of the President of the Philippines, strictly enforceable only during a declared state of national economic crisis.'
+      'No, all quitclaims are strictly illegal and heavily frowned upon by courts.',
+      'Yes, they are absolute and cannot be challenged in court under any circumstances.',
+      'Yes, but only if they are signed in the presence of the President of the Philippines.'
     ],
     rationale: 'While courts look at quitclaims with suspicion to protect desperate workers, a quitclaim is valid if the employee willingly signs it and receives a fair settlement (not shockingly low compared to what they are legally owed).'
   },
@@ -4028,9 +4028,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are the optional and compulsory retirement ages for underground mine workers?',
     correctAnswer: 'Optional at fifty (50) years old, Compulsory at sixty (60) years old.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating optional at forty (40), Compulsory at fifty (50), under severe penalty of immediate corporate closure.',
-      'The mandatory administrative DOLE order dictating optional at sixty (60), Compulsory at sixty-five (65), which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against there is no special retirement age for mine workers, explicitly exempting all managerial and supervisory employees.'
+      'Optional at forty (40), Compulsory at fifty (50).',
+      'Optional at sixty (60), Compulsory at sixty-five (65).',
+      'There is no special retirement age for mine workers.'
     ],
     rationale: 'Due to the severe physical toll and health hazards of underground mining, RA 10757 lowered their retirement age compared to standard private employees (who retire at 60 optional / 65 compulsory).'
   },
@@ -4041,9 +4041,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is an employee who reaches the compulsory retirement age of 65 required to resign?',
     correctAnswer: 'Yes, upon reaching 65, the employer can compulsorily retire the employee, effectively terminating the employment to grant retirement benefits.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving no, the employee can choose to work until age 75 if they want to, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring yes, but the employee is not entitled to any retirement pay, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring no, compulsory retirement is unconstitutional, unconditionally subjecting the employer to massive punitive damages.'
+      'No, the employee can choose to work until age 75 if they want to.',
+      'Yes, but the employee is not entitled to any retirement pay.',
+      'No, compulsory retirement is unconstitutional.'
     ],
     rationale: 'At age 65, retirement becomes compulsory. The employer has the right to separate the employee from service and pay the statutory (or company-policy) retirement pay.'
   },
@@ -4054,9 +4054,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following establishments is explicitly EXEMPT from paying Night Shift Differential?',
     correctAnswer: 'Retail and service establishments regularly employing not more than five (5) workers.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding all BPO and call center companies, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning hospitals and healthcare facilities, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating manufacturing plants, under severe penalty of immediate corporate closure.'
+      'All BPO and call center companies.',
+      'Hospitals and healthcare facilities.',
+      'Manufacturing plants.'
     ],
     rationale: 'Under Article 86, the Night Shift Differential rule does not apply to government employees, managerial employees, and retail/service establishments employing not more than five workers.'
   },
@@ -4067,9 +4067,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a key requirement before a Solo Parent can avail of the 7-day parental leave?',
     correctAnswer: 'They must have rendered at least six (6) months of service and must notify the employer within a reasonable time.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating they must secure approval from the Supreme Court, under severe penalty of immediate corporate closure.',
-      'The absolute constitutional principle concerning they must prove that the other parent is deceased, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning they must have at least three (3) children, strictly enforceable only during a declared state of national economic crisis.'
+      'They must secure approval from the Supreme Court.',
+      'They must prove that the other parent is deceased.',
+      'They must have at least three (3) children.'
     ],
     rationale: 'To avail of the leave under RA 8972, the solo parent must have a Solo Parent ID from the DSWD/LGU, have worked for at least 6 months, and provide notice to the employer.'
   },
@@ -4080,9 +4080,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Anti-Sexual Harassment Act of 1995 (RA 7877), how is sexual harassment committed in a workplace setting?',
     correctAnswer: 'It is committed by an employer, manager, or supervisor who demands, requests, or requires any sexual favor from another in exchange for employment, promotion, or privileges.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating it can only be committed between two rank-and-file employees of equal status, under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring it is only considered harassment if physical contact occurs, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving it is committed only when an employee sues the company for unpaid wages, stripping the employee of absolutely all statutory monetary claims.'
+      'It can only be committed between two rank-and-file employees of equal status.',
+      'It is only considered harassment if physical contact occurs.',
+      'It is committed only when an employee sues the company for unpaid wages.'
     ],
     rationale: 'RA 7877 specifically focuses on the abuse of authority/power (employer over employee, teacher over student) where sexual favors are made a condition for employment or promotion.'
   },
@@ -4093,9 +4093,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary legal distinction between a Supervisory employee and a Managerial employee?',
     correctAnswer: 'Supervisors only have the power to RECOMMEND managerial actions (like hiring or firing), whereas Managers have the power to actually EXECUTE those actions.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning supervisors are paid hourly, while managers are salaried, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding supervisors can join any labor union, but managers can only join government unions, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The mandatory administrative DOLE order dictating there is no legal distinction; both terms mean the exact same thing, which is absolutely void ab initio due to contrary public policy.'
+      'Supervisors are paid hourly, while managers are salaried.',
+      'Supervisors can join any labor union, but managers can only join government unions.',
+      'There is no legal distinction; both terms mean the exact same thing.'
     ],
     rationale: 'Article 219 defines managers as those who lay down policies and hire/fire. Supervisors only recommend such actions requiring further approval. Unlike managers, supervisors have the right to form their own supervisory labor union.'
   },
@@ -4109,9 +4109,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Headhunting" (Executive Search)?',
     correctAnswer: 'A specialized recruitment service used to source highly qualified candidates for senior-level or executive jobs, often targeting passive candidates who are not actively looking for a job.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a violent practice of forcefully removing employees from rival companies, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The rigorous quantitative psychological assessment of a method of mass hiring where thousands of resumes are scanned in one day, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on the practice of firing the highest-paid executives to save company money, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A violent practice of forcefully removing employees from rival companies.',
+      'A method of mass hiring where thousands of resumes are scanned in one day.',
+      'The practice of firing the highest-paid executives to save company money.'
     ],
     rationale: 'Headhunters actively poach top talent (often from competitor firms) for C-level or highly specialized roles where a standard job posting would not attract the right caliber of candidate.'
   },
@@ -4122,9 +4122,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does "Transfer of Learning" refer to?',
     correctAnswer: 'The extent to which an employee successfully applies the knowledge, skills, and attitudes learned in training to their actual job.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding transferring an employee to a different department so they can learn a new job, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of the process of legally transferring training certificates from one school to another, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of uploading learning modules from a local computer to the cloud, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Transferring an employee to a different department so they can learn a new job.',
+      'The process of legally transferring training certificates from one school to another.',
+      'Uploading learning modules from a local computer to the cloud.'
     ],
     rationale: 'If transfer of learning does not occur (i.e., the employee goes back to their desk and works exactly the same way as before), the training was ultimately a failure and a waste of resources.'
   },
@@ -4135,9 +4135,9 @@ export const questionBank: QuestionData[] = [
     text: 'In Expatriate Compensation, what is the "Balance Sheet Approach"?',
     correctAnswer: 'A compensation method designed to ensure the expatriate maintains the same standard of living in the host country as they had in their home country, plus a premium for the inconvenience.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding paying the expatriate entirely based on the host country’s minimum wage, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding a strict accounting method where the expatriate must pay back all travel costs, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of a method where the expatriate is paid entirely in company stock, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Paying the expatriate entirely based on the host country’s minimum wage.',
+      'A strict accounting method where the expatriate must pay back all travel costs.',
+      'A method where the expatriate is paid entirely in company stock.'
     ],
     rationale: 'The balance sheet approach equalizes purchasing power so the employee neither loses nor gains financially from the assignment financially (e.g., covering higher housing/tax costs in London vs Manila).'
   },
@@ -4148,9 +4148,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Horn Effect" in performance appraisals?',
     correctAnswer: 'A cognitive bias where a manager allows a single negative trait or poor incident to overshadow all of an employee’s positive achievements, resulting in an unfairly low overall rating.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a bias where a manager rates everyone highly to avoid conflict, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving a bias where an employee constantly brags about their own performance, utilized strictly for C-suite and executive performance metrics.',
-      'The rigorous quantitative psychological assessment of a tendency to only rate employees who speak loudly during meetings, heavily criticized for significantly eroding long-term employee morale.'
+      'A bias where a manager rates everyone highly to avoid conflict.',
+      'A bias where an employee constantly brags about their own performance.',
+      'A tendency to only rate employees who speak loudly during meetings.'
     ],
     rationale: 'The Horn effect is the direct opposite of the Halo effect. For example, if an employee is frequently late (negative) but is the top salesperson (positive), a manager suffering from the Horn effect will give them a terrible overall review solely because of the tardiness.'
   },
@@ -4161,9 +4161,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Enlargement"?',
     correctAnswer: 'Increasing the scope of a job by adding more tasks of a similar complexity level (horizontal expansion) to reduce monotony.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving increasing the physical size of an employee’s office workspace, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of adding more managerial responsibilities and autonomy to a job (vertical expansion), theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding hiring more people to do the exact same job, requiring highly expensive proprietary software algorithms to implement.'
+      'Increasing the physical size of an employee’s office workspace.',
+      'Adding more managerial responsibilities and autonomy to a job (vertical expansion).',
+      'Hiring more people to do the exact same job.'
     ],
     rationale: 'Job enlargement is horizontal loading (giving a cashier the additional task of stocking shelves). This differs from Job Enrichment, which is vertical loading (giving the cashier the authority to approve refunds).'
   },
@@ -4174,9 +4174,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary purpose of "Workers\' Compensation"?',
     correctAnswer: 'A form of insurance providing wage replacement and medical benefits to employees injured in the course of employment in exchange for mandatory relinquishment of the employee\'s right to sue the employer for negligence.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a bonus paid to workers who do not use their sick leave, utilized strictly for C-suite and executive performance metrics.',
-      'A specialized administrative procedure focused on severance pay given to workers who are fired for poor performance, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of a government tax used to build public hospitals, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A bonus paid to workers who do not use their sick leave.',
+      'Severance pay given to workers who are fired for poor performance.',
+      'A government tax used to build public hospitals.'
     ],
     rationale: 'Workers\' comp is a no-fault system. The injured employee gets guaranteed medical care and partial wages without having to prove the employer was negligent, but in return, they generally cannot sue the company.'
   },
@@ -4187,9 +4187,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an Applicant Tracking System (ATS)?',
     correctAnswer: 'A software application that enables the electronic handling of recruitment and hiring needs, often automatically screening resumes for keywords before a human reads them.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a GPS device used to physically track delivery drivers, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A specialized administrative procedure focused on a legal document used to track the criminal history of applicants, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving a government database that tracks all employed citizens, utilized strictly for C-suite and executive performance metrics.'
+      'A GPS device used to physically track delivery drivers.',
+      'A legal document used to track the criminal history of applicants.',
+      'A government database that tracks all employed citizens.'
     ],
     rationale: 'Because corporate job postings receive hundreds of applications, an ATS parses resumes, scores them based on job description keywords, and helps recruiters manage the interview pipeline efficiently.'
   },
@@ -4200,9 +4200,9 @@ export const questionBank: QuestionData[] = [
     text: 'In instructional design, what does the "ADDIE" model stand for?',
     correctAnswer: 'Analyze, Design, Develop, Implement, Evaluate.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on assess, Deliver, Document, Instruct, Examine, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of align, Draft, Deploy, Investigate, Execute, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of appraise, Detail, Discuss, Integrate, Empower, heavily criticized for significantly eroding long-term employee morale.'
+      'Assess, Deliver, Document, Instruct, Examine.',
+      'Align, Draft, Deploy, Investigate, Execute.',
+      'Appraise, Detail, Discuss, Integrate, Empower.'
     ],
     rationale: 'ADDIE is the classic framework used by HR and trainers to build effective training programs from scratch, ensuring that the training actually solves a business problem and is evaluated afterward.'
   },
@@ -4213,9 +4213,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does "Total Rewards" encompass?',
     correctAnswer: 'All of the tools available to the employer that may be used to attract, motivate, and retain employees, including compensation, benefits, work-life balance, performance recognition, and career development.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing only the base salary and government-mandated benefits, which completely bypasses standard operational DOLE regulations.',
-      'A strictly mandated corporate policy involving only the physical gifts (like watches or plaques) given during anniversaries, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving the total amount of money a company saves by not giving raises, utilized strictly for C-suite and executive performance metrics.'
+      'Only the base salary and government-mandated benefits.',
+      'Only the physical gifts (like watches or plaques) given during anniversaries.',
+      'The total amount of money a company saves by not giving raises.'
     ],
     rationale: 'Total rewards is a holistic approach. It recognizes that employees work not just for cash, but for a good culture, flexible hours, health insurance, and opportunities to grow.'
   },
@@ -4226,9 +4226,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Graphic Rating Scale" in performance appraisals?',
     correctAnswer: 'A method that lists traits or behaviors (like teamwork or punctuality) and a range of performance values (like 1 to 5, or Poor to Excellent) for the manager to check off.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a highly complex 3D graph used by executives to plot company profits, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of a method where employees draw a picture representing their feelings about their boss, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A specialized administrative procedure focused on an appraisal that strictly uses only written essay answers, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A highly complex 3D graph used by executives to plot company profits.',
+      'A method where employees draw a picture representing their feelings about their boss.',
+      'An appraisal that strictly uses only written essay answers.'
     ],
     rationale: 'Graphic rating scales are the most common and simplest performance appraisal method, though they are prone to subjectivity and bias because terms like "Excellent" or "Average" are open to interpretation.'
   },
@@ -4243,9 +4243,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Kasambahay Law (RA 10361), what happens if the employer and the domestic worker agree to a salary lower than the mandated regional minimum wage?',
     correctAnswer: 'The agreement is void. The Kasambahay is still legally entitled to the mandated minimum wage, and the employer can be penalized.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring the agreement is valid since it is a mutual contract, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding the Kasambahay must be deported to their home province, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding the employer must pay double the difference as a bonus, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The agreement is valid since it is a mutual contract.',
+      'The Kasambahay must be deported to their home province.',
+      'The employer must pay double the difference as a bonus.'
     ],
     rationale: 'Minimum wage laws are matters of public policy and cannot be waived. Any contract stipulating a wage below the statutory minimum is null and void.'
   },
@@ -4256,9 +4256,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can a married male employee claim Paternity Leave for a child born to a woman he is living with but not legally married to?',
     correctAnswer: 'No, under RA 8187, paternity leave is strictly for a married male employee cohabiting with his LEGITIMATE spouse.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring yes, as long as his name is on the birth certificate, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring yes, but only if they have been living together for 5 years, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning no, paternity leave is only for legally adopted children, strictly enforceable only during a declared state of national economic crisis.'
+      'Yes, as long as his name is on the birth certificate.',
+      'Yes, but only if they have been living together for 5 years.',
+      'No, paternity leave is only for legally adopted children.'
     ],
     rationale: 'The law specifically requires the man to be legally married to and cohabiting with the woman who gives birth (or suffers a miscarriage) to claim the 7-day paid paternity leave.'
   },
@@ -4269,9 +4269,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under PD 851, what is the ultimate deadline for an employer to pay the mandatory 13th-month pay to their employees?',
     correctAnswer: 'On or before December 24 of every year.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring on or before December 31 of every year, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring on or before November 30 of every year, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding on the employee’s exact hiring anniversary date, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'On or before December 31 of every year.',
+      'On or before November 30 of every year.',
+      'On the employee’s exact hiring anniversary date.'
     ],
     rationale: 'The law dictates that the 13th-month pay must be paid not later than December 24. Some companies split it (half in May/June, half in December), which is completely legal as long as the full amount is paid by Dec 24.'
   },
@@ -4282,9 +4282,9 @@ export const questionBank: QuestionData[] = [
     text: 'What defines the authorized cause of "Redundancy"?',
     correctAnswer: 'When the services of an employee are in excess of what is reasonably demanded by the actual requirements of the enterprise (e.g., due to automation or restructuring).',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving when the company is losing money and must fire people to survive, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring when an employee fails to meet their sales quota for 3 consecutive months, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring when an employee commits a crime against the company, unconditionally subjecting the employer to massive punitive damages.'
+      'When the company is losing money and must fire people to survive.',
+      'When an employee fails to meet their sales quota for 3 consecutive months.',
+      'When an employee commits a crime against the company.'
     ],
     rationale: 'Redundancy means the position itself is superfluous. Even if the company is highly profitable, if they buy a machine that does the job of 10 men, those 10 men are redundant and get a higher separation pay (1 month/year).'
   },
@@ -4295,9 +4295,9 @@ export const questionBank: QuestionData[] = [
     text: 'What defines the authorized cause of "Retrenchment"?',
     correctAnswer: 'The termination of employment initiated by the employer through no fault of the employees and without prejudice to the latter, resorted to by management during periods of business recession, industrial depression, or seasonal fluctuations to prevent losses.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating firing an employee because they stole office supplies, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding replacing human workers with robots to increase already high profits, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'A highly contentious Supreme Court jurisprudence involving closing the company completely because the owner wants to retire, stripping the employee of absolutely all statutory monetary claims.'
+      'Firing an employee because they stole office supplies.',
+      'Replacing human workers with robots to increase already high profits.',
+      'Closing the company completely because the owner wants to retire.'
     ],
     rationale: 'Retrenchment (downsizing) is a measure of last resort to save a sinking company from actual or imminent substantial losses. Because the company is losing money, the separation pay is lower (1/2 month/year).'
   },
@@ -4308,9 +4308,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 83, what are the normal hours of work for health personnel in cities with a population of at least 1 million, or in hospitals with a bed capacity of at least 100?',
     correctAnswer: 'Eight (8) hours a day, for five (5) days a week, exclusive of time for meals (40 hours/week).',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving twelve (12) hours a day, for three (3) days a week, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring ten (10) hours a day, for six (6) days a week, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving they have no normal hours and must be on-call 24/7, stripping the employee of absolutely all statutory monetary claims.'
+      'Twelve (12) hours a day, for three (3) days a week.',
+      'Ten (10) hours a day, for six (6) days a week.',
+      'They have no normal hours and must be on-call 24/7.'
     ],
     rationale: 'To protect healthcare workers in large hospitals/cities from extreme exhaustion, the law limits their regular workweek to 40 hours. If they work a 6th day, they are entitled to overtime plus a 30% premium.'
   },
@@ -4321,9 +4321,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee works in a continuous shift (like a call center or factory) where they cannot leave their post, how is their meal period treated?',
     correctAnswer: 'They must be given at least a 20-minute meal break, which is considered compensable (paid) time worked.',
     incorrectAnswers: [
-      'The strict legal prohibition against they are entirely denied a meal break, explicitly exempting all managerial and supervisory employees.',
-      'An outdated provision of the Labor Code requiring they get a 60-minute break but must clock out, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against they must eat while working without stopping, explicitly exempting all managerial and supervisory employees.'
+      'They are entirely denied a meal break.',
+      'They get a 60-minute break but must clock out.',
+      'They must eat while working without stopping.'
     ],
     rationale: 'If the nature of the work requires continuous operation and the employee cannot leave, the employer can shorten the meal break to 20 mins, but MUST pay the employee for that time.'
   },
@@ -4334,9 +4334,9 @@ export const questionBank: QuestionData[] = [
     text: 'How is the Night Shift Differential (NSD) computed?',
     correctAnswer: 'Not less than ten percent (10%) of the employee’s regular wage for each hour of work performed between 10:00 PM and 6:00 AM.',
     incorrectAnswers: [
-      'The strict legal prohibition against 25% of the regular wage for each hour worked past midnight, explicitly exempting all managerial and supervisory employees.',
-      'The strict legal prohibition against 30% of the regular wage for the entire 8-hour shift, explicitly exempting all managerial and supervisory employees.',
-      'The mandatory administrative DOLE order dictating a flat rate of PHP 100 per night, which is absolutely void ab initio due to contrary public policy.'
+      '25% of the regular wage for each hour worked past midnight.',
+      '30% of the regular wage for the entire 8-hour shift.',
+      'A flat rate of PHP 100 per night.'
     ],
     rationale: 'NSD is a premium paid to compensate for the health risks and social inconveniences of working graveyard hours. It is an additional 10% on top of the hourly rate.'
   },
@@ -4347,9 +4347,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the premium pay if an employee works on their scheduled Rest Day (which is NOT a holiday)?',
     correctAnswer: 'An additional thirty percent (30%) of their regular wage (130% total).',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating an additional fifty percent (50%) of their regular wage, under severe penalty of immediate corporate closure.',
-      'A rigid statutory DOLE regulation explicitly mandating an additional one hundred percent (100%) of their regular wage, under severe penalty of immediate corporate closure.',
-      'The absolute constitutional principle concerning there is no premium; they are just given another rest day later, strictly enforceable only during a declared state of national economic crisis.'
+      'An additional fifty percent (50%) of their regular wage.',
+      'An additional one hundred percent (100%) of their regular wage.',
+      'There is no premium; they are just given another rest day later.'
     ],
     rationale: 'Work performed on a scheduled rest day commands a 30% premium to discourage employers from depriving employees of their 24-hour weekly rest period.'
   },
@@ -4360,9 +4360,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are the three mandatory procedural requirements before a labor union can stage a legal strike?',
     correctAnswer: 'Filing a Notice of Strike, observing the Cooling-off Period, and securing a Strike Vote (majority vote of members).',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving filing a grievance, asking for a salary advance, and locking the company gates, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning notifying the media, burning company property, and blocking the street, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating securing approval from the CEO, HR, and the local Mayor, under severe penalty of immediate corporate closure.'
+      'Filing a grievance, asking for a salary advance, and locking the company gates.',
+      'Notifying the media, burning company property, and blocking the street.',
+      'Securing approval from the CEO, HR, and the local Mayor.'
     ],
     rationale: 'A strike is a massive disruption. The law requires a Notice of Strike to DOLE, a cooling-off period (15 or 30 days) to allow DOLE to mediate, and a democratic Strike Vote submitted 7 days before the strike.'
   },
@@ -4376,9 +4376,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Assessment Center" in the context of recruitment?',
     correctAnswer: 'A comprehensive evaluation process where candidates participate in multiple exercises (like role-plays, in-basket tests, and group discussions) observed by multiple assessors.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a physical clinic where applicants undergo mandatory medical drug testing, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on a government office where professional licenses are issued, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The rigorous quantitative psychological assessment of a location where background checks and credit histories are pulled, heavily criticized for significantly eroding long-term employee morale.'
+      'A physical clinic where applicants undergo mandatory medical drug testing.',
+      'A government office where professional licenses are issued.',
+      'A location where background checks and credit histories are pulled.'
     ],
     rationale: 'Assessment centers are highly valid methods for selecting managers. They simulate the actual stresses and tasks of the job, rather than just relying on what a candidate says in an interview.'
   },
@@ -4389,9 +4389,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Gamification" and a "Training Simulation"?',
     correctAnswer: 'Gamification adds game elements (points, badges) to non-game training, while a simulation creates a highly realistic virtual environment (like a flight simulator) to practice actual skills.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of gamification is for executives, while simulations are for manual laborers, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding simulations require physical board games, while gamification is purely digital, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of there is no difference; the terms mean exactly the same thing, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Gamification is for executives, while simulations are for manual laborers.',
+      'Simulations require physical board games, while gamification is purely digital.',
+      'There is no difference; the terms mean exactly the same thing.'
     ],
     rationale: 'A leaderboard on a sales quiz is gamification. A VR headset that lets a pilot practice an emergency landing without crashing a real plane is a simulation.'
   },
@@ -4402,9 +4402,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Vesting Period" in employee benefits (e.g., retirement plans or stock options)?',
     correctAnswer: 'The specific length of time an employee must work for the company before they earn the absolute right to keep the employer-provided benefits or stock.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on the time of year when all employees are mandated to wear corporate vests, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving the waiting period before a new hire gets their first paycheck, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing the time limit an employee has to spend their cash bonus before it expires, which completely bypasses standard operational DOLE regulations.'
+      'The time of year when all employees are mandated to wear corporate vests.',
+      'The waiting period before a new hire gets their first paycheck.',
+      'The time limit an employee has to spend their cash bonus before it expires.'
     ],
     rationale: 'Vesting is a retention tool. If a company gives you 1,000 shares of stock on a 4-year vesting schedule, you only get to keep 250 shares each year you stay. If you leave early, you forfeit the unvested shares.'
   },
@@ -4415,9 +4415,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Management by Exception"?',
     correctAnswer: 'A management style where the manager intervenes only when an employee’s performance significantly deviates from the established standards.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a style where the manager makes exceptions to the rules for their favorite employees, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A specialized administrative procedure focused on a style where the manager strictly micromanages every single task, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of a style where performance reviews are completely skipped for top performers, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A style where the manager makes exceptions to the rules for their favorite employees.',
+      'A style where the manager strictly micromanages every single task.',
+      'A style where performance reviews are completely skipped for top performers.'
     ],
     rationale: 'Management by exception empowers employees to work autonomously. The manager only steps in when there is a critical problem (a negative exception) or a massive success (a positive exception) that requires attention.'
   },
@@ -4428,9 +4428,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Rotation"?',
     correctAnswer: 'Systematically moving employees from one job to another to broaden their skills and reduce boredom, without necessarily changing their job grade or pay.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding rotating the physical office layout every month to stimulate creativity, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of firing the bottom 10% of employees and replacing them with new hires, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of promoting an employee to management and then demoting them back down, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Rotating the physical office layout every month to stimulate creativity.',
+      'Firing the bottom 10% of employees and replacing them with new hires.',
+      'Promoting an employee to management and then demoting them back down.'
     ],
     rationale: 'Job rotation is horizontal. A bank teller might spend one week at the cash window, the next week processing loans, and the next week opening new accounts. It cross-trains the workforce.'
   },
@@ -4441,9 +4441,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary goal of an "Employee Wellness Program"?',
     correctAnswer: 'To proactively improve the physical and mental health of the workforce, thereby reducing healthcare costs, absenteeism, and lost productivity.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding to diagnose and treat major surgeries within the office building, requiring highly expensive proprietary software algorithms to implement.',
-      'A specialized administrative procedure focused on to force employees to lose weight to meet company image standards, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving to completely replace standard medical insurance, utilized strictly for C-suite and executive performance metrics.'
+      'To diagnose and treat major surgeries within the office building.',
+      'To force employees to lose weight to meet company image standards.',
+      'To completely replace standard medical insurance.'
     ],
     rationale: 'Wellness programs (like gym subsidies, mental health days, or smoking cessation classes) focus on prevention, helping to avoid the massive costs of chronic illness down the line.'
   },
@@ -4454,9 +4454,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Psychometric Test" in recruitment?',
     correctAnswer: 'A standardized, scientific assessment used to measure a candidate’s mental capabilities, cognitive abilities, or behavioral style.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a test that measures physical strength and endurance, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving an interview conducted by a licensed psychiatrist to diagnose mental illness, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a test to see if a candidate can visually identify different colors, which completely bypasses standard operational DOLE regulations.'
+      'A test that measures physical strength and endurance.',
+      'An interview conducted by a licensed psychiatrist to diagnose mental illness.',
+      'A test to see if a candidate can visually identify different colors.'
     ],
     rationale: 'Psychometric tests (like numerical reasoning or personality tests) add objective data to the hiring process, helping to predict how a candidate will perform or fit into the culture.'
   },
@@ -4467,9 +4467,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the Phillips ROI Methodology (Level 5), how is the Return on Investment (ROI) of a training program calculated?',
     correctAnswer: 'By converting the business impact of the training into monetary value, subtracting the total cost of the training, and dividing by the cost of the training.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of by counting the number of employees who smiled during the training, heavily criticized for significantly eroding long-term employee morale.',
-      'The rigorous quantitative psychological assessment of by measuring the exact time it took to deliver the training, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly controversial HR framework of by asking the CEO if they felt the training was worth it, applicable exclusively to massive multinational PEZA-registered entities.'
+      'By counting the number of employees who smiled during the training.',
+      'By measuring the exact time it took to deliver the training.',
+      'By asking the CEO if they felt the training was worth it.'
     ],
     rationale: 'Jack Phillips added a 5th level to Kirkpatrick\'s 4 levels. ROI proves the financial worth of HR. If a sales training cost $10,000 but generated $50,000 in new sales, it has a clear, positive ROI.'
   },
@@ -4480,9 +4480,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Prevailing Wage"?',
     correctAnswer: 'The typical hourly wage and benefits paid to the majority of workers, laborers, and mechanics in a particular area, often mandated for government contractors.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving the absolute lowest minimum wage allowed by federal law, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving the maximum wage an executive is allowed to earn, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving a wage that automatically increases every time it rains, utilized strictly for C-suite and executive performance metrics.'
+      'The absolute lowest minimum wage allowed by federal law.',
+      'The maximum wage an executive is allowed to earn.',
+      'A wage that automatically increases every time it rains.'
     ],
     rationale: 'Prevailing wage laws ensure that government contractors do not undercut local wage standards to win bids. They must pay what is "prevailing" or standard for that trade in that specific city.'
   },
@@ -4493,9 +4493,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "9-Box Grid" used for in HR?',
     correctAnswer: 'A talent management tool that evaluates employees across two dimensions: past performance and future potential, often used for succession planning.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding a layout used to organize cubicles in an open-plan office, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of a legal form required to terminate an employee for cause, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing a 9-step mathematical formula for calculating bonuses, which completely bypasses standard operational DOLE regulations.'
+      'A layout used to organize cubicles in an open-plan office.',
+      'A legal form required to terminate an employee for cause.',
+      'A 9-step mathematical formula for calculating bonuses.'
     ],
     rationale: 'The 9-box grid plots Performance (Low/Med/High) against Potential (Low/Med/High). An employee in the top-right box (High Perf, High Potential) is a "Star" and prime for immediate leadership promotion.'
   },
@@ -4510,9 +4510,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal consequence for union OFFICERS who knowingly participate in an illegal strike?',
     correctAnswer: 'They may be validly terminated and lose their employment status immediately.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving they are suspended for a maximum of 30 days, stripping the employee of absolutely all statutory monetary claims.',
-      'An absolute requirement under the Civil Code regarding they are immune from any disciplinary action because of union rights, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The mandatory administrative DOLE order dictating they are simply fined PHP 1,000 but retain their jobs, which is absolutely void ab initio due to contrary public policy.'
+      'They are suspended for a maximum of 30 days.',
+      'They are immune from any disciplinary action because of union rights.',
+      'They are simply fined PHP 1,000 but retain their jobs.'
     ],
     rationale: 'The Labor Code differentiates officers and members in an illegal strike. Officers who knowingly participate can be fired. Ordinary members cannot be fired just for joining, UNLESS they committed illegal acts (violence) during the strike.'
   },
@@ -4523,9 +4523,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is a "Sympathy Strike" legal under Philippine Labor Law?',
     correctAnswer: 'No, sympathy strikes are illegal because there is no actual employer-employee dispute between the striking workers and their own employer.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating yes, it is protected under the freedom of speech, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving yes, as long as they file a notice of strike 7 days prior, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating no, but they can be legalized if approved by the local Mayor, which is absolutely void ab initio due to contrary public policy.'
+      'Yes, it is protected under the freedom of speech.',
+      'Yes, as long as they file a notice of strike 7 days prior.',
+      'No, but they can be legalized if approved by the local Mayor.'
     ],
     rationale: 'A sympathy strike (where workers in Company A strike to support workers in Company B) is illegal because Company A has not committed any unfair labor practice against its own workers.'
   },
@@ -4536,9 +4536,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee hurls severe insults and defamatory remarks against their manager in front of other employees, can this be a just cause for termination?',
     correctAnswer: 'Yes, it constitutes serious misconduct and insubordination, which are just causes for termination.',
     incorrectAnswers: [
-      'The strict legal prohibition against no, the manager must just ignore it as part of free speech, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving yes, but only if the insults were made in writing (libel), stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning no, the employee must be given at least 5 warnings first, strictly enforceable only during a declared state of national economic crisis.'
+      'No, the manager must just ignore it as part of free speech.',
+      'Yes, but only if the insults were made in writing (libel).',
+      'No, the employee must be given at least 5 warnings first.'
     ],
     rationale: 'Serious misconduct (Article 297) includes behavior that is offensive, abusive, and destroys the respect and discipline necessary in the workplace. Severe public defamation of a superior qualifies.'
   },
@@ -4549,9 +4549,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Labor Code, an employer is generally PROHIBITED from making deductions from an employee’s wage. What is one legal exception?',
     correctAnswer: 'Deductions for insurance premiums or union dues, provided there is written consent or authorization from the employee.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving deductions to pay for a company Christmas party without the employee\'s consent, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating deductions to replace old office chairs, which is absolutely void ab initio due to contrary public policy.',
-      'The absolute constitutional principle concerning deductions to cover the employer\'s personal debts, strictly enforceable only during a declared state of national economic crisis.'
+      'Deductions to pay for a company Christmas party without the employee\'s consent.',
+      'Deductions to replace old office chairs.',
+      'Deductions to cover the employer\'s personal debts.'
     ],
     rationale: 'Article 113 strictly prohibits unauthorized deductions. Exceptions include government mandates (taxes, SSS), authorized union dues (check-off), or debt to the employer with written authorization.'
   },
@@ -4562,9 +4562,9 @@ export const questionBank: QuestionData[] = [
     text: 'When a Labor Arbiter rules that a dismissal was illegal and orders the reinstatement of the employee, what is the nature of the reinstatement order?',
     correctAnswer: 'It is immediately executory, even if the employer appeals the decision to the NLRC.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating it is suspended until the Supreme Court makes a final ruling, which is absolutely void ab initio due to contrary public policy.',
-      'The absolute constitutional principle concerning it is purely optional on the part of the employer, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating it takes effect only after 3 years, under severe penalty of immediate corporate closure.'
+      'It is suspended until the Supreme Court makes a final ruling.',
+      'It is purely optional on the part of the employer.',
+      'It takes effect only after 3 years.'
     ],
     rationale: 'To protect the worker’s livelihood, a reinstatement order by the Labor Arbiter must be executed immediately. The employer can physically reinstate them or reinstate them strictly in the payroll while the appeal is pending.'
   },
@@ -4575,9 +4575,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are "Non-Compete Clauses" in employment contracts legally valid in the Philippines?',
     correctAnswer: 'Yes, provided the restriction is reasonable in its duration (time) and geographical scope (space), and is necessary to protect the employer’s trade secrets.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating no, they are totally unconstitutional and void, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding yes, they are absolute and can ban an employee from working anywhere in the world forever, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring yes, but only for government employees, unconditionally subjecting the employer to massive punitive damages.'
+      'No, they are totally unconstitutional and void.',
+      'Yes, they are absolute and can ban an employee from working anywhere in the world forever.',
+      'Yes, but only for government employees.'
     ],
     rationale: 'The Supreme Court allows non-compete clauses if they are not oppressive. A ban for 1 to 2 years within the same specific industry and geographic location is generally considered valid to protect trade secrets.'
   },
@@ -4588,9 +4588,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period (deadline) for filing a complaint for Illegal Dismissal?',
     correctAnswer: 'Four (4) years from the time the cause of action accrued (the date of dismissal).',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving three (3) years, stripping the employee of absolutely all statutory monetary claims.',
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning ten (10) years, strictly enforceable only during a declared state of national economic crisis.'
+      'Three (3) years.',
+      'One (1) year.',
+      'Ten (10) years.'
     ],
     rationale: 'Under the Civil Code (Article 1146), an action based upon an injury to the rights of the plaintiff (like illegal dismissal) must be brought within 4 years. This differs from simple money claims.'
   },
@@ -4601,9 +4601,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period (deadline) for filing purely Money Claims (e.g., unpaid overtime, unpaid 13th month) arising from employer-employee relations?',
     correctAnswer: 'Three (3) years from the time the cause of action accrued.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning four (4) years, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning five (5) years, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Four (4) years.',
+      'Five (5) years.',
+      'One (1) year.'
     ],
     rationale: 'Article 306 of the Labor Code clearly states that all money claims arising from employer-employee relations shall be filed within 3 years from the time the cause of action accrued, otherwise they are forever barred.'
   },
@@ -4614,9 +4614,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary indicator of "Substantial Capital" in legitimate job contracting under DOLE regulations?',
     correctAnswer: 'The contractor has a paid-up capital of at least Five Million Pesos (PHP 5,000,000.00).',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding the contractor has a paid-up capital of PHP 100,000.00, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The mandatory administrative DOLE order dictating the contractor owns a laptop and a rented desk, which is absolutely void ab initio due to contrary public policy.',
-      'A highly contentious Supreme Court jurisprudence involving the contractor borrows all equipment from the principal employer, stripping the employee of absolutely all statutory monetary claims.'
+      'The contractor has a paid-up capital of PHP 100,000.00.',
+      'The contractor owns a laptop and a rented desk.',
+      'The contractor borrows all equipment from the principal employer.'
     ],
     rationale: 'DO 174 requires contractors to prove they are legitimate businesses capable of paying their workers. A minimum paid-up capital of 5 million pesos is the absolute baseline to be registered as a legitimate contractor.'
   },
@@ -4627,9 +4627,9 @@ export const questionBank: QuestionData[] = [
     text: 'If a female employee goes on a 105-day maternity leave, how is her 13th-month pay for that year computed?',
     correctAnswer: 'The maternity leave period is NOT included in the computation. Only the actual basic salary earned while actively working is divided by 12.',
     incorrectAnswers: [
-      'The strict legal prohibition against the maternity leave benefit is counted as basic salary and included in the computation, explicitly exempting all managerial and supervisory employees.',
-      'An outdated provision of the Labor Code requiring she forfeits the entire 13th-month pay for that year, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring she automatically receives double her 13th-month pay, unconditionally subjecting the employer to massive punitive damages.'
+      'The maternity leave benefit is counted as basic salary and included in the computation.',
+      'She forfeits the entire 13th-month pay for that year.',
+      'She automatically receives double her 13th-month pay.'
     ],
     rationale: 'Maternity benefits are statutory grants, not actual wages earned from rendering work. Therefore, the 105 days (where she did not receive basic salary from the employer) are excluded from the 13th-month pro-rata computation.'
   },
@@ -4643,9 +4643,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Employee Referral Program"?',
     correctAnswer: 'An internal recruitment method where current employees are encouraged and rewarded (usually with a cash bonus) for recommending qualified candidates for open positions.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a program where employees are referred to external counselors for mental health support, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on a disciplinary process where employees are referred to HR for policy violations, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A specialized administrative procedure focused on a system where executives refer their family members for guaranteed jobs, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A program where employees are referred to external counselors for mental health support.',
+      'A disciplinary process where employees are referred to HR for policy violations.',
+      'A system where executives refer their family members for guaranteed jobs.'
     ],
     rationale: 'Referral programs are often the most cost-effective source of high-quality hires. Current employees act as a filter because they will rarely risk their own reputation by referring a bad candidate.'
   },
@@ -4656,9 +4656,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Competency Mapping"?',
     correctAnswer: 'The process of identifying the specific skills, behaviors, and knowledge required to successfully perform a specific job or role within the organization.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of drawing a physical map of the office layout based on employee departments, heavily criticized for significantly eroding long-term employee morale.',
-      'The rigorous quantitative psychological assessment of a psychological test that maps out an employee’s childhood traumas, heavily criticized for significantly eroding long-term employee morale.',
-      'An advanced organizational development strategy utilizing a financial map tracing where training budget money is spent, which completely bypasses standard operational DOLE regulations.'
+      'Drawing a physical map of the office layout based on employee departments.',
+      'A psychological test that maps out an employee’s childhood traumas.',
+      'A financial map tracing where training budget money is spent.'
     ],
     rationale: 'Competency mapping creates a clear standard. Once HR knows exactly what a "Senior Developer" needs to do (the map), they can assess current developers against it to find skill gaps for training.'
   },
@@ -4669,9 +4669,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Golden Parachute"?',
     correctAnswer: 'A highly lucrative severance package guaranteed to top executives if they are dismissed as a result of a merger or takeover.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a retirement plan where employees receive literal gold bars instead of cash, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A specialized administrative procedure focused on a safety protocol for employees who travel by airplane frequently, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of a government mandate protecting pregnant women from termination, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A retirement plan where employees receive literal gold bars instead of cash.',
+      'A safety protocol for employees who travel by airplane frequently.',
+      'A government mandate protecting pregnant women from termination.'
     ],
     rationale: 'Golden parachutes are controversial but are designed to keep executives focused on securing the best deal for shareholders during a merger, rather than sabotaging the deal to save their own jobs.'
   },
@@ -4682,9 +4682,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Forced Distribution" (or Stack Ranking) in performance management?',
     correctAnswer: 'A rating system that requires managers to distribute employee performance ratings along a pre-determined bell curve (e.g., 20% Top, 70% Average, 10% Bottom).',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on distributing bonuses randomly to force employees to work harder out of jealousy, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of forcing all employees to receive the exact same average score, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing a legal requirement that performance data be distributed to the government, which completely bypasses standard operational DOLE regulations.'
+      'Distributing bonuses randomly to force employees to work harder out of jealousy.',
+      'Forcing all employees to receive the exact same average score.',
+      'A legal requirement that performance data be distributed to the government.'
     ],
     rationale: 'Popularized by Jack Welch at GE, forced distribution prevents leniency bias by forcing managers to make tough decisions, often leading to the termination of the bottom 10%. However, it can heavily damage teamwork.'
   },
@@ -4695,9 +4695,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the key difference between a "Job Description" and a "Job Specification"?',
     correctAnswer: 'A Job Description outlines the duties, responsibilities, and tasks OF THE JOB, while a Job Specification outlines the qualifications, skills, and education required OF THE PERSON doing the job.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a Job Description is written by the employee, while a Job Specification is written by the CEO, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing a Job Description is for full-time workers, while a Job Specification is for part-timers, which completely bypasses standard operational DOLE regulations.',
-      'A specialized administrative procedure focused on there is no difference; they are exactly the same document, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A Job Description is written by the employee, while a Job Specification is written by the CEO.',
+      'A Job Description is for full-time workers, while a Job Specification is for part-timers.',
+      'There is no difference; they are exactly the same document.'
     ],
     rationale: 'Job Description (The What): Analyzes data, creates reports. Job Specification (The Who): Needs a Bachelor\'s degree in Statistics, 3 years of Excel experience.'
   },
@@ -4708,9 +4708,9 @@ export const questionBank: QuestionData[] = [
     text: 'In industrial safety, what does the "Lockout/Tagout" (LOTO) procedure ensure?',
     correctAnswer: 'It ensures that dangerous machines are properly shut off and cannot be accidentally turned on while maintenance or repair work is being performed.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing it ensures that employees are locked out of the office if they arrive late, which completely bypasses standard operational DOLE regulations.',
-      'A strictly mandated corporate policy involving it is a procedure for locking away confidential employee files, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving it ensures that employees tag out on a time clock when going to the bathroom, utilized strictly for C-suite and executive performance metrics.'
+      'It ensures that employees are locked out of the office if they arrive late.',
+      'It is a procedure for locking away confidential employee files.',
+      'It ensures that employees tag out on a time clock when going to the bathroom.'
     ],
     rationale: 'LOTO physically locks a machine\'s power source (like a circuit breaker) and places a warning tag on it. It prevents fatal accidents where a worker is inside a machine and another worker unknowingly turns the power on.'
   },
@@ -4721,9 +4721,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the main advantage of a "Structured Interview" over an "Unstructured Interview"?',
     correctAnswer: 'A structured interview asks the exact same predetermined questions in the exact same order to all candidates, making it highly objective and easier to compare applicants.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a structured interview is completely informal and helps the candidate relax, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A specialized administrative procedure focused on a structured interview allows the interviewer to ask personal questions about religion, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing a structured interview is conducted entirely by an AI robot without humans, which completely bypasses standard operational DOLE regulations.'
+      'A structured interview is completely informal and helps the candidate relax.',
+      'A structured interview allows the interviewer to ask personal questions about religion.',
+      'A structured interview is conducted entirely by an AI robot without humans.'
     ],
     rationale: 'Unstructured interviews (casual conversations) are highly prone to bias because the interviewer might hire someone just because they share a hobby. Structured interviews focus strictly on job-related criteria.'
   },
@@ -4734,9 +4734,9 @@ export const questionBank: QuestionData[] = [
     text: 'How does "Mentoring" generally differ from "Coaching" in the workplace?',
     correctAnswer: 'Mentoring is a long-term, relationship-based process focused on holistic career development, while coaching is short-term and focused on improving specific skills or immediate performance.',
     incorrectAnswers: [
-      'The highly controversial HR framework of mentoring is strictly for sports teams, while coaching is for business, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing mentoring involves yelling and discipline, while coaching is gentle, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of coaching is done by the CEO, while mentoring is done by entry-level peers, heavily criticized for significantly eroding long-term employee morale.'
+      'Mentoring is strictly for sports teams, while coaching is for business.',
+      'Mentoring involves yelling and discipline, while coaching is gentle.',
+      'Coaching is done by the CEO, while mentoring is done by entry-level peers.'
     ],
     rationale: 'A mentor might guide a junior manager over 5 years on how to navigate corporate politics and plan their career. A coach might work with them for 3 weeks specifically to improve their public speaking skills.'
   },
@@ -4747,9 +4747,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Differential Pay" (e.g., Shift Differential)?',
     correctAnswer: 'Additional compensation paid to an employee as an incentive to work less desirable shifts, such as nights or weekends.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on paying male and female employees different rates for the exact same work, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of a tax deduction applied differently based on the employee’s age, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving a penalty deducted from an employee’s pay for poor performance, utilized strictly for C-suite and executive performance metrics.'
+      'Paying male and female employees different rates for the exact same work.',
+      'A tax deduction applied differently based on the employee’s age.',
+      'A penalty deducted from an employee’s pay for poor performance.'
     ],
     rationale: 'Shift differentials recognize the disruption to an employee\'s personal life. The Philippine Night Shift Differential (10%) is a statutory form of differential pay.'
   },
@@ -4760,9 +4760,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Recency Effect" in performance appraisals?',
     correctAnswer: 'A rating error where the manager bases the evaluation almost entirely on the employee’s most recent behaviors (good or bad), ignoring performance from the rest of the year.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a bias where the manager favors employees who were hired most recently, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of a legal requirement to only evaluate the past 30 days of work, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of a tendency to give high scores because the performance software is a recent update, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A bias where the manager favors employees who were hired most recently.',
+      'A legal requirement to only evaluate the past 30 days of work.',
+      'A tendency to give high scores because the performance software is a recent update.'
     ],
     rationale: 'If an employee slacks off for 10 months but works incredibly hard in November and December, a manager suffering from the recency effect will give them an excellent annual review, ignoring the 10 bad months.'
   },
@@ -4777,9 +4777,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the SSS contribution requirement for a female employee to qualify for the Expanded Maternity Leave benefit?',
     correctAnswer: 'She must have paid at least three (3) monthly contributions in the twelve-month period immediately preceding the semester of her childbirth or miscarriage.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving she must have paid at least thirty-six (36) monthly contributions continuously, stripping the employee of absolutely all statutory monetary claims.',
-      'A rigid statutory DOLE regulation explicitly mandating she must have paid one (1) month of contribution, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding she does not need any contributions if she is legally married, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'She must have paid at least thirty-six (36) monthly contributions continuously.',
+      'She must have paid one (1) month of contribution.',
+      'She does not need any contributions if she is legally married.'
     ],
     rationale: 'The 3-in-12 rule is standard for SSS maternity and sickness benefits to ensure the member is actively contributing to the fund before drawing from it.'
   },
@@ -4790,9 +4790,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under RA 8187, is there a limit to how many times a male employee can claim Paternity Leave?',
     correctAnswer: 'Yes, it is limited to the first four (4) deliveries or miscarriages of his legitimate spouse with whom he is cohabiting.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating no, there is absolutely no limit, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring yes, it is limited to only one (1) delivery in his entire lifetime, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against yes, it is limited to the first ten (10) deliveries, explicitly exempting all managerial and supervisory employees.'
+      'No, there is absolutely no limit.',
+      'Yes, it is limited to only one (1) delivery in his entire lifetime.',
+      'Yes, it is limited to the first ten (10) deliveries.'
     ],
     rationale: 'Similar to the old rule for maternity leave (before the Expanded Maternity Leave Act removed the cap for women), paternity leave is capped at the first 4 deliveries to align with family planning policies.'
   },
@@ -4803,9 +4803,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Magna Carta of Women (RA 9710), what is the Special Leave Benefit for Women (Gynecological Leave)?',
     correctAnswer: 'A paid leave of up to two (2) months for women who undergo surgery caused by gynecological disorders, provided they have rendered 6 months of continuous service.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving a paid leave of up to six (6) months for cosmetic surgery, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring a mandatory 3-day leave every month for dysmenorrhea, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding a lifetime pension for women who develop breast cancer, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A paid leave of up to six (6) months for cosmetic surgery.',
+      'A mandatory 3-day leave every month for dysmenorrhea.',
+      'A lifetime pension for women who develop breast cancer.'
     ],
     rationale: 'This leave allows women to recover from major surgeries specific to the female reproductive system (e.g., hysterectomy, ovarian cyst removal) without exhausting their regular sick leaves.'
   },
@@ -4816,9 +4816,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Anti-Violence Against Women and Their Children Act (RA 9262), what leave benefit is provided to victims?',
     correctAnswer: 'A paid leave of up to ten (10) days in addition to other paid leaves, to attend to medical and legal concerns.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring a paid leave of up to thirty (30) days, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning a one-time cash grant of PHP 50,000, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against there is no paid leave, only free legal counsel from the employer, explicitly exempting all managerial and supervisory employees.'
+      'A paid leave of up to thirty (30) days.',
+      'A one-time cash grant of PHP 50,000.',
+      'There is no paid leave, only free legal counsel from the employer.'
     ],
     rationale: 'VAWC leave is designed to give female victims the time they need to go to court, get protection orders, or seek medical/psychological help without losing their income.'
   },
@@ -4829,9 +4829,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can the 10-day VAWC leave be extended?',
     correctAnswer: 'Yes, it can be extended beyond 10 days if specified in the protection order issued by the barangay or the court.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring no, 10 days is the absolute maximum under all circumstances, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating yes, but only if the employer voluntarily agrees, under severe penalty of immediate corporate closure.',
-      'The strict legal prohibition against yes, but the extended days are automatically deducted from their 13th-month pay, explicitly exempting all managerial and supervisory employees.'
+      'No, 10 days is the absolute maximum under all circumstances.',
+      'Yes, but only if the employer voluntarily agrees.',
+      'Yes, but the extended days are automatically deducted from their 13th-month pay.'
     ],
     rationale: 'While the statutory baseline is 10 days, the law empowers judges and barangay officials to order an extension if the victim\'s safety and legal situation necessitate it.'
   },
@@ -4842,9 +4842,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employer pays wages using a bouncing check, what specific criminal law do they violate in addition to Labor Code violations?',
     correctAnswer: 'Batas Pambansa Blg. 22 (The Bouncing Checks Law).',
     incorrectAnswers: [
-      'The strict legal prohibition against republic Act No. 9262 (Anti-VAWC Law), explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving the Anti-Money Laundering Act (AMLA), stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving the Cybercrime Prevention Act, stripping the employee of absolutely all statutory monetary claims.'
+      'Republic Act No. 9262 (Anti-VAWC Law).',
+      'The Anti-Money Laundering Act (AMLA).',
+      'The Cybercrime Prevention Act.'
     ],
     rationale: 'Paying wages via a check that bounces (insufficient funds) is not just an underpayment issue; it is a criminal offense under BP 22, subjecting the employer to fines and potential imprisonment.'
   },
@@ -4855,9 +4855,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following employees is EXEMPT from receiving the mandatory 13th-Month Pay?',
     correctAnswer: 'Employees who are paid purely on a commission, boundary, or task basis (e.g., real estate brokers, taxi drivers).',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving probationary employees, stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving rank-and-file employees who have only worked for 2 months, stripping the employee of absolutely all statutory monetary claims.',
-      'A rigid statutory DOLE regulation explicitly mandating employees who resigned in November, under severe penalty of immediate corporate closure.'
+      'Probationary employees.',
+      'Rank-and-file employees who have only worked for 2 months.',
+      'Employees who resigned in November.'
     ],
     rationale: 'PD 851 exempts employers from paying 13th-month pay to employees paid on a purely commission/boundary basis because their income is tied directly to results, not a fixed basic salary.'
   },
@@ -4868,9 +4868,9 @@ export const questionBank: QuestionData[] = [
     text: 'In Philippine labor taxation and compensation, what are "De Minimis Benefits"?',
     correctAnswer: 'Facilities or privileges (like rice subsidy, uniform allowance, or medical cash allowance) of relatively small value that are exempt from income tax.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding massive cash bonuses given to executives, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring minimum wage rates in highly urbanized cities, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving benefits given exclusively to minor children of employees, stripping the employee of absolutely all statutory monetary claims.'
+      'Massive cash bonuses given to executives.',
+      'Minimum wage rates in highly urbanized cities.',
+      'Benefits given exclusively to minor children of employees.'
     ],
     rationale: 'De minimis (of minimal importance) benefits are given by employers to promote health, goodwill, and efficiency. Because they are capped at specific low amounts (e.g., PHP 2,000/month for rice), the BIR does not tax them.'
   },
@@ -4881,9 +4881,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal lifespan of a Collective Bargaining Agreement (CBA) under the Labor Code?',
     correctAnswer: 'The representation aspect lasts for five (5) years, while the economic provisions must be renegotiated not later than three (3) years.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating it lasts indefinitely until the union decides to dissolve it, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring it must be completely renegotiated every single year, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating it lasts for exactly 10 years without any renegotiation, under severe penalty of immediate corporate closure.'
+      'It lasts indefinitely until the union decides to dissolve it.',
+      'It must be completely renegotiated every single year.',
+      'It lasts for exactly 10 years without any renegotiation.'
     ],
     rationale: 'To ensure stability, the union remains the exclusive bargaining agent for 5 years. However, because the economy (inflation) changes quickly, the economic provisions (wages, benefits) must be reviewed every 3 years.'
   },
@@ -4894,9 +4894,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Freedom Period" in relation to a Collective Bargaining Agreement (CBA)?',
     correctAnswer: 'The last sixty (60) days of the 5-year lifetime of a CBA, during which another union may file a petition for a certification election to challenge the incumbent union.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning a 60-day period where employees are allowed to strike without a notice, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning a period where employees can freely leave work early on Fridays, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring the 30 days after an employee is hired where they can quit without notice, unconditionally subjecting the employer to massive punitive damages.'
+      'A 60-day period where employees are allowed to strike without a notice.',
+      'A period where employees can freely leave work early on Fridays.',
+      'The 30 days after an employee is hired where they can quit without notice.'
     ],
     rationale: 'Outside of this 60-day window, the "Contract Bar Rule" applies, meaning the existing CBA bars any other union from trying to take over. The Freedom Period is the only legal window for a rival union to step in.'
   },
@@ -4910,9 +4910,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Contingent Worker"?',
     correctAnswer: 'A freelancer, independent contractor, or temporary agency worker hired on a non-permanent basis to fulfill specific, short-term project needs.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on an employee whose employment depends strictly on them passing a daily drug test, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of a permanent employee who works strictly on a night shift, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding an executive whose salary is completely contingent on stock market performance, requiring highly expensive proprietary software algorithms to implement.'
+      'An employee whose employment depends strictly on them passing a daily drug test.',
+      'A permanent employee who works strictly on a night shift.',
+      'An executive whose salary is completely contingent on stock market performance.'
     ],
     rationale: 'Contingent workers provide extreme flexibility for companies to scale up or down quickly without taking on the long-term fixed costs and legal liabilities of regular employees.'
   },
@@ -4923,9 +4923,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Explicit Knowledge" and "Tacit Knowledge"?',
     correctAnswer: 'Explicit knowledge can be easily written down and taught (like a manual), while tacit knowledge is gained from personal experience and is difficult to articulate (like leadership instincts).',
     incorrectAnswers: [
-      'The highly theoretical management approach of explicit knowledge is illegal, while tacit knowledge is legal, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The rigorous quantitative psychological assessment of tacit knowledge is written in books, while explicit knowledge is learned through dreams, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on there is no difference; both are easily downloaded to a USB drive, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Explicit knowledge is illegal, while tacit knowledge is legal.',
+      'Tacit knowledge is written in books, while explicit knowledge is learned through dreams.',
+      'There is no difference; both are easily downloaded to a USB drive.'
     ],
     rationale: 'Training programs easily handle explicit knowledge (how to use the cash register). Tacit knowledge (how to calm down an incredibly angry customer) is usually transferred through mentoring and experience.'
   },
@@ -4936,9 +4936,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Hazard Pay"?',
     correctAnswer: 'Additional compensation given to employees who perform duties under dangerous, extreme, or physically stressful conditions.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a deduction taken from an employee\'s salary if they cause an accident, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a mandatory fee paid to the government for hazardous waste disposal, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of a bonus given for completing a fire drill faster than average, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A deduction taken from an employee\'s salary if they cause an accident.',
+      'A mandatory fee paid to the government for hazardous waste disposal.',
+      'A bonus given for completing a fire drill faster than average.'
     ],
     rationale: 'Nurses during a pandemic, deep-sea welders, or miners receive hazard pay because their base salary alone does not adequately compensate them for the severe risk to their life and health.'
   },
@@ -4949,9 +4949,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Spillover Effect" (or Past-Performance Bias) in appraisals?',
     correctAnswer: 'A rating error where a manager allows an employee’s high or low performance from a PREVIOUS appraisal period to unfairly influence the CURRENT appraisal period.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a bias where an employee accidentally spills coffee on their appraisal form, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of a tendency for a manager\'s bad mood to spill over into their ratings, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The rigorous quantitative psychological assessment of a legal issue where confidential appraisal data spills over to the public, heavily criticized for significantly eroding long-term employee morale.'
+      'A bias where an employee accidentally spills coffee on their appraisal form.',
+      'A tendency for a manager\'s bad mood to spill over into their ratings.',
+      'A legal issue where confidential appraisal data spills over to the public.'
     ],
     rationale: 'If an employee was a superstar in 2022, a manager might blindly give them a superstar rating in 2023 out of habit (spillover), even if the employee actually slacked off in 2023.'
   },
@@ -4962,9 +4962,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Time and Motion Study"?',
     correctAnswer: 'A scientific method used to analyze the exact time and physical movements required to perform a specific job, aimed at eliminating wasted effort and establishing standard times.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a psychological study on how employees perceive the passage of time, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a law requiring employers to give employees time to stretch every hour, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving a study analyzing commute times from home to the office, utilized strictly for C-suite and executive performance metrics.'
+      'A psychological study on how employees perceive the passage of time.',
+      'A law requiring employers to give employees time to stretch every hour.',
+      'A study analyzing commute times from home to the office.'
     ],
     rationale: 'Pioneered by Frederick Taylor and the Gilbreths, time and motion studies are heavily used in manufacturing (e.g., figuring out the exact most efficient way to assemble a burger or a car part).'
   },
@@ -4975,9 +4975,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Return to Work" (RTW) program?',
     correctAnswer: 'A formal plan designed to proactively help injured or ill employees safely return to productive work as soon as possible, often involving temporary light-duty assignments.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a program that forces employees to return to the office after a vacation, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A strictly mandated corporate policy involving a legal document signed when an employee is rehired after being fired, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of a program where retired employees come back as unpaid interns, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A program that forces employees to return to the office after a vacation.',
+      'A legal document signed when an employee is rehired after being fired.',
+      'A program where retired employees come back as unpaid interns.'
     ],
     rationale: 'RTW programs benefit both parties. The employee maintains their income and mental well-being, and the employer reduces workers\' compensation costs and retains an experienced worker.'
   },
@@ -4988,9 +4988,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Realistic Job Preview" (RJP)?',
     correctAnswer: 'A recruiting approach where applicants are given an honest, unfiltered look at both the positive AND negative aspects of the job before they accept an offer.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a virtual reality video game played during an interview, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of lying to the candidate about the job to ensure they accept the offer, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding a government mandate to broadcast all job openings on television, requiring highly expensive proprietary software algorithms to implement.'
+      'A virtual reality video game played during an interview.',
+      'Lying to the candidate about the job to ensure they accept the offer.',
+      'A government mandate to broadcast all job openings on television.'
     ],
     rationale: 'RJPs reduce early turnover. If a job involves getting yelled at by customers 20% of the time, telling candidates this upfront scares away those who can\'t handle it, leaving only those who are mentally prepared.'
   },
@@ -5001,9 +5001,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Synchronous" and "Asynchronous" e-learning?',
     correctAnswer: 'Synchronous learning happens in real-time with an instructor (like a live Zoom class), while asynchronous learning can be completed at the learner’s own pace (like a pre-recorded video module).',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving synchronous requires reading a book, while asynchronous requires listening to audio, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving synchronous is for soft skills, while asynchronous is for hard skills, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of there is no difference; both require a live instructor, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Synchronous requires reading a book, while asynchronous requires listening to audio.',
+      'Synchronous is for soft skills, while asynchronous is for hard skills.',
+      'There is no difference; both require a live instructor.'
     ],
     rationale: 'Asynchronous learning is highly flexible and scalable, but synchronous learning allows for immediate Q&A and stronger peer interaction.'
   },
@@ -5014,9 +5014,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "COLA" (Cost of Living Allowance)?',
     correctAnswer: 'An upward adjustment made to wages or salaries to counteract the effects of inflation and maintain the employee\'s purchasing power.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a free soda provided in the company cafeteria, heavily criticized for significantly eroding long-term employee morale.',
-      'A specialized administrative procedure focused on a deduction made to pay for office air conditioning, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of a special tax paid by employees living in major cities, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A free soda provided in the company cafeteria.',
+      'A deduction made to pay for office air conditioning.',
+      'A special tax paid by employees living in major cities.'
     ],
     rationale: 'If inflation rises by 5%, but an employee\'s salary stays the same, they essentially took a 5% pay cut in purchasing power. COLA offsets this economic reality.'
   },
@@ -5027,9 +5027,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Calibration Meeting" in performance management?',
     correctAnswer: 'A meeting where different managers come together to discuss and align their performance ratings of employees to ensure fairness and consistency across the entire company.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a meeting where machines and technical equipment are calibrated for safety, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a meeting where the CEO yells at managers for poor sales, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A specialized administrative procedure focused on a one-on-one meeting between an employee and their spouse regarding work stress, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A meeting where machines and technical equipment are calibrated for safety.',
+      'A meeting where the CEO yells at managers for poor sales.',
+      'A one-on-one meeting between an employee and their spouse regarding work stress.'
     ],
     rationale: 'Manager A might be naturally harsh, and Manager B might be naturally lenient. Calibration meetings force them to debate their ratings to ensure an "A" rating means the exact same thing in both departments.'
   },
@@ -5044,9 +5044,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what document must a foreign national secure from DOLE before they can legally work in the Philippines?',
     correctAnswer: 'An Alien Employment Permit (AEP).',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding a Special Resident Retiree\'s Visa (SRRV), carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning a Philippine Passport, strictly enforceable only during a declared state of national economic crisis.',
-      'A highly contentious Supreme Court jurisprudence involving a NBI Clearance, stripping the employee of absolutely all statutory monetary claims.'
+      'A Special Resident Retiree\'s Visa (SRRV).',
+      'A Philippine Passport.',
+      'A NBI Clearance.'
     ],
     rationale: 'Article 40 of the Labor Code requires any alien seeking admission to the Philippines for employment purposes to obtain an AEP. This is only granted if no Filipino is competent, able, and willing to do the specific job.'
   },
@@ -5057,9 +5057,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Visitorial and Enforcement Power" of the Secretary of Labor?',
     correctAnswer: 'The absolute authority of DOLE inspectors to enter any workplace at any time to inspect records, investigate conditions, and immediately order compliance with labor standards.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving the power to visit employees\' private homes to check if they are actually sick, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning the power to arrest CEOs without a warrant, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring the power to permanently shut down foreign embassies, unconditionally subjecting the employer to massive punitive damages.'
+      'The power to visit employees\' private homes to check if they are actually sick.',
+      'The power to arrest CEOs without a warrant.',
+      'The power to permanently shut down foreign embassies.'
     ],
     rationale: 'Under Article 128, DOLE does not need a court order to inspect a factory for minimum wage compliance or safety hazards. If severe imminent danger is found, they can immediately halt operations (stoppage order).'
   },
@@ -5070,9 +5070,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Certification Election"?',
     correctAnswer: 'A democratic process where employees vote via secret ballot to determine which labor union (if any) will serve as their sole and exclusive bargaining agent.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding an election where employees vote for the company\'s CEO, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The strict legal prohibition against an election where managers vote on which employees to fire, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating a government election for the Secretary of Labor, under severe penalty of immediate corporate closure.'
+      'An election where employees vote for the company\'s CEO.',
+      'An election where managers vote on which employees to fire.',
+      'A government election for the Secretary of Labor.'
     ],
     rationale: 'If there are two rival unions claiming to represent the workers, DOLE conducts a certification election. The union that gets the majority vote of the valid votes cast becomes the exclusive bargaining agent.'
   },
@@ -5083,9 +5083,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following is considered an Unfair Labor Practice (ULP) by an EMPLOYER?',
     correctAnswer: 'Forcing an employee to sign a "Yellow Dog Contract" (an agreement promising not to join a union as a condition of employment).',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding firing an employee for stealing company laptops, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring refusing to give a Christmas bonus due to severe bankruptcy, unconditionally subjecting the employer to massive punitive damages.',
-      'The mandatory administrative DOLE order dictating implementing a strict dress code, which is absolutely void ab initio due to contrary public policy.'
+      'Firing an employee for stealing company laptops.',
+      'Refusing to give a Christmas bonus due to severe bankruptcy.',
+      'Implementing a strict dress code.'
     ],
     rationale: 'A Yellow Dog Contract is explicitly illegal under Article 259 because it completely destroys the constitutional right of workers to self-organization.'
   },
@@ -5096,9 +5096,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which of the following is considered an Unfair Labor Practice (ULP) by a LABOR UNION?',
     correctAnswer: 'Featherbedding (causing an employer to pay for services that are not actually performed or not needed).',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning staging a completely legal and peaceful strike after following all DOLE rules, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning negotiating for a 10% wage increase, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring filing a grievance against an abusive manager, unconditionally subjecting the employer to massive punitive damages.'
+      'Staging a completely legal and peaceful strike after following all DOLE rules.',
+      'Negotiating for a 10% wage increase.',
+      'Filing a grievance against an abusive manager.'
     ],
     rationale: 'Article 260 outlines ULPs committed by unions. Featherbedding (e.g., forcing a logistics company to hire union "loaders" to sit around doing nothing because machines do the loading) is a form of illegal extortion.'
   },
@@ -5109,9 +5109,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum legal duration of an Apprenticeship agreement in the Philippines?',
     correctAnswer: 'It shall not exceed six (6) months.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving it shall not exceed three (3) months, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating it shall not exceed one (1) year, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring it can last indefinitely, unconditionally subjecting the employer to massive punitive damages.'
+      'It shall not exceed three (3) months.',
+      'It shall not exceed one (1) year.',
+      'It can last indefinitely.'
     ],
     rationale: 'An apprenticeship is for highly technical industries requiring theoretical instruction and on-the-job training. By law, it cannot exceed 6 months to prevent employers from keeping workers as perpetually cheap labor.'
   },
@@ -5122,9 +5122,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum legal duration of a Learnership agreement?',
     correctAnswer: 'It shall not exceed three (3) months.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating it shall not exceed six (6) months, under severe penalty of immediate corporate closure.',
-      'The mandatory administrative DOLE order dictating it shall not exceed one (1) year, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating there is no maximum limit, which is absolutely void ab initio due to contrary public policy.'
+      'It shall not exceed six (6) months.',
+      'It shall not exceed one (1) year.',
+      'There is no maximum limit.'
     ],
     rationale: 'Unlike apprentices (highly technical), learners are for semi-skilled industrial occupations. Because the skills are easier to learn, the maximum training period is shorter (3 months max).'
   },
@@ -5135,9 +5135,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what is the minimum wage rate that must be paid to recognized Apprentices and Learners?',
     correctAnswer: 'Not less than seventy-five percent (75%) of the applicable minimum wage.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating fifty percent (50%) of the minimum wage, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating one hundred percent (100%) of the minimum wage, which is absolutely void ab initio due to contrary public policy.',
-      'A highly contentious Supreme Court jurisprudence involving zero; it is entirely unpaid training, stripping the employee of absolutely all statutory monetary claims.'
+      'Fifty percent (50%) of the minimum wage.',
+      'One hundred percent (100%) of the minimum wage.',
+      'Zero; it is entirely unpaid training.'
     ],
     rationale: 'Because they are receiving valuable training and are not yet fully productive, employers are given a discount on their wages (paying 75%). However, they must be registered with TESDA to avail of this.'
   },
@@ -5148,9 +5148,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are employers allowed to pay Persons with Disabilities (PWDs) less than the minimum wage?',
     correctAnswer: 'No, under the Magna Carta for Disabled Persons, qualified disabled employees must be paid 100% of the applicable minimum wage and receive the same benefits as an able-bodied person.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating yes, they can legally be paid 50% of the minimum wage, which is absolutely void ab initio due to contrary public policy.',
-      'The absolute constitutional principle concerning yes, they can be paid 75% like apprentices, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding yes, but only if the PWD is deaf or mute, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Yes, they can legally be paid 50% of the minimum wage.',
+      'Yes, they can be paid 75% like apprentices.',
+      'Yes, but only if the PWD is deaf or mute.'
     ],
     rationale: 'The old Labor Code allowed a 75% rate for disabled workers, but this was expressly superseded by the Magna Carta for Disabled Persons (RA 7277) to ensure total equality in compensation for equal work.'
   },
@@ -5161,9 +5161,9 @@ export const questionBank: QuestionData[] = [
     text: 'To encourage the employment of Senior Citizens (RA 9994), what incentive is given to private employers?',
     correctAnswer: 'An additional deduction from their gross income equivalent to fifteen percent (15%) of the total amount paid as salaries and wages to the senior citizen.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning the employer is totally exempt from paying corporate taxes for 5 years, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring the employer can pay the senior citizen 50% below the minimum wage, unconditionally subjecting the employer to massive punitive damages.',
-      'The strict legal prohibition against the employer is given a cash grant of PHP 1,000,000, explicitly exempting all managerial and supervisory employees.'
+      'The employer is totally exempt from paying corporate taxes for 5 years.',
+      'The employer can pay the senior citizen 50% below the minimum wage.',
+      'The employer is given a cash grant of PHP 1,000,000.'
     ],
     rationale: 'To fight age discrimination and help seniors earn a living, the government provides a tax incentive. If a company pays a senior 100k a year, they can deduct 115k from their taxable corporate income.'
   },
@@ -5177,9 +5177,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the concept of "Candidate Experience" in recruitment?',
     correctAnswer: 'The overall perception and feelings a job seeker has about an employer based on their interaction during the entire hiring process, from the application to the final offer or rejection.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on the number of years a candidate has worked in a specific industry, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of a mandatory training seminar for new hires, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing the physical resume submitted by the candidate, which completely bypasses standard operational DOLE regulations.'
+      'The number of years a candidate has worked in a specific industry.',
+      'A mandatory training seminar for new hires.',
+      'The physical resume submitted by the candidate.'
     ],
     rationale: 'A poor candidate experience (like ghosting applicants or having a broken application website) ruins employer branding. Good candidates will reject offers or tell their peers not to apply.'
   },
@@ -5190,9 +5190,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the Kirkpatrick Model of Training Evaluation, what does Level 4 evaluate?',
     correctAnswer: 'Results: The actual business impact or return on investment (e.g., increased sales, decreased errors) resulting from the training.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding reaction: How much the trainees liked the snacks and the trainer, requiring highly expensive proprietary software algorithms to implement.',
-      'A strictly mandated corporate policy involving learning: Whether the trainees passed the multiple-choice test, utilized strictly for C-suite and executive performance metrics.',
-      'A specialized administrative procedure focused on behavior: Whether the trainees actually use the skills on the job, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Reaction: How much the trainees liked the snacks and the trainer.',
+      'Learning: Whether the trainees passed the multiple-choice test.',
+      'Behavior: Whether the trainees actually use the skills on the job.'
     ],
     rationale: 'Level 1 is Reaction. Level 2 is Learning. Level 3 is Behavior. Level 4 (Results) is the hardest to measure but the most important to executives because it proves the training actually helped the company make or save money.'
   },
@@ -5203,9 +5203,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Phantom Stock"?',
     correctAnswer: 'A compensation plan that gives employees the financial benefits of stock ownership (cash bonuses tied to stock price increases) without actually giving them real company shares.',
     incorrectAnswers: [
-      'The highly theoretical management approach of stock that is secretly stolen from the company by corrupt executives, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing a scam where employees are forced to buy fake company shares, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of stock options that automatically expire after 24 hours, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Stock that is secretly stolen from the company by corrupt executives.',
+      'A scam where employees are forced to buy fake company shares.',
+      'Stock options that automatically expire after 24 hours.'
     ],
     rationale: 'Phantom stock is a great way to motivate employees to care about the company’s valuation (acting like owners) without diluting the actual ownership or voting power of the real shareholders.'
   },
@@ -5216,9 +5216,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Primacy Effect" (First Impression Error) in performance appraisals?',
     correctAnswer: 'A rating bias where a manager’s evaluation is heavily and unfairly influenced by their very first interaction with the employee, ignoring their subsequent performance.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a bias where the manager only remembers the last week of performance, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing a bias where the manager favors the first person who arrives at the office, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of a tendency to rate employees highly if they went to a primary school, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A bias where the manager only remembers the last week of performance.',
+      'A bias where the manager favors the first person who arrives at the office.',
+      'A tendency to rate employees highly if they went to a primary school.'
     ],
     rationale: 'If an employee makes a brilliant suggestion on their first day but does mediocre work for the next 11 months, a manager with primacy bias will still rate them highly because that strong first impression stuck.'
   },
@@ -5229,9 +5229,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Critical Incident Technique" in Job Analysis?',
     correctAnswer: 'A method of gathering job data by asking employees and managers to recall specific past events where an employee’s behavior was either highly effective or highly ineffective in a given situation.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a technique used exclusively to investigate fatal workplace accidents, utilized strictly for C-suite and executive performance metrics.',
-      'A specialized administrative procedure focused on a time management tool for executives, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An exclusive executive-level methodology regarding a legal process for firing an employee on the spot, requiring highly expensive proprietary software algorithms to implement.'
+      'A technique used exclusively to investigate fatal workplace accidents.',
+      'A time management tool for executives.',
+      'A legal process for firing an employee on the spot.'
     ],
     rationale: 'Instead of asking vague questions like "What do you do?", this technique asks for stories ("Tell me about a time a customer was furious and what you did"). This helps identify the exact behaviors that make a person successful in the role.'
   },
@@ -5242,9 +5242,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an HMO (Health Maintenance Organization) in the context of employee benefits?',
     correctAnswer: 'A private health insurance provider that companies partner with to give employees access to a specific network of doctors, hospitals, and clinics for medical care.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a government agency that regulates workplace safety, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing a mandatory tax deducted strictly for senior citizens, which completely bypasses standard operational DOLE regulations.',
-      'An exclusive executive-level methodology regarding a physical gym located inside the company building, requiring highly expensive proprietary software algorithms to implement.'
+      'A government agency that regulates workplace safety.',
+      'A mandatory tax deducted strictly for senior citizens.',
+      'A physical gym located inside the company building.'
     ],
     rationale: 'While PhilHealth is the government-mandated health insurance, most competitive companies in the Philippines provide a private HMO (like Maxicare or Medicard) as a standard benefit to cover actual hospital bills and checkups.'
   },
@@ -5255,9 +5255,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the shift in recruitment philosophy from "Cultural Fit" to "Cultural Add"?',
     correctAnswer: 'Instead of hiring people who think and act exactly like current employees (Cultural Fit), hiring people who bring new, diverse perspectives and skills that the company currently lacks (Cultural Add).',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding hiring people from different countries exclusively to save money, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of forcing employees to participate in mandatory cultural dance classes, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of there is no shift; they mean the exact same thing, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Hiring people from different countries exclusively to save money.',
+      'Forcing employees to participate in mandatory cultural dance classes.',
+      'There is no shift; they mean the exact same thing.'
     ],
     rationale: 'Hiring strictly for "Cultural Fit" often leads to a homogenous workforce where everyone agrees with the boss. "Cultural Add" promotes diversity, innovation, and prevents groupthink.'
   },
@@ -5268,9 +5268,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Reverse Mentoring"?',
     correctAnswer: 'A mentoring arrangement where a younger or more junior employee mentors an older or senior executive, often on topics like new technology, social media, or generational trends.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of when a mentor formally resigns and the mentee takes over their job, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving when an employee refuses to be mentored and mentors themselves, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of a disciplinary action where a manager is demoted to a trainee, theoretically eliminating absolutely all inherent cognitive biases.'
+      'When a mentor formally resigns and the mentee takes over their job.',
+      'When an employee refuses to be mentored and mentors themselves.',
+      'A disciplinary action where a manager is demoted to a trainee.'
     ],
     rationale: 'Reverse mentoring bridges generational gaps. A 23-year-old Gen Z employee might mentor a 60-year-old VP on how to effectively use TikTok for corporate marketing or how to communicate with younger staff.'
   },
@@ -5281,9 +5281,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Pakyaw" (or Task-Basis) in compensation?',
     correctAnswer: 'A payment system where a worker is paid a fixed, agreed-upon lump sum for completing a specific entire task or project, regardless of how long it takes them to finish it.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on a monthly salary paid specifically to agricultural workers, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'An advanced organizational development strategy utilizing a penalty deducted when an employee breaks company equipment, which completely bypasses standard operational DOLE regulations.',
-      'A specialized administrative procedure focused on a government mandated bonus for working on holidays, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'A monthly salary paid specifically to agricultural workers.',
+      'A penalty deducted when an employee breaks company equipment.',
+      'A government mandated bonus for working on holidays.'
     ],
     rationale: 'In the "pakyaw" system (common in construction or agriculture), if the worker agrees to paint a house for PHP 10,000, they get PHP 10,000 whether it takes them 3 days or 3 weeks. They are incentivized to finish quickly.'
   },
@@ -5294,9 +5294,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary benefit of including a "Self-Appraisal" in the performance review process?',
     correctAnswer: 'It empowers employees to reflect on their own achievements and struggles, providing the manager with the employee’s perspective before the formal rating is finalized.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding it allows the manager to skip doing the appraisal entirely to save time, requiring highly expensive proprietary software algorithms to implement.',
-      'The rigorous quantitative psychological assessment of it guarantees that the employee will receive a higher bonus, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving it legally prevents the employee from suing the company, utilized strictly for C-suite and executive performance metrics.'
+      'It allows the manager to skip doing the appraisal entirely to save time.',
+      'It guarantees that the employee will receive a higher bonus.',
+      'It legally prevents the employee from suing the company.'
     ],
     rationale: 'Self-appraisals ensure the review is a two-way conversation. It often highlights accomplishments the manager might have forgotten and exposes areas where the manager and employee have wildly different views on performance.'
   },
@@ -5311,9 +5311,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the DOLE Single Entry Approach (SENA)?',
     correctAnswer: 'A mandatory 30-day conciliation-mediation process designed to provide a speedy, impartial, and inexpensive settlement of labor issues before they escalate into full-blown lawsuits.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a rule that all employees must enter the building through one specific door for security, which is absolutely void ab initio due to contrary public policy.',
-      'A rigid statutory DOLE regulation explicitly mandating a tax system where all corporate taxes are paid through a single bank, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding a process where an employee is fired on their very first day (single entry), carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A rule that all employees must enter the building through one specific door for security.',
+      'A tax system where all corporate taxes are paid through a single bank.',
+      'A process where an employee is fired on their very first day (single entry).'
     ],
     rationale: 'Before a worker can file an illegal dismissal case with the Labor Arbiter, DOLE requires them to go through SENA. A mediator tries to get the employer and employee to agree to a cash settlement to avoid years of litigation.'
   },
@@ -5324,9 +5324,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period for criminal offenses penalized under the Labor Code (e.g., illegal recruitment, ULP, BP 22 for wages)?',
     correctAnswer: 'Three (3) years from the time of the commission of the offense.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning four (4) years, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning ten (10) years, strictly enforceable only during a declared state of national economic crisis.'
+      'One (1) year.',
+      'Four (4) years.',
+      'Ten (10) years.'
     ],
     rationale: 'Under Article 305 of the Labor Code, offenses penalized under the Code and the rules and regulations issued pursuant thereto shall prescribe in three (3) years.'
   },
@@ -5337,9 +5337,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 110 of the Labor Code (Worker Preference in Case of Bankruptcy), if a company goes bankrupt, who gets paid first?',
     correctAnswer: 'The unpaid wages and monetary claims of the workers enjoy first preference over all other creditors, including the government and banks.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding the government gets paid first for unpaid taxes, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The strict legal prohibition against the banks get paid first for corporate loans, explicitly exempting all managerial and supervisory employees.',
-      'The absolute constitutional principle concerning the CEO gets their severance package first, strictly enforceable only during a declared state of national economic crisis.'
+      'The government gets paid first for unpaid taxes.',
+      'The banks get paid first for corporate loans.',
+      'The CEO gets their severance package first.'
     ],
     rationale: 'Labor is highly protected. If a company goes bankrupt and its assets are liquidated, before the bank can take the money for loans, the workers must be paid their unpaid wages.'
   },
@@ -5350,9 +5350,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the composition of the National Labor Relations Commission (NLRC)?',
     correctAnswer: 'It is a tripartite body composed of representatives from the Government, the Workers sector, and the Employers sector.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating it is composed solely of retired Supreme Court Justices, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding it is composed solely of labor union presidents, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The strict legal prohibition against it is composed of HR Managers from top corporations, explicitly exempting all managerial and supervisory employees.'
+      'It is composed solely of retired Supreme Court Justices.',
+      'It is composed solely of labor union presidents.',
+      'It is composed of HR Managers from top corporations.'
     ],
     rationale: 'Tripartism is a core principle in Philippine labor relations. To ensure fairness, the NLRC commissioners are drawn equally from the ranks of workers, employers, and the public/government sector.'
   },
@@ -5363,9 +5363,9 @@ export const questionBank: QuestionData[] = [
     text: 'Can a labor union legally declare a strike purely because the employer refuses to increase wages, even if there is no Collective Bargaining Agreement (CBA) in place?',
     correctAnswer: 'No, a strike based on an economic issue is only valid if it stems from a deadlock in collective bargaining negotiations.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating yes, wages are a fundamental right and strikes are always allowed for wage issues, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating yes, provided they get approval from the local police, which is absolutely void ab initio due to contrary public policy.',
-      'A rigid statutory DOLE regulation explicitly mandating no, strikes regarding wages are permanently banned in the Philippines, under severe penalty of immediate corporate closure.'
+      'Yes, wages are a fundamental right and strikes are always allowed for wage issues.',
+      'Yes, provided they get approval from the local police.',
+      'No, strikes regarding wages are permanently banned in the Philippines.'
     ],
     rationale: 'There are only two valid grounds for a strike: Unfair Labor Practice (ULP) or CBA Deadlock. If there is no CBA being negotiated, the union cannot strike just because they want a raise.'
   },
@@ -5376,9 +5376,9 @@ export const questionBank: QuestionData[] = [
     text: 'In labor relations, what is a "Lockout"?',
     correctAnswer: 'The temporary refusal of an employer to furnish work to their employees as a result of an industrial dispute (essentially, the employer’s version of a strike).',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring locking the company gates at 5:00 PM to force employees to go home, unconditionally subjecting the employer to massive punitive damages.',
-      'The mandatory administrative DOLE order dictating an employee locking themselves in their office to avoid work, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against a software feature that locks an employee’s computer if they visit social media, explicitly exempting all managerial and supervisory employees.'
+      'Locking the company gates at 5:00 PM to force employees to go home.',
+      'An employee locking themselves in their office to avoid work.',
+      'A software feature that locks an employee’s computer if they visit social media.'
     ],
     rationale: 'If a union threatens a strike to paralyze the company, the employer might preemptively declare a lockout (shutting down operations) to pressure the union into accepting their terms. Like a strike, a lockout requires notice and a vote.'
   },
@@ -5389,9 +5389,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Company Union"?',
     correctAnswer: 'A labor organization whose formation, function, or administration has been assisted, controlled, or dominated by the employer.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a union that successfully encompasses every single employee in the company, which is absolutely void ab initio due to contrary public policy.',
-      'The absolute constitutional principle concerning a union formed exclusively by the top executives of the company, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring a legal union that the company strongly supports and provides funding for, unconditionally subjecting the employer to massive punitive damages.'
+      'A union that successfully encompasses every single employee in the company.',
+      'A union formed exclusively by the top executives of the company.',
+      'A legal union that the company strongly supports and provides funding for.'
     ],
     rationale: 'Forming or supporting a "Company Union" is an Unfair Labor Practice (ULP) by the employer (Article 259). The employer does this to create a puppet union, preventing a genuine, independent union from fighting for the workers.'
   },
@@ -5402,9 +5402,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Closed Shop Agreement" in a CBA?',
     correctAnswer: 'A provision requiring all new hires to become members of the union as a condition for employment, and to remain members in good standing to keep their jobs.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating a rule that the physical factory must remain closed on Sundays, under severe penalty of immediate corporate closure.',
-      'The mandatory administrative DOLE order dictating a policy where employees are not allowed to buy items from rival companies, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating an agreement that the company will not hire any more employees for 5 years, which is absolutely void ab initio due to contrary public policy.'
+      'A rule that the physical factory must remain closed on Sundays.',
+      'A policy where employees are not allowed to buy items from rival companies.',
+      'An agreement that the company will not hire any more employees for 5 years.'
     ],
     rationale: 'A closed shop agreement is a form of union security clause. It is legal and designed to strengthen the union. If an employee resigns from the union, the company is legally obligated to fire them.'
   },
@@ -5415,9 +5415,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Agency Fee"?',
     correctAnswer: 'An amount assessed on non-union members who accept and enjoy the benefits of a CBA negotiated by the recognized union.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a fee paid to a recruitment agency for hiring a new employee, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against a tax paid to the government for registering a labor union, explicitly exempting all managerial and supervisory employees.',
-      'An outdated provision of the Labor Code requiring a fee deducted from a worker’s pay to cover company damages, unconditionally subjecting the employer to massive punitive damages.'
+      'A fee paid to a recruitment agency for hiring a new employee.',
+      'A tax paid to the government for registering a labor union.',
+      'A fee deducted from a worker’s pay to cover company damages.'
     ],
     rationale: 'Even if an employee refuses to join the union, they still get the wage increases negotiated by the union in the CBA. To prevent "free riders," the law allows the company to deduct an agency fee (equivalent to union dues) from non-members.'
   },
@@ -5428,9 +5428,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is the right to strike absolute and protected under all circumstances?',
     correctAnswer: 'No, strikes must comply with strict procedural requirements (Notice, Strike Vote, Cooling-off period) and must not involve violence or coercion, otherwise they become illegal.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating yes, the Constitution guarantees the right to strike no matter what, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against yes, as long as no property is physically destroyed, explicitly exempting all managerial and supervisory employees.',
-      'The absolute constitutional principle concerning no, only government employees have the absolute right to strike, strictly enforceable only during a declared state of national economic crisis.'
+      'Yes, the Constitution guarantees the right to strike no matter what.',
+      'Yes, as long as no property is physically destroyed.',
+      'No, only government employees have the absolute right to strike.'
     ],
     rationale: 'While the right to strike is constitutional, its exercise is regulated by the Labor Code. A strike that fails to secure a majority vote, or where union members block the gates and assault managers, is illegal.'
   },
@@ -5444,9 +5444,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Employer Value Proposition" (EVP)?',
     correctAnswer: 'The unique set of benefits, culture, and career opportunities that an employer offers to employees in exchange for their skills and commitment.',
     incorrectAnswers: [
-      'The highly controversial HR framework of the total monetary value of all the equipment the employer owns, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of a legally binding contract that forces employees to stay for 5 years, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving the stock market valuation of the company, utilized strictly for C-suite and executive performance metrics.'
+      'The total monetary value of all the equipment the employer owns.',
+      'A legally binding contract that forces employees to stay for 5 years.',
+      'The stock market valuation of the company.'
     ],
     rationale: 'EVP is the core of employer branding. It answers the candidate\'s question: "Why should I bring my talents to your company instead of your competitor?" It goes beyond salary to include work-life balance, purpose, and growth.'
   },
@@ -5457,9 +5457,9 @@ export const questionBank: QuestionData[] = [
     text: 'In David Kolb’s Learning Styles, what is "Experiential Learning"?',
     correctAnswer: 'The process of learning through experience, specifically defined as "learning through reflection on doing."',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding learning strictly by reading theoretical textbooks, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding a method where employees learn by being hypnotized, requiring highly expensive proprietary software algorithms to implement.',
-      'An advanced organizational development strategy utilizing learning by copying exactly what the manager writes on a whiteboard, which completely bypasses standard operational DOLE regulations.'
+      'Learning strictly by reading theoretical textbooks.',
+      'A method where employees learn by being hypnotized.',
+      'Learning by copying exactly what the manager writes on a whiteboard.'
     ],
     rationale: 'Kolb believed that adults learn best not by passively listening, but by doing a task (Concrete Experience), reflecting on what happened (Reflective Observation), learning from it, and trying again.'
   },
@@ -5470,9 +5470,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary difference between "Merit Pay" and a "Bonus"?',
     correctAnswer: 'Merit pay becomes a permanent increase to the employee’s base salary, while a bonus is a one-time lump sum payment that does not increase base salary.',
     incorrectAnswers: [
-      'The highly controversial HR framework of merit pay is for executives, while a bonus is for rank-and-file, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing merit pay is tax-free, while a bonus is fully taxable, which completely bypasses standard operational DOLE regulations.',
-      'A strictly mandated corporate policy involving there is no difference; they are exactly the same thing, utilized strictly for C-suite and executive performance metrics.'
+      'Merit pay is for executives, while a bonus is for rank-and-file.',
+      'Merit pay is tax-free, while a bonus is fully taxable.',
+      'There is no difference; they are exactly the same thing.'
     ],
     rationale: 'Because merit pay increases the base salary, its cost compounds over the years (affecting future 13th-month pay and retirement). A bonus is a safer, one-time reward for the employer.'
   },
@@ -5483,9 +5483,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does "BARS" stand for in performance management?',
     correctAnswer: 'Behaviorally Anchored Rating Scales.',
     incorrectAnswers: [
-      'The highly theoretical management approach of business Analytics and Reporting Systems, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing baseline Annual Review Standards, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of basic Assessment and Rating Systems, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Business Analytics and Reporting Systems.',
+      'Baseline Annual Review Standards.',
+      'Basic Assessment and Rating Systems.'
     ],
     rationale: 'Unlike a graphic rating scale that just asks for a 1-5 rating on "Teamwork," BARS anchors the numbers to specific behaviors. (e.g., A "5" means "Voluntarily stays late to help peers finish projects").'
   },
@@ -5496,9 +5496,9 @@ export const questionBank: QuestionData[] = [
     text: 'According to the Hackman & Oldham Job Characteristics Model, what are the core dimensions that make a job intrinsically motivating?',
     correctAnswer: 'Skill variety, task identity, task significance, autonomy, and feedback.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of high salary, free food, comfortable chairs, air conditioning, and bonuses, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding strict rules, constant supervision, heavy workload, fear of firing, and quotas, requiring highly expensive proprietary software algorithms to implement.',
-      'A specialized administrative procedure focused on short hours, long vacations, unlimited internet, and no deadlines, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'High salary, free food, comfortable chairs, air conditioning, and bonuses.',
+      'Strict rules, constant supervision, heavy workload, fear of firing, and quotas.',
+      'Short hours, long vacations, unlimited internet, and no deadlines.'
     ],
     rationale: 'This model proves that jobs can be redesigned to motivate workers. For example, giving a worker "autonomy" (the freedom to decide how to do their work) massively increases their sense of responsibility and satisfaction.'
   },
@@ -5509,9 +5509,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "Employee Assistance Program" (EAP)?',
     correctAnswer: 'A confidential, employer-funded intervention program designed to help employees resolve personal problems (like marital issues, financial stress, or substance abuse) that may be adversely affecting their performance.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a program that lends money to employees to buy houses, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a disciplinary program for employees who constantly arrive late, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding a government mandate to hire people with criminal records, requiring highly expensive proprietary software algorithms to implement.'
+      'A program that lends money to employees to buy houses.',
+      'A disciplinary program for employees who constantly arrive late.',
+      'A government mandate to hire people with criminal records.'
     ],
     rationale: 'EAPs recognize that employees are humans whose personal lives affect their work. Providing free, confidential counseling is often cheaper than firing a good employee who is just going through a temporary crisis.'
   },
@@ -5522,9 +5522,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between a "Talent Pool" and a "Talent Pipeline"?',
     correctAnswer: 'A talent pool is a broad database of all potential candidates, while a talent pipeline is a refined group of highly qualified candidates being actively nurtured to fill a specific upcoming role.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a talent pool is for internal hires, while a pipeline is for external hires, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of a talent pool is used in IT, while a pipeline is used in manufacturing, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding there is no difference, requiring highly expensive proprietary software algorithms to implement.'
+      'A talent pool is for internal hires, while a pipeline is for external hires.',
+      'A talent pool is used in IT, while a pipeline is used in manufacturing.',
+      'There is no difference.'
     ],
     rationale: 'You might have 1,000 resumes in your talent pool. But your talent pipeline for the "Regional Manager" role might consist of just 3 people you regularly take to lunch so they are ready to accept an offer when the current manager retires.'
   },
@@ -5535,9 +5535,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Just-In-Time" (JIT) Training?',
     correctAnswer: 'Training that is delivered exactly when and where the employee needs it to perform a task, rather than months in advance.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of training that is strictly limited to time management skills, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly theoretical management approach of a training session that starts precisely on the dot without waiting for latecomers, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing training that is delivered to employees right before they are fired, which completely bypasses standard operational DOLE regulations.'
+      'Training that is strictly limited to time management skills.',
+      'A training session that starts precisely on the dot without waiting for latecomers.',
+      'Training that is delivered to employees right before they are fired.'
     ],
     rationale: 'Instead of forcing a new hire to memorize 50 software protocols on Day 1, JIT training provides a short, 2-minute video on how to process a refund right when the employee is actually facing their first refund request.'
   },
@@ -5548,9 +5548,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Salary Compression" (or Wage Compression)?',
     correctAnswer: 'A situation where the pay differences between employees of differing skill, tenure, or responsibility are extremely small, often because new hires are paid almost the same as tenured employees.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on when the government lowers the minimum wage to compress inflation, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of when an employee’s salary is reduced as a disciplinary action, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding when a company illegally hides its payroll records, requiring highly expensive proprietary software algorithms to implement.'
+      'When the government lowers the minimum wage to compress inflation.',
+      'When an employee’s salary is reduced as a disciplinary action.',
+      'When a company illegally hides its payroll records.'
     ],
     rationale: 'Salary compression destroys morale. If a senior engineer who has worked at the company for 5 years makes PHP 80,000, and a brand new engineer is hired at PHP 78,000 due to market inflation, the senior engineer will likely quit out of resentment.'
   },
@@ -5561,9 +5561,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "360-Degree Feedback"?',
     correctAnswer: 'A performance evaluation system where an employee receives confidential, anonymous feedback from the people who work around them (manager, peers, and direct reports).',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of an appraisal that takes exactly 360 days to complete, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly controversial HR framework of a system where an employee physically spins in a circle while being evaluated, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of an evaluation done solely by external customers, theoretically eliminating absolutely all inherent cognitive biases.'
+      'An appraisal that takes exactly 360 days to complete.',
+      'A system where an employee physically spins in a circle while being evaluated.',
+      'An evaluation done solely by external customers.'
     ],
     rationale: '360-degree feedback provides a holistic view. A manager might act perfectly polite to their boss (upward), but brutally bully their direct reports (downward). A traditional appraisal misses this, but a 360 exposes it.'
   },
@@ -5578,9 +5578,9 @@ export const questionBank: QuestionData[] = [
     text: 'When negotiating a CBA, what constitutes a "Deadlock"?',
     correctAnswer: 'When the employer and the union reach a point where neither side is willing to compromise on an unresolved economic issue (like wages), halting the negotiations.',
     incorrectAnswers: [
-      'The strict legal prohibition against when the union physically locks the doors to the negotiation room, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving when the employer fires the union president, stripping the employee of absolutely all statutory monetary claims.',
-      'The strict legal prohibition against when the CBA is finally signed and locked in, explicitly exempting all managerial and supervisory employees.'
+      'When the union physically locks the doors to the negotiation room.',
+      'When the employer fires the union president.',
+      'When the CBA is finally signed and locked in.'
     ],
     rationale: 'A deadlock is one of the only two valid grounds for a legal strike (the other being Unfair Labor Practice). Once a deadlock is declared, the union can file a Notice of Strike.'
   },
@@ -5591,9 +5591,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Grievance Machinery" in a CBA?',
     correctAnswer: 'A mandatory, formal, step-by-step process agreed upon in the CBA for resolving disputes arising from the interpretation or implementation of the CBA or company rules.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring a literal machine used in factories to process employee complaints, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning a government department that handles mass layoffs, strictly enforceable only during a declared state of national economic crisis.',
-      'The mandatory administrative DOLE order dictating the process of firing an employee without due process, which is absolutely void ab initio due to contrary public policy.'
+      'A literal machine used in factories to process employee complaints.',
+      'A government department that handles mass layoffs.',
+      'The process of firing an employee without due process.'
     ],
     rationale: 'Article 273 mandates that all CBAs must contain a grievance machinery. If an employee feels they were unfairly suspended, they don\'t go straight to court; they must first go through the internal grievance steps.'
   },
@@ -5604,9 +5604,9 @@ export const questionBank: QuestionData[] = [
     text: 'What happens if a dispute cannot be resolved through the internal Grievance Machinery?',
     correctAnswer: 'The dispute is automatically referred to Voluntary Arbitration.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning the union is legally required to declare a strike, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding the dispute is completely dismissed and ignored, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning the company is forced to close down, strictly enforceable only during a declared state of national economic crisis.'
+      'The union is legally required to declare a strike.',
+      'The dispute is completely dismissed and ignored.',
+      'The company is forced to close down.'
     ],
     rationale: 'Voluntary arbitration is the final step of the grievance machinery. The employer and union choose a neutral third party (Voluntary Arbitrator) whose decision on the matter will be final and binding.'
   },
@@ -5617,9 +5617,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, what is the maximum duration an employer can place an employee under "Preventive Suspension" during an investigation?',
     correctAnswer: 'A maximum of thirty (30) days.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning a maximum of sixty (60) days, strictly enforceable only during a declared state of national economic crisis.',
-      'A highly contentious Supreme Court jurisprudence involving a maximum of ninety (90) days, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning indefinitely, until the investigation is finished, strictly enforceable only during a declared state of national economic crisis.'
+      'A maximum of sixty (60) days.',
+      'A maximum of ninety (90) days.',
+      'Indefinitely, until the investigation is finished.'
     ],
     rationale: 'Preventive suspension is not a penalty; it is a measure to protect the company (e.g., suspending a cashier accused of theft so they can\'t steal more during the probe). By law, it cannot exceed 30 days without pay. If extended, the employer must pay the employee\'s wages.'
   },
@@ -5630,9 +5630,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Twin-Notice Rule" required for a valid termination of employment for a just cause?',
     correctAnswer: 'The employer must provide a first notice detailing the charges and giving the employee a chance to explain, and a second notice informing them of the final decision to dismiss.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a notice sent to the employee and a duplicate sent to their parents, which is absolutely void ab initio due to contrary public policy.',
-      'A rigid statutory DOLE regulation explicitly mandating a notice sent to the employee and a notice sent to DOLE, under severe penalty of immediate corporate closure.',
-      'A rigid statutory DOLE regulation explicitly mandating two verbal warnings given on the same day, under severe penalty of immediate corporate closure.'
+      'A notice sent to the employee and a duplicate sent to their parents.',
+      'A notice sent to the employee and a notice sent to DOLE.',
+      'Two verbal warnings given on the same day.'
     ],
     rationale: 'The twin-notice rule is the bedrock of procedural due process. You cannot fire someone on the spot. They must be given a written Notice to Explain (NTE), an opportunity to be heard, and a final Notice of Termination.'
   },
@@ -5643,9 +5643,9 @@ export const questionBank: QuestionData[] = [
     text: 'What happens if an employer fires an employee for a valid just cause (e.g., serious theft) but FAILS to observe the procedural due process (the Twin-Notice Rule)?',
     correctAnswer: 'The dismissal remains valid, but the employer must pay the employee Nominal Damages for violating their right to due process.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring the dismissal becomes totally illegal and the employee must be reinstated, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning the employer is sent to prison for 5 years, strictly enforceable only during a declared state of national economic crisis.',
-      'The mandatory administrative DOLE order dictating the employee is barred from ever working again, which is absolutely void ab initio due to contrary public policy.'
+      'The dismissal becomes totally illegal and the employee must be reinstated.',
+      'The employer is sent to prison for 5 years.',
+      'The employee is barred from ever working again.'
     ],
     rationale: 'Under the landmark Agabon vs. NLRC doctrine, if the cause is just (the employee actually stole), the firing is valid. But because the employer skipped the due process steps, they are fined nominal damages (usually around PHP 30,000).'
   },
@@ -5656,9 +5656,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the legal formula for computing the mandatory Retirement Pay of a private employee?',
     correctAnswer: 'Half-month salary for every year of service. (A half-month salary is defined as 22.5 days of the employee\'s daily wage).',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding one full month salary for every year of service, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding a flat rate of PHP 100,000 upon reaching age 60, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'A rigid statutory DOLE regulation explicitly mandating 15 days of the employee\'s daily wage for every year of service, under severe penalty of immediate corporate closure.'
+      'One full month salary for every year of service.',
+      'A flat rate of PHP 100,000 upon reaching age 60.',
+      '15 days of the employee\'s daily wage for every year of service.'
     ],
     rationale: 'Under Article 302, the "half-month" actually equates to 22.5 days because it includes: 15 days basic pay + 5 days SIL + 2.5 days (1/12 of 13th month pay).'
   },
@@ -5669,9 +5669,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Project Employee"?',
     correctAnswer: 'An employee whose employment has been fixed for a specific project or undertaking, the completion or termination of which has been determined at the time of engagement.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving an employee who uses a projector for presentations, stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving a regular employee working on multiple daily tasks, stripping the employee of absolutely all statutory monetary claims.',
-      'A rigid statutory DOLE regulation explicitly mandating an employee hired to replace a woman on maternity leave, under severe penalty of immediate corporate closure.'
+      'An employee who uses a projector for presentations.',
+      'A regular employee working on multiple daily tasks.',
+      'An employee hired to replace a woman on maternity leave.'
     ],
     rationale: 'Project employees (common in construction) do not have a right to regularization simply by passage of time. Once the building they were hired to paint is finished, their employment legally ends without separation pay.'
   },
@@ -5682,9 +5682,9 @@ export const questionBank: QuestionData[] = [
     text: 'While standard employees have a 6-month probationary period, what is the legal probationary period for teaching personnel in private schools?',
     correctAnswer: 'Three (3) consecutive school years of satisfactory service.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding one (1) school year, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning six (6) months, same as standard employees, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning ten (10) years, strictly enforceable only during a declared state of national economic crisis.'
+      'One (1) school year.',
+      'Six (6) months, same as standard employees.',
+      'Ten (10) years.'
     ],
     rationale: 'The Manual of Regulations for Private Schools establishes a different standard for teachers. To attain permanent status (tenure), a teacher must serve 3 consecutive school years satisfactorily.'
   },
@@ -5695,9 +5695,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Management Prerogative"?',
     correctAnswer: 'The inherent right of the employer to regulate all aspects of employment (such as hiring, work assignments, discipline, and transfer), provided it is done in good faith and without discrimination.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding the absolute right of a manager to physically abuse employees, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning the right of the government to manage private businesses, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding the right of the union to dictate the company’s budget, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The absolute right of a manager to physically abuse employees.',
+      'The right of the government to manage private businesses.',
+      'The right of the union to dictate the company’s budget.'
     ],
     rationale: 'Courts generally do not interfere with how a business is run. If a company wants to transfer an employee to a different branch for legitimate business reasons, it is a valid exercise of management prerogative, provided it is not a demotion or punishment.'
   },
@@ -5711,9 +5711,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Multiple Hurdle" selection model?',
     correctAnswer: 'A recruitment process where candidates must successfully pass a minimum threshold or test (a hurdle) at each stage before being allowed to move on to the next stage.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a physical fitness test required for all executive applicants, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of a process where an applicant is interviewed multiple times by the exact same manager, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of a system where low scores on one test can be made up for by high scores on another test, heavily criticized for significantly eroding long-term employee morale.'
+      'A physical fitness test required for all executive applicants.',
+      'A process where an applicant is interviewed multiple times by the exact same manager.',
+      'A system where low scores on one test can be made up for by high scores on another test.'
     ],
     rationale: 'In a multiple hurdle model (like passing a bar exam before being interviewed at a law firm), failing any single step immediately disqualifies the applicant. There is no averaging of scores.'
   },
@@ -5724,9 +5724,9 @@ export const questionBank: QuestionData[] = [
     text: 'In conducting a Training Needs Analysis (TNA), what are the three standard levels of analysis?',
     correctAnswer: 'Organizational Analysis, Task Analysis, and Person Analysis.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on financial Analysis, Marketing Analysis, and Sales Analysis, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of beginner Analysis, Intermediate Analysis, and Expert Analysis, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A specialized administrative procedure focused on manager Analysis, Supervisor Analysis, and Rank-and-File Analysis, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Financial Analysis, Marketing Analysis, and Sales Analysis.',
+      'Beginner Analysis, Intermediate Analysis, and Expert Analysis.',
+      'Manager Analysis, Supervisor Analysis, and Rank-and-File Analysis.'
     ],
     rationale: 'TNA looks at the whole company (Organizational - what are the goals?), the job itself (Task - what skills are needed?), and the individual employee (Person - who actually lacks those skills?).'
   },
@@ -5737,9 +5737,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Compa-Ratio" (Compensation Ratio)?',
     correctAnswer: 'A formula used by HR (Employee’s Base Salary divided by the Midpoint of the Salary Range) to determine how competitive an employee’s pay is compared to the market or internal standard.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving the ratio of male executives to female executives in a company, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving a strict legal limit on how much a CEO can earn compared to a janitor, utilized strictly for C-suite and executive performance metrics.',
-      'An exclusive executive-level methodology regarding the amount of company tax divided by total revenue, requiring highly expensive proprietary software algorithms to implement.'
+      'The ratio of male executives to female executives in a company.',
+      'A strict legal limit on how much a CEO can earn compared to a janitor.',
+      'The amount of company tax divided by total revenue.'
     ],
     rationale: 'If the midpoint for a role is PHP 50k, and an employee makes PHP 50k, their compa-ratio is 1.0 (or 100%), meaning they are paid exactly at the market target. A ratio of 0.80 means they are underpaid relative to the target.'
   },
@@ -5750,9 +5750,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Peer Appraisal"?',
     correctAnswer: 'An evaluation process where an employee is assessed not by their manager, but by their co-workers who interact with them daily on a similar level.',
     incorrectAnswers: [
-      'The highly theoretical management approach of an appraisal conducted by a peer company or competitor, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing an appraisal where a manager evaluates other managers, which completely bypasses standard operational DOLE regulations.',
-      'A specialized administrative procedure focused on an appraisal conducted entirely by artificial intelligence, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'An appraisal conducted by a peer company or competitor.',
+      'An appraisal where a manager evaluates other managers.',
+      'An appraisal conducted entirely by artificial intelligence.'
     ],
     rationale: 'Peers often see things managers don’t. A manager might think an employee is highly productive, but peers might reveal that the employee is productive only because they dump all the hard work on others.'
   },
@@ -5763,9 +5763,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the Position Analysis Questionnaire (PAQ)?',
     correctAnswer: 'A standardized, highly structured job analysis questionnaire containing nearly 200 items that evaluate worker behaviors, working conditions, and job characteristics.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a 5-question survey given to customers to rate employee service, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly theoretical management approach of a legal form required by the government when terminating an employee, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving a personality test used exclusively to diagnose mental illness, utilized strictly for C-suite and executive performance metrics.'
+      'A 5-question survey given to customers to rate employee service.',
+      'A legal form required by the government when terminating an employee.',
+      'A personality test used exclusively to diagnose mental illness.'
     ],
     rationale: 'The PAQ is one of the most widely used quantitative job analysis tools. It scores jobs across dimensions like Information Input, Mental Processes, and Work Output to allow for statistical comparison between completely different jobs.'
   },
@@ -5776,9 +5776,9 @@ export const questionBank: QuestionData[] = [
     text: 'In occupational health, how is "Burnout" officially defined by the World Health Organization (WHO)?',
     correctAnswer: 'An occupational phenomenon resulting from chronic workplace stress that has not been successfully managed, characterized by exhaustion, cynicism, and reduced professional efficacy.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a medical condition caused strictly by eating an unhealthy diet, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving a legal term for when a company\'s headquarters catches on fire, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of an excuse invented by employees to take longer vacations, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A medical condition caused strictly by eating an unhealthy diet.',
+      'A legal term for when a company\'s headquarters catches on fire.',
+      'An excuse invented by employees to take longer vacations.'
     ],
     rationale: 'WHO recognizes burnout specifically as an occupational issue, not a personal medical illness. It places the burden on employers to manage chronic workplace stress, rather than blaming the employee\'s resilience.'
   },
@@ -5789,9 +5789,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Compensatory Selection Model"?',
     correctAnswer: 'A hiring process where a candidate\'s very high score on one assessment can compensate for a slightly lower score on another assessment.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a model where the company pays the candidate to take the interview, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly theoretical management approach of a system where an applicant who is rejected is given financial compensation, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The rigorous quantitative psychological assessment of a model where candidates must pass every single test with a perfect score, heavily criticized for significantly eroding long-term employee morale.'
+      'A model where the company pays the candidate to take the interview.',
+      'A system where an applicant who is rejected is given financial compensation.',
+      'A model where candidates must pass every single test with a perfect score.'
     ],
     rationale: 'Unlike the multiple hurdle model (where failing a math test instantly disqualifies you), the compensatory model averages out the scores. A brilliant coding score might make up for a mediocre public speaking score.'
   },
@@ -5802,9 +5802,9 @@ export const questionBank: QuestionData[] = [
     text: 'What does the acronym "MOOC" stand for in modern employee training?',
     correctAnswer: 'Massive Open Online Course.',
     incorrectAnswers: [
-      'The highly theoretical management approach of mandatory Office Operations Class, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of managerial Overview of Corporate Culture, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An advanced organizational development strategy utilizing multi-Objective Organizational Coaching, which completely bypasses standard operational DOLE regulations.'
+      'Mandatory Office Operations Class.',
+      'Managerial Overview of Corporate Culture.',
+      'Multi-Objective Organizational Coaching.'
     ],
     rationale: 'MOOCs (like Coursera, edX, or Udemy) have revolutionized corporate L&D. Instead of hiring an expensive live trainer, HR can buy MOOC licenses, allowing thousands of employees to learn coding or leadership simultaneously online.'
   },
@@ -5815,9 +5815,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Deferred Compensation"?',
     correctAnswer: 'A portion of an employee\'s income that is paid out at a later date (like a pension or retirement plan) to defer taxes until that later date when the employee is usually in a lower tax bracket.',
     incorrectAnswers: [
-      'The highly controversial HR framework of a salary that an employer legally refuses to pay because of bankruptcy, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing paying an employee their entire annual salary on January 1st, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a penalty where a worker is not paid for 30 days after breaking a rule, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A salary that an employer legally refuses to pay because of bankruptcy.',
+      'Paying an employee their entire annual salary on January 1st.',
+      'A penalty where a worker is not paid for 30 days after breaking a rule.'
     ],
     rationale: 'Executives often use deferred compensation to lower their immediate tax burden. Instead of taking a PHP 10M cash bonus today (taxed highly), they defer it until retirement when their overall income (and tax bracket) is much lower.'
   },
@@ -5828,9 +5828,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Essay Evaluation Method" in performance appraisals?',
     correctAnswer: 'An unstructured appraisal method where the manager writes a free-form narrative describing the employee’s performance, strengths, weaknesses, and potential.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a test where the employee must write a 5-page essay on company values, utilized strictly for C-suite and executive performance metrics.',
-      'An exclusive executive-level methodology regarding an appraisal that strictly uses a 1-to-10 numerical scale, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of a method where the manager evaluates the employee\'s handwriting, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A test where the employee must write a 5-page essay on company values.',
+      'An appraisal that strictly uses a 1-to-10 numerical scale.',
+      'A method where the manager evaluates the employee\'s handwriting.'
     ],
     rationale: 'While essays provide rich, detailed context about an employee (unlike a simple "3 out of 5" checkbox), they are highly subjective and depend heavily on the manager\'s writing ability, making it hard to compare employees.'
   },
@@ -5845,9 +5845,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the core Constitutional principle that guides the interpretation of Philippine Labor Laws?',
     correctAnswer: 'The Principle of Social Justice and Protection to Labor, meaning that all doubts in the interpretation of labor laws shall be resolved in favor of labor.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving the Principle of Absolute Corporate Freedom, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating the Principle of Caveat Emptor (Let the buyer beware), which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding the Principle that the employer is always right, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The Principle of Absolute Corporate Freedom.',
+      'The Principle of Caveat Emptor (Let the buyer beware).',
+      'The Principle that the employer is always right.'
     ],
     rationale: 'Article 4 of the Labor Code explicitly mandates that if a law or contract is ambiguous, the courts must interpret it in a way that protects the worker, because the worker is the weaker party in the employment relationship.'
   },
@@ -5858,9 +5858,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 278(g), what extraordinary power can the DOLE Secretary exercise during a labor dispute causing or likely to cause a strike?',
     correctAnswer: 'The power to Assume Jurisdiction over the dispute if it involves an industry indispensable to the national interest, which automatically stops any strike or lockout.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring the power to permanently shut down the company and sell its assets, unconditionally subjecting the employer to massive punitive damages.',
-      'A rigid statutory DOLE regulation explicitly mandating the power to arrest the union leaders without a warrant, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving the power to force the employer to double everyone’s salary immediately, stripping the employee of absolutely all statutory monetary claims.'
+      'The power to permanently shut down the company and sell its assets.',
+      'The power to arrest the union leaders without a warrant.',
+      'The power to force the employer to double everyone’s salary immediately.'
     ],
     rationale: 'If a strike happens at a hospital, power plant, or airline, it threatens the national economy and public safety. The DOLE Secretary can step in, assume jurisdiction, and force everyone back to work while the government resolves the dispute.'
   },
@@ -5871,9 +5871,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are "Fixed-Term" employment contracts legally valid in the Philippines?',
     correctAnswer: 'Yes, provided the term was knowingly and voluntarily agreed upon by the employee without any force, duress, or improper pressure from the employer.',
     incorrectAnswers: [
-      'The strict legal prohibition against no, all employees automatically become regular employees on Day 1, explicitly exempting all managerial and supervisory employees.',
-      'The mandatory administrative DOLE order dictating yes, but only for foreign expatriates working in the country, which is absolutely void ab initio due to contrary public policy.',
-      'The mandatory administrative DOLE order dictating no, fixed-term contracts were outlawed by the Supreme Court in 1990, which is absolutely void ab initio due to contrary public policy.'
+      'No, all employees automatically become regular employees on Day 1.',
+      'Yes, but only for foreign expatriates working in the country.',
+      'No, fixed-term contracts were outlawed by the Supreme Court in 1990.'
     ],
     rationale: 'The landmark case of Brent School vs. Zamora established that fixed-term contracts (e.g., hiring an engineer strictly for a 2-year term) are valid, as long as it isn\'t a scheme to circumvent the worker\'s right to security of tenure.'
   },
@@ -5884,9 +5884,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Four-Fold Test" used for in Labor Law?',
     correctAnswer: 'It is the primary legal test used by courts to determine if an employer-employee relationship exists between two parties.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning it is a psychological test used to screen job applicants, strictly enforceable only during a declared state of national economic crisis.',
-      'The mandatory administrative DOLE order dictating it is a safety test to determine if a factory is structurally sound, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding it is a financial test to see if a company is bankrupt, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'It is a psychological test used to screen job applicants.',
+      'It is a safety test to determine if a factory is structurally sound.',
+      'It is a financial test to see if a company is bankrupt.'
     ],
     rationale: 'If an employer-employee relationship exists, the Labor Code applies (minimum wage, 13th month, illegal dismissal). If it doesn\'t (e.g., they are an independent contractor), the Civil Code applies.'
   },
@@ -5897,9 +5897,9 @@ export const questionBank: QuestionData[] = [
     text: 'What are the four elements of the Four-Fold Test?',
     correctAnswer: '(1) Selection and engagement, (2) Payment of wages, (3) Power of dismissal, and (4) Power of control over the employee\'s conduct.',
     incorrectAnswers: [
-      'The strict legal prohibition against (1) Uniforms, (2) Office space, (3) ID cards, (4) Email addresses, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving (1) Age, (2) Gender, (3) Religion, (4) Nationality, stripping the employee of absolutely all statutory monetary claims.',
-      'The mandatory administrative DOLE order dictating (1) Recruitment, (2) Training, (3) Promotion, (4) Retirement, which is absolutely void ab initio due to contrary public policy.'
+      '(1) Uniforms, (2) Office space, (3) ID cards, (4) Email addresses.',
+      '(1) Age, (2) Gender, (3) Religion, (4) Nationality.',
+      '(1) Recruitment, (2) Training, (3) Promotion, (4) Retirement.'
     ],
     rationale: 'These four factors establish the legal existence of employment. If a company hired you, pays you, can fire you, and dictates exactly how you do your job, you are their employee, regardless of what the contract is called.'
   },
@@ -5910,9 +5910,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which element of the Four-Fold Test is considered the most crucial or determinant factor?',
     correctAnswer: 'The Power of Control (specifically, the employer’s right to control not just the end result, but the means and methods by which the work is accomplished).',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating the Payment of Wages, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving the Power of Dismissal, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning the Selection and Engagement, strictly enforceable only during a declared state of national economic crisis.'
+      'The Payment of Wages.',
+      'The Power of Dismissal.',
+      'The Selection and Engagement.'
     ],
     rationale: 'Control is the defining line. If you hire a plumber to fix your sink, you only care about the result (a fixed sink). You don\'t tell them how to hold their wrench. Thus, they are an independent contractor, not your employee.'
   },
@@ -5923,9 +5923,9 @@ export const questionBank: QuestionData[] = [
     text: 'If the Four-Fold Test is insufficient to determine employment (especially in modern gig economy jobs), what secondary test do Philippine courts use?',
     correctAnswer: 'The Economic Reality Test (or Two-Tiered Test).',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding the Psychological Dependency Test, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The strict legal prohibition against the Corporate Citizenship Test, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating the Financial Literacy Test, under severe penalty of immediate corporate closure.'
+      'The Psychological Dependency Test.',
+      'The Corporate Citizenship Test.',
+      'The Financial Literacy Test.'
     ],
     rationale: 'The Economic Reality test looks at the broader picture: is the worker economically dependent on the company for their livelihood? If yes, they lean towards being classified as an employee to afford them labor protections.'
   },
@@ -5936,9 +5936,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are domestic workers (Kasambahays) legally entitled to receive a 13th-month pay?',
     correctAnswer: 'Yes, under the Kasambahay Law (RA 10361), they are explicitly entitled to a 13th-month pay.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding no, the 13th-month pay law strictly excludes domestic workers, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring yes, but only if they have worked for the employer for 5 continuous years, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning no, they only receive Christmas groceries instead, strictly enforceable only during a declared state of national economic crisis.'
+      'No, the 13th-month pay law strictly excludes domestic workers.',
+      'Yes, but only if they have worked for the employer for 5 continuous years.',
+      'No, they only receive Christmas groceries instead.'
     ],
     rationale: 'RA 10361 elevated the status of domestic workers, explicitly granting them a minimum wage, 13th-month pay, 5 days of SIL, and mandatory government benefits.'
   },
@@ -5949,9 +5949,9 @@ export const questionBank: QuestionData[] = [
     text: 'When must a domestic worker (Kasambahay) be enrolled in SSS, PhilHealth, and Pag-IBIG?',
     correctAnswer: 'After one (1) month of service.',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring after six (6) months of service, unconditionally subjecting the employer to massive punitive damages.',
-      'A highly contentious Supreme Court jurisprudence involving immediately on their very first day of work, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring only if they explicitly request it in writing, unconditionally subjecting the employer to massive punitive damages.'
+      'After six (6) months of service.',
+      'Immediately on their very first day of work.',
+      'Only if they explicitly request it in writing.'
     ],
     rationale: 'The law requires the employer to register the Kasambahay with the three main social welfare agencies after they have rendered one month of service.'
   },
@@ -5962,9 +5962,9 @@ export const questionBank: QuestionData[] = [
     text: 'What government body is responsible for determining and issuing Wage Orders (setting the minimum wage) for different regions in the Philippines?',
     correctAnswer: 'The Regional Tripartite Wages and Productivity Board (RTWPB).',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating the Office of the President, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving the Supreme Court of the Philippines, stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving the Bureau of Internal Revenue (BIR), stripping the employee of absolutely all statutory monetary claims.'
+      'The Office of the President.',
+      'The Supreme Court of the Philippines.',
+      'The Bureau of Internal Revenue (BIR).'
     ],
     rationale: 'The Philippines does not have one national minimum wage. The RTWPB in each region (e.g., NCR, Region IV-A) sets the minimum wage based on the specific cost of living and economic conditions of that particular region.'
   },
@@ -5978,9 +5978,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Sourcing" and "Recruiting"?',
     correctAnswer: 'Sourcing is the proactive search for and identification of potential candidates (often passive ones), while recruiting is the process of engaging, interviewing, and converting those candidates into hires.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of sourcing is done by the CEO, while recruiting is done by HR, heavily criticized for significantly eroding long-term employee morale.',
-      'An advanced organizational development strategy utilizing sourcing only applies to physical labor jobs, while recruiting is for office jobs, which completely bypasses standard operational DOLE regulations.',
-      'A specialized administrative procedure focused on there is no difference; they are exactly the same function, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Sourcing is done by the CEO, while recruiting is done by HR.',
+      'Sourcing only applies to physical labor jobs, while recruiting is for office jobs.',
+      'There is no difference; they are exactly the same function.'
     ],
     rationale: 'A sourcer finds the talent (like hunting for passive candidates on LinkedIn). A recruiter manages the relationship, negotiates the offer, and guides the candidate through the interview process.'
   },
@@ -5991,9 +5991,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference between "Andragogy" and "Pedagogy"?',
     correctAnswer: 'Andragogy refers to the methods and principles used in adult education, whereas pedagogy refers to the methods used to teach children.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing andragogy is for online learning, while pedagogy is for classroom learning, which completely bypasses standard operational DOLE regulations.',
-      'An exclusive executive-level methodology regarding andragogy focuses on science, while pedagogy focuses on the arts, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of andragogy is illegal in corporate training, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Andragogy is for online learning, while pedagogy is for classroom learning.',
+      'Andragogy focuses on science, while pedagogy focuses on the arts.',
+      'Andragogy is illegal in corporate training.'
     ],
     rationale: 'Adult learners (Andragogy) are self-directed, draw heavily on their own experiences, and need to know exactly WHY they are learning something. Children (Pedagogy) generally accept authority and instruction without questioning.'
   },
@@ -6004,9 +6004,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Broadbanding" in compensation?',
     correctAnswer: 'A pay structure that collapses many narrow salary grades into a few very wide pay bands, allowing for more flexibility in lateral job moves and salary increases without needing a formal promotion.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing providing high-speed internet as a standard employee benefit, which completely bypasses standard operational DOLE regulations.',
-      'A strictly mandated corporate policy involving paying all employees the exact same flat rate regardless of their job, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of a tax bracket system for ultra-wealthy executives, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Providing high-speed internet as a standard employee benefit.',
+      'Paying all employees the exact same flat rate regardless of their job.',
+      'A tax bracket system for ultra-wealthy executives.'
     ],
     rationale: 'Instead of having 20 narrow salary grades (e.g., Grade 1: 20k-25k, Grade 2: 25k-30k), broadbanding might have 4 massive bands (e.g., Band A: 20k-60k). This gives HR huge flexibility to reward high performers without changing their job title.'
   },
@@ -6017,9 +6017,9 @@ export const questionBank: QuestionData[] = [
     text: 'How does the "Halo Effect" differ from the "Horn Effect" in performance appraisals?',
     correctAnswer: 'The Halo Effect is when one positive trait causes a manager to rate the employee highly in all areas, while the Horn Effect is when one negative trait causes low ratings in all areas.',
     incorrectAnswers: [
-      'The highly theoretical management approach of the Halo Effect is for religious organizations, while the Horn Effect is for secular ones, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of the Halo Effect is a legal defense, while the Horn Effect is a lawsuit, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of the Halo Effect applies to executives, while the Horn Effect applies to janitors, heavily criticized for significantly eroding long-term employee morale.'
+      'The Halo Effect is for religious organizations, while the Horn Effect is for secular ones.',
+      'The Halo Effect is a legal defense, while the Horn Effect is a lawsuit.',
+      'The Halo Effect applies to executives, while the Horn Effect applies to janitors.'
     ],
     rationale: 'If a manager thinks an employee is always dressed beautifully (one positive trait), they might subconsciously rate them high on "Coding Skills" (Halo). If an employee is often late (one negative trait), they might rate their actual work quality poorly (Horn), even if the work is perfect.'
   },
@@ -6030,9 +6030,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is O*NET (The Occupational Information Network)?',
     correctAnswer: 'A comprehensive, free online database developed by the US Department of Labor that provides standardized, detailed descriptions of thousands of occupations and their required skills.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a highly secretive social network exclusively for Fortune 500 CEOs, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving an illegal dark web site for corporate espionage, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of a mandatory software that monitors employee keystrokes, theoretically eliminating absolutely all inherent cognitive biases.'
+      'A highly secretive social network exclusively for Fortune 500 CEOs.',
+      'An illegal dark web site for corporate espionage.',
+      'A mandatory software that monitors employee keystrokes.'
     ],
     rationale: 'If an HR professional in the Philippines needs to write a job description for a "Petroleum Engineer" but knows nothing about the job, they can search O*NET to instantly find a list of standard tasks, tools, and skills required for that role.'
   },
@@ -6043,9 +6043,9 @@ export const questionBank: QuestionData[] = [
     text: 'In workplace safety, what is "Ergonomics"?',
     correctAnswer: 'The applied science of designing the workspace, equipment, and tasks to fit the physical capabilities and limitations of the worker, preventing musculoskeletal injuries.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing the study of how corporate taxes affect the national economy, which completely bypasses standard operational DOLE regulations.',
-      'The highly theoretical management approach of a psychological technique to brainwash employees into working faster, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving the legal process of settling workplace injury lawsuits, utilized strictly for C-suite and executive performance metrics.'
+      'The study of how corporate taxes affect the national economy.',
+      'A psychological technique to brainwash employees into working faster.',
+      'The legal process of settling workplace injury lawsuits.'
     ],
     rationale: 'Providing a standing desk, a supportive chair, or an anti-fatigue mat are ergonomic interventions. They prevent injuries like Carpal Tunnel Syndrome or chronic back pain caused by poor posture and repetitive motion.'
   },
@@ -6056,9 +6056,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Blind Hiring"?',
     correctAnswer: 'A recruitment method that removes personal identifying information (like names, gender, age, or photos) from resumes before they are reviewed by hiring managers to reduce unconscious bias.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding hiring candidates without ever conducting an interview or reading their resume, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of a program specifically designed to hire visually impaired candidates, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of hiring someone solely based on a random lottery system, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Hiring candidates without ever conducting an interview or reading their resume.',
+      'A program specifically designed to hire visually impaired candidates.',
+      'Hiring someone solely based on a random lottery system.'
     ],
     rationale: 'Studies show that resumes with certain names or photos are rejected at higher rates due to implicit bias. Blind hiring forces managers to evaluate the candidate strictly based on their skills and experience.'
   },
@@ -6069,9 +6069,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Microlearning"?',
     correctAnswer: 'A training approach that delivers educational content in highly focused, bite-sized chunks (usually 3 to 5 minutes long) that employees can access exactly when they need it.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a 4-year degree program condensed into one month, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing training that is strictly conducted using microscopes, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of learning only one single fact per year, heavily criticized for significantly eroding long-term employee morale.'
+      'A 4-year degree program condensed into one month.',
+      'Training that is strictly conducted using microscopes.',
+      'Learning only one single fact per year.'
     ],
     rationale: 'Modern employees have very short attention spans and heavy workloads. Instead of a 2-hour lecture on cybersecurity, microlearning provides a 3-minute interactive video on how to spot a phishing email.'
   },
@@ -6082,9 +6082,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Total Rewards Statement"?',
     correctAnswer: 'A document given to employees that clearly outlines the complete financial value of their compensation package, including their base pay, bonuses, health insurance, retirement, and all other perks.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving a receipt showing how much an employee spent at the company cafeteria, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of a legal threat sent by a company to a resigning employee, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding a document that ranks employees from best to worst, requiring highly expensive proprietary software algorithms to implement.'
+      'A receipt showing how much an employee spent at the company cafeteria.',
+      'A legal threat sent by a company to a resigning employee.',
+      'A document that ranks employees from best to worst.'
     ],
     rationale: 'Employees often complain about their "salary" without realizing the company spends an extra 30% on their HMO, taxes, and paid leaves. A Total Rewards Statement makes this hidden value visible to improve retention.'
   },
@@ -6095,9 +6095,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Central Tendency Error" in performance appraisals?',
     correctAnswer: 'A rating bias where a manager plays it safe by avoiding the extremes (excellent or poor) and consistently rates almost all employees as "average" or right in the middle of the scale.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing a bias where the manager only rates employees who sit in the center of the office, which completely bypasses standard operational DOLE regulations.',
-      'A strictly mandated corporate policy involving an error where the HR department loses all the appraisal forms, utilized strictly for C-suite and executive performance metrics.',
-      'The highly controversial HR framework of a tendency for managers to give everyone a perfect score, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A bias where the manager only rates employees who sit in the center of the office.',
+      'An error where the HR department loses all the appraisal forms.',
+      'A tendency for managers to give everyone a perfect score.'
     ],
     rationale: 'Managers often commit this error to avoid conflicts with poor performers and to avoid having to justify high scores to HR. However, it severely demotivates true high performers who realize their hard work results in the same "average" score as a lazy peer.'
   },
@@ -6112,9 +6112,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the mandatory period for filing an appeal to the NLRC after receiving a decision from a Labor Arbiter?',
     correctAnswer: 'Ten (10) calendar days from receipt of the decision.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating thirty (30) calendar days, which is absolutely void ab initio due to contrary public policy.',
-      'An outdated provision of the Labor Code requiring sixty (60) calendar days, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Thirty (30) calendar days.',
+      'Sixty (60) calendar days.',
+      'One (1) year.'
     ],
     rationale: 'The 10-day period is strict and mandatory. If the 10th day falls on a weekend or a holiday, the appeal must be filed on the next working day. Failure to appeal within 10 days makes the Arbiter\'s decision final and executory.'
   },
@@ -6125,9 +6125,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employer is ordered by a Labor Arbiter to pay a monetary award to an illegally dismissed employee, what MUST the employer post to perfect their appeal to the NLRC?',
     correctAnswer: 'A cash or surety bond equivalent to the exact monetary award granted in the decision.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving a written letter of apology to the employee, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring a nominal fee of PHP 500, unconditionally subjecting the employer to massive punitive damages.',
-      'The mandatory administrative DOLE order dictating no bond is required; appeals are entirely free, which is absolutely void ab initio due to contrary public policy.'
+      'A written letter of apology to the employee.',
+      'A nominal fee of PHP 500.',
+      'No bond is required; appeals are entirely free.'
     ],
     rationale: 'This ensures that if the employer loses the appeal years later, the money is secured and ready to be given to the worker. It prevents employers from using the appeal process simply to delay payment and hide their assets.'
   },
@@ -6138,9 +6138,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Philippine Labor Law, an order of reinstatement issued by a Labor Arbiter is "immediately executory". What does this mean?',
     correctAnswer: 'The employer must immediately reinstate the employee (either physically or in the payroll) even if the employer has filed an appeal.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning the employee must immediately execute a new employment contract, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against the employer is allowed to immediately execute (fire) the employee again, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving the reinstatement is put on hold until the Supreme Court decides, stripping the employee of absolutely all statutory monetary claims.'
+      'The employee must immediately execute a new employment contract.',
+      'The employer is allowed to immediately execute (fire) the employee again.',
+      'The reinstatement is put on hold until the Supreme Court decides.'
     ],
     rationale: 'Because workers need their salary to survive, the law mandates immediate reinstatement. If the employer does not want the employee back in the office during the appeal, they must at least put them back on the payroll (payroll reinstatement) and pay their salary while the case is pending.'
   },
@@ -6151,9 +6151,9 @@ export const questionBank: QuestionData[] = [
     text: 'Are signed "Quitclaims and Waivers" absolute guarantees that an employee can no longer sue the employer?',
     correctAnswer: 'No, quitclaims are generally frowned upon. They are only valid if the settlement is fair, the employee signed it voluntarily without fraud or deceit, and they fully understood what they were signing.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating yes, once signed, the employee permanently loses all constitutional rights to sue, which is absolutely void ab initio due to contrary public policy.',
-      'A highly contentious Supreme Court jurisprudence involving yes, but only if they are notarized by the President of the Philippines, stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving no, quitclaims are 100% illegal in the Philippines, stripping the employee of absolutely all statutory monetary claims.'
+      'Yes, once signed, the employee permanently loses all constitutional rights to sue.',
+      'Yes, but only if they are notarized by the President of the Philippines.',
+      'No, quitclaims are 100% illegal in the Philippines.'
     ],
     rationale: 'Courts often invalidate quitclaims if the amount paid was unconscionably low (e.g., forcing a desperate worker owed PHP 500k to sign a waiver in exchange for PHP 10k just so they can buy food).'
   },
@@ -6164,9 +6164,9 @@ export const questionBank: QuestionData[] = [
     text: 'In labor law, what differentiates mere Absence Without Official Leave (AWOL) from the just cause of "Abandonment of Work"?',
     correctAnswer: 'Abandonment requires not just failure to report to work, but also a clear, deliberate, and unjustified INTENT to sever the employer-employee relationship.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving aWOL is for 1 day, while Abandonment is for 2 days, stripping the employee of absolutely all statutory monetary claims.',
-      'A highly contentious Supreme Court jurisprudence involving aWOL is a criminal offense, while Abandonment is a civil offense, stripping the employee of absolutely all statutory monetary claims.',
-      'The absolute constitutional principle concerning there is no difference; they are exactly the same, strictly enforceable only during a declared state of national economic crisis.'
+      'AWOL is for 1 day, while Abandonment is for 2 days.',
+      'AWOL is a criminal offense, while Abandonment is a civil offense.',
+      'There is no difference; they are exactly the same.'
     ],
     rationale: 'An employee in a coma is AWOL, but did not abandon their job because there is no intent to quit. A worker who stops showing up and immediately starts working for a competitor has clearly abandoned their job.'
   },
@@ -6177,9 +6177,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Constructive Dismissal"?',
     correctAnswer: 'An involuntary resignation; it occurs when continued employment becomes impossible, unreasonable, or unlikely due to the employer’s hostile or discriminatory actions, forcing the employee to quit.',
     incorrectAnswers: [
-      'The strict legal prohibition against a dismissal that occurs specifically at construction sites, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating a friendly and constructive meeting where an employee is fired nicely, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding when an employee fires their own manager, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A dismissal that occurs specifically at construction sites.',
+      'A friendly and constructive meeting where an employee is fired nicely.',
+      'When an employee fires their own manager.'
     ],
     rationale: 'If an employer wants to fire someone without paying severance, they might demote them, cut their pay, or verbally abuse them daily until the worker "quits." The law treats this forced resignation as an illegal dismissal.'
   },
@@ -6190,9 +6190,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the maximum period an employee can be placed on "Floating Status" (bona fide suspension of business operations) before it is considered constructive dismissal?',
     correctAnswer: 'Six (6) months.',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating one (1) month, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning five (5) years, strictly enforceable only during a declared state of national economic crisis.'
+      'One (1) month.',
+      'One (1) year.',
+      'Five (5) years.'
     ],
     rationale: 'Article 301 allows a company in distress (or a security agency with no current client for a guard) to suspend an employee\'s work temporarily. However, if they don\'t recall the worker after 6 months, the worker is considered permanently dismissed and entitled to separation pay.'
   },
@@ -6203,9 +6203,9 @@ export const questionBank: QuestionData[] = [
     text: 'For standard private employees, what are the Optional and Mandatory retirement ages under the Labor Code?',
     correctAnswer: 'Optional retirement at age sixty (60); Mandatory retirement at age sixty-five (65).',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring optional at 50; Mandatory at 55, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring optional at 65; Mandatory at 70, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring optional at 40; Mandatory at 80, unconditionally subjecting the employer to massive punitive damages.'
+      'Optional at 50; Mandatory at 55.',
+      'Optional at 65; Mandatory at 70.',
+      'Optional at 40; Mandatory at 80.'
     ],
     rationale: 'Upon reaching 60 (with at least 5 years of service), an employee CAN retire and demand their retirement pay. Upon reaching 65, the employer CAN FORCE the employee to retire.'
   },
@@ -6216,9 +6216,9 @@ export const questionBank: QuestionData[] = [
     text: 'Due to the hazardous nature of their work, what are the Optional and Mandatory retirement ages for Underground Mine Workers?',
     correctAnswer: 'Optional retirement at age fifty (50); Mandatory retirement at age sixty (60).',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring optional at 30; Mandatory at 40, unconditionally subjecting the employer to massive punitive damages.',
-      'An absolute requirement under the Civil Code regarding optional at 60; Mandatory at 65, same as everyone else, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'A highly contentious Supreme Court jurisprudence involving there is no retirement age; they work indefinitely, stripping the employee of absolutely all statutory monetary claims.'
+      'Optional at 30; Mandatory at 40.',
+      'Optional at 60; Mandatory at 65, same as everyone else.',
+      'There is no retirement age; they work indefinitely.'
     ],
     rationale: 'Underground mining takes a massive physical toll on the human body. The law recognizes this by lowering both the optional and mandatory retirement ages by 5 years compared to standard workers.'
   },
@@ -6229,9 +6229,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee is illegally dismissed, what are the two primary remedies or reliefs awarded to them by the court?',
     correctAnswer: 'Reinstatement (without loss of seniority rights) AND Full Backwages (from the time of illegal dismissal up to actual reinstatement).',
     incorrectAnswers: [
-      'The strict legal prohibition against a formal apology letter AND a brand new company car, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating a one-month paid vacation AND a promotion, under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring immediate imprisonment of the HR Manager AND the CEO, unconditionally subjecting the employer to massive punitive damages.'
+      'A formal apology letter AND a brand new company car.',
+      'A one-month paid vacation AND a promotion.',
+      'Immediate imprisonment of the HR Manager AND the CEO.'
     ],
     rationale: 'Reinstatement restores the employee to their job. Backwages restore the income they lost while they were illegally out of work. If reinstatement is no longer possible (strained relations), Separation Pay is given instead of reinstatement.'
   },
@@ -6245,9 +6245,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Boomerang Employee"?',
     correctAnswer: 'An employee who leaves a company (usually on good terms) and is later rehired by the exact same company.',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving an employee who throws objects during violent outbursts, utilized strictly for C-suite and executive performance metrics.',
-      'The highly theoretical management approach of an employee who is constantly transferred between different branches, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding an applicant who sends their resume every single day until hired, requiring highly expensive proprietary software algorithms to implement.'
+      'An employee who throws objects during violent outbursts.',
+      'An employee who is constantly transferred between different branches.',
+      'An applicant who sends their resume every single day until hired.'
     ],
     rationale: 'Boomerang employees are highly valuable because they require much less training, already understand the company culture, and often bring back valuable new skills they learned while working for competitors.'
   },
@@ -6258,9 +6258,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Gamification" in corporate training?',
     correctAnswer: 'The application of game-design elements (like points, badges, leaderboards, and leveling up) into non-game contexts (like mandatory training modules) to increase engagement.',
     incorrectAnswers: [
-      'The highly theoretical management approach of allowing employees to play video games instead of working on Fridays, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of training employees on how to develop mobile games, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of forcing employees to gamble their salaries, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Allowing employees to play video games instead of working on Fridays.',
+      'Training employees on how to develop mobile games.',
+      'Forcing employees to gamble their salaries.'
     ],
     rationale: 'Compliance training is often boring. By gamifying it (e.g., "Earn the Cybersecurity Master Badge if you pass this quiz!"), HR taps into natural human competitiveness, drastically increasing completion rates.'
   },
@@ -6271,9 +6271,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the conceptual difference between a "Minimum Wage" and a "Living Wage"?',
     correctAnswer: 'Minimum wage is the absolute lowest legal amount an employer can pay, while a living wage is the actual amount a worker needs to earn to meet their basic needs (food, housing, healthcare) in a specific location.',
     incorrectAnswers: [
-      'An advanced organizational development strategy utilizing minimum wage applies to humans, while living wage applies to robots, which completely bypasses standard operational DOLE regulations.',
-      'The highly controversial HR framework of a living wage is always lower than a minimum wage, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of there is no difference; they are exactly the same number, applicable exclusively to massive multinational PEZA-registered entities.'
+      'Minimum wage applies to humans, while living wage applies to robots.',
+      'A living wage is always lower than a minimum wage.',
+      'There is no difference; they are exactly the same number.'
     ],
     rationale: 'In many countries, the legally mandated minimum wage is significantly lower than the actual living wage required to survive in a major city without falling into poverty.'
   },
@@ -6284,9 +6284,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Strictness Error" in performance appraisals?',
     correctAnswer: 'A rating bias where a manager is overly harsh and consistently rates almost all employees on the low end of the scale, regardless of their actual performance.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding when an employee strictly follows the rules but still gets fired, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly theoretical management approach of when the HR department strictly refuses to process appraisals, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of a bias where the manager gives everyone perfect scores, theoretically eliminating absolutely all inherent cognitive biases.'
+      'When an employee strictly follows the rules but still gets fired.',
+      'When the HR department strictly refuses to process appraisals.',
+      'A bias where the manager gives everyone perfect scores.'
     ],
     rationale: 'The opposite of the Leniency Error. A manager with a strictness error might believe that "no one is perfect" and therefore refuses to give anyone a 5/5, demotivating top performers.'
   },
@@ -6297,9 +6297,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Enlargement"?',
     correctAnswer: 'Increasing the scope of a job by adding more tasks of a similar complexity level (horizontal expansion) to reduce boredom and repetitiveness.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on adding more decision-making authority and control to a job (vertical expansion), designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly theoretical management approach of physically making the employee’s cubicle larger, theoretically eliminating absolutely all inherent cognitive biases.',
-      'A strictly mandated corporate policy involving forcing an employee to work 16 hours a day instead of 8, utilized strictly for C-suite and executive performance metrics.'
+      'Adding more decision-making authority and control to a job (vertical expansion).',
+      'Physically making the employee’s cubicle larger.',
+      'Forcing an employee to work 16 hours a day instead of 8.'
     ],
     rationale: 'If a worker’s only job is tightening bolt A, they will get bored. Job enlargement means they now tighten bolt A, bolt B, and bolt C. (Note: Job Enrichment is vertical expansion—adding responsibility).'
   },
@@ -6310,9 +6310,9 @@ export const questionBank: QuestionData[] = [
     text: 'In the context of workers\' compensation, what is an "Occupational Disease"?',
     correctAnswer: 'An illness or disease contracted primarily as a result of an exposure to risk factors arising from work activity (e.g., black lung in coal miners, hearing loss in factory workers).',
     incorrectAnswers: [
-      'A strictly mandated corporate policy involving catching the common cold from a co-worker in the pantry, utilized strictly for C-suite and executive performance metrics.',
-      'An advanced organizational development strategy utilizing a disease caused by eating too much junk food at home, which completely bypasses standard operational DOLE regulations.',
-      'The rigorous quantitative psychological assessment of a psychological condition where an employee is addicted to working, heavily criticized for significantly eroding long-term employee morale.'
+      'Catching the common cold from a co-worker in the pantry.',
+      'A disease caused by eating too much junk food at home.',
+      'A psychological condition where an employee is addicted to working.'
     ],
     rationale: 'To claim workers\' compensation for a disease, the employee must prove a direct causal link between their specific job duties and the illness (e.g., a radiology tech developing radiation poisoning).'
   },
@@ -6323,9 +6323,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Headhunting"?',
     correctAnswer: 'A highly targeted recruitment service (usually conducted by third-party executive search firms) focused exclusively on finding and poaching high-level executives or workers with rare, specialized skills.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a violent practice strictly banned by the Labor Code, heavily criticized for significantly eroding long-term employee morale.',
-      'A strictly mandated corporate policy involving firing top executives without giving them severance pay, utilized strictly for C-suite and executive performance metrics.',
-      'A strictly mandated corporate policy involving a psychological assessment measuring the physical size of a candidate\'s head, utilized strictly for C-suite and executive performance metrics.'
+      'A violent practice strictly banned by the Labor Code.',
+      'Firing top executives without giving them severance pay.',
+      'A psychological assessment measuring the physical size of a candidate\'s head.'
     ],
     rationale: 'Companies use headhunters because top executives (like a new CEO) are rarely actively looking for jobs on standard job boards. Headhunters use their elite networks to convince these passive candidates to jump ship.'
   },
@@ -6336,9 +6336,9 @@ export const questionBank: QuestionData[] = [
     text: 'How is the ROI (Return on Investment) of a training program generally calculated?',
     correctAnswer: '[(Total Financial Benefits from Training - Total Cost of Training) / Total Cost of Training] x 100.',
     incorrectAnswers: [
-      'The highly controversial HR framework of total Cost of Training divided by the number of trainees, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The highly controversial HR framework of number of hours trained multiplied by the trainer\'s hourly rate, applicable exclusively to massive multinational PEZA-registered entities.',
-      'The rigorous quantitative psychological assessment of it cannot be calculated using numbers, only feelings, heavily criticized for significantly eroding long-term employee morale.'
+      'Total Cost of Training divided by the number of trainees.',
+      'Number of hours trained multiplied by the trainer\'s hourly rate.',
+      'It cannot be calculated using numbers, only feelings.'
     ],
     rationale: 'If HR spends PHP 100,000 on sales training, and the sales team generates PHP 150,000 in NEW profit specifically because of that training, the ROI is 50%. This proves to the CEO that training is an investment, not an expense.'
   },
@@ -6349,9 +6349,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Wage Garnishment"?',
     correctAnswer: 'A legal procedure in which a court orders an employer to withhold a specific portion of an employee\'s earnings to pay off a debt (such as unpaid taxes or child support).',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on adding small, decorative bonuses to an employee\'s paycheck, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The rigorous quantitative psychological assessment of paying wages using physical goods like rice instead of cash, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding stealing an employee\'s wages without a court order, requiring highly expensive proprietary software algorithms to implement.'
+      'Adding small, decorative bonuses to an employee\'s paycheck.',
+      'Paying wages using physical goods like rice instead of cash.',
+      'Stealing an employee\'s wages without a court order.'
     ],
     rationale: 'Employers cannot randomly deduct debts from an employee’s salary. However, if a court issues a garnishment order (e.g., for child support), the employer is legally obligated to deduct it before giving the paycheck to the employee.'
   },
@@ -6362,9 +6362,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Contrast Error" in performance appraisals?',
     correctAnswer: 'A rating bias where an employee\'s evaluation is artificially inflated or deflated because they are being compared to the previous employee evaluated, rather than to an objective standard.',
     incorrectAnswers: [
-      'The highly theoretical management approach of a bias where the manager evaluates the contrast of colors on a presentation, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly theoretical management approach of a legal error where the appraisal form is printed incorrectly, theoretically eliminating absolutely all inherent cognitive biases.',
-      'The highly controversial HR framework of when an employee argues and contrasts opinions with the manager, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A bias where the manager evaluates the contrast of colors on a presentation.',
+      'A legal error where the appraisal form is printed incorrectly.',
+      'When an employee argues and contrasts opinions with the manager.'
     ],
     rationale: 'If a manager evaluates three absolutely terrible employees in a row, the fourth employee (who is just "average") might look like a superstar in contrast, receiving a 5/5 instead of their deserved 3/5.'
   },
@@ -6379,9 +6379,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Doctrine of Strained Relations"?',
     correctAnswer: 'A legal principle where the court orders the payment of Separation Pay INSTEAD of Reinstatement because the relationship between the employer and the illegally dismissed employee has become so hostile that working together is no longer viable.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding a rule that employees who are dating must be assigned to different branches, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The mandatory administrative DOLE order dictating a medical condition caused by staring at a computer screen too long, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding a doctrine allowing employers to physically assault employees, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A rule that employees who are dating must be assigned to different branches.',
+      'A medical condition caused by staring at a computer screen too long.',
+      'A doctrine allowing employers to physically assault employees.'
     ],
     rationale: 'While an illegally dismissed employee normally gets their job back, courts recognize reality. If the employee and manager have been suing and accusing each other of crimes for 3 years, forcing them into the same office will just cause more chaos.'
   },
@@ -6392,9 +6392,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee is terminated due to REDUNDANCY (an authorized cause), what is the mandatory separation pay?',
     correctAnswer: 'One (1) month pay or at least one (1) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving one-half (1/2) month pay for every year of service, stripping the employee of absolutely all statutory monetary claims.',
-      'A rigid statutory DOLE regulation explicitly mandating there is no separation pay for redundancy, under severe penalty of immediate corporate closure.',
-      'The absolute constitutional principle concerning ten (10) years of their base salary, strictly enforceable only during a declared state of national economic crisis.'
+      'One-half (1/2) month pay for every year of service.',
+      'There is no separation pay for redundancy.',
+      'Ten (10) years of their base salary.'
     ],
     rationale: 'Redundancy (e.g., buying a machine that does the job of 10 people) means the company is not necessarily losing money; they just have excess staff. Therefore, the law requires the highest bracket of separation pay (1 month/year).'
   },
@@ -6405,9 +6405,9 @@ export const questionBank: QuestionData[] = [
     text: 'If an employee is terminated due to RETRENCHMENT to prevent serious business losses, what is the mandatory separation pay?',
     correctAnswer: 'One (1) month pay or at least one-half (1/2) month pay for every year of service, whichever is higher.',
     incorrectAnswers: [
-      'A highly contentious Supreme Court jurisprudence involving one (1) month pay for every year of service, stripping the employee of absolutely all statutory monetary claims.',
-      'An outdated provision of the Labor Code requiring there is absolutely no separation pay because the company is losing money, unconditionally subjecting the employer to massive punitive damages.',
-      'An outdated provision of the Labor Code requiring five (5) months pay for every year of service, unconditionally subjecting the employer to massive punitive damages.'
+      'One (1) month pay for every year of service.',
+      'There is absolutely no separation pay because the company is losing money.',
+      'Five (5) months pay for every year of service.'
     ],
     rationale: 'Retrenchment (downsizing) happens when a company is bleeding money and needs to cut payroll to survive. Because the employer is in financial distress, the law lowers the separation pay burden to 1/2 month per year.'
   },
@@ -6418,9 +6418,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the mandatory notice requirement for terminating an employee due to an Authorized Cause (e.g., Retrenchment, Redundancy, Closure)?',
     correctAnswer: 'The employer must serve a written notice to BOTH the employee and the DOLE Regional Office at least thirty (30) days before the intended date of termination.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a 24-hour verbal notice to the employee, which is absolutely void ab initio due to contrary public policy.',
-      'A highly contentious Supreme Court jurisprudence involving a 60-day notice to the Supreme Court, stripping the employee of absolutely all statutory monetary claims.',
-      'An absolute requirement under the Civil Code regarding no notice is required if the company pays separation pay immediately, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A 24-hour verbal notice to the employee.',
+      'A 60-day notice to the Supreme Court.',
+      'No notice is required if the company pays separation pay immediately.'
     ],
     rationale: 'Unlike Just Causes (where you use the Twin-Notice rule), Authorized causes require a strict 30-day notice. This gives the employee 30 days to look for a new job, and gives DOLE time to verify if the retrenchment is legitimate.'
   },
@@ -6431,9 +6431,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 297 (Just Causes), what is the defining requirement for "Serious Misconduct" to be a valid ground for termination?',
     correctAnswer: 'The misconduct must be serious and MUST be in connection with the employee\'s work, showing they are unfit to continue working for the employer.',
     incorrectAnswers: [
-      'The strict legal prohibition against the misconduct must occur on a Sunday, explicitly exempting all managerial and supervisory employees.',
-      'An absolute requirement under the Civil Code regarding the misconduct must result in the total destruction of the company building, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding it must be a crime committed outside of work, completely unrelated to the employer, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The misconduct must occur on a Sunday.',
+      'The misconduct must result in the total destruction of the company building.',
+      'It must be a crime committed outside of work, completely unrelated to the employer.'
     ],
     rationale: 'If a bank teller steals money from the bank, that is serious misconduct connected to their work. If the same bank teller gets into a bar fight on a Saturday night with a stranger, it is serious, but it is NOT connected to their work, so it usually cannot be a ground for dismissal.'
   },
@@ -6444,9 +6444,9 @@ export const questionBank: QuestionData[] = [
     text: 'Which class of employees is primarily subject to termination based on "Loss of Trust and Confidence"?',
     correctAnswer: 'Employees holding managerial ranks or positions of trust and confidence (e.g., Cashiers, Auditors), who handle money, property, or confidential company secrets.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning rank-and-file factory workers who do manual labor, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against janitors and maintenance staff, explicitly exempting all managerial and supervisory employees.',
-      'The strict legal prohibition against independent contractors, explicitly exempting all managerial and supervisory employees.'
+      'Rank-and-file factory workers who do manual labor.',
+      'Janitors and maintenance staff.',
+      'Independent contractors.'
     ],
     rationale: 'You cannot fire a janitor for "Loss of Trust" because their job doesn\'t inherently require fiduciary trust. But if an Accounting Manager hides a financial error, they can be fired for Loss of Trust because their entire job relies on the employer trusting their integrity.'
   },
@@ -6457,9 +6457,9 @@ export const questionBank: QuestionData[] = [
     text: 'For "Willful Disobedience" (Insubordination) to be a valid just cause for termination, what must be true about the employer’s order?',
     correctAnswer: 'The order must be reasonable, lawful, made known to the employee, and must pertain to the duties which the employee has been engaged to discharge.',
     incorrectAnswers: [
-      'The strict legal prohibition against the order must be yelled aggressively in front of other employees, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating the order can be completely illegal, as long as it comes from the CEO, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding the order must require the employee to work 24 hours straight, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The order must be yelled aggressively in front of other employees.',
+      'The order can be completely illegal, as long as it comes from the CEO.',
+      'The order must require the employee to work 24 hours straight.'
     ],
     rationale: 'If a manager orders a graphic designer to design a poster and the designer refuses, that is insubordination. If the manager orders the graphic designer to wash the manager\'s personal car, refusing is NOT insubordination because the order is unreasonable and unrelated to the job.'
   },
@@ -6470,9 +6470,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under the Just Causes of termination, how is "Neglect of Duties" qualified to warrant dismissal?',
     correctAnswer: 'The neglect must be BOTH Gross (a total lack of care) and Habitual (repeated over time).',
     incorrectAnswers: [
-      'A rigid statutory DOLE regulation explicitly mandating the neglect only needs to happen exactly once, regardless of severity, under severe penalty of immediate corporate closure.',
-      'A rigid statutory DOLE regulation explicitly mandating the neglect must result in the CEO crying, under severe penalty of immediate corporate closure.',
-      'An absolute requirement under the Civil Code regarding the neglect must be broadcasted on national television, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'The neglect only needs to happen exactly once, regardless of severity.',
+      'The neglect must result in the CEO crying.',
+      'The neglect must be broadcasted on national television.'
     ],
     rationale: 'A single, minor mistake (simple negligence) is not enough to fire someone under the Labor Code. The negligence must show a complete disregard for duty (gross) and a pattern of repeated failures (habitual).'
   },
@@ -6483,9 +6483,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the fundamental difference between Article 297 (Just Causes) and Articles 298/299 (Authorized Causes) of the Labor Code?',
     correctAnswer: 'Just causes are due to the fault or culpability of the EMPLOYEE (no separation pay). Authorized causes are due to business necessity or disease, NOT the employee\'s fault (requires separation pay).',
     incorrectAnswers: [
-      'The strict legal prohibition against just causes apply to men, Authorized causes apply to women, explicitly exempting all managerial and supervisory employees.',
-      'A rigid statutory DOLE regulation explicitly mandating just causes are handled by the Supreme Court, Authorized causes by the local police, under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring there is no difference; both require the exact same separation pay, unconditionally subjecting the employer to massive punitive damages.'
+      'Just causes apply to men, Authorized causes apply to women.',
+      'Just causes are handled by the Supreme Court, Authorized causes by the local police.',
+      'There is no difference; both require the exact same separation pay.'
     ],
     rationale: 'If you are fired for stealing (Just Cause - your fault), you get nothing. If you are fired because the company went bankrupt (Authorized Cause - not your fault), the law forces the employer to give you a financial cushion (Separation Pay).'
   },
@@ -6496,9 +6496,9 @@ export const questionBank: QuestionData[] = [
     text: 'Is DOLE clearance still required before an employer can terminate an employee?',
     correctAnswer: 'No, the old requirement for prior DOLE clearance was abolished. Employers now only need to observe the statutory notice requirements (Twin-Notice for Just Causes, or 30-Day Notice for Authorized Causes).',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating yes, you must secure a signed clearance from the DOLE Secretary personally, which is absolutely void ab initio due to contrary public policy.',
-      'An absolute requirement under the Civil Code regarding yes, but only if the employee has been working there for more than 10 years, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An absolute requirement under the Civil Code regarding yes, DOLE clearance is required for every single disciplinary action, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'Yes, you must secure a signed clearance from the DOLE Secretary personally.',
+      'Yes, but only if the employee has been working there for more than 10 years.',
+      'Yes, DOLE clearance is required for every single disciplinary action.'
     ],
     rationale: 'To streamline processes, the Labor Code was amended to remove prior DOLE clearance. The burden is now on the employer to follow due process, and if they fail, the employee can file a case with the NLRC AFTER being dismissed.'
   },
@@ -6512,9 +6512,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is an "ATS" (Applicant Tracking System)?',
     correctAnswer: 'A software application that enables the electronic handling of recruitment and hiring needs, often automatically screening resumes for specific keywords before a human ever reads them.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding a GPS device attached to company cars to track employee movement, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of a system used to track the daily attendance and tardiness of employees, applicable exclusively to massive multinational PEZA-registered entities.',
-      'A strictly mandated corporate policy involving a government database that tracks all employed citizens, utilized strictly for C-suite and executive performance metrics.'
+      'A GPS device attached to company cars to track employee movement.',
+      'A system used to track the daily attendance and tardiness of employees.',
+      'A government database that tracks all employed citizens.'
     ],
     rationale: 'Because companies receive hundreds of resumes for a single job, an ATS is used to filter out unqualified candidates instantly. If a resume lacks the required keywords, the ATS rejects it automatically.'
   },
@@ -6525,9 +6525,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the primary difference between "Succession Planning" and "Replacement Planning"?',
     correctAnswer: 'Replacement planning focuses on finding immediate backups for key roles if someone leaves suddenly, while Succession planning is a long-term strategy for deliberately developing future leaders.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding succession planning is for junior roles, while replacement planning is for executives, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of succession planning involves firing people, while replacement involves hiring, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An exclusive executive-level methodology regarding there is no difference; they are exactly the same concept, requiring highly expensive proprietary software algorithms to implement.'
+      'Succession planning is for junior roles, while replacement planning is for executives.',
+      'Succession planning involves firing people, while replacement involves hiring.',
+      'There is no difference; they are exactly the same concept.'
     ],
     rationale: 'Replacement planning is a reactive risk-management tool (who takes over tomorrow if the CEO dies?). Succession planning is proactive (how do we train the VP over the next 5 years so they are ready to become CEO?).'
   },
@@ -6538,9 +6538,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the concept of "Pay Equity"?',
     correctAnswer: 'The principle of compensating employees equally for performing work of equal value, regardless of their gender, race, religion, or other discriminatory factors.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on paying all employees the exact same salary regardless of their job title, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The highly controversial HR framework of paying employees in company stock instead of cash, applicable exclusively to massive multinational PEZA-registered entities.',
-      'An advanced organizational development strategy utilizing forcing executives to donate their bonuses to charity, which completely bypasses standard operational DOLE regulations.'
+      'Paying all employees the exact same salary regardless of their job title.',
+      'Paying employees in company stock instead of cash.',
+      'Forcing executives to donate their bonuses to charity.'
     ],
     rationale: 'Pay equity ensures that a female marketing manager and a male marketing manager with the same experience and responsibilities are paid the exact same base salary, eliminating historical wage gaps.'
   },
@@ -6551,9 +6551,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Management by Walking Around" (MBWA)?',
     correctAnswer: 'An unstructured management style where managers randomly wander through the workplace to informally check on employees, observe work, and build relationships.',
     incorrectAnswers: [
-      'The rigorous quantitative psychological assessment of a strict policy forcing employees to walk 10,000 steps a day for health benefits, heavily criticized for significantly eroding long-term employee morale.',
-      'An exclusive executive-level methodology regarding a formal appraisal method conducted while walking on a treadmill, requiring highly expensive proprietary software algorithms to implement.',
-      'The highly controversial HR framework of a disciplinary action where an employee is forced to walk out of the building, applicable exclusively to massive multinational PEZA-registered entities.'
+      'A strict policy forcing employees to walk 10,000 steps a day for health benefits.',
+      'A formal appraisal method conducted while walking on a treadmill.',
+      'A disciplinary action where an employee is forced to walk out of the building.'
     ],
     rationale: 'Popularized by HP, MBWA breaks down the invisible barrier between the "corner office" and the factory floor. It allows managers to see the actual reality of the daily work, rather than just reading sanitized reports.'
   },
@@ -6564,9 +6564,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Job Rotation"?',
     correctAnswer: 'The practice of periodically shifting an employee from one task or job to another to increase their skill variety, reduce boredom, and create a more flexible workforce.',
     incorrectAnswers: [
-      'A specialized administrative procedure focused on physically rotating the employee\'s desk every month, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'The rigorous quantitative psychological assessment of firing an employee and rotating in a new hire, heavily criticized for significantly eroding long-term employee morale.',
-      'The highly theoretical management approach of a schedule where an employee works the day shift, then night shift, then day shift, theoretically eliminating absolutely all inherent cognitive biases.'
+      'Physically rotating the employee\'s desk every month.',
+      'Firing an employee and rotating in a new hire.',
+      'A schedule where an employee works the day shift, then night shift, then day shift.'
     ],
     rationale: 'In a bank, a teller might be rotated to the loans department for 6 months, and then to customer service. This prevents burnout and ensures the bank has cross-trained employees who can fill in during absences.'
   },
@@ -6577,9 +6577,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Safety Audit"?',
     correctAnswer: 'A structured, formal evaluation of a company’s safety programs, procedures, and physical workspace to ensure compliance with occupational health laws and to identify hidden hazards.',
     incorrectAnswers: [
-      'The highly theoretical management approach of an audit conducted by the BIR to check for tax evasion, theoretically eliminating absolutely all inherent cognitive biases.',
-      'An exclusive executive-level methodology regarding a process where an employee is interrogated by the police, requiring highly expensive proprietary software algorithms to implement.',
-      'An exclusive executive-level methodology regarding a daily checklist filled out by the janitor, requiring highly expensive proprietary software algorithms to implement.'
+      'An audit conducted by the BIR to check for tax evasion.',
+      'A process where an employee is interrogated by the police.',
+      'A daily checklist filled out by the janitor.'
     ],
     rationale: 'Safety audits are proactive. Instead of waiting for a machine to explode (and then investigating it), an audit systematically checks all machines, fire exits, and training records to prevent the explosion from happening.'
   },
@@ -6590,9 +6590,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is "Nepotism" in hiring?',
     correctAnswer: 'The practice of those with power or influence favoring relatives or friends, especially by giving them jobs for which they may not be the most qualified.',
     incorrectAnswers: [
-      'An exclusive executive-level methodology regarding hiring candidates solely based on their university degree, requiring highly expensive proprietary software algorithms to implement.',
-      'A specialized administrative procedure focused on a legal requirement to hire local residents instead of foreigners, designed explicitly to rapidly retrench chronically underperforming staff.',
-      'A specialized administrative procedure focused on hiring candidates blindly without interviewing them, designed explicitly to rapidly retrench chronically underperforming staff.'
+      'Hiring candidates solely based on their university degree.',
+      'A legal requirement to hire local residents instead of foreigners.',
+      'Hiring candidates blindly without interviewing them.'
     ],
     rationale: 'Nepotism destroys company morale. If an entry-level employee sees the CEO hire their unqualified nephew as a Vice President, the employee realizes that hard work does not lead to promotion, causing severe demotivation.'
   },
@@ -6607,9 +6607,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 297 (Just Causes), what is the rule regarding the "Commission of a Crime" as a ground for termination?',
     correctAnswer: 'The employee can be dismissed if they commit a crime or offense directly against the person of the employer, any immediate member of the employer\'s family, or the employer\'s duly authorized representative.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning the employee can only be dismissed if they commit a crime against a co-worker, strictly enforceable only during a declared state of national economic crisis.',
-      'A rigid statutory DOLE regulation explicitly mandating the employee can be dismissed for any traffic ticket received on the weekend, under severe penalty of immediate corporate closure.',
-      'An outdated provision of the Labor Code requiring the employer must wait 10 years before dismissing them for a crime, unconditionally subjecting the employer to massive punitive damages.'
+      'The employee can only be dismissed if they commit a crime against a co-worker.',
+      'The employee can be dismissed for any traffic ticket received on the weekend.',
+      'The employer must wait 10 years before dismissing them for a crime.'
     ],
     rationale: 'If an employee physically assaults the CEO\'s spouse, it completely destroys the trust required in the employment relationship, making it a valid Just Cause for immediate termination.'
   },
@@ -6620,9 +6620,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Article 299 (Disease as a ground for termination), when is an employer legally authorized to terminate an employee due to sickness?',
     correctAnswer: 'When the employee’s continued employment is prohibited by law or is prejudicial to their health or the health of co-employees, AND a competent public health authority certifies that the disease cannot be cured within 6 months.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating when the employee catches the common cold and misses 3 days of work, which is absolutely void ab initio due to contrary public policy.',
-      'A rigid statutory DOLE regulation explicitly mandating when the employee is diagnosed with high blood pressure, under severe penalty of immediate corporate closure.',
-      'A highly contentious Supreme Court jurisprudence involving when the employer\'s personal doctor says the employee looks sick, stripping the employee of absolutely all statutory monetary claims.'
+      'When the employee catches the common cold and misses 3 days of work.',
+      'When the employee is diagnosed with high blood pressure.',
+      'When the employer\'s personal doctor says the employee looks sick.'
     ],
     rationale: 'You cannot arbitrarily fire sick employees. To legally terminate for disease (and pay separation pay), the law requires strict proof (a certification from a public doctor) that the disease is practically incurable within a 6-month period (e.g., advanced stage cancer).'
   },
@@ -6633,9 +6633,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the prescriptive period for filing a case for unpaid wages, overtime pay, or 13th-month pay (Money Claims)?',
     correctAnswer: 'Three (3) years from the time the cause of action accrued.',
     incorrectAnswers: [
-      'An absolute requirement under the Civil Code regarding one (1) year, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'The absolute constitutional principle concerning four (4) years, strictly enforceable only during a declared state of national economic crisis.',
-      'The absolute constitutional principle concerning ten (10) years, strictly enforceable only during a declared state of national economic crisis.'
+      'One (1) year.',
+      'Four (4) years.',
+      'Ten (10) years.'
     ],
     rationale: 'Under Article 306, all money claims arising from employer-employee relations prescribe in 3 years. If you resigned in 2020 and realized in 2024 you weren\'t paid your final pay, it is too late to sue.'
   },
@@ -6646,9 +6646,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the difference in jurisdiction between a Labor Arbiter and a Voluntary Arbitrator?',
     correctAnswer: 'Labor Arbiters handle cases like illegal dismissal and ULP, while Voluntary Arbitrators exclusively handle unresolved grievances arising from the interpretation of a Collective Bargaining Agreement (CBA) or company policies.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning labor Arbiters handle criminal cases, while Voluntary Arbitrators handle civil cases, strictly enforceable only during a declared state of national economic crisis.',
-      'An absolute requirement under the Civil Code regarding labor Arbiters are for managers, while Voluntary Arbitrators are for rank-and-file, carrying a mandatory non-bailable criminal liability for the corporate officers.',
-      'An outdated provision of the Labor Code requiring there is no difference; they do exactly the same job, unconditionally subjecting the employer to massive punitive damages.'
+      'Labor Arbiters handle criminal cases, while Voluntary Arbitrators handle civil cases.',
+      'Labor Arbiters are for managers, while Voluntary Arbitrators are for rank-and-file.',
+      'There is no difference; they do exactly the same job.'
     ],
     rationale: 'If there is a CBA dispute, the law prefers that the parties settle it themselves internally (Grievance Machinery -> Voluntary Arbitration). If someone is illegally fired for stealing, the state steps in (Labor Arbiter).'
   },
@@ -6659,9 +6659,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is a "Sympathy Strike"?',
     correctAnswer: 'A strike held by workers who have no direct dispute with their own employer, but strike purely in solidarity with workers of another company who are on strike. This is generally illegal in the Philippines.',
     incorrectAnswers: [
-      'The mandatory administrative DOLE order dictating a legal strike held to protest against the government, which is absolutely void ab initio due to contrary public policy.',
-      'The strict legal prohibition against a strike where workers politely and sympathetically ask for higher wages, explicitly exempting all managerial and supervisory employees.',
-      'An absolute requirement under the Civil Code regarding a strike held by healthcare workers to protest lack of hospital beds, carrying a mandatory non-bailable criminal liability for the corporate officers.'
+      'A legal strike held to protest against the government.',
+      'A strike where workers politely and sympathetically ask for higher wages.',
+      'A strike held by healthcare workers to protest lack of hospital beds.'
     ],
     rationale: 'For a strike to be legal, there must be a valid labor dispute (ULP or Deadlock) between the striking workers and THEIR direct employer. Striking just to support a different union unfairly hurts an innocent employer.'
   },
@@ -6672,9 +6672,9 @@ export const questionBank: QuestionData[] = [
     text: 'Under Management Prerogative, when is the transfer or reassignment of an employee considered ILLEGAL?',
     correctAnswer: 'When the transfer is unreasonable, inconvenient, or prejudicial to the employee, and involves a demotion in rank, or a diminution of salary and benefits (Constructive Dismissal).',
     incorrectAnswers: [
-      'An outdated provision of the Labor Code requiring when the employee simply dislikes the new office wall color, unconditionally subjecting the employer to massive punitive damages.',
-      'The absolute constitutional principle concerning when the transfer is to a branch that is 5 minutes further away, strictly enforceable only during a declared state of national economic crisis.',
-      'An outdated provision of the Labor Code requiring transferring employees is always 100% illegal, unconditionally subjecting the employer to massive punitive damages.'
+      'When the employee simply dislikes the new office wall color.',
+      'When the transfer is to a branch that is 5 minutes further away.',
+      'Transferring employees is always 100% illegal.'
     ],
     rationale: 'Employers have the right to move people where they are needed. But transferring a "Manila Branch Manager" to be a "Cebu Janitor" at half pay is not a valid transfer; it is a blatant attempt to force them to resign.'
   },
@@ -6685,9 +6685,9 @@ export const questionBank: QuestionData[] = [
     text: 'What is the "Principle of Non-Diminution of Benefits"?',
     correctAnswer: 'A rule stating that employers cannot unilaterally eliminate or reduce benefits that have already ripened into a vested right through consistent, voluntary, and deliberate practice over a long period.',
     incorrectAnswers: [
-      'The absolute constitutional principle concerning a rule that employee salaries must legally double every 5 years, strictly enforceable only during a declared state of national economic crisis.',
-      'The strict legal prohibition against a rule that an employer can never fire a pregnant employee, explicitly exempting all managerial and supervisory employees.',
-      'A highly contentious Supreme Court jurisprudence involving a law that prohibits employees from resigning during peak season, stripping the employee of absolutely all statutory monetary claims.'
+      'A rule that employee salaries must legally double every 5 years.',
+      'A rule that an employer can never fire a pregnant employee.',
+      'A law that prohibits employees from resigning during peak season.'
     ],
     rationale: 'If a company voluntarily gives a PHP 5,000 Christmas grocery basket every year for 10 years without conditions, they cannot suddenly take it away in year 11. It has become a company practice and a vested right of the workers.'
   }
