@@ -34,9 +34,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 5, when do implementing rules and regulations promulgated by the Department of Labor become effective?",
     "correctAnswer": "15 days after announcement of their adoption in newspapers of general circulation",
     "incorrectAnswers": [
-      "Immediately upon publication",
-      "30 days after filing with the UP Law Center",
-      "After approval by the President"
+      "Immediately upon publication subject to compliance according to the mandate as officially stated",
+      "30 days after filing with the UP Law Center assuming no violations subject to regional rules",
+      "After approval by the President within the local region for regular workers reflecting recent updates"
     ],
     "rationale": "Article 5 specifies that rules and regulations shall become effective fifteen (15) days after announcement of their adoption in newspapers of general circulation."
   },
@@ -47,9 +47,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are agricultural workers covered by the rights and benefits granted to workers under the Labor Code?",
     "correctAnswer": "Yes, they apply alike to all workers, whether agricultural or non-agricultural",
     "incorrectAnswers": [
-      "No, they are covered by the Agrarian Reform Law exclusively",
-      "Only if they are working in plantations",
-      "No, agricultural workers are exempted"
+      "No, they are covered by the Agrarian Reform Law exclusively reflecting recent updates",
+      "Only if they are working in plantations following standard procedure under normal operations",
+      "No, agricultural workers are exempted in the private sector according to the mandate"
     ],
     "rationale": "Article 6 states that all rights and benefits granted to workers under this Code shall apply alike to all workers, whether agricultural or non-agricultural."
   },
@@ -86,9 +86,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 9, what is the basis for determining the cost of the land to be transferred to the tenant-farmer?",
     "correctAnswer": "Two and one-half (2-1/2) times the average harvest of three normal crop years immediately preceding P.D. 27",
     "incorrectAnswers": [
-      "The current market value assessed by the local government",
-      "Three times the average harvest of the last five years",
-      "A fixed rate set by the Department of Agrarian Reform"
+      "The current market value assessed by the local government based on regulations under the labor code during the initial phase",
+      "Three times the average harvest of the last five years upon final approval according to the mandate per company policy",
+      "A fixed rate set by the Department of Agrarian Reform for regular workers assuming no violations in most standard cases"
     ],
     "rationale": "Article 9 explicitly states the value shall be equivalent to 2-1/2 times the average harvest of three (3) normal crop years immediately preceding Oct 21, 1972."
   },
@@ -112,9 +112,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 10, what is a mandatory condition before a title to the land is actually issued to the tenant-farmer?",
     "correctAnswer": "He must become a full-fledged member of a duly recognized farmers' cooperative",
     "incorrectAnswers": [
-      "He must fully pay the 15-year amortization",
-      "He must obtain clearance from the landowner",
-      "He must pass an agricultural training exam"
+      "He must fully pay the 15-year amortization as management directs for covered employees",
+      "He must obtain clearance from the landowner during the initial phase subject to regional rules",
+      "He must pass an agricultural training exam reflecting recent updates given proper notice"
     ],
     "rationale": "Article 10 requires that he must become a full-fledged member of a duly recognized farmers' cooperative before title is actually issued."
   },
@@ -126,8 +126,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Any member of the labor force, whether employed or unemployed",
     "incorrectAnswers": [
       "Only those currently employed in a formal establishment",
-      "Only individuals performing manual labor",
-      "Any person earning wages or salary"
+      "Only individuals performing manual labor for unionized members",
+      "Any person earning wages or salary as officially stated based on regulations"
     ],
     "rationale": "Article 13(a) defines 'Worker' as any member of the labor force, whether employed or unemployed."
   },
@@ -151,9 +151,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What distinguishes a 'Private recruitment entity' from a 'Private fee-charging employment agency'?",
     "correctAnswer": "A private recruitment entity does not charge any fee directly or indirectly from the workers or employers",
     "incorrectAnswers": [
-      "A private recruitment entity is run by the government",
-      "A private recruitment entity only recruits for overseas employment",
-      "A private recruitment entity is exempt from obtaining any authority"
+      "A private recruitment entity is run by the government contingent on the contract assuming no violations excluding special cases",
+      "A private recruitment entity only recruits for overseas employment under normal operations subject to compliance",
+      "A private recruitment entity is exempt from obtaining any authority for regular workers reflecting recent updates"
     ],
     "rationale": "Article 13(c) and (e) define an agency as fee-charging, while an entity engages in recruitment 'without charging, directly or indirectly, any fee'."
   },
@@ -190,9 +190,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines an 'Emigrant' under Article 13(i)?",
     "correctAnswer": "Any person who emigrates to a foreign country by virtue of an immigrant visa or resident permit",
     "incorrectAnswers": [
-      "Any worker deployed on a fixed-term overseas contract",
-      "Any person seeking asylum in another country",
-      "A seaman engaged in maritime navigation"
+      "Any worker deployed on a fixed-term overseas contract as officially stated under normal operations for regular workers",
+      "Any person seeking asylum in another country excluding special cases based on regulations in the private sector",
+      "A seaman engaged in maritime navigation within the local region contingent on the contract for unionized members"
     ],
     "rationale": "Article 13(i) defines an Emigrant as anyone who emigrates by virtue of an immigrant visa or resident permit."
   },
@@ -242,9 +242,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the general rule on the recruitment and placement of workers under Article 16?",
     "correctAnswer": "No person or entity other than public employment offices shall engage in recruitment and placement, except as provided in Chapter II",
     "incorrectAnswers": [
-      "Anyone can freely recruit provided they don't charge fees",
-      "Only foreign corporations can recruit overseas workers",
-      "Recruitment is fully deregulated"
+      "Anyone can freely recruit provided they don't charge fees subject to compliance as officially stated pending an official review under the labor code",
+      "Only foreign corporations can recruit overseas workers during regular hours contingent on the contract in the private sector subject to regional rules",
+      "Recruitment is fully deregulated for regular workers according to the mandate for unionized members per company policy in most standard cases"
     ],
     "rationale": "Article 16 states: 'Except as provided in Chapter II of this Title, no person or entity other than the public employment offices, shall engage in the recruitment...'"
   },
@@ -268,9 +268,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 18, is direct-hiring of a Filipino worker for overseas employment allowed?",
     "correctAnswer": "No, except for members of the diplomatic corps, international organizations, and others allowed by the Secretary of Labor",
     "incorrectAnswers": [
-      "Yes, anyone can directly hire Filipino workers",
-      "No, direct-hiring is absolutely prohibited without exceptions",
-      "Yes, provided the worker pays a direct-hire fee to DOLE"
+      "Yes, anyone can directly hire Filipino workers during regular hours under the labor code in most standard cases excluding special cases",
+      "No, direct-hiring is absolutely prohibited without exceptions contingent on the contract for unionized members subject to regional rules",
+      "Yes, provided the worker pays a direct-hire fee to DOLE within the local region per company policy reflecting recent updates"
     ],
     "rationale": "Article 18 states: 'No employer may hire a Filipino worker for overseas employment except through the Boards... Direct-hiring by members of the diplomatic corps... is exempted.'"
   },
@@ -281,9 +281,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which entity handles the promotion of well-being of emigrants and maintains close links to the homeland?",
     "correctAnswer": "Office of Emigrant Affairs (now Commission on Filipinos Overseas)",
     "incorrectAnswers": [
-      "POEA",
-      "OWWA",
-      "Bureau of Local Employment"
+      "POEA according to the mandate per company policy upon final approval subject to regional rules",
+      "OWWA under the labor code pending an official review under normal operations",
+      "Bureau of Local Employment during regular hours as officially stated given proper notice"
     ],
     "rationale": "Article 19 creates the Office of Emigrant Affairs. Footnote 18 clarifies this is now the Commission on Filipinos Overseas attached to the DFA."
   },
@@ -307,9 +307,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under current laws (R.A. 8042), which agency has original and exclusive jurisdiction over money claims involving employer-employee relations of overseas Filipino workers?",
     "correctAnswer": "National Labor Relations Commission (NLRC)",
     "incorrectAnswers": [
-      "POEA",
-      "Regional Trial Courts",
-      "DOLE Secretary"
+      "POEA per company policy under normal operations",
+      "Regional Trial Courts reflecting recent updates",
+      "DOLE Secretary during regular hours upon final approval"
     ],
     "rationale": "Footnotes 12, 15, and 19 clarify that R.A. 8042 transferred the original and exclusive jurisdiction over money claims of OFWs from POEA to the NLRC."
   },
@@ -320,9 +320,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 21, what is the role of labor attachés and Philippine diplomatic officials regarding Filipino workers abroad?",
     "correctAnswer": "To provide assistance, ensure they are not exploited, and verify employment contracts",
     "incorrectAnswers": [
-      "To collect taxes from their salaries",
-      "To strictly deport undocumented workers without trial",
-      "To act as the direct employers of the workers"
+      "To collect taxes from their salaries for unionized members during regular hours per company policy",
+      "To strictly deport undocumented workers without trial in most standard cases for covered employees",
+      "To act as the direct employers of the workers following standard procedure subject to compliance"
     ],
     "rationale": "Article 21 mandates them to provide assistance, ensure workers are not exploited, and verify contracts."
   },
@@ -333,9 +333,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which government agency has the power to issue rules and regulations to implement the Labor Code?",
     "correctAnswer": "Department of Labor and Employment (DOLE)",
     "incorrectAnswers": [
-      "Civil Service Commission",
-      "Department of Justice",
-      "Supreme Court"
+      "Civil Service Commission within the local region",
+      "Department of Justice in most standard cases",
+      "Supreme Court following standard procedure"
     ],
     "rationale": "Article 5 tasks the Department of Labor and other government agencies charged with administration of the Code to promulgate necessary rules."
   },
@@ -346,9 +346,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 14, what system must be organized to inform applicants of job opportunities in other parts of the country and abroad?",
     "correctAnswer": "A nationwide job clearance and information system",
     "incorrectAnswers": [
-      "A mandatory social media registry",
+      "A mandatory social media registry according to the mandate",
       "A private headhunting firm network",
-      "A localized bulletin board system"
+      "A localized bulletin board system within the local region"
     ],
     "rationale": "Article 14(b) gives the Secretary of Labor power to organize and establish a nationwide job clearance and information system."
   },
@@ -359,9 +359,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the OWWA Act (R.A. 10801), what is the primary purpose of the OWWA Fund?",
     "correctAnswer": "To provide social and welfare programs to member-OFWs, including assistance, education, and reintegration",
     "incorrectAnswers": [
-      "To fund the operations of recruitment agencies",
-      "To subsidize the travel expenses of all emigrants",
-      "To build government infrastructures"
+      "To fund the operations of recruitment agencies excluding special cases under normal operations under the labor code",
+      "To subsidize the travel expenses of all emigrants subject to compliance during regular hours for unionized members",
+      "To build government infrastructures for regular workers as officially stated given proper notice subject to regional rules"
     ],
     "rationale": "Footnote 16 explains OWWA's functions to protect interests and provide social welfare programs to member-OFWs."
   },
@@ -386,7 +386,7 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "To insure industrial peace based on social justice",
     "incorrectAnswers": [
       "To guarantee absolute profit for the employer",
-      "To completely abolish capitalism",
+      "To completely abolish capitalism according to the mandate",
       "To prevent workers from leaving the country"
     ],
     "rationale": "The title of P.D. 442 states: '...to Afford Protection to Labor, Promote Employment and Human Resources Development and Insure Industrial Peace Based on Social Justice.'"
@@ -398,9 +398,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 40, who needs to obtain an employment permit from the Department of Labor?",
     "correctAnswer": "Any alien seeking admission to the Philippines for employment purposes and any employer who desires to engage an alien",
     "incorrectAnswers": [
-      "Only the alien seeking admission",
-      "Only the employer seeking to engage the alien",
-      "Any tourist intending to stay longer than 3 months"
+      "Only the alien seeking admission based on regulations pending an official review for regular workers during regular hours",
+      "Only the employer seeking to engage the alien in most standard cases upon final approval subject to compliance during the initial phase",
+      "Any tourist intending to stay longer than 3 months excluding special cases under normal operations subject to regional rules"
     ],
     "rationale": "Article 40 states: 'Any alien seeking admission... and any domestic or foreign employer who desires to engage an alien for employment in the Philippines shall obtain an employment permit from the Department of Labor.'"
   },
@@ -411,9 +411,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 40, what is the prerequisite before an employment permit may be issued to a non-resident alien?",
     "correctAnswer": "A determination of the non-availability of a person in the Philippines who is competent, able and willing to perform the services",
     "incorrectAnswers": [
-      "A sworn statement of the alien's intent to stay permanently",
-      "A certification from the Bureau of Immigration",
-      "A security clearance from the NBI"
+      "A sworn statement of the alien's intent to stay permanently as officially stated subject to regional rules reflecting recent updates",
+      "A certification from the Bureau of Immigration subject to compliance per company policy during regular hours during the initial phase",
+      "A security clearance from the NBI in most standard cases as management directs based on regulations assuming no violations for regular workers"
     ],
     "rationale": "Article 40 states the permit may be issued 'after a determination of the non-availability of a person in the Philippines who is competent, able and willing at the time of application to perform the services...'"
   },
@@ -426,7 +426,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "Pay a transfer fee to the Bureau of Immigration",
       "Simply notify their current employer 30 days in advance",
-      "Apply for a new visa at the DFA"
+      "Apply for a new visa at the DFA according to the mandate"
     ],
     "rationale": "Article 41(a) explicitly states: 'After the issuance of an employment permit, the alien shall not transfer to another job or change his employer without prior approval of the Secretary of Labor.'"
   },
@@ -437,9 +437,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the penalty for a non-resident alien taking up employment in violation of the provisions of Title II?",
     "correctAnswer": "Punished in accordance with Articles 289 and 290, and subject to deportation after service of sentence",
     "incorrectAnswers": [
-      "Immediate deportation without trial",
-      "A fine of P10,000 only",
-      "Confiscation of passport until a fine is paid"
+      "Immediate deportation without trial for regular workers during the initial phase under normal operations",
+      "A fine of P10,000 only in most standard cases assuming no violations per company policy according to the mandate",
+      "Confiscation of passport until a fine is paid subject to compliance as management directs upon final approval"
     ],
     "rationale": "Article 41(b) states they shall be punished in accordance with Articles 289 and 290, and 'In addition, the alien worker shall be subject to deportation after service of his sentence.'"
   },
@@ -450,9 +450,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the declared objective of the Human Resources Development Program under Title I?",
     "correctAnswer": "To develop human resources, establish training institutions, and formulate plans for efficient allocation, development and utilization of manpower",
     "incorrectAnswers": [
-      "To export as many Filipino workers as possible",
-      "To replace all human labor with automated systems",
-      "To restrict the entry of foreign workers completely"
+      "To export as many Filipino workers as possible pending an official review reflecting recent updates in the private sector following standard procedure",
+      "To replace all human labor with automated systems during the initial phase under the labor code per company policy as management directs given proper notice",
+      "To restrict the entry of foreign workers completely within the local region assuming no violations according to the mandate subject to regional rules"
     ],
     "rationale": "Article 43 states it is the objective to develop human resources... to ensure efficient allocation, development and utilization of the nation's manpower."
   },
@@ -463,9 +463,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Manpower' defined under Article 44?",
     "correctAnswer": "That portion of the nation's population which has actual or potential capability to contribute directly to the production of goods and services",
     "incorrectAnswers": [
-      "Only those who are currently employed and paying taxes",
-      "Only males between the ages of 18 and 60",
-      "Any citizen who has completed college education"
+      "Only those who are currently employed and paying taxes in the private sector following standard procedure subject to regional rules per company policy",
+      "Only males between the ages of 18 and 60 pending an official review excluding special cases under the labor code assuming no violations in most standard cases",
+      "Any citizen who has completed college education during regular hours reflecting recent updates contingent on the contract for unionized members given proper notice"
     ],
     "rationale": "Article 44(a) defines 'Manpower' as 'that portion of the nation's population which has actual or potential capability to contribute directly to the production of goods and services.'"
   },
@@ -476,9 +476,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 44, what does 'Entrepreneurship' mean?",
     "correctAnswer": "Training for self-employment or assisting individual or small industries",
     "incorrectAnswers": [
-      "The exploitation of workers for capital gain",
-      "Running a large-scale multinational corporation",
-      "Government ownership of key industries"
+      "The exploitation of workers for capital gain as officially stated under the labor code",
+      "Running a large-scale multinational corporation during regular hours during the initial phase",
+      "Government ownership of key industries subject to regional rules pending an official review"
     ],
     "rationale": "Article 44(b) defines 'Entrepreneurship' as 'training for self-employment or assisting individual or small industries within the purview of this Title.'"
   },
@@ -502,9 +502,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Apprenticeship' defined under Article 58?",
     "correctAnswer": "Practical training on the job supplemented by related theoretical instruction",
     "incorrectAnswers": [
-      "A trial period of 6 months before regular employment",
-      "Unpaid labor in exchange for food and lodging",
-      "A 4-year degree course in a vocational school"
+      "A trial period of 6 months before regular employment for regular workers upon final approval",
+      "Unpaid labor in exchange for food and lodging as officially stated per company policy",
+      "A 4-year degree course in a vocational school during the initial phase given proper notice"
     ],
     "rationale": "Article 58(a) defines Apprenticeship as 'practical training on the job supplemented by related theoretical instruction.'"
   },
@@ -515,9 +515,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What constitutes an 'apprenticeable occupation'?",
     "correctAnswer": "Any trade or occupation which requires more than three (3) months of practical training on the job supplemented by related theoretical instruction",
     "incorrectAnswers": [
-      "Any job that requires less than one month of training",
-      "Only jobs that require a college degree",
-      "Any manual labor job regardless of training duration"
+      "Any job that requires less than one month of training during regular hours per company policy in most standard cases within the local region for covered employees",
+      "Only jobs that require a college degree subject to regional rules reflecting recent updates following standard procedure as officially stated in the private sector",
+      "Any manual labor job regardless of training duration given proper notice contingent on the contract assuming no violations according to the mandate"
     ],
     "rationale": "Article 58(c) defines it as 'any trade, form of employment or occupation which requires more than three (3) months of practical training on the job supplemented by related theoretical instruction.'"
   },
@@ -528,9 +528,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is an 'Apprenticeship agreement'?",
     "correctAnswer": "An employment contract wherein the employer binds himself to train the apprentice and the apprentice accepts the terms of training",
     "incorrectAnswers": [
-      "A waiver of the apprentice's right to unionize",
-      "A contract where the apprentice pays the employer for training",
-      "A lifetime bond to work for the employer"
+      "A waiver of the apprentice's right to unionize within the local region pending an official review during the initial phase according to the mandate",
+      "A contract where the apprentice pays the employer for training excluding special cases during regular hours for unionized members",
+      "A lifetime bond to work for the employer as management directs for covered employees contingent on the contract in most standard cases"
     ],
     "rationale": "Article 58(d) defines it as an employment contract where the employer trains and the apprentice accepts the terms."
   },
@@ -541,9 +541,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 59, what is the minimum age to qualify as an apprentice?",
     "correctAnswer": "14 years of age (though child labor laws generally restrict employment below 15)",
     "incorrectAnswers": [
-      "18 years of age",
-      "21 years of age",
-      "12 years of age"
+      "18 years of age upon final approval during regular hours given proper notice contingent on the contract",
+      "21 years of age assuming no violations for unionized members based on regulations subject to regional rules",
+      "12 years of age in most standard cases for covered employees excluding special cases"
     ],
     "rationale": "Article 59(a) states 14 years. However, footnote 61 clarifies that R.A. 7610/9231 generally prohibit employment below 15, except under exceptional cases."
   },
@@ -555,8 +555,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Only employers in highly technical industries",
     "incorrectAnswers": [
       "Any employer regardless of industry",
-      "Only government agencies",
-      "Only agricultural enterprises"
+      "Only government agencies assuming no violations",
+      "Only agricultural enterprises during the initial phase"
     ],
     "rationale": "Article 60 explicitly states: 'Only employers in the highly technical industries may employ apprentices and only in apprenticeable occupations approved...'"
   },
@@ -580,8 +580,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the minimum wage rate for apprentices under Article 61?",
     "correctAnswer": "Not below 75% of the applicable minimum wage",
     "incorrectAnswers": [
-      "100% of the minimum wage",
-      "50% of the minimum wage",
+      "100% of the minimum wage during the initial phase",
+      "50% of the minimum wage following standard procedure",
       "No minimum; apprentices can be unpaid"
     ],
     "rationale": "Article 61 states wage rates 'in no case shall start below 75 per cent of the applicable minimum wage'."
@@ -593,9 +593,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who signs an apprenticeship agreement if the apprentice is a minor?",
     "correctAnswer": "His parent or guardian, or if unavailable, an authorized representative of the Department of Labor",
     "incorrectAnswers": [
-      "Only the minor can sign for himself",
-      "The school principal",
-      "The local barangay captain"
+      "Only the minor can sign for himself during regular hours for regular workers given proper notice within the local region",
+      "The school principal as management directs in most standard cases assuming no violations reflecting recent updates",
+      "The local barangay captain following standard procedure per company policy in the private sector according to the mandate"
     ],
     "rationale": "Article 62 states: 'An apprenticeship agreement with a minor shall be signed in his behalf by his parent or guardian or, if the latter is not available, by an authorized representative of the Department of Labor...'"
   },
@@ -619,9 +619,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 71, what tax incentive is granted to a person or enterprise organizing a duly recognized apprenticeship program?",
     "correctAnswer": "An additional deduction from taxable income of one-half (1/2) of the value of labor training expenses",
     "incorrectAnswers": [
-      "Full exemption from corporate income tax for 5 years",
-      "A refund of all VAT paid",
-      "Zero tariffs on imported machinery"
+      "Full exemption from corporate income tax for 5 years for covered employees in the private sector reflecting recent updates",
+      "A refund of all VAT paid under normal operations subject to regional rules within the local region during regular hours",
+      "Zero tariffs on imported machinery given proper notice contingent on the contract per company policy"
     ],
     "rationale": "Article 71 provides an additional deduction from taxable income of 1/2 of the value of labor training expenses incurred."
   },
@@ -658,9 +658,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When can the hiring of apprentices WITHOUT compensation be authorized by the Secretary of Labor?",
     "correctAnswer": "When training on the job is required by the school curriculum or as a requisite for graduation or board examination",
     "incorrectAnswers": [
-      "Whenever the employer is a non-profit organization",
-      "When the apprentice agrees to waive his wages in writing",
-      "During the first month of any apprenticeship"
+      "Whenever the employer is a non-profit organization for regular workers under normal operations within the local region",
+      "When the apprentice agrees to waive his wages in writing based on regulations subject to compliance given proper notice",
+      "During the first month of any apprenticeship for unionized members as officially stated pending an official review under the labor code"
     ],
     "rationale": "Article 72 states this is allowed 'whose training on the job is required by the school or training program curriculum or as requisite for graduation or board examination.'"
   },
@@ -684,9 +684,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How are 'Learners' defined under Article 73?",
     "correctAnswer": "Persons hired as trainees in semi-skilled and other industrial occupations which are non-apprenticeable",
     "incorrectAnswers": [
-      "Individuals enrolled in purely academic college courses",
-      "Workers undergoing highly technical training exceeding 6 months",
-      "Management trainees in banks"
+      "Individuals enrolled in purely academic college courses in the private sector reflecting recent updates",
+      "Workers undergoing highly technical training exceeding 6 months according to the mandate as management directs",
+      "Management trainees in banks per company policy under normal operations based on regulations contingent on the contract"
     ],
     "rationale": "Article 73 defines learners as persons hired as trainees in semi-skilled and other industrial occupations which are non-apprenticeable."
   },
@@ -710,9 +710,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 74, when may learners be hired?",
     "correctAnswer": "When no experienced workers are available, it's necessary to prevent curtailment of employment opportunities, and it doesn't create unfair competition",
     "incorrectAnswers": [
-      "Whenever the employer wants to save on labor costs",
-      "Only during the Christmas season",
-      "Only in agricultural businesses"
+      "Whenever the employer wants to save on labor costs subject to regional rules following standard procedure under the labor code as officially stated during the initial phase",
+      "Only during the Christmas season for covered employees for unionized members as management directs for regular workers pending an official review",
+      "Only in agricultural businesses contingent on the contract according to the mandate reflecting recent updates during regular hours in the private sector"
     ],
     "rationale": "Article 74 lists these exact three conditions for when learners may be hired."
   },
@@ -723,9 +723,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the minimum wage rate for learners during their training period?",
     "correctAnswer": "Not less than 75% of the applicable minimum wage",
     "incorrectAnswers": [
-      "Not less than 50%",
-      "Not less than 100%",
-      "Not less than 85%"
+      "Not less than 50% based on regulations for unionized members",
+      "Not less than 100% under the labor code given proper notice",
+      "Not less than 85% within the local region subject to compliance"
     ],
     "rationale": "Article 75(c) states the wages or salary rates 'shall begin at not less than seventy-five percent (75%) of the applicable minimum wage.'"
   },
@@ -762,9 +762,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How are 'Handicapped workers' defined under Article 78?",
     "correctAnswer": "Those whose earning capacity is impaired by age or physical or mental deficiency or injury",
     "incorrectAnswers": [
-      "Only those who are completely bedridden",
-      "Only those who are deaf or blind",
-      "Anyone over the age of 60"
+      "Only those who are completely bedridden reflecting recent updates within the local region",
+      "Only those who are deaf or blind per company policy in the private sector as officially stated",
+      "Anyone over the age of 60 subject to compliance upon final approval contingent on the contract"
     ],
     "rationale": "Article 78 states: 'Handicapped workers are those whose earning capacity is impaired by age or physical or mental deficiency or injury.'"
   },
@@ -775,9 +775,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to the Magna Carta for Disabled Persons (R.A. 7277), how should a qualified disabled employee be treated in terms of compensation and privileges compared to an able-bodied person?",
     "correctAnswer": "They shall be subject to the same terms, conditions, and compensation as a qualified able-bodied person",
     "incorrectAnswers": [
-      "They can legally be paid 75% of the minimum wage",
-      "They should only receive 50% of the benefits",
-      "They are exempt from receiving the 13th-month pay"
+      "They can legally be paid 75% of the minimum wage during regular hours pending an official review during the initial phase",
+      "They should only receive 50% of the benefits as officially stated in most standard cases contingent on the contract",
+      "They are exempt from receiving the 13th-month pay upon final approval as management directs assuming no violations"
     ],
     "rationale": "Footnote 69 cites Sec. 5 of R.A. 7277: 'A qualified disabled employee shall be subject to the same terms and conditions of employment and the same compensation... as a qualified able-bodied person.'"
   },
@@ -788,9 +788,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 82, which of the following groups is covered by the provisions of Title I (Working Conditions and Rest Periods)?",
     "correctAnswer": "Rank-and-file employees in private non-agricultural establishments",
     "incorrectAnswers": [
-      "Government employees",
-      "Managerial employees",
-      "Field personnel"
+      "Government employees upon final approval subject to compliance pending an official review",
+      "Managerial employees excluding special cases reflecting recent updates",
+      "Field personnel under the labor code as officially stated subject to regional rules"
     ],
     "rationale": "Article 82 excludes government employees, managerial employees, field personnel, family members dependent for support, domestic helpers, and persons in personal service of another."
   },
@@ -801,9 +801,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does Article 82 define 'managerial employees'?",
     "correctAnswer": "Those whose primary duty consists of the management of the establishment or a department thereof, and other officers of the managerial staff",
     "incorrectAnswers": [
-      "Any employee who earns more than P50,000 a month",
-      "An employee who works exclusively outside the office",
-      "An employee paid by results"
+      "Any employee who earns more than P50,000 a month as officially stated for covered employees for unionized members reflecting recent updates",
+      "An employee who works exclusively outside the office given proper notice under the labor code based on regulations in the private sector",
+      "An employee paid by results in most standard cases according to the mandate subject to compliance upon final approval during the initial phase"
     ],
     "rationale": "Article 82 states: 'managerial employees refer to those whose primary duty consists of the management of the establishment in which they are employed or of a department or subdivision thereof, and to other officers or members of the managerial staff.'"
   },
@@ -814,9 +814,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How are 'Field personnel' defined under Article 82?",
     "correctAnswer": "Non-agricultural employees who regularly perform their duties away from the principal place of business and whose actual hours of work in the field cannot be determined with reasonable certainty",
     "incorrectAnswers": [
-      "Agricultural workers assigned to cultivate soil",
-      "Office-based employees who occasionally do fieldwork",
-      "Employees who work primarily at night"
+      "Agricultural workers assigned to cultivate soil assuming no violations within the local region during the initial phase subject to regional rules subject to compliance based on regulations for covered employees",
+      "Office-based employees who occasionally do fieldwork given proper notice per company policy reflecting recent updates under normal operations for unionized members following standard procedure in the private sector",
+      "Employees who work primarily at night during regular hours excluding special cases as officially stated as management directs for regular workers pending an official review contingent on the contract"
     ],
     "rationale": "Article 82 provides this exact definition for Field personnel."
   },
@@ -841,8 +841,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "8 hours a day, for 5 days a week (40-hour workweek)",
     "incorrectAnswers": [
       "8 hours a day, for 6 days a week (48-hour workweek)",
-      "10 hours a day, for 4 days a week",
-      "12 hours a day, for 3 days a week"
+      "10 hours a day, for 4 days a week following standard procedure",
+      "12 hours a day, for 3 days a week upon final approval"
     ],
     "rationale": "Article 83 states they 'shall hold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time for meals...'"
   },
@@ -853,9 +853,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If health personnel are required to work on the 6th day due to exigencies of the service, what additional compensation are they entitled to?",
     "correctAnswer": "At least 30% of their regular wage for work on the sixth day",
     "incorrectAnswers": [
-      "At least 25% of their regular wage",
-      "At least 50% of their regular wage",
-      "At least 100% of their regular wage"
+      "At least 25% of their regular wage during the initial phase contingent on the contract",
+      "At least 50% of their regular wage reflecting recent updates",
+      "At least 100% of their regular wage in most standard cases"
     ],
     "rationale": "Article 83 states: 'they shall be entitled to an additional compensation of at least thirty percent (30%) of their regular wage for work on the sixth day.'"
   },
@@ -866,9 +866,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Does the 40-hour workweek rule for health personnel apply if a resident physician has an approved training agreement with the hospital?",
     "correctAnswer": "No, because under the rules, there is no employer-employee relation on account of the approved training program",
     "incorrectAnswers": [
-      "Yes, it applies to all doctors regardless of training status",
-      "No, because doctors are considered managerial employees",
-      "Yes, but they do not get paid for overtime"
+      "Yes, it applies to all doctors regardless of training status for unionized members under the labor code within the local region",
+      "No, because doctors are considered managerial employees as management directs as officially stated reflecting recent updates",
+      "Yes, but they do not get paid for overtime contingent on the contract under normal operations based on regulations"
     ],
     "rationale": "Footnote 72 explains that under the Omnibus Rules, the forty-hour workweek will not apply if there is a training agreement, as there is no employer-employee relation."
   },
@@ -879,9 +879,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 84, what is included in 'Hours Worked'?",
     "correctAnswer": "All time an employee is required to be on duty or at a prescribed workplace, and all time an employee is suffered or permitted to work",
     "incorrectAnswers": [
-      "Only the time spent actually producing output",
-      "Time spent commuting to and from work",
-      "Time spent on a 60-minute lunch break"
+      "Only the time spent actually producing output during the initial phase given proper notice under the labor code pending an official review",
+      "Time spent commuting to and from work based on regulations for unionized members subject to compliance as officially stated in the private sector",
+      "Time spent on a 60-minute lunch break for covered employees during regular hours in most standard cases subject to regional rules"
     ],
     "rationale": "Article 84 defines Hours Worked as both required time on duty/workplace and time suffered/permitted to work."
   },
@@ -918,9 +918,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can meal periods be less than 60 minutes?",
     "correctAnswer": "Yes, under specified cases provided by the Omnibus Rules, provided such shorter meal periods are credited as compensable hours",
     "incorrectAnswers": [
-      "No, it must strictly be 60 minutes in all circumstances",
-      "Yes, and they are always unpaid",
-      "Yes, but only for managerial employees"
+      "No, it must strictly be 60 minutes in all circumstances under the labor code subject to compliance during the initial phase",
+      "Yes, and they are always unpaid for unionized members given proper notice within the local region contingent on the contract subject to regional rules",
+      "Yes, but only for managerial employees assuming no violations pending an official review under normal operations in most standard cases"
     ],
     "rationale": "Footnote 73 states the Omnibus Rules allow meal periods to be less than 60 minutes under specified cases, provided they are credited as compensable hours."
   },
@@ -931,9 +931,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 86, when is the Night-Shift Differential applicable?",
     "correctAnswer": "For each hour of work performed between 10:00 PM and 6:00 AM",
     "incorrectAnswers": [
-      "Between 8:00 PM and 5:00 AM",
-      "Between 12:00 Midnight and 8:00 AM",
-      "Between 9:00 PM and 6:00 AM"
+      "Between 8:00 PM and 5:00 AM according to the mandate upon final approval",
+      "Between 12:00 Midnight and 8:00 AM under normal operations",
+      "Between 9:00 PM and 6:00 AM in the private sector during regular hours"
     ],
     "rationale": "Article 86 explicitly states: 'between ten o’clock in the evening and six o’clock in the morning.'"
   },
@@ -970,9 +970,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 87, what is the additional compensation required for overtime work performed on a holiday or rest day?",
     "correctAnswer": "At least 30% of the rate of the first eight hours on a holiday or rest day",
     "incorrectAnswers": [
-      "At least 25% of the regular wage",
-      "At least 50% of the regular wage",
-      "At least 100% of the regular wage"
+      "At least 25% of the regular wage reflecting recent updates during the initial phase",
+      "At least 50% of the regular wage pending an official review for unionized members",
+      "At least 100% of the regular wage contingent on the contract under the labor code"
     ],
     "rationale": "Article 87 states: 'Work performed beyond eight hours on a holiday or rest day shall be paid an additional compensation equivalent to the rate of the first eight hours on a holiday or rest day plus at least thirty percent (30%) thereof.'"
   },
@@ -996,9 +996,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which of the following is a valid ground for an employer to compel an employee to perform emergency overtime work under Article 89?",
     "correctAnswer": "When it is necessary to prevent loss of life or property in case of imminent danger due to a disaster or calamity",
     "incorrectAnswers": [
-      "When the employer simply wants to increase daily production quotas",
-      "When a co-worker goes on an unapproved vacation leave",
-      "When the employer refuses to hire additional staff to save costs"
+      "When the employer simply wants to increase daily production quotas during regular hours pending an official review",
+      "When a co-worker goes on an unapproved vacation leave excluding special cases contingent on the contract subject to compliance",
+      "When the employer refuses to hire additional staff to save costs according to the mandate as management directs"
     ],
     "rationale": "Article 89(b) explicitly allows emergency overtime when necessary to prevent loss of life/property due to imminent danger caused by disaster."
   },
@@ -1009,9 +1009,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 90, how is the 'regular wage' computed for purposes of calculating overtime and additional remuneration?",
     "correctAnswer": "It shall include the cash wage only, without deduction on account of facilities provided by the employer",
     "incorrectAnswers": [
-      "It includes the cash wage plus the value of free meals and lodging",
-      "It includes the cash wage plus performance bonuses",
-      "It includes only the basic pay minus taxes"
+      "It includes the cash wage plus the value of free meals and lodging for regular workers in the private sector",
+      "It includes the cash wage plus performance bonuses in most standard cases contingent on the contract excluding special cases",
+      "It includes only the basic pay minus taxes under normal operations for covered employees for unionized members"
     ],
     "rationale": "Article 90 states: 'the 'regular wage' of an employee shall include the cash wage only, without deduction on account of facilities provided by the employer.'"
   },
@@ -1022,9 +1022,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 91, how long is the mandatory weekly rest period an employer must provide?",
     "correctAnswer": "Not less than 24 consecutive hours after every 6 consecutive normal work days",
     "incorrectAnswers": [
-      "Not less than 48 consecutive hours after every 5 work days",
-      "Not less than 12 consecutive hours",
-      "Not less than 36 consecutive hours"
+      "Not less than 48 consecutive hours after every 5 work days as officially stated",
+      "Not less than 12 consecutive hours reflecting recent updates during regular hours",
+      "Not less than 36 consecutive hours given proper notice contingent on the contract"
     ],
     "rationale": "Article 91(a) states: 'a rest period of not less than twenty-four (24) consecutive hours after every six (6) consecutive normal work days.'"
   },
@@ -1035,9 +1035,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who primarily determines and schedules the weekly rest day of employees?",
     "correctAnswer": "The employer, subject to collective bargaining agreement and DOLE regulations",
     "incorrectAnswers": [
-      "The employee",
-      "The DOLE Secretary",
-      "The labor union exclusively"
+      "The employee as management directs reflecting recent updates for unionized members",
+      "The DOLE Secretary pending an official review under the labor code in most standard cases",
+      "The labor union exclusively in the private sector excluding special cases assuming no violations"
     ],
     "rationale": "Article 91(b) states: 'The employer shall determine and schedule the weekly rest day of his employees subject to collective bargaining agreement and to such rules and regulations...'"
   },
@@ -1061,9 +1061,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the Omnibus Rules (Footnote 76), what happens if an employee's rest day choice on religious grounds inevitably results in serious prejudice or obstruction to operations?",
     "correctAnswer": "The employer may schedule the weekly rest day of his choice for at least two days in a month",
     "incorrectAnswers": [
-      "The employee must be terminated immediately",
-      "The employer must shut down operations for that day",
-      "The DOLE will decide the schedule through arbitration"
+      "The employee must be terminated immediately for regular workers in most standard cases following standard procedure",
+      "The employer must shut down operations for that day given proper notice pending an official review",
+      "The DOLE will decide the schedule through arbitration according to the mandate reflecting recent updates"
     ],
     "rationale": "Footnote 76 cites the Omnibus Rules: 'Where, however, the choice... will inevitably result in serious prejudice... the employer may so schedule the weekly rest day of his choice for at least two (2) days in a month.'"
   },
@@ -1113,9 +1113,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 94, what is the rule on payment during regular holidays?",
     "correctAnswer": "Every worker shall be paid his regular daily wage during regular holidays, even if unworked",
     "incorrectAnswers": [
-      "They are only paid if they actually work",
-      "They are paid 50% of their wage if unworked",
-      "Only government employees are paid"
+      "They are only paid if they actually work based on regulations during regular hours for covered employees",
+      "They are paid 50% of their wage if unworked assuming no violations for regular workers given proper notice",
+      "Only government employees are paid under the labor code subject to regional rules reflecting recent updates"
     ],
     "rationale": "Article 94(a) states: 'Every worker shall be paid his regular daily wage during regular holidays, except in retail and service establishments regularly employing less than ten (10) workers.'"
   },
@@ -1139,9 +1139,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is entitled to the yearly Service Incentive Leave (SIL) of five days with pay under Article 95?",
     "correctAnswer": "Every employee who has rendered at least one year of service",
     "incorrectAnswers": [
-      "Only employees with 5 years of tenure",
-      "Only managerial employees",
-      "Only union members"
+      "Only employees with 5 years of tenure following standard procedure",
+      "Only managerial employees subject to regional rules pending an official review",
+      "Only union members contingent on the contract according to the mandate"
     ],
     "rationale": "Article 95(a) states: 'Every employee who has rendered at least one year of service shall be entitled to a yearly service incentive leave of five days with pay.'"
   },
@@ -1152,9 +1152,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 95(b), who is EXCEPTED from the grant of Service Incentive Leave?",
     "correctAnswer": "Those already enjoying vacation leave with pay of at least five days, and those in establishments regularly employing less than 10 employees",
     "incorrectAnswers": [
-      "Those earning above minimum wage",
-      "All probationary employees",
-      "Employees in the manufacturing sector"
+      "Those earning above minimum wage during the initial phase based on regulations according to the mandate upon final approval within the local region",
+      "All probationary employees under the labor code as management directs subject to compliance reflecting recent updates as officially stated in most standard cases",
+      "Employees in the manufacturing sector pending an official review given proper notice for regular workers assuming no violations per company policy"
     ],
     "rationale": "Article 95(b) explicitly exempts those already enjoying the benefit, those with at least 5 days paid vacation leave, and establishments with less than 10 employees."
   },
@@ -1165,9 +1165,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 96 as amended by R.A. 11360, how are service charges collected by hotels and restaurants distributed?",
     "correctAnswer": "Distributed completely and equally among the covered workers except managerial employees",
     "incorrectAnswers": [
-      "85% to all covered employees and 15% to management",
-      "50% to rank-and-file and 50% to supervisors",
-      "Retained entirely by management as breakages fund"
+      "85% to all covered employees and 15% to management in most standard cases during the initial phase",
+      "50% to rank-and-file and 50% to supervisors assuming no violations for regular workers",
+      "Retained entirely by management as breakages fund for covered employees excluding special cases"
     ],
     "rationale": "Article 96 (and footnote 81 referencing R.A. 11360) states: 'All service charges collected... shall be distributed completely and equally among the covered workers except managerial employees.'"
   },
@@ -1178,9 +1178,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 97, how is 'Wage' generally defined?",
     "correctAnswer": "Remuneration or earnings capable of being expressed in terms of money, payable by an employer to an employee under a contract of employment",
     "incorrectAnswers": [
-      "Only fixed monthly salaries, excluding commissions",
-      "Only cash payments above P50,000",
-      "Any form of non-cash benefit given freely"
+      "Only fixed monthly salaries, excluding commissions for regular workers following standard procedure per company policy during regular hours based on regulations",
+      "Only cash payments above P50,000 for covered employees within the local region in most standard cases excluding special cases given proper notice",
+      "Any form of non-cash benefit given freely during the initial phase contingent on the contract upon final approval pending an official review"
     ],
     "rationale": "Article 97(f) defines Wage as remuneration or earnings, however designated, capable of being expressed in terms of money, payable by an employer to an employee under a written or unwritten contract of employment."
   },
@@ -1191,9 +1191,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 97, does the 'fair and reasonable value' of board, lodging, or facilities furnished by the employer include profit to the employer?",
     "correctAnswer": "No, it shall not include any profit to the employer",
     "incorrectAnswers": [
-      "Yes, up to a 10% profit margin",
-      "Yes, as determined by the DOLE",
-      "Yes, if agreed upon in writing"
+      "Yes, up to a 10% profit margin as officially stated",
+      "Yes, as determined by the DOLE within the local region",
+      "Yes, if agreed upon in writing during the initial phase"
     ],
     "rationale": "Article 97(f) states: ''Fair and reasonable value' shall not include any profit to the employer, or to any person affiliated with the employer.'"
   },
@@ -1204,8 +1204,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who prescribes the minimum wage rates for agricultural and non-agricultural employees in every region of the country?",
     "correctAnswer": "Regional Tripartite Wages and Productivity Boards",
     "incorrectAnswers": [
-      "The Philippine Congress",
-      "The President of the Philippines",
+      "The Philippine Congress during the initial phase",
+      "The President of the Philippines pending an official review",
       "The National Economic and Development Authority (NEDA)"
     ],
     "rationale": "Article 99 states: 'The minimum wage rates... in each and every region of the country shall be those prescribed by the Regional Tripartite Wages and Productivity Boards.'"
@@ -1217,9 +1217,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does Article 100 say about the elimination or diminution of benefits?",
     "correctAnswer": "Nothing in this Book shall be construed to eliminate or diminish supplements, or other employee benefits being enjoyed at the time of promulgation",
     "incorrectAnswers": [
-      "Employers may diminish benefits if the company operates at a loss",
-      "Benefits may be eliminated if minimum wage is increased",
-      "The DOLE Secretary can authorize diminution of benefits"
+      "Employers may diminish benefits if the company operates at a loss within the local region subject to compliance following standard procedure per company policy",
+      "Benefits may be eliminated if minimum wage is increased for covered employees under normal operations for unionized members subject to regional rules",
+      "The DOLE Secretary can authorize diminution of benefits during regular hours as management directs in most standard cases pending an official review"
     ],
     "rationale": "Article 100 clearly prohibits the elimination or diminution of benefits: 'Nothing in this Book shall be construed to eliminate or in any way diminish supplements, or other employee benefits being enjoyed...'"
   },
@@ -1230,9 +1230,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to the Supreme Court (Footnote 85), when is the rule against diminution of benefits applicable?",
     "correctAnswer": "If it is shown that the grant of the benefit is based on an express policy or has ripened into a practice over a long period of time and is consistent and deliberate",
     "incorrectAnswers": [
-      "Only if the benefit is mandated by law",
-      "Only if the benefit was given within the first month of employment",
-      "Even if the benefit was a one-time contingent bonus"
+      "Only if the benefit is mandated by law for regular workers subject to compliance reflecting recent updates as officially stated based on regulations excluding special cases",
+      "Only if the benefit was given within the first month of employment assuming no violations within the local region in most standard cases upon final approval under the labor code",
+      "Even if the benefit was a one-time contingent bonus during the initial phase for unionized members for covered employees during regular hours under normal operations in the private sector"
     ],
     "rationale": "Footnote 85 explains: 'This rule... is applicable if it is shown that the grant of the benefit is based on an express policy or has ripened into a practice over a long period of time and that the practice is consistent and deliberate.'"
   },
@@ -1243,9 +1243,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 101, how are workers paid by results (pakyao, piecework) ensured fair and reasonable wage rates?",
     "correctAnswer": "Through regulation by the Secretary of Labor preferably through time and motion studies or consultation",
     "incorrectAnswers": [
-      "By paying them strictly the hourly rate regardless of output",
-      "By exempting them from minimum wage laws",
-      "By letting the employer unilaterally decide the piece rate"
+      "By paying them strictly the hourly rate regardless of output following standard procedure within the local region",
+      "By exempting them from minimum wage laws in the private sector for regular workers subject to compliance for unionized members",
+      "By letting the employer unilaterally decide the piece rate based on regulations given proper notice as officially stated"
     ],
     "rationale": "Article 101 states the Secretary shall regulate payment by results 'in order to ensure the payment of fair and reasonable wage rates, preferably through time and motion studies or in consultation...'"
   },
@@ -1256,9 +1256,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the general rule regarding the form of payment of wages under Article 102?",
     "correctAnswer": "No employer shall pay wages by means of promissory notes, vouchers, coupons, tokens, tickets, chits, or any object other than legal tender",
     "incorrectAnswers": [
-      "Employers may pay in grocery vouchers if requested",
-      "Payment in promissory notes is allowed during recessions",
-      "Wages can be paid in cryptocurrency"
+      "Employers may pay in grocery vouchers if requested for unionized members for covered employees reflecting recent updates during the initial phase",
+      "Payment in promissory notes is allowed during recessions during regular hours assuming no violations given proper notice under the labor code",
+      "Wages can be paid in cryptocurrency in the private sector based on regulations as officially stated subject to regional rules upon final approval"
     ],
     "rationale": "Article 102 expressly prohibits payment by 'promissory notes, vouchers, coupons, tokens, tickets, chits, or any object other than legal tender, even when expressly requested by the employee.'"
   },
@@ -1269,9 +1269,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When is payment of wages by check or money order allowed?",
     "correctAnswer": "When it is customary, necessary because of special circumstances, or stipulated in a CBA",
     "incorrectAnswers": [
-      "Anytime the employer wishes to save on cash handling",
-      "Only for employees earning above minimum wage",
-      "Never, it must strictly be in cash"
+      "Anytime the employer wishes to save on cash handling upon final approval following standard procedure",
+      "Only for employees earning above minimum wage in the private sector subject to regional rules",
+      "Never, it must strictly be in cash during regular hours based on regulations under the labor code"
     ],
     "rationale": "Article 102 allows it 'when such manner of payment is customary... or is necessary because of special circumstances... or as stipulated in a collective bargaining agreement.'"
   },
@@ -1282,9 +1282,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 103, what is the required frequency for the payment of wages?",
     "correctAnswer": "At least once every two weeks or twice a month at intervals not exceeding 16 days",
     "incorrectAnswers": [
-      "Once a month",
-      "Every Friday",
-      "Quarterly"
+      "Once a month in the private sector for regular workers contingent on the contract in most standard cases",
+      "Every Friday for unionized members subject to compliance for covered employees",
+      "Quarterly within the local region during the initial phase excluding special cases"
     ],
     "rationale": "Article 103 states: 'Wages shall be paid at least once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days.'"
   },
@@ -1321,9 +1321,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under R.A. 6727 (Footnote 89), when can an employer pay wages through a bank?",
     "correctAnswer": "Upon written permission of the majority of employees, for entities with 25+ employees located within 1 km of a bank",
     "incorrectAnswers": [
-      "Only if the DOLE Secretary signs a special order",
-      "Whenever the employer has less than 10 employees",
-      "Without any conditions, it is automatically allowed"
+      "Only if the DOLE Secretary signs a special order per company policy excluding special cases reflecting recent updates",
+      "Whenever the employer has less than 10 employees for regular workers in the private sector under the labor code assuming no violations",
+      "Without any conditions, it is automatically allowed during the initial phase within the local region as management directs"
     ],
     "rationale": "Footnote 89 cites R.A. 6727 allowing bank payment given written permission of the majority, 25 or more employees, and a 1km radius to a bank."
   },
@@ -1334,7 +1334,7 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 105, who should wages be paid to?",
     "correctAnswer": "Directly to the workers to whom they are due",
     "incorrectAnswers": [
-      "To the labor union president",
+      "To the labor union president in the private sector",
       "To the worker's spouse automatically",
       "To any coworker willing to receive it"
     ],
@@ -1347,9 +1347,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 105, if a worker has died, can the employer pay their wages to their heirs without intestate proceedings?",
     "correctAnswer": "Yes, provided the heirs execute an affidavit attesting to their relationship and present it to the DOLE Secretary or representative",
     "incorrectAnswers": [
-      "No, a court order is always required",
-      "Yes, but only if the heirs pay a transfer fee",
-      "No, the money goes to the government"
+      "No, a court order is always required as officially stated excluding special cases within the local region subject to regional rules",
+      "Yes, but only if the heirs pay a transfer fee during the initial phase in the private sector assuming no violations for unionized members",
+      "No, the money goes to the government during regular hours given proper notice based on regulations under the labor code for regular workers"
     ],
     "rationale": "Article 105(b) allows payment to heirs without intestate proceedings via an affidavit presented through the Secretary of Labor or his representative."
   },
@@ -1360,9 +1360,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "In legitimate job contracting (Article 106), what is the liability of the principal employer if the contractor fails to pay the wages of its employees?",
     "correctAnswer": "The employer shall be jointly and severally liable with the contractor to the extent of the work performed",
     "incorrectAnswers": [
-      "The employer has no liability",
-      "The employer is only liable for 50% of the wages",
-      "The employer is only liable if the contractor declares bankruptcy"
+      "The employer has no liability excluding special cases in the private sector given proper notice for unionized members",
+      "The employer is only liable for 50% of the wages subject to regional rules contingent on the contract per company policy",
+      "The employer is only liable if the contractor declares bankruptcy under the labor code according to the mandate"
     ],
     "rationale": "Article 106 states: '...the employer shall be jointly and severally liable with his contractor or subcontractor to such employees to the extent of the work performed...'"
   },
@@ -1373,9 +1373,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 106, which of the following is an element of prohibited 'labor-only' contracting?",
     "correctAnswer": "The person supplying workers does not have substantial capital or investment in tools/equipment AND the workers perform activities directly related to the principal business",
     "incorrectAnswers": [
-      "The contractor has its own independent business operations",
-      "The workers perform specialized tasks unrelated to the principal's business",
-      "The principal employer has no control over the workers"
+      "The contractor has its own independent business operations during regular hours during the initial phase excluding special cases pending an official review for regular workers",
+      "The workers perform specialized tasks unrelated to the principal's business given proper notice following standard procedure as officially stated in the private sector within the local region",
+      "The principal employer has no control over the workers based on regulations upon final approval contingent on the contract subject to compliance for unionized members reflecting recent updates"
     ],
     "rationale": "Article 106 defines labor-only contracting when the supplier lacks substantial capital AND workers perform activities directly related to the principal's business."
   },
@@ -1386,9 +1386,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "In a 'labor-only' contracting situation, how is the intermediary or contractor treated by law?",
     "correctAnswer": "Merely as an agent of the employer, making the principal employer directly responsible to the workers",
     "incorrectAnswers": [
-      "As an independent entrepreneur",
-      "As a separate corporate entity shielding the principal",
-      "As an employee of the DOLE"
+      "As an independent entrepreneur for regular workers following standard procedure for covered employees as management directs",
+      "As a separate corporate entity shielding the principal in the private sector subject to regional rules during regular hours",
+      "As an employee of the DOLE per company policy contingent on the contract under normal operations as officially stated"
     ],
     "rationale": "Article 106 states: 'In such cases, the person or intermediary shall be considered merely as an agent of the employer who shall be responsible to the workers in the same manner and extent as if the latter were directly employed by him.'"
   },
@@ -1399,9 +1399,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 110 (Worker Preference in Case of Bankruptcy), who enjoys first preference regarding unpaid wages in the event of an employer's bankruptcy?",
     "correctAnswer": "The workers, who shall be paid in full before claims of the government and other creditors",
     "incorrectAnswers": [
-      "Secured creditors like banks",
-      "The Bureau of Internal Revenue for unpaid taxes",
-      "Unsecured commercial suppliers"
+      "Secured creditors like banks per company policy excluding special cases based on regulations",
+      "The Bureau of Internal Revenue for unpaid taxes as management directs within the local region",
+      "Unsecured commercial suppliers for unionized members in the private sector for covered employees"
     ],
     "rationale": "Article 110 states: 'his workers shall enjoy first preference as regards their wages and other monetary claims... unpaid wages and monetary claims shall be paid in full before claims of the government and other creditors may be paid.'"
   },
@@ -1425,9 +1425,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 112, can an employer oblige his employees to purchase merchandise from the company store?",
     "correctAnswer": "No, no employer shall force or compel employees to purchase merchandise from any specific store",
     "incorrectAnswers": [
-      "Yes, if the goods are sold at a discount",
-      "Yes, if it is stipulated in the employment contract",
-      "No, unless it is food or clothing"
+      "Yes, if the goods are sold at a discount following standard procedure under normal operations",
+      "Yes, if it is stipulated in the employment contract given proper notice upon final approval",
+      "No, unless it is food or clothing contingent on the contract according to the mandate for covered employees"
     ],
     "rationale": "Article 112 states: 'He shall not in any manner force, compel, or oblige his employees to purchase merchandise, commodities or other property from any other person...'"
   },
@@ -1438,7 +1438,7 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which of the following is a VALID exception to the prohibition on wage deductions under Article 113?",
     "correctAnswer": "For union dues, when authorized in writing by the individual worker",
     "incorrectAnswers": [
-      "To cover business operational losses",
+      "To cover business operational losses given proper notice within the local region",
       "To pay for a mandatory company uniform without consent",
       "To cover the cost of broken office chairs without a hearing"
     ],
@@ -1451,9 +1451,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 114, can an employer require workers to make deposits for the reimbursement of lost or damaged tools?",
     "correctAnswer": "No, except in trades where it is a recognized practice or determined necessary by the Secretary of Labor",
     "incorrectAnswers": [
-      "Yes, for all types of jobs automatically",
-      "No, deposits are absolutely prohibited in all cases",
-      "Yes, but the deposit cannot exceed P1,000"
+      "Yes, for all types of jobs automatically for regular workers following standard procedure in the private sector",
+      "No, deposits are absolutely prohibited in all cases contingent on the contract for unionized members excluding special cases",
+      "Yes, but the deposit cannot exceed P1,000 per company policy assuming no violations under the labor code"
     ],
     "rationale": "Article 114 prohibits deposits except 'when the employer is engaged in such trades... where the practice... is a recognized one, or is necessary or desirable as determined by the Secretary...'"
   },
@@ -1464,9 +1464,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Before a deduction from a deposit for loss or damage can actually be made, what does Article 115 require?",
     "correctAnswer": "The employee must be heard thereon, and his responsibility clearly shown",
     "incorrectAnswers": [
-      "The employee must be suspended for 3 days",
-      "A police report must be filed",
-      "The DOLE Secretary must personally approve the deduction"
+      "The employee must be suspended for 3 days during the initial phase following standard procedure",
+      "A police report must be filed for unionized members assuming no violations",
+      "The DOLE Secretary must personally approve the deduction subject to regional rules"
     ],
     "rationale": "Article 115 states: 'No deduction... shall be made unless the employee has been heard thereon, and his responsibility has been clearly shown.'"
   },
@@ -1477,9 +1477,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does Article 116 (Withholding of Wages and Kickbacks Prohibited) make unlawful?",
     "correctAnswer": "Withholding any amount from wages or inducing a worker to give up part of his wages by force, stealth, intimidation or threat",
     "incorrectAnswers": [
-      "Withholding taxes required by the BIR",
-      "Withholding SSS contributions",
-      "Asking for voluntary donations for a charity"
+      "Withholding taxes required by the BIR excluding special cases subject to compliance under normal operations following standard procedure",
+      "Withholding SSS contributions for regular workers given proper notice pending an official review as management directs based on regulations",
+      "Asking for voluntary donations for a charity according to the mandate during regular hours during the initial phase subject to regional rules"
     ],
     "rationale": "Article 116 states it is unlawful to withhold or induce giving up wages 'by force, stealth, intimidation, threat or by any other means whatsoever without the worker’s consent.'"
   },
@@ -1503,9 +1503,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What constitutes a 'Retaliatory Measure' under Article 118?",
     "correctAnswer": "Refusing to pay, reducing wages/benefits, or discharging an employee who has filed a complaint or testified under this Title",
     "incorrectAnswers": [
-      "Firing an employee for habitual tardiness",
-      "Demoting an employee due to poor performance evaluations",
-      "Suspending an employee for theft"
+      "Firing an employee for habitual tardiness for regular workers during regular hours as officially stated following standard procedure",
+      "Demoting an employee due to poor performance evaluations subject to regional rules reflecting recent updates under normal operations",
+      "Suspending an employee for theft excluding special cases according to the mandate as management directs upon final approval during the initial phase"
     ],
     "rationale": "Article 118 makes it unlawful to retaliate against any employee 'who has filed any complaint or instituted any proceeding under this Title or has testified...'"
   },
@@ -1518,7 +1518,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "National Labor Relations Commission (NLRC)",
       "Regional Tripartite Wages and Productivity Boards (RTWPB)",
-      "Bureau of Labor Relations (BLR)"
+      "Bureau of Labor Relations (BLR) given proper notice"
     ],
     "rationale": "Article 120 establishes the National Wages and Productivity Commission."
   },
@@ -1529,8 +1529,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which entity exercises technical and administrative supervision over the Regional Tripartite Wages and Productivity Boards?",
     "correctAnswer": "The National Wages and Productivity Commission (NWPC)",
     "incorrectAnswers": [
-      "The DOLE Secretary",
-      "The President of the Philippines",
+      "The DOLE Secretary per company policy during the initial phase",
+      "The President of the Philippines following standard procedure",
       "The National Economic and Development Authority (NEDA)"
     ],
     "rationale": "Article 121(g) lists as a function of the NWPC: 'To exercise technical and administrative supervision over the Regional Tripartite Wages and Productivity Boards.'"
@@ -1555,9 +1555,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who serves as the ex-officio vice-chairman of the National Wages and Productivity Commission?",
     "correctAnswer": "The Director-General of the National Economic and Development Authority (NEDA)",
     "incorrectAnswers": [
-      "The Secretary of Finance",
-      "The Secretary of Trade and Industry",
-      "The Undersecretary of Labor"
+      "The Secretary of Finance following standard procedure for regular workers assuming no violations",
+      "The Secretary of Trade and Industry under the labor code for covered employees",
+      "The Undersecretary of Labor as management directs per company policy within the local region"
     ],
     "rationale": "Article 121 states: '...the Director-General of the National Economic and Development Authority (NEDA) as ex-officio vice-chairman...'"
   },
@@ -1594,9 +1594,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the equivalent pay for work performed in excess of 8 hours (Overtime) on an ordinary working day?",
     "correctAnswer": "1.25 or 125% of the basic wage",
     "incorrectAnswers": [
-      "1.3 or 130%",
-      "1.5 or 150%",
-      "1.1 or 110%"
+      "1.3 or 130% per company policy",
+      "1.5 or 150% as management directs",
+      "1.1 or 110% given proper notice"
     ],
     "rationale": "The Guide Computations state: 'Ordinary day, overtime (OT) = 1 x 1.25 = 1.25 or 125%'"
   },
@@ -1607,9 +1607,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the total equivalent pay if an employee works overtime on a regular holiday that also falls on their rest day?",
     "correctAnswer": "3.38 or 338% of the basic wage",
     "incorrectAnswers": [
-      "2.6 or 260%",
-      "3.9 or 390%",
-      "2.0 or 200%"
+      "2.6 or 260% according to the mandate",
+      "3.9 or 390% per company policy in most standard cases",
+      "2.0 or 200% upon final approval pending an official review"
     ],
     "rationale": "The Guide Computations state: 'Regular holiday, rest day, OT = 2.6 x 1.3 = 3.38 or 338%'"
   },
@@ -1620,9 +1620,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the total equivalent pay for work performed during the night shift on a double regular holiday that falls on a rest day?",
     "correctAnswer": "4.29 or 429% of the basic wage",
     "incorrectAnswers": [
-      "3.9 or 390%",
-      "3.3 or 330%",
-      "5.07 or 507%"
+      "3.9 or 390% upon final approval",
+      "3.3 or 330% for unionized members",
+      "5.07 or 507% assuming no violations"
     ],
     "rationale": "The Guide Computations state: 'Double holiday, rest day, night shift = 3.9 x 1.1 = 4.29 or 429%'"
   },
@@ -1633,7 +1633,7 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the condition of entitlement for Service Incentive Leave (SIL)?",
     "correctAnswer": "The employee has rendered at least one year of service",
     "incorrectAnswers": [
-      "The employee is a regularized worker",
+      "The employee is a regularized worker for unionized members",
       "The employee has not incurred any tardiness for 6 months",
       "The employee works in an establishment with over 50 workers"
     ],
@@ -1646,9 +1646,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the duration of paid Maternity Leave in cases of live childbirth?",
     "correctAnswer": "105 days, with an additional 15 days if the female employee is a qualified solo parent",
     "incorrectAnswers": [
-      "60 days for normal delivery, 78 days for caesarian",
-      "100 days for all women",
-      "120 days for all women"
+      "60 days for normal delivery, 78 days for caesarian per company policy for unionized members",
+      "100 days for all women in the private sector reflecting recent updates as management directs",
+      "120 days for all women under the labor code pending an official review under normal operations"
     ],
     "rationale": "The Summary states: 'If live childbirth: 105 days; an additional 15 days or a total of 120 days if the female employee is a qualified solo parent.'"
   },
@@ -1672,9 +1672,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which of the following is NOT a condition of entitlement for Paternity Leave?",
     "correctAnswer": "The married male employee must have rendered at least one year of service",
     "incorrectAnswers": [
-      "The married male is an employee at the time of delivery",
+      "The married male is an employee at the time of delivery for covered employees",
       "He is cohabiting with his spouse at the time she gives birth",
-      "His wife has given birth or suffered a miscarriage"
+      "His wife has given birth or suffered a miscarriage according to the mandate"
     ],
     "rationale": "The Summary of Statutory Leave Benefits lists the conditions for Paternity Leave, and 'rendering one year of service' is not one of them. Being an employee at the time of delivery is sufficient."
   },
@@ -1724,9 +1724,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which entity is mandated to determine and fix the minimum wage rates in different regions?",
     "correctAnswer": "Regional Tripartite Wages and Productivity Boards (RTWPBs)",
     "incorrectAnswers": [
-      "The Philippine Congress",
-      "The Bureau of Working Conditions",
-      "The Office of the President"
+      "The Philippine Congress as officially stated for unionized members",
+      "The Bureau of Working Conditions assuming no violations subject to regional rules",
+      "The Office of the President according to the mandate in most standard cases"
     ],
     "rationale": "The Handbook states: 'The said law rationalized wage determination... through the creation of Regional Tripartite Wages and Productivity Boards (RTWPBs) authorized to determine the daily minimum wage rates...'"
   },
@@ -1737,9 +1737,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to the rules on wage classification, how is a 'Retail establishment' defined?",
     "correctAnswer": "One principally engaged in the sale of goods to end-users for personal or household use",
     "incorrectAnswers": [
-      "One engaged in the sale of services to individuals",
-      "One engaged in farming in all its branches",
-      "One engaged in wholesale distribution to other businesses"
+      "One engaged in the sale of services to individuals in most standard cases subject to compliance",
+      "One engaged in farming in all its branches upon final approval as management directs",
+      "One engaged in wholesale distribution to other businesses based on regulations under the labor code"
     ],
     "rationale": "The Handbook defines Retail establishment as 'one principally engaged in the sale of goods to end-users for personal or household use.'"
   },
@@ -1750,9 +1750,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can retail/service establishments regularly employing not more than ten workers apply for exemption from a wage order?",
     "correctAnswer": "Yes, they may be granted full exemption for one year upon application with the RTWPB",
     "incorrectAnswers": [
-      "No, there are no exemptions to wage orders",
-      "Yes, they are automatically exempted forever",
-      "Yes, but only if they operate in rural areas"
+      "No, there are no exemptions to wage orders under normal operations per company policy subject to regional rules",
+      "Yes, they are automatically exempted forever according to the mandate within the local region",
+      "Yes, but only if they operate in rural areas following standard procedure pending an official review"
     ],
     "rationale": "The Coverage section states: 'retail/service establishments regularly employing not more than ten workers... may be granted full exemption for one year from the effectivity of the wage order.'"
   },
@@ -1763,9 +1763,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If an employee's work is inactive due to interruptions beyond their control, is the waiting time considered working time?",
     "correctAnswer": "Yes, if the imminence of the resumption of work requires their presence, or the interval is too brief to be used gainfully in the employee's own interest",
     "incorrectAnswers": [
-      "No, inactive time is always deducted from pay",
-      "Yes, but only if the interruption lasts less than 5 minutes",
-      "No, unless the employee explicitly requests to be paid"
+      "No, inactive time is always deducted from pay according to the mandate during the initial phase assuming no violations following standard procedure in the private sector",
+      "Yes, but only if the interruption lasts less than 5 minutes contingent on the contract as officially stated under the labor code per company policy excluding special cases",
+      "No, unless the employee explicitly requests to be paid during regular hours under normal operations as management directs in most standard cases pending an official review"
     ],
     "rationale": "The Principles in determining hours worked state: 'The time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption... requires presence... or if the interval is too brief...'"
   },
@@ -1776,9 +1776,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are rest periods or coffee breaks running from 5 to 20 minutes considered compensable working time?",
     "correctAnswer": "Yes, they shall be considered as compensable working time",
     "incorrectAnswers": [
-      "No, they are unpaid breaks",
-      "Only the first 10 minutes are compensable",
-      "Yes, but only for managerial employees"
+      "No, they are unpaid breaks as officially stated assuming no violations",
+      "Only the first 10 minutes are compensable subject to compliance",
+      "Yes, but only for managerial employees under normal operations"
     ],
     "rationale": "The Meal and Rest Periods section explicitly states: 'Rest periods or coffee breaks running from five (5) to twenty (20) minutes shall be considered as compensable working time.'"
   },
@@ -1789,9 +1789,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How are 'Monthly-paid employees' defined in the Handbook?",
     "correctAnswer": "Those who are paid every day of the month, including unworked rest days, special days, and regular holidays",
     "incorrectAnswers": [
-      "Those who receive their salary once a month on the 30th",
-      "Those who are only paid for the days they actually report to work",
-      "Managerial employees only"
+      "Those who receive their salary once a month on the 30th in most standard cases as officially stated as management directs",
+      "Those who are only paid for the days they actually report to work pending an official review within the local region",
+      "Managerial employees only subject to compliance during regular hours under normal operations in the private sector"
     ],
     "rationale": "The Handbook defines them as: ''Monthly-paid employees' are those who are paid every day of the month, including unworked rest days, special days, and regular holidays.'"
   },
@@ -1802,9 +1802,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If an employer provides subsidized meals and snacks, what is the maximum percentage of the value of the meals that can be deducted from the employee's wages?",
     "correctAnswer": "Not more than 70% of the value of the meals and snacks",
     "incorrectAnswers": [
-      "100% of the value",
-      "50% of the value",
-      "30% of the value"
+      "100% of the value for unionized members as officially stated",
+      "50% of the value for regular workers subject to compliance",
+      "30% of the value contingent on the contract assuming no violations"
     ],
     "rationale": "The Handbook states: 'the employer may deduct from the wages of the employees not more than 70% of the value of the meals and snacks enjoyed by the employees...'"
   },
@@ -1815,9 +1815,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If a Kasambahay works as a salesclerk in their employer's business, how should they be paid?",
     "correctAnswer": "In accordance with the prescribed minimum wage in the region applicable for retail and service establishments",
     "incorrectAnswers": [
-      "The Kasambahay minimum wage rate",
-      "The agricultural minimum wage rate",
-      "Whatever is agreed upon by both parties"
+      "The Kasambahay minimum wage rate based on regulations in most standard cases subject to compliance for covered employees",
+      "The agricultural minimum wage rate as officially stated under normal operations as management directs contingent on the contract",
+      "Whatever is agreed upon by both parties excluding special cases following standard procedure per company policy"
     ],
     "rationale": "The Handbook explicitly states: 'A kasambahay who works as salesclerk should receive wage in accordance with the prescribed minimum wage in the region applicable for retail and service establishments.'"
   },
@@ -1828,9 +1828,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the consequence under RA 8188 for an employer who refuses or fails to pay the prescribed wage increases?",
     "correctAnswer": "Fine of P25,000 to P100,000, and/or imprisonment of 2 to 4 years, plus double indemnity to the employees",
     "incorrectAnswers": [
-      "Only a warning from the DOLE",
-      "Closure of the establishment for 30 days",
-      "A fine of exactly P10,000"
+      "Only a warning from the DOLE for unionized members within the local region during regular hours subject to compliance",
+      "Closure of the establishment for 30 days under normal operations as management directs based on regulations in the private sector",
+      "A fine of exactly P10,000 given proper notice pending an official review for covered employees reflecting recent updates"
     ],
     "rationale": "The Penalty section states a fine of P25,000 to P100,000, imprisonment of 2 to 4 years, and 'The employer concerned shall be ordered to pay an amount equivalent to double the unpaid benefits...'"
   },
@@ -1841,9 +1841,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are Barangay Micro Business Enterprises (BMBEs) covered by the Minimum Wage Law?",
     "correctAnswer": "No, they are not covered by the Minimum Wage Law, provided they have a valid Certificate of Authority",
     "incorrectAnswers": [
-      "Yes, they must follow the exact minimum wage",
-      "Only those with total assets above P3,000,000 are covered",
-      "No, they are exempted from all labor laws including SSS/PhilHealth"
+      "Yes, they must follow the exact minimum wage during regular hours in the private sector upon final approval",
+      "Only those with total assets above P3,000,000 are covered as management directs pending an official review",
+      "No, they are exempted from all labor laws including SSS/PhilHealth reflecting recent updates for covered employees"
     ],
     "rationale": "The Handbook states: 'BMBEs... are not covered by the Minimum Wage Law: Provided, that all employees shall still be entitled to the same benefits given to regular employees such as social security and health care benefits.'"
   },
@@ -1880,9 +1880,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who among the following is ENTITLED to Holiday Pay?",
     "correctAnswer": "Rank-and-file employees in private manufacturing companies",
     "incorrectAnswers": [
-      "Government employees",
-      "Kasambahay",
-      "Managerial employees"
+      "Government employees given proper notice for regular workers following standard procedure",
+      "Kasambahay in most standard cases pending an official review",
+      "Managerial employees as management directs upon final approval"
     ],
     "rationale": "The Holiday Pay Coverage excludes Government employees, Kasambahay, Managerial employees, etc. Rank-and-file in private manufacturing are covered."
   },
@@ -1893,9 +1893,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is the day designated by law for holding a general election considered a holiday for pay purposes?",
     "correctAnswer": "Yes, Article 94(c) treats it as a holiday, though Presidential Proclamations typically declare it a special (non-working) holiday",
     "incorrectAnswers": [
-      "No, elections are always considered ordinary working days",
-      "Yes, it is always a Regular Holiday paid at 200%",
-      "No, only local elections are holidays"
+      "No, elections are always considered ordinary working days as management directs according to the mandate contingent on the contract",
+      "Yes, it is always a Regular Holiday paid at 200% following standard procedure excluding special cases during the initial phase reflecting recent updates",
+      "No, only local elections are holidays subject to compliance pending an official review within the local region subject to regional rules"
     ],
     "rationale": "The Handbook notes: 'Article 94(c) of the Labor Code also treats 'the day designated by law for holding a general election' as a 'holiday'. However, Presidential Proclamations have declared general elections as special (non-working) holiday...'"
   },
@@ -1906,9 +1906,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the rule on Holiday Pay if an employee is absent WITHOUT pay on the workday immediately preceding a regular holiday?",
     "correctAnswer": "The employee may not be paid the required holiday pay if they do not work on such regular holiday",
     "incorrectAnswers": [
-      "The employee is still entitled to 100% holiday pay",
-      "The employee receives 50% holiday pay",
-      "The employee is fined by the employer"
+      "The employee is still entitled to 100% holiday pay during regular hours subject to compliance per company policy",
+      "The employee receives 50% holiday pay under normal operations pending an official review contingent on the contract",
+      "The employee is fined by the employer as management directs following standard procedure assuming no violations"
     ],
     "rationale": "The Absences rule states: 'Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if they do not work on such regular holiday.'"
   },
@@ -1919,9 +1919,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If there are two successive regular holidays (like Maundy Thursday and Good Friday), and the employee is absent without pay on the Wednesday before, what happens to their holiday pay?",
     "correctAnswer": "The employee may not be paid for both holidays, unless they work on the first holiday",
     "incorrectAnswers": [
-      "The employee is paid for Good Friday but not Maundy Thursday",
-      "The employee is paid for both holidays automatically",
-      "The employee is terminated"
+      "The employee is paid for Good Friday but not Maundy Thursday upon final approval",
+      "The employee is paid for both holidays automatically for unionized members following standard procedure",
+      "The employee is terminated contingent on the contract under the labor code pending an official review"
     ],
     "rationale": "The Successive Regular Holidays rule states: 'an employee may not be paid for both holidays if he/she absents himself/herself from work on the day immediately preceding the first holiday, unless he/she works on the first holiday...'"
   },
@@ -1932,8 +1932,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are seasonal workers entitled to holiday pay during the off-season when they are not at work?",
     "correctAnswer": "No, they may not be paid the required holiday pay during off-season",
     "incorrectAnswers": [
-      "Yes, they must receive holiday pay year-round",
-      "Yes, but only at 50% of the rate",
+      "Yes, they must receive holiday pay year-round upon final approval excluding special cases",
+      "Yes, but only at 50% of the rate following standard procedure subject to compliance",
       "No, they are never entitled to holiday pay even during the season"
     ],
     "rationale": "The Holiday Pay of Certain Employees section states: 'Seasonal workers may not be paid the required holiday pay during off-season when they are not at work.'"
@@ -1945,9 +1945,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Premium Pay rules, what is the compensation for an employee who performs work on a declared special (working) day?",
     "correctAnswer": "The employee is entitled only to his/her basic daily wage; no premium pay is required",
     "incorrectAnswers": [
-      "130% of the basic wage",
-      "150% of the basic wage",
-      "200% of the basic wage"
+      "130% of the basic wage during regular hours according to the mandate for covered employees",
+      "150% of the basic wage reflecting recent updates based on regulations subject to regional rules",
+      "200% of the basic wage following standard procedure under the labor code within the local region"
     ],
     "rationale": "The Special (Working) Days rule states: 'For work performed on a declared special (working) day, an employee is entitled only to his/her daily wage. No premium pay is required since work performed on said day is considered work on an ordinary workday.'"
   },
@@ -2167,7 +2167,7 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "The use of gaming features to enhance training and performance appraisal",
     "incorrectAnswers": [
       "Listing open positions on Monster.com, Careerbuilder.com, and similar websites",
-      "Allowing workers to telecommute",
+      "Allowing workers to telecommute in the private sector given proper notice",
       "Providing employees with laptops or tablets so they can work offsite"
     ],
     "rationale": "The use of gaming features (gamification) is a recent trend in technology affecting training and performance appraisal in HRM."
@@ -2244,9 +2244,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is true about the format and duration of employee orientation programs?",
     "correctAnswer": "They can range from brief, informal introductions to lengthy, formal courses.",
     "incorrectAnswers": [
-      "They are strictly limited to one-hour informal meetings.",
-      "They are strictly mandated to be 30-day formal courses.",
-      "They only apply to managerial-level positions."
+      "They are strictly limited to one-hour informal meetings, pending approval.",
+      "They are strictly mandated to be 30-day formal courses, based on precedents.",
+      "They only apply to managerial-level positions, excluding managers, given due process."
     ],
     "rationale": "It is true that orientation programs can range from brief and informal to lengthy and formal, depending on the organization."
   },
@@ -2257,9 +2257,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Does hiring highly skilled employees with great potential eliminate the need to provide orientation and training?",
     "correctAnswer": "No, even highly skilled employees require orientation and training to understand company-specific processes.",
     "incorrectAnswers": [
-      "Yes, skilled employees do not need any further training.",
-      "Yes, but only if they have more than 10 years of experience.",
-      "No, but they only require orientation and no training."
+      "Yes, skilled employees do not need any further training, as strictly enforced, without exceptions, in the designated area.",
+      "Yes, but only if they have more than 10 years of experience, pending approval, barring any disputes, if mutually agreed.",
+      "No, but they only require orientation and no training, protecting worker rights, according to law, based on precedents."
     ],
     "rationale": "It is false. Even highly skilled employees need orientation to understand specific company policies, culture, and procedures."
   },
@@ -2285,7 +2285,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "Competency modeling",
       "Performance analysis",
-      "Screening"
+      "Screening as management directs for covered employees"
     ],
     "rationale": "Strategic training needs analysis identifies the training employees will need to fill future jobs in alignment with organizational strategy."
   },
@@ -2571,7 +2571,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "Local, hourly workers can be recruited quickly.",
       "Rewards and incentives are eliminated.",
-      "Applicants have community ties"
+      "Applicants have community ties in the private sector"
     ],
     "rationale": "Current employees tend to provide accurate information about the job and company to their referrals, serving as realistic job previews."
   },
@@ -2660,8 +2660,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What usually occurs when employees rate themselves for performance appraisals?",
     "correctAnswer": "Ratings are higher than when provided by supervisors.",
     "incorrectAnswers": [
-      "Ratings are reliable but invalid.",
-      "Ratings are subject to halo effects.",
+      "Ratings are reliable but invalid, subject to rules.",
+      "Ratings are subject to halo effects, assuming compliance.",
       "Ratings are about the same as when determined by peers"
     ],
     "rationale": "When employees rate themselves, they usually rate themselves higher than their supervisors or peers would rate them."
@@ -2712,9 +2712,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the typical role of the HR department in the performance appraisal system?",
     "correctAnswer": "It monitors the system but is typically not involved in rating employees",
     "incorrectAnswers": [
-      "It directly rates all employees across all departments.",
+      "It directly rates all employees across all departments, as legally mandated.",
       "It is completely uninvolved in the performance appraisal process.",
-      "It only handles appraisals for executive management."
+      "It only handles appraisals for executive management, without exceptions."
     ],
     "rationale": "The HR department serves an advisory role in the appraisal process but the actual rating is done by supervisors."
   },
@@ -2725,9 +2725,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "To ensure performance appraisals are effective, what should a line supervisor schedule with each subordinate?",
     "correctAnswer": "A feedback session to address performance, progress, and future development plans",
     "incorrectAnswers": [
-      "A public ranking session with the entire team",
-      "A disciplinary hearing",
-      "A salary negotiation meeting"
+      "A public ranking session with the entire team within the local region for covered employees",
+      "A disciplinary hearing during regular hours given proper notice following standard procedure",
+      "A salary negotiation meeting according to the mandate reflecting recent updates"
     ],
     "rationale": "A feedback session is a crucial component of an effective performance appraisal, allowing for discussion of progress and development plans."
   },
@@ -2777,9 +2777,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the 'Management by Objectives' (MBO) approach require from a manager?",
     "correctAnswer": "To set specific, measurable, organizationally relevant goals with each employee and periodically discuss progress",
     "incorrectAnswers": [
-      "To vaguely assign tasks without checking back until the end of the year",
-      "To micromanage daily tasks without setting long-term goals",
-      "To allow employees to set their own goals without any managerial input"
+      "To vaguely assign tasks without checking back until the end of the year based on regulations given proper notice",
+      "To micromanage daily tasks without setting long-term goals excluding special cases pending an official review",
+      "To allow employees to set their own goals without any managerial input contingent on the contract per company policy for regular workers"
     ],
     "rationale": "Management by objectives (MBO) is a goal-setting and appraisal program that involves manager and employee jointly setting goals and evaluating progress."
   },
@@ -2894,9 +2894,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is conducting the job analysis the sole responsibility of the HR specialist?",
     "correctAnswer": "No, it typically requires cooperation between the HR specialist, the worker, and the supervisor",
     "incorrectAnswers": [
-      "Yes, only the HR specialist is allowed to conduct a job analysis.",
-      "Yes, because line managers do not understand job duties.",
-      "No, it is the sole responsibility of the company CEO."
+      "Yes, only the HR specialist is allowed to conduct a job analysis, per current policies, as legally mandated.",
+      "Yes, because line managers do not understand job duties, during normal hours, according to law, requiring prior notice.",
+      "No, it is the sole responsibility of the company CEO, promoting fair labor, given due process."
     ],
     "rationale": "Job analysis is generally a joint effort involving the HR specialist, the worker, and the worker's supervisor."
   },
@@ -2907,8 +2907,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Jerome, a manager at an electronics company, needs to gather job analysis information from a large number of employees who perform similar work. Which one of the following would be most appropriate for Jerome?",
     "correctAnswer": "Holding a group interview with a supervisor",
     "incorrectAnswers": [
-      "Observing all employees",
-      "Interviewing the HR manager",
+      "Observing all employees upon final approval per company policy",
+      "Interviewing the HR manager under normal operations",
       "Conducting telephone surveys of all employees"
     ],
     "rationale": "Group interviews are effective for gathering job analysis information from a large group of employees performing similar or identical work."
@@ -2933,9 +2933,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Do informal interviews provide quantitative job analysis information for determining the relative worth of a job for pay purposes?",
     "correctAnswer": "No, informal interviews generally provide qualitative information, not quantitative",
     "incorrectAnswers": [
-      "Yes, they are the most statistically accurate method available.",
+      "Yes, they are the most statistically accurate method available, given due process.",
       "Yes, they easily convert all subjective opinions into numerical data.",
-      "No, because informal interviews are strictly prohibited by law."
+      "No, because informal interviews are strictly prohibited by law, per current policies."
     ],
     "rationale": "Informal interviews generally provide qualitative, not quantitative, job analysis information. Questionnaires like the PAQ provide quantitative data."
   },
@@ -2985,8 +2985,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How should selection tests be utilized in the hiring process?",
     "correctAnswer": "As supplements to other tools like interviews and background checks",
     "incorrectAnswers": [
-      "As the sole determinant for hiring an applicant",
-      "As a complete replacement for background checks",
+      "As the sole determinant for hiring an applicant per company policy assuming no violations",
+      "As a complete replacement for background checks within the local region",
       "As an optional step only used after the employee is hired"
     ],
     "rationale": "Selection tests are most effective when used as part of a comprehensive selection process, supplementing interviews and background checks."
@@ -3076,9 +3076,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Which of the following best defines '360-degree Feedback'?",
     "correctAnswer": "A performance appraisal method that involves evaluation input from multiple levels within the firm as well as external sources",
     "incorrectAnswers": [
-      "A method where a superior gives training to a subordinate as his understudy",
-      "A process of evaluating job applications and scanning resumes",
-      "A psychological technique using intensive group discussion"
+      "A method where a superior gives training to a subordinate as his understudy per company policy in the private sector for unionized members",
+      "A process of evaluating job applications and scanning resumes under the labor code during regular hours based on regulations contingent on the contract",
+      "A psychological technique using intensive group discussion for covered employees pending an official review assuming no violations"
     ],
     "rationale": "360-degree feedback includes input from senior managers, the employee, supervisors, subordinates, peers, team members, and internal or external customers."
   },
@@ -3089,9 +3089,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Achievement Testing' primarily measure?",
     "correctAnswer": "An individual's knowledge, skills, or competencies in specific areas relevant to their job performance",
     "incorrectAnswers": [
-      "A candidate's physical abilities and motor skills",
-      "An applicant's personality traits and preferences",
-      "The economic value of a worker's experience and skills"
+      "A candidate's physical abilities and motor skills as management directs subject to regional rules per company policy",
+      "An applicant's personality traits and preferences upon final approval according to the mandate within the local region",
+      "The economic value of a worker's experience and skills under normal operations during the initial phase"
     ],
     "rationale": "Achievement testing refers to assessments designed to measure an individual's knowledge, skills, or competencies in specific relevant areas."
   },
@@ -3115,9 +3115,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the primary purpose of an 'Appraisal Interview'?",
     "correctAnswer": "To formally discuss an employee's performance and areas of improvement through a feedback mechanism",
     "incorrectAnswers": [
-      "To ascertain the reasons behind leaving a job",
-      "To assess a candidate's problem-solving skills under pressure",
-      "To evaluate a job application prior to a formal job offer"
+      "To ascertain the reasons behind leaving a job as management directs subject to regional rules reflecting recent updates",
+      "To assess a candidate's problem-solving skills under pressure following standard procedure based on regulations",
+      "To evaluate a job application prior to a formal job offer for unionized members pending an official review"
     ],
     "rationale": "An appraisal interview is a formal discussion between an employee and manager regarding performance, key areas of improvement, and growth via feedback."
   },
@@ -3154,9 +3154,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'Human Capital' refer to?",
     "correctAnswer": "The economic value of a worker's experience and skills, including education, training, and intelligence",
     "incorrectAnswers": [
-      "The physical equipment and machinery used by workers",
-      "The monetary benefits and compensation provided to employees",
-      "The total number of employees working in an organization"
+      "The physical equipment and machinery used by workers during regular hours excluding special cases in the private sector",
+      "The monetary benefits and compensation provided to employees given proper notice subject to compliance",
+      "The total number of employees working in an organization contingent on the contract pending an official review"
     ],
     "rationale": "Human capital refers to the economic value of a worker's experience and skills, encompassing assets like education, training, intelligence, and loyalty."
   },
@@ -3167,9 +3167,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the main function of 'Human Resource Planning (HRP)'?",
     "correctAnswer": "To systematically plan for the optimum use of an organization's employees, avoiding manpower shortages or surpluses",
     "incorrectAnswers": [
-      "To handle daily core HR functions like employee relations and compliance",
-      "To evaluate and grade the performance of current employees",
-      "To hire an external firm to handle all human resource needs"
+      "To handle daily core HR functions like employee relations and compliance for covered employees contingent on the contract",
+      "To evaluate and grade the performance of current employees following standard procedure pending an official review",
+      "To hire an external firm to handle all human resource needs in most standard cases under the labor code subject to regional rules"
     ],
     "rationale": "HR planning is the continuous process of systematic planning to achieve optimum use of employees and ensure the best fit between employees and jobs while avoiding shortages or surpluses."
   },
@@ -3193,9 +3193,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the purpose of an 'In-basket Exercise'?",
     "correctAnswer": "To assess a candidate's problem-solving, judgement, planning, and organizing skills while dealing with simulated work requests under pressure",
     "incorrectAnswers": [
-      "To systematically move workers from one job to another",
-      "To evaluate a candidate's physical abilities and motor skills",
-      "To assess how well an individual might fit into a specific role based on personality traits"
+      "To systematically move workers from one job to another following standard procedure according to the mandate during the initial phase for unionized members",
+      "To evaluate a candidate's physical abilities and motor skills during regular hours subject to compliance for regular workers contingent on the contract",
+      "To assess how well an individual might fit into a specific role based on personality traits as officially stated for covered employees pending an official review"
     ],
     "rationale": "The in-basket exercise is designed to assess adaptive thinking, problem-solving, and organizing skills while dealing with memos, e-mails, and requests under pressure."
   },
@@ -3206,9 +3206,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'Job Enrichment' involve?",
     "correctAnswer": "Redesigning jobs to incorporate higher levels of responsibility, autonomy, and complexity to enhance intrinsic motivation",
     "incorrectAnswers": [
-      "Expanding a job's scope by adding more tasks of a similar level of complexity",
-      "Moving employees through a variety of positions within an organization",
-      "Providing condensed versions of job tasks for candidates to practice"
+      "Expanding a job's scope by adding more tasks of a similar level of complexity upon final approval following standard procedure",
+      "Moving employees through a variety of positions within an organization pending an official review reflecting recent updates",
+      "Providing condensed versions of job tasks for candidates to practice under normal operations within the local region for regular workers"
     ],
     "rationale": "Job enrichment involves redesigning jobs to incorporate higher levels of responsibility, autonomy, and complexity to enhance intrinsic motivation and satisfaction."
   },
@@ -3232,9 +3232,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the primary goal of 'Succession Planning'?",
     "correctAnswer": "To proactively identify and develop potential future leaders or key employees to fill key roles when they become vacant",
     "incorrectAnswers": [
-      "To expand a job's scope by adding more tasks or responsibilities",
-      "To identify the training employees will need to fill current roles",
-      "To predict how a company's staffing needs change over short periods of time"
+      "To expand a job's scope by adding more tasks or responsibilities based on regulations per company policy assuming no violations",
+      "To identify the training employees will need to fill current roles reflecting recent updates under the labor code for regular workers",
+      "To predict how a company's staffing needs change over short periods of time contingent on the contract given proper notice"
     ],
     "rationale": "Succession planning is a proactive process of identifying and developing potential future leaders to fill key roles when they become vacant, minimizing disruptions."
   },
@@ -3258,9 +3258,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is an 'Applicant Personality Test' primarily used for?",
     "correctAnswer": "To evaluate personality traits and predict how well an individual might fit into a specific role or organizational culture",
     "incorrectAnswers": [
-      "To measure a candidate's physical abilities and motor skills",
-      "To test an applicant's technical knowledge in a specific field",
-      "To evaluate a candidate's problem-solving and critical thinking abilities"
+      "To measure a candidate's physical abilities and motor skills as management directs during regular hours per company policy for regular workers",
+      "To test an applicant's technical knowledge in a specific field during the initial phase in the private sector contingent on the contract",
+      "To evaluate a candidate's problem-solving and critical thinking abilities reflecting recent updates upon final approval pending an official review"
     ],
     "rationale": "An applicant personality test is used to evaluate personality traits to predict how well an individual might fit into a role or culture."
   },
@@ -3271,9 +3271,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What characterizes 'Apprenticeship Training'?",
     "correctAnswer": "A formalized program combining on-the-job training with classroom instruction, typically used in skilled trades",
     "incorrectAnswers": [
-      "A semi-structured interview focusing on detailed work experience",
-      "A training approach using condensed or abbreviated versions of job tasks",
-      "A psychological technique using intensive group discussion"
+      "A semi-structured interview focusing on detailed work experience in the private sector based on regulations",
+      "A training approach using condensed or abbreviated versions of job tasks according to the mandate as management directs",
+      "A psychological technique using intensive group discussion for covered employees subject to compliance in most standard cases"
     ],
     "rationale": "Apprenticeship training is a formalized program combining OJT with classroom instruction, commonly used in skilled trades."
   },
@@ -3284,9 +3284,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Why do organizations conduct a 'Background Check'?",
     "correctAnswer": "To investigate a potential employee's background based on education, criminal records, and past work to verify provided information",
     "incorrectAnswers": [
-      "To review the historical performance records of current employees",
-      "To systematically plan for the optimum use of an organization's employees",
-      "To assess managerial potential or leadership qualities in individuals"
+      "To review the historical performance records of current employees based on regulations as management directs according to the mandate",
+      "To systematically plan for the optimum use of an organization's employees given proper notice under normal operations upon final approval",
+      "To assess managerial potential or leadership qualities in individuals assuming no violations in most standard cases for unionized members"
     ],
     "rationale": "Background checks are conducted to verify the truthfulness of a potential employee's background information, including education and criminal records."
   },
@@ -3297,9 +3297,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the 'Behaviorally Anchored Rating Scale (BARS) Method' combine?",
     "correctAnswer": "Elements of traditional rating scales and critical incident methods, describing performance levels in terms of specific job behaviors",
     "incorrectAnswers": [
-      "Elements of quantitative analysis and peer reviews",
-      "Elements of management by objectives and self-appraisal",
-      "Elements of graphic rating scales and forced distribution methods"
+      "Elements of quantitative analysis and peer reviews in the private sector during regular hours given proper notice based on regulations",
+      "Elements of management by objectives and self-appraisal upon final approval for regular workers pending an official review in most standard cases",
+      "Elements of graphic rating scales and forced distribution methods according to the mandate for covered employees excluding special cases"
     ],
     "rationale": "The BARS method combines traditional rating scales and critical incident methods, describing performance levels through specific job behaviors."
   },
@@ -3310,9 +3310,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the purpose of 'Benchmarking Jobs'?",
     "correctAnswer": "Comparing job roles within or across organizations to determine relative value and pay structure for similar jobs",
     "incorrectAnswers": [
-      "Systematically moving workers from one job to another to prevent boredom",
-      "Redesigning jobs to incorporate higher levels of responsibility",
-      "Expanding a job's scope by adding more tasks of a similar complexity"
+      "Systematically moving workers from one job to another to prevent boredom for covered employees as officially stated",
+      "Redesigning jobs to incorporate higher levels of responsibility within the local region per company policy reflecting recent updates",
+      "Expanding a job's scope by adding more tasks of a similar complexity subject to compliance during regular hours in most standard cases"
     ],
     "rationale": "Benchmarking jobs involves comparing job roles to determine the relative value and establish competitive pay structures."
   },
@@ -3323,9 +3323,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What are 'Bonuses'?",
     "correctAnswer": "Additional monetary rewards given to employees on top of their base salary based on performance",
     "incorrectAnswers": [
-      "Non-wage compensations like insurance and retirement plans",
-      "Fixed amounts of money paid for performing a job role over a specific period",
-      "A structured program to improve an employee's existing competencies"
+      "Non-wage compensations like insurance and retirement plans based on regulations according to the mandate",
+      "Fixed amounts of money paid for performing a job role over a specific period pending an official review",
+      "A structured program to improve an employee's existing competencies per company policy as management directs"
     ],
     "rationale": "Bonuses are additional monetary rewards based on individual, team, or organizational performance, given on top of base salary."
   },
@@ -3336,9 +3336,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "In employee onboarding, what is the role of a 'Buddy System'?",
     "correctAnswer": "Assigning a new hire a peer guide to familiarize them with different aspects of the job and office environment",
     "incorrectAnswers": [
-      "Pairing a manager with a subordinate to set mutual goals",
-      "Grouping employees simultaneously by two different operational dimensions",
-      "Providing candidates with condensed job tasks to practice together"
+      "Pairing a manager with a subordinate to set mutual goals assuming no violations under normal operations in most standard cases",
+      "Grouping employees simultaneously by two different operational dimensions according to the mandate for unionized members",
+      "Providing candidates with condensed job tasks to practice together pending an official review upon final approval"
     ],
     "rationale": "A buddy system assigns a new hire to a buddy who guides them on job aspects and familiarizes them with the office environment."
   },
@@ -3349,9 +3349,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Campus Recruitment' defined?",
     "correctAnswer": "An external source of recruitment where educational institutions provide information to students regarding employment opportunities",
     "incorrectAnswers": [
-      "A method of recruiting candidates by putting a notice on the organization's board",
-      "A process of hiring new personnel through references from current employees",
-      "An internal process of promoting existing students working part-time"
+      "A method of recruiting candidates by putting a notice on the organization's board subject to regional rules under normal operations",
+      "A process of hiring new personnel through references from current employees in the private sector according to the mandate for covered employees",
+      "An internal process of promoting existing students working part-time subject to compliance for regular workers during the initial phase"
     ],
     "rationale": "Campus recruitment is an external recruitment source where educational institutions inform students about employment opportunities."
   },
@@ -3362,9 +3362,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Career Development' ensure for an organization?",
     "correctAnswer": "That people with the proper qualifications and experiences are available when needed through a formal approach",
     "incorrectAnswers": [
-      "That temporary teams work effectively on real projects",
-      "That the organization avoids manpower shortages by hiring externally",
-      "That all new hires receive a standard orientation program"
+      "That temporary teams work effectively on real projects assuming no violations upon final approval following standard procedure",
+      "That the organization avoids manpower shortages by hiring externally subject to compliance based on regulations",
+      "That all new hires receive a standard orientation program for covered employees during the initial phase for regular workers"
     ],
     "rationale": "Career development is a formal approach ensuring that people with proper qualifications and experiences are available when needed."
   },
@@ -3375,9 +3375,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "In training, what do 'Case Studies' provide?",
     "correctAnswer": "In-depth descriptions of experiences of disguised organizations to allow trainees to see numerous managerial experiences in a short period",
     "incorrectAnswers": [
-      "A physical demonstration of tasks broken down into smaller components",
-      "Simulations of hypothetical situations where candidates are scored on performance",
-      "A formal discussion between an employee and manager regarding performance"
+      "A physical demonstration of tasks broken down into smaller components during regular hours according to the mandate based on regulations",
+      "Simulations of hypothetical situations where candidates are scored on performance as officially stated assuming no violations following standard procedure",
+      "A formal discussion between an employee and manager regarding performance pending an official review during the initial phase subject to compliance"
     ],
     "rationale": "Case studies provide in-depth descriptions of disguised organizations, allowing trainees to rapidly review numerous managerial experiences."
   },
@@ -3388,9 +3388,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Central Tendency Error'?",
     "correctAnswer": "An appraisal error that occurs when employees are incorrectly rated near the average or middle of a scale",
     "incorrectAnswers": [
-      "Giving undeserved high ratings to an employee",
-      "Being unduly critical of an employee's work performance",
-      "Generalizing one positive performance feature to all aspects of performance"
+      "Giving undeserved high ratings to an employee subject to compliance excluding special cases contingent on the contract",
+      "Being unduly critical of an employee's work performance in most standard cases as officially stated pending an official review",
+      "Generalizing one positive performance feature to all aspects of performance under normal operations reflecting recent updates"
     ],
     "rationale": "A central tendency error happens when a rater incorrectly rates employees near the average or middle of a scale, avoiding extremes."
   },
@@ -3401,9 +3401,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is involved in the 'Coaching (Understudy Method)' of training?",
     "correctAnswer": "A superior gives training to a subordinate as their understudy, like an assistant to a manager",
     "incorrectAnswers": [
-      "A group of candidates are interviewed together by a panel",
-      "Workers are systematically moved from one job to another",
-      "An employee evaluates their own performance to determine strengths and flaws"
+      "A group of candidates are interviewed together by a panel in most standard cases excluding special cases",
+      "Workers are systematically moved from one job to another upon final approval according to the mandate",
+      "An employee evaluates their own performance to determine strengths and flaws pending an official review"
     ],
     "rationale": "In the coaching or understudy method, a superior trains a subordinate as their understudy or assistant."
   },
@@ -3427,9 +3427,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the primary responsibility of a 'Compensation Manager'?",
     "correctAnswer": "To design, implement, and manage the organization's compensation and benefits programs",
     "incorrectAnswers": [
-      "To predict how a company's staffing needs change over time",
-      "To source and screen candidates that best fit future goals",
-      "To handle part or all of the human resource needs as an external firm"
+      "To predict how a company's staffing needs change over time according to the mandate in the private sector",
+      "To source and screen candidates that best fit future goals during regular hours subject to regional rules",
+      "To handle part or all of the human resource needs as an external firm as management directs"
     ],
     "rationale": "A Compensation Manager designs, implements, and manages an organization's compensation and benefits programs."
   },
@@ -3440,9 +3440,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Competency Model'?",
     "correctAnswer": "A framework defining the skill and knowledge requirements of a job, enabling successful job performance",
     "incorrectAnswers": [
-      "A temporary team from different areas working on real projects",
-      "A structured process for determining duties and characteristics of people to hire",
-      "A systematic process used to assess the job performance of employees"
+      "A temporary team from different areas working on real projects subject to regional rules reflecting recent updates",
+      "A structured process for determining duties and characteristics of people to hire according to the mandate upon final approval",
+      "A systematic process used to assess the job performance of employees during the initial phase within the local region"
     ],
     "rationale": "A competency model is a framework for defining the skills and abilities that enable successful job performance."
   },
@@ -3453,9 +3453,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is considered 'Contingent Personnel'?",
     "correctAnswer": "Someone who performs tasks for an organization without being formally hired as a permanent employee",
     "incorrectAnswers": [
-      "A permanent employee assigned to a localized HR support unit",
-      "An external candidate who has accepted a formal job offer",
-      "A worker systematically moved from one job to another"
+      "A permanent employee assigned to a localized HR support unit based on regulations during the initial phase",
+      "An external candidate who has accepted a formal job offer following standard procedure assuming no violations",
+      "A worker systematically moved from one job to another within the local region contingent on the contract"
     ],
     "rationale": "Contingent personnel perform tasks without being formally hired as permanent employees (e.g., freelancers, temporary workers)."
   },
@@ -3467,8 +3467,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Centralized HR units managing HR strategy and policy across the organization",
     "incorrectAnswers": [
       "HR units integrated into specific departments to provide localized support",
-      "A government entity managing job seeker details",
-      "External firms hired to handle specific HR functions"
+      "A government entity managing job seeker details during regular hours reflecting recent updates",
+      "External firms hired to handle specific HR functions pending an official review"
     ],
     "rationale": "Corporate HR teams are centralized HR units that manage HR strategy and policy across the entire organization."
   },
@@ -3479,9 +3479,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does the 'Critical Incident Method' of performance appraisal work?",
     "correctAnswer": "It requires keeping written records of highly favorable and unfavorable employee work actions",
     "incorrectAnswers": [
-      "It forces the rater to assign individuals to a limited number of categories",
-      "It involves writing a brief narrative describing the employee's performance",
-      "It ranks all employees from a group in order of overall performance"
+      "It forces the rater to assign individuals to a limited number of categories subject to compliance",
+      "It involves writing a brief narrative describing the employee's performance based on regulations",
+      "It ranks all employees from a group in order of overall performance during the initial phase"
     ],
     "rationale": "The critical incident method involves keeping written records of highly favorable and unfavorable actions to appraise performance."
   },
@@ -3492,9 +3492,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What characterizes a 'Depth Interview'?",
     "correctAnswer": "A semi-structured interview where candidates give detailed information about their qualifications, experience, and skills",
     "incorrectAnswers": [
-      "A multi-day simulation in which candidates perform realistic tasks",
-      "An interview conducted by a group of three to five panel members",
-      "An informal interview arranged at any place without written communication"
+      "A multi-day simulation in which candidates perform realistic tasks assuming no violations as management directs during regular hours",
+      "An interview conducted by a group of three to five panel members under normal operations according to the mandate pending an official review",
+      "An informal interview arranged at any place without written communication reflecting recent updates per company policy within the local region"
     ],
     "rationale": "A depth interview is a semi-structured interview focusing on detailed information about qualifications, experience, and skills."
   },
@@ -3505,9 +3505,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Direct Recruitment'?",
     "correctAnswer": "An external source of recruitment carried out by putting a job vacancy notice on the organization's notice board",
     "incorrectAnswers": [
-      "Identifying and filling vacancies from the existing workforce",
-      "Hiring candidates through references from current employees",
-      "Using a private agency to find suitable candidates"
+      "Identifying and filling vacancies from the existing workforce during the initial phase based on regulations for covered employees",
+      "Hiring candidates through references from current employees subject to regional rules within the local region",
+      "Using a private agency to find suitable candidates following standard procedure contingent on the contract per company policy"
     ],
     "rationale": "Direct recruitment involves recruiting qualified external candidates by posting a notice on the organization's notice board."
   },
@@ -3519,8 +3519,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "HR units integrated into specific departments to provide localized HR support",
     "incorrectAnswers": [
       "Centralized HR units managing HR strategy across the organization",
-      "Temporary teams from different areas working on real projects",
-      "External firms hired to handle human resource needs"
+      "Temporary teams from different areas working on real projects within the local region",
+      "External firms hired to handle human resource needs during the initial phase"
     ],
     "rationale": "Embedded HR teams are integrated directly into specific departments to provide localized, specialized HR support."
   },
@@ -3531,9 +3531,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is included in an 'Employee Benefits Program'?",
     "correctAnswer": "Non-wage compensations like insurance, retirement plans, and wellness programs provided in addition to regular wages",
     "incorrectAnswers": [
-      "Additional monetary rewards given based on team performance",
-      "The fixed amount of money paid on a monthly or annual basis",
-      "Reimbursement for specific job-related expenses only"
+      "Additional monetary rewards given based on team performance reflecting recent updates during the initial phase subject to regional rules",
+      "The fixed amount of money paid on a monthly or annual basis within the local region during regular hours subject to compliance",
+      "Reimbursement for specific job-related expenses only upon final approval assuming no violations based on regulations"
     ],
     "rationale": "An employee benefits program includes non-wage compensations like insurance, retirement, and wellness programs."
   },
@@ -3544,9 +3544,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Employee Development' aim to achieve?",
     "correctAnswer": "Improving employees' existing competencies and skills, and developing new ones to support organizational goals",
     "incorrectAnswers": [
-      "Introducing new hires to their jobs and co-workers",
-      "Ensuring employees stay with the firm without extra pay",
-      "Evaluating a candidate's suitability for an open job position"
+      "Introducing new hires to their jobs and co-workers contingent on the contract during regular hours in most standard cases",
+      "Ensuring employees stay with the firm without extra pay subject to compliance given proper notice for unionized members",
+      "Evaluating a candidate's suitability for an open job position subject to regional rules within the local region"
     ],
     "rationale": "Employee development focuses on improving existing skills and developing new competencies to support organizational goals."
   },
@@ -3557,9 +3557,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Employee Engagement' observed in workers?",
     "correctAnswer": "In their level of commitment to their employer and willingness to stay at the firm and go beyond the call of duty",
     "incorrectAnswers": [
-      "In their ability to score highly on cognitive ability tests",
-      "In the frequency with which they request lateral transfers",
-      "In their success rate during apprenticeship training"
+      "In their ability to score highly on cognitive ability tests per company policy under normal operations in most standard cases",
+      "In the frequency with which they request lateral transfers assuming no violations based on regulations as officially stated",
+      "In their success rate during apprenticeship training within the local region pending an official review according to the mandate"
     ],
     "rationale": "Employee engagement refers to workers' commitment, their willingness to stay, and their willingness to go beyond the call of duty."
   },
@@ -3570,9 +3570,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does an 'Employee Matrix' structure involve?",
     "correctAnswer": "Employees reporting simultaneously to both a functional manager and a project manager",
     "incorrectAnswers": [
-      "Assigning all HR generalists to a single corporate team",
-      "Moving employees through a variety of positions to prevent boredom",
-      "Ranking all employees in a specific department from best to worst"
+      "Assigning all HR generalists to a single corporate team based on regulations subject to regional rules",
+      "Moving employees through a variety of positions to prevent boredom reflecting recent updates",
+      "Ranking all employees in a specific department from best to worst assuming no violations"
     ],
     "rationale": "A matrix organizational structure involves employees reporting simultaneously to a functional manager and a project manager."
   },
@@ -3584,8 +3584,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Introducing new hires to their jobs, co-workers, responsibilities, and workplace",
     "incorrectAnswers": [
       "Teaching specific operational skills to improve current job performance",
-      "Developing potential future leaders to fill key roles",
-      "Redesigning jobs to incorporate higher levels of responsibility"
+      "Developing potential future leaders to fill key roles under normal operations",
+      "Redesigning jobs to incorporate higher levels of responsibility excluding special cases"
     ],
     "rationale": "Employee orientation aims to introduce new hires to their jobs, responsibilities, co-workers, and the workplace environment."
   },
@@ -3596,9 +3596,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the process of 'Employee Referrals'?",
     "correctAnswer": "Hiring new personnel through references from employees currently working within the organization",
     "incorrectAnswers": [
-      "Posting job openings on the organization's internal intranet",
-      "Recruiting qualified candidates from local colleges and universities",
-      "Using a government entity to find details of job seekers"
+      "Posting job openings on the organization's internal intranet in most standard cases for regular workers",
+      "Recruiting qualified candidates from local colleges and universities under the labor code during regular hours",
+      "Using a government entity to find details of job seekers subject to compliance as officially stated"
     ],
     "rationale": "Employee referral is the process of hiring new staff through recommendations or references from current employees."
   },
@@ -3609,9 +3609,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the aim of 'Employee Selection'?",
     "correctAnswer": "Identifying and hiring candidates from an applicant pool who are most likely to succeed in the job and contribute to goals",
     "incorrectAnswers": [
-      "Systematically planning the optimum use of existing employees",
-      "Assessing job performance of current employees through appraisals",
-      "Evaluating the relative worth of a job to determine its pay structure"
+      "Systematically planning the optimum use of existing employees for unionized members for regular workers in the private sector",
+      "Assessing job performance of current employees through appraisals under the labor code as management directs subject to regional rules",
+      "Evaluating the relative worth of a job to determine its pay structure under normal operations according to the mandate per company policy"
     ],
     "rationale": "Employee selection aims to choose individuals from an applicant pool who are most likely to succeed and contribute to the organization."
   },
@@ -3622,9 +3622,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What do 'Employment Agencies' typically provide to employers?",
     "correctAnswer": "Assistance in finding suitable candidates for job openings, often providing pre-screened candidates",
     "incorrectAnswers": [
-      "Enforcement of federal laws prohibiting discrimination",
-      "Training programs specifically tailored to current employees",
-      "Internal software for maintaining employee skills inventories"
+      "Enforcement of federal laws prohibiting discrimination reflecting recent updates given proper notice",
+      "Training programs specifically tailored to current employees as management directs under normal operations",
+      "Internal software for maintaining employee skills inventories for covered employees subject to regional rules"
     ],
     "rationale": "Employment agencies assist employers in finding suitable candidates, often providing access to a pool of pre-screened individuals."
   },
@@ -3635,9 +3635,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is an 'Employment Exchange'?",
     "correctAnswer": "A government entity where details of job seekers are deposited and given to employers to fill vacant positions",
     "incorrectAnswers": [
-      "A program where workers temporarily swap roles within a company",
-      "A psychological technique using intensive group discussion",
-      "A corporate team focused on long-term workforce planning"
+      "A program where workers temporarily swap roles within a company per company policy pending an official review",
+      "A psychological technique using intensive group discussion during the initial phase as management directs as officially stated",
+      "A corporate team focused on long-term workforce planning within the local region subject to compliance excluding special cases"
     ],
     "rationale": "An employment exchange is a government entity that holds details of job seekers and provides them to employers for filling vacancies."
   },
@@ -3648,9 +3648,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the 'Equal Employment Opportunity Commission (EEOC)' responsible for?",
     "correctAnswer": "Enforcing federal laws that prohibit organizations from discriminating against employees based on factors like race, gender, and religion",
     "incorrectAnswers": [
-      "Regulating the minimum wage and overtime pay rules for the private sector",
-      "Managing the occupational safety and health standards within workplaces",
-      "Providing government-funded training programs for unemployed individuals"
+      "Regulating the minimum wage and overtime pay rules for the private sector pending an official review reflecting recent updates assuming no violations",
+      "Managing the occupational safety and health standards within workplaces in most standard cases based on regulations given proper notice",
+      "Providing government-funded training programs for unemployed individuals in the private sector according to the mandate upon final approval"
     ],
     "rationale": "The EEOC is responsible for enforcing federal laws that prohibit workplace discrimination based on race, color, nationality, religion, gender, etc."
   },
@@ -3661,9 +3661,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does the 'Essay Method' of performance appraisal work?",
     "correctAnswer": "The rater writes a brief narrative describing the employee's performance, often focusing on extreme behavior rather than routine performance",
     "incorrectAnswers": [
-      "The rater assigns the employee to one of several predefined categories based on a normal distribution",
-      "The employee writes a detailed self-assessment of their own achievements and flaws",
-      "The rater combines traditional scales with critical incident logs to score behavior"
+      "The rater assigns the employee to one of several predefined categories based on a normal distribution during the initial phase given proper notice",
+      "The employee writes a detailed self-assessment of their own achievements and flaws assuming no violations within the local region according to the mandate",
+      "The rater combines traditional scales with critical incident logs to score behavior as officially stated in most standard cases based on regulations"
     ],
     "rationale": "In the essay method, the rater writes a brief narrative describing the employee's performance, which tends to focus on extreme behavior rather than day-to-day routine."
   },
@@ -3674,9 +3674,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What characterizes the 'Forced Distribution Method' of performance appraisal?",
     "correctAnswer": "It requires the rater to assign individuals in a work group to a limited number of categories, similar to a normal frequency distribution",
     "incorrectAnswers": [
-      "It forces the rater to provide a written narrative for every single rating point",
-      "It distributes performance ratings based on a 360-degree feedback collection from peers",
-      "It evaluates employees solely by comparing them directly against one another in pairs"
+      "It forces the rater to provide a written narrative for every single rating point based on regulations under the labor code upon final approval",
+      "It distributes performance ratings based on a 360-degree feedback collection from peers per company policy under normal operations for covered employees",
+      "It evaluates employees solely by comparing them directly against one another in pairs for unionized members following standard procedure during regular hours"
     ],
     "rationale": "The forced distribution method requires placing a predetermined percentage of individuals into specific categories, avoiding lenient clustering."
   },
@@ -3687,9 +3687,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Formal Interview'?",
     "correctAnswer": "An interview organized in a structured manner where the candidate is aware of dates and timings in advance and the interviewer prepares questions",
     "incorrectAnswers": [
-      "An interview conducted without written communication that can be arranged at any place",
-      "An interview where a candidate's reaction to stress and complicated problems is tested",
-      "A group discussion among candidates evaluated simultaneously by a single recruiter"
+      "An interview conducted without written communication that can be arranged at any place for regular workers following standard procedure as management directs",
+      "An interview where a candidate's reaction to stress and complicated problems is tested reflecting recent updates within the local region subject to regional rules",
+      "A group discussion among candidates evaluated simultaneously by a single recruiter in most standard cases based on regulations assuming no violations"
     ],
     "rationale": "A formal interview is organized in advance, with the candidate aware of the schedule and the interviewer planning questions."
   },
@@ -3700,7 +3700,7 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is a 'Group Interview' conducted?",
     "correctAnswer": "All the candidates or a group of candidates are interviewed together at the same time",
     "incorrectAnswers": [
-      "A single candidate is interviewed by a panel of three to five members",
+      "A single candidate is interviewed by a panel of three to five members during regular hours",
       "An individual candidate takes a multi-day simulation assessment with other peers",
       "Candidates are evaluated by observing their interaction on an online job board"
     ],
@@ -3713,9 +3713,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Human Resources Forecasting'?",
     "correctAnswer": "The process of predicting how a company's staffing needs change with time so it can remain prepared to operate successfully",
     "incorrectAnswers": [
-      "The continuous process of maximizing the economic value of a worker's skills",
-      "The method of evaluating job applications and scanning resumes",
-      "The process of identifying candidates for future leadership roles"
+      "The continuous process of maximizing the economic value of a worker's skills as management directs according to the mandate for covered employees",
+      "The method of evaluating job applications and scanning resumes for regular workers contingent on the contract based on regulations",
+      "The process of identifying candidates for future leadership roles in most standard cases subject to regional rules under the labor code"
     ],
     "rationale": "HR forecasting involves predicting future staffing needs so the company remains prepared and has the right number of employees."
   },
@@ -3726,9 +3726,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Human Resources Management (HRM)' involve?",
     "correctAnswer": "Coordinating, managing, and allocating human capital or employees in ways that move an organization's goals forward",
     "incorrectAnswers": [
-      "Outsourcing all personnel needs to external firms to save costs",
-      "Designing and manufacturing products to meet customer demands",
-      "Analyzing sales trends to predict future revenue streams"
+      "Outsourcing all personnel needs to external firms to save costs following standard procedure during regular hours",
+      "Designing and manufacturing products to meet customer demands under normal operations for unionized members according to the mandate",
+      "Analyzing sales trends to predict future revenue streams in the private sector for regular workers during the initial phase"
     ],
     "rationale": "HRM involves managing and allocating human capital (employees) to advance organizational goals, encompassing hiring, compensation, and development."
   },
@@ -3739,9 +3739,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is an 'Individual Interview'?",
     "correctAnswer": "An interview that takes place on a one-to-one basis, involving verbal and visual interaction between an interviewer and a candidate",
     "incorrectAnswers": [
-      "An interview conducted by a group of people asking questions to one candidate",
-      "A process where a candidate records their answers to predefined questions alone",
-      "An interview conducted strictly via written communication"
+      "An interview conducted by a group of people asking questions to one candidate for covered employees during regular hours as management directs",
+      "A process where a candidate records their answers to predefined questions alone under normal operations during the initial phase contingent on the contract",
+      "An interview conducted strictly via written communication according to the mandate under the labor code based on regulations following standard procedure"
     ],
     "rationale": "In an individual interview, the interaction takes place on a one-to-one basis between an interviewer and a candidate."
   },
@@ -3752,9 +3752,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the process of 'Induction'?",
     "correctAnswer": "Receiving and welcoming employees after selection and providing them the required training needed to settle down adequately",
     "incorrectAnswers": [
-      "Identifying potential future leaders to fill key roles when they become vacant",
-      "Evaluating a candidate's problem-solving skills under intense pressure",
-      "Systematically moving workers from one job to another"
+      "Identifying potential future leaders to fill key roles when they become vacant under normal operations per company policy assuming no violations",
+      "Evaluating a candidate's problem-solving skills under intense pressure for covered employees upon final approval as officially stated",
+      "Systematically moving workers from one job to another given proper notice based on regulations reflecting recent updates following standard procedure"
     ],
     "rationale": "Induction is the process of receiving, welcoming, and initially training new employees so they can settle down adequately."
   },
@@ -3765,9 +3765,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is an 'Informal Interview' typically conducted?",
     "correctAnswer": "In an unstructured way, without written communication, and can be arranged at any place",
     "incorrectAnswers": [
-      "With detailed questions pre-planned and scheduled well in advance",
-      "By a panel of experts evaluating specific technical skills",
-      "As part of a multi-day management assessment center"
+      "With detailed questions pre-planned and scheduled well in advance subject to regional rules",
+      "By a panel of experts evaluating specific technical skills under normal operations for regular workers",
+      "As part of a multi-day management assessment center according to the mandate upon final approval"
     ],
     "rationale": "Informal interviews are conducted casually without written schedules or formal planning, and can be arranged anywhere."
   },
@@ -3778,9 +3778,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Internal Recruiting' refer to?",
     "correctAnswer": "The process of identifying and filling job vacancies within an organization from its existing workforce",
     "incorrectAnswers": [
-      "Hiring candidates from external employment agencies",
-      "Recruiting students directly from colleges and universities",
-      "Using a government entity to find job seekers"
+      "Hiring candidates from external employment agencies in most standard cases during the initial phase for regular workers",
+      "Recruiting students directly from colleges and universities given proper notice within the local region in the private sector",
+      "Using a government entity to find job seekers according to the mandate subject to compliance under the labor code"
     ],
     "rationale": "Internal recruiting involves filling vacancies by promoting or transferring current employees within the organization."
   },
@@ -3791,9 +3791,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What do 'Interviews' in job analysis typically involve?",
     "correctAnswer": "One-on-one or group discussions between a job analyst and employees to gather information about job duties and required skills",
     "incorrectAnswers": [
-      "Testing candidates on their physical abilities and motor skills",
-      "Evaluating a manager's performance by asking their subordinates",
-      "Investigating a potential employee's criminal background"
+      "Testing candidates on their physical abilities and motor skills as officially stated within the local region for covered employees",
+      "Evaluating a manager's performance by asking their subordinates in most standard cases subject to regional rules reflecting recent updates",
+      "Investigating a potential employee's criminal background given proper notice under the labor code in the private sector based on regulations"
     ],
     "rationale": "In job analysis, interviews involve discussions with employees, supervisors, or experts to gather details about job duties and requirements."
   },
@@ -3804,9 +3804,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the purpose of 'Intranet Job Postings'?",
     "correctAnswer": "Posting job openings on the internal network to inform current employees and encourage internal mobility",
     "incorrectAnswers": [
-      "Advertising job vacancies to the general public on the internet",
-      "Providing training materials directly to new hires",
-      "Recording highly favorable and unfavorable employee actions"
+      "Advertising job vacancies to the general public on the internet upon final approval as officially stated as management directs",
+      "Providing training materials directly to new hires for covered employees subject to compliance reflecting recent updates",
+      "Recording highly favorable and unfavorable employee actions given proper notice per company policy in most standard cases"
     ],
     "rationale": "Intranet job postings are placed on the organization's internal network to inform current employees about opportunities for internal mobility."
   },
@@ -3817,9 +3817,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Job Analysis'?",
     "correctAnswer": "A procedure through which you determine the duties of the positions and the characteristics of the people to hire for them",
     "incorrectAnswers": [
-      "The process of systematically planning to achieve optimum use of employees",
-      "The redesign of jobs to incorporate higher levels of autonomy",
-      "A test designed to measure an individual's specific technical skills"
+      "The process of systematically planning to achieve optimum use of employees contingent on the contract during regular hours following standard procedure",
+      "The redesign of jobs to incorporate higher levels of autonomy for unionized members under the labor code assuming no violations",
+      "A test designed to measure an individual's specific technical skills within the local region in most standard cases as officially stated"
     ],
     "rationale": "Job analysis is the systematic process of determining the duties of a position and the characteristics required of the people who will fill it."
   },
@@ -3830,9 +3830,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does a 'Job Analyst' do?",
     "correctAnswer": "Works in HR conducting in-depth research about occupations, focusing on worker classification systems and occupational trends",
     "incorrectAnswers": [
-      "Handles daily core HR functions like employee relations and payroll",
-      "Designs and implements the organization's compensation programs",
-      "Sources and screens candidates that best fit future hiring goals"
+      "Handles daily core HR functions like employee relations and payroll under the labor code subject to compliance in most standard cases",
+      "Designs and implements the organization's compensation programs based on regulations excluding special cases pending an official review",
+      "Sources and screens candidates that best fit future hiring goals as officially stated given proper notice subject to regional rules"
     ],
     "rationale": "Job analysts conduct research on occupations, studying worker classifications and how industry trends affect worker relationships."
   },
@@ -3843,9 +3843,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is included in 'Job Compensation and Salary'?",
     "correctAnswer": "Monetary and non-monetary benefits offered to employees in exchange for their work, including base salary and perks",
     "incorrectAnswers": [
-      "Only the fixed monetary amount paid on a monthly basis",
-      "The specific tasks and duties outlined in a job description",
-      "The economic value of a worker's intelligence and training"
+      "Only the fixed monetary amount paid on a monthly basis for unionized members during regular hours during the initial phase",
+      "The specific tasks and duties outlined in a job description as management directs upon final approval assuming no violations",
+      "The economic value of a worker's intelligence and training subject to regional rules given proper notice subject to compliance"
     ],
     "rationale": "Job compensation encompasses both monetary and non-monetary benefits (base salary, bonuses, insurance) exchanged for work."
   },
@@ -3856,9 +3856,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Job Context' refer to?",
     "correctAnswer": "The broader environment or conditions in which a job is performed, such as the physical work environment and organizational culture",
     "incorrectAnswers": [
-      "The sequential steps required to complete a specific task",
-      "The statement detailing the personal attributes required for a job",
-      "The process of moving employees through various positions"
+      "The sequential steps required to complete a specific task during the initial phase pending an official review within the local region",
+      "The statement detailing the personal attributes required for a job based on regulations in most standard cases for covered employees",
+      "The process of moving employees through various positions for unionized members as management directs under the labor code under normal operations"
     ],
     "rationale": "Job context refers to the broader environment where a job is performed, including physical conditions and culture."
   },
@@ -3869,9 +3869,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What information is typically found in a 'Job Description'?",
     "correctAnswer": "A written statement outlining the duties, responsibilities, tasks, and requirements of a particular job",
     "incorrectAnswers": [
-      "The specific qualifications and abilities a candidate must possess",
-      "The detailed performance review of the current job holder",
-      "The exact salary and bonus structure for the position"
+      "The specific qualifications and abilities a candidate must possess for regular workers as management directs",
+      "The detailed performance review of the current job holder given proper notice within the local region",
+      "The exact salary and bonus structure for the position in most standard cases excluding special cases"
     ],
     "rationale": "A job description is a written statement that outlines the duties, responsibilities, tasks, and reporting relationships of a job."
   },
@@ -3882,9 +3882,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does 'Job Enlargement' affect a role?",
     "correctAnswer": "It expands a job's scope by adding more tasks or responsibilities of a similar level of complexity",
     "incorrectAnswers": [
-      "It redesigns the job to include higher levels of decision-making authority",
-      "It systematically moves the worker to an entirely different job",
-      "It breaks the job down into smaller, simpler components"
+      "It redesigns the job to include higher levels of decision-making authority during regular hours",
+      "It systematically moves the worker to an entirely different job reflecting recent updates given proper notice",
+      "It breaks the job down into smaller, simpler components following standard procedure assuming no violations"
     ],
     "rationale": "Job enlargement expands a job's scope horizontally by adding more tasks of a similar level of complexity."
   },
@@ -3895,9 +3895,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When is 'Job Instruction Training (JIT)' most suitable?",
     "correctAnswer": "For jobs with clear and logical sequences of steps, breaking tasks down into smaller components taught sequentially",
     "incorrectAnswers": [
-      "For developing leadership and managerial skills in executives",
-      "For testing candidates in simulated hypothetical situations",
-      "For providing broad contextual knowledge about the entire organization"
+      "For developing leadership and managerial skills in executives in the private sector in most standard cases as officially stated",
+      "For testing candidates in simulated hypothetical situations per company policy under the labor code following standard procedure",
+      "For providing broad contextual knowledge about the entire organization within the local region under normal operations"
     ],
     "rationale": "JIT is a structured method highly suitable for jobs with clear, sequential steps, ensuring the trainee learns each step correctly."
   },
@@ -3908,9 +3908,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the practice of 'Job Posting'?",
     "correctAnswer": "Publishing and displaying advertisements of an open job directly to employees",
     "incorrectAnswers": [
-      "Hiring an external firm to handle HR needs",
+      "Hiring an external firm to handle HR needs subject to compliance per company policy",
       "Gathering details about a worker's daily activities in a diary",
-      "Allowing subordinates to rate their supervisor anonymously"
+      "Allowing subordinates to rate their supervisor anonymously according to the mandate"
     ],
     "rationale": "Job posting refers to the practice of displaying advertisements for open jobs to employees (e.g., on bulletin boards or intranets)."
   },
@@ -3921,9 +3921,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Job Rotation' involve?",
     "correctAnswer": "Moving employees through a variety of positions within an organization or department",
     "incorrectAnswers": [
-      "Assigning an employee additional tasks of the same complexity",
-      "Providing a new hire with a peer guide to show them around",
-      "Increasing an employee's autonomy and decision-making power"
+      "Assigning an employee additional tasks of the same complexity subject to compliance for unionized members",
+      "Providing a new hire with a peer guide to show them around assuming no violations per company policy",
+      "Increasing an employee's autonomy and decision-making power under the labor code excluding special cases"
     ],
     "rationale": "Job rotation involves systematically moving employees through different positions within the organization."
   },
@@ -3934,9 +3934,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is outlined in a 'Job Specification'?",
     "correctAnswer": "The qualifications, skills, knowledge, abilities, and personal attributes required to perform a specific job effectively",
     "incorrectAnswers": [
-      "The daily duties, tasks, and responsibilities of the role",
-      "The broader physical work environment and organizational culture",
-      "The monetary compensation and benefits package offered"
+      "The daily duties, tasks, and responsibilities of the role as officially stated under the labor code per company policy for regular workers",
+      "The broader physical work environment and organizational culture during the initial phase in the private sector based on regulations",
+      "The monetary compensation and benefits package offered within the local region for covered employees for unionized members"
     ],
     "rationale": "A job specification details the human requirements—qualifications, skills, and attributes—needed to effectively perform a job."
   },
@@ -3947,9 +3947,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines a 'Job Vacancy'?",
     "correctAnswer": "An open position within an organization or company that requires a qualified individual to fill it",
     "incorrectAnswers": [
-      "A temporary team assembled to work on a specific project",
-      "A situation where a firm has a surplus of manpower",
-      "The process of leaving a job to pursue other opportunities"
+      "A temporary team assembled to work on a specific project according to the mandate for unionized members",
+      "A situation where a firm has a surplus of manpower reflecting recent updates per company policy",
+      "The process of leaving a job to pursue other opportunities contingent on the contract for covered employees"
     ],
     "rationale": "A job vacancy is an open position requiring a qualified individual to fill it."
   },
@@ -3960,9 +3960,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What are 'Legal Hiring Practices'?",
     "correctAnswer": "Rules, regulations, and ethical standards organizations must adhere to when recruiting to ensure fairness, equality, and compliance with laws",
     "incorrectAnswers": [
-      "The exact protocols for terminating an employee legally",
-      "The mandatory union negotiation procedures during hiring",
-      "The process of verifying criminal backgrounds explicitly for government roles"
+      "The exact protocols for terminating an employee legally based on regulations excluding special cases following standard procedure assuming no violations",
+      "The mandatory union negotiation procedures during hiring per company policy for regular workers under the labor code within the local region",
+      "The process of verifying criminal backgrounds explicitly for government roles given proper notice pending an official review according to the mandate"
     ],
     "rationale": "Legal hiring practices refer to the rules and regulations that ensure fairness, equality, and legal compliance during recruitment."
   },
@@ -3973,9 +3973,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Management Assessment Center'?",
     "correctAnswer": "A structured evaluation method using simulations, exercises, and interviews to assess managerial potential or leadership qualities",
     "incorrectAnswers": [
-      "A central office location where all HR generalists are located",
-      "A government entity managing job seeker databases",
-      "A training program combining classroom instruction with trade skills"
+      "A central office location where all HR generalists are located for regular workers in most standard cases based on regulations per company policy",
+      "A government entity managing job seeker databases in the private sector under normal operations excluding special cases as management directs",
+      "A training program combining classroom instruction with trade skills during the initial phase following standard procedure assuming no violations"
     ],
     "rationale": "A management assessment center is a structured method using simulations to assess managerial potential or leadership qualities."
   },
@@ -3986,9 +3986,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Miniature Job Training'?",
     "correctAnswer": "Providing employees with condensed versions of job tasks to learn and practice in a controlled setting before performing them independently",
     "incorrectAnswers": [
-      "A brief orientation program lasting only a few hours",
-      "A process where a superior trains an understudy",
-      "The use of gaming features to enhance simple training exercises"
+      "A brief orientation program lasting only a few hours in the private sector under the labor code as management directs based on regulations as officially stated",
+      "A process where a superior trains an understudy for regular workers under normal operations pending an official review subject to regional rules",
+      "The use of gaming features to enhance simple training exercises in most standard cases given proper notice assuming no violations during the initial phase"
     ],
     "rationale": "Miniature job training provides abbreviated versions of tasks for learning and practice before performing them in a real work environment."
   },
@@ -3999,9 +3999,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does 'Outsourcing' function in HRM?",
     "correctAnswer": "Hiring an external firm to handle part or all of the human resource needs instead of relying on an internal HR department",
     "incorrectAnswers": [
-      "Recruiting candidates entirely from outside the organization's existing workforce",
-      "Moving employees to overseas branches to cut operational costs",
-      "Allowing independent contractors to work whenever they want"
+      "Recruiting candidates entirely from outside the organization's existing workforce subject to compliance given proper notice",
+      "Moving employees to overseas branches to cut operational costs during the initial phase during regular hours for regular workers",
+      "Allowing independent contractors to work whenever they want assuming no violations pending an official review for unionized members"
     ],
     "rationale": "Outsourcing in HRM means hiring an external firm to manage part or all of the HR needs rather than relying on dedicated internal staff."
   },
@@ -4012,9 +4012,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the 'Onboarding' process ensure?",
     "correctAnswer": "Moving a new hire from applicant to employee status, ensuring paperwork is done and orientation is completed",
     "incorrectAnswers": [
-      "Evaluating an employee's performance at the end of the year",
-      "Providing specialized training for leadership roles",
-      "Managing the exit procedures when an employee leaves"
+      "Evaluating an employee's performance at the end of the year under normal operations excluding special cases contingent on the contract",
+      "Providing specialized training for leadership roles based on regulations during regular hours according to the mandate",
+      "Managing the exit procedures when an employee leaves assuming no violations following standard procedure as management directs"
     ],
     "rationale": "Onboarding manages the transition of a new hire from applicant to employee, completing paperwork and orientation."
   },
@@ -4025,9 +4025,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the function of 'Online Job Boards'?",
     "correctAnswer": "Websites or platforms where employers can post job openings to reach a wide audience of potential candidates on the internet",
     "incorrectAnswers": [
-      "Internal networks used solely for publicizing jobs to current employees",
-      "Databases containing the detailed skills inventories of current staff",
-      "Platforms used exclusively for conducting remote video interviews"
+      "Internal networks used solely for publicizing jobs to current employees under the labor code pending an official review in the private sector",
+      "Databases containing the detailed skills inventories of current staff following standard procedure subject to regional rules assuming no violations",
+      "Platforms used exclusively for conducting remote video interviews as management directs for covered employees during the initial phase"
     ],
     "rationale": "Online job boards are websites where employers post job openings to reach potential candidates across the internet."
   },
@@ -4039,8 +4039,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "By a group of three to five members of the selection committee asking questions to the candidate",
     "incorrectAnswers": [
       "By an automated video recording system where the candidate answers pre-recorded questions",
-      "By a single recruiter evaluating multiple candidates simultaneously",
-      "By having candidates complete a multi-day situational judgment test"
+      "By a single recruiter evaluating multiple candidates simultaneously for regular workers for covered employees",
+      "By having candidates complete a multi-day situational judgment test contingent on the contract"
     ],
     "rationale": "A panel interview is conducted by a group of people, typically three to five members of a selection committee asking questions."
   },
@@ -4051,9 +4051,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What are 'Project Teams (Action Learning)'?",
     "correctAnswer": "Temporary teams consisting of people from different areas or functions that work on real projects",
     "incorrectAnswers": [
-      "Permanent departments solely focused on daily core HR functions",
-      "External firms hired to handle part or all of the human resource needs",
-      "Groups of job analysts studying industry and occupational trends"
+      "Permanent departments solely focused on daily core HR functions under the labor code as management directs",
+      "External firms hired to handle part or all of the human resource needs per company policy during the initial phase",
+      "Groups of job analysts studying industry and occupational trends pending an official review given proper notice"
     ],
     "rationale": "Project teams (action learning) are temporary teams consisting of people from different areas or functions working together on real projects."
   },
@@ -4090,9 +4090,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What are 'Rewards and Incentives'?",
     "correctAnswer": "Mechanisms used to recognize, motivate, and reward employees for contributions that align with organizational goals",
     "incorrectAnswers": [
-      "The fixed amount of money paid to an employee on a monthly or annual basis",
-      "Strict rules and regulations organizations must adhere to when recruiting",
-      "Methods of giving undeserved high ratings to an employee"
+      "The fixed amount of money paid to an employee on a monthly or annual basis pending an official review given proper notice",
+      "Strict rules and regulations organizations must adhere to when recruiting excluding special cases reflecting recent updates",
+      "Methods of giving undeserved high ratings to an employee during regular hours subject to regional rules for unionized members"
     ],
     "rationale": "Rewards and incentives are used by organizations to recognize and motivate employees for achievements aligning with organizational values."
   },
@@ -4116,9 +4116,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Recruitment' defined?",
     "correctAnswer": "The comprehensive process of identifying, attracting, interviewing, selecting, hiring, and onboarding employees",
     "incorrectAnswers": [
-      "The process of teaching specific skills to employees to improve current role performance",
-      "The continuous process of predicting how a company's staffing needs change over time",
-      "The act of hiring an external firm to handle human resource needs"
+      "The process of teaching specific skills to employees to improve current role performance during regular hours as officially stated",
+      "The continuous process of predicting how a company's staffing needs change over time under the labor code during the initial phase",
+      "The act of hiring an external firm to handle human resource needs in the private sector based on regulations upon final approval"
     ],
     "rationale": "Recruitment refers to the entire process of identifying, attracting, interviewing, selecting, hiring, and onboarding employees."
   },
@@ -4129,9 +4129,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Screening' refer to in the hiring process?",
     "correctAnswer": "Evaluating job applications and scanning resumes to select suitable candidates that match the job description",
     "incorrectAnswers": [
-      "Training candidates to perform several job tasks prior to hire",
-      "Assessing managerial potential through simulations and exercises",
-      "Conducting a background check to uncover false information"
+      "Training candidates to perform several job tasks prior to hire given proper notice subject to compliance following standard procedure",
+      "Assessing managerial potential through simulations and exercises subject to regional rules reflecting recent updates",
+      "Conducting a background check to uncover false information in most standard cases as management directs per company policy"
     ],
     "rationale": "Screening is the process of evaluating applications and scanning resumes to find candidates matching the job description."
   },
@@ -4142,9 +4142,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Sensitivity Training (T-groups)'?",
     "correctAnswer": "A psychological technique using intensive group discussion and interaction to increase individual awareness of self and others",
     "incorrectAnswers": [
-      "A structured training method suitable for jobs with clear and logical sequences of steps",
-      "A formal approach ensuring people with proper qualifications are available when needed",
-      "A formalized program combining on-the-job training with classroom instruction"
+      "A structured training method suitable for jobs with clear and logical sequences of steps as officially stated as management directs",
+      "A formal approach ensuring people with proper qualifications are available when needed under normal operations upon final approval",
+      "A formalized program combining on-the-job training with classroom instruction for unionized members under the labor code contingent on the contract"
     ],
     "rationale": "Sensitivity training (T-groups) uses intensive group discussion to increase awareness of self and others."
   },
@@ -4155,9 +4155,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the purpose of 'Skill Inventories'?",
     "correctAnswer": "Structured databases used to catalog and manage information about the skills and qualifications of employees for workforce planning",
     "incorrectAnswers": [
-      "Websites where employers can post job openings to reach potential candidates",
-      "Government entities where details of job seekers are deposited for employers",
-      "Temporary teams working on real projects to develop skills"
+      "Websites where employers can post job openings to reach potential candidates per company policy during regular hours contingent on the contract",
+      "Government entities where details of job seekers are deposited for employers for covered employees reflecting recent updates as management directs",
+      "Temporary teams working on real projects to develop skills in the private sector subject to regional rules as officially stated excluding special cases"
     ],
     "rationale": "Skill inventories are structured databases used to manage information about employees' skills and qualifications for talent management and planning."
   },
@@ -4169,8 +4169,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "When managers allow individual differences like gender, race, or age to affect the ratings they give",
     "incorrectAnswers": [
       "When a manager generalizes one positive performance incident to all aspects of performance",
-      "When employees are incorrectly rated near the average or middle of a scale",
-      "When a manager is unduly critical of an employee's work performance"
+      "When employees are incorrectly rated near the average or middle of a scale in most standard cases following standard procedure",
+      "When a manager is unduly critical of an employee's work performance based on regulations for unionized members"
     ],
     "rationale": "Stereotyping in appraisals occurs when managers let differences like gender, race, or age bias the ratings they give."
   },
@@ -4181,9 +4181,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Why are 'Stress Interviews' conducted?",
     "correctAnswer": "To ascertain how a candidate would react during times of stress and cope up with complicated job problems",
     "incorrectAnswers": [
-      "To evaluate a candidate's physical abilities and motor skills",
+      "To evaluate a candidate's physical abilities and motor skills in the private sector under normal operations",
       "To gather detailed information about a candidate's educational qualifications in a relaxed setting",
-      "To identify potential future leaders to fill key roles when they become vacant"
+      "To identify potential future leaders to fill key roles when they become vacant pending an official review"
     ],
     "rationale": "Stress interviews ascertain how a candidate reacts during times of stress and copes with demands of a complicated job."
   },
@@ -4208,7 +4208,7 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "It is pre-planned, designed, and detailed in advance, making it precise and reliable",
     "incorrectAnswers": [
       "It is stable without any written communication and can be arranged at any place",
-      "It is conducted by an automated video recording system",
+      "It is conducted by an automated video recording system excluding special cases within the local region",
       "It focuses exclusively on testing physical dexterity and reaction times"
     ],
     "rationale": "A structured interview is pre-planned and detailed in advance, which makes it precise and reliable in hiring."
@@ -4220,9 +4220,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the 'Talent Management Process'?",
     "correctAnswer": "The goal-oriented and integrated process of planning, recruiting, developing, managing, and compensating employees",
     "incorrectAnswers": [
-      "The process of investigating a potential employee's background and criminal records",
-      "The practice of publishing and displaying advertisements of an open job",
-      "The method of keeping written records of highly favorable and unfavorable work actions"
+      "The process of investigating a potential employee's background and criminal records contingent on the contract as management directs",
+      "The practice of publishing and displaying advertisements of an open job in most standard cases reflecting recent updates",
+      "The method of keeping written records of highly favorable and unfavorable work actions subject to compliance within the local region"
     ],
     "rationale": "The talent management process is an integrated, goal-oriented process of planning, recruiting, developing, managing, and compensating employees."
   },
@@ -4233,9 +4233,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What are the duties of a 'Talent Specialist'?",
     "correctAnswer": "Sourcing and screening candidates that fit future goals, establishing hiring criteria, and understanding recruiting needs",
     "incorrectAnswers": [
-      "Handling daily core HR functions such as employee relations and payroll",
-      "Designing and implementing the organization's compensation programs",
-      "Specializing in planning and evaluating training programs for current employees"
+      "Handling daily core HR functions such as employee relations and payroll in the private sector following standard procedure excluding special cases",
+      "Designing and implementing the organization's compensation programs assuming no violations according to the mandate reflecting recent updates",
+      "Specializing in planning and evaluating training programs for current employees during regular hours for covered employees"
     ],
     "rationale": "A talent specialist sources and screens candidates to fit future goals, establishing hiring criteria and understanding recruiting needs."
   },
@@ -4246,9 +4246,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Performance Appraisal'?",
     "correctAnswer": "A systematic process used to assess and evaluate the job performance, strengths, and weaknesses of employees",
     "incorrectAnswers": [
-      "A process of identifying and developing potential future leaders",
-      "An external source of recruitment using educational institutions",
-      "A process of evaluating job applications to select suitable candidates"
+      "A process of identifying and developing potential future leaders upon final approval for regular workers in the private sector",
+      "An external source of recruitment using educational institutions within the local region in most standard cases",
+      "A process of evaluating job applications to select suitable candidates subject to compliance assuming no violations"
     ],
     "rationale": "Performance appraisal is the systematic evaluation of an employee's job performance, strengths, and weaknesses."
   },
@@ -4259,9 +4259,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does a 'Performance Appraisal System' provide?",
     "correctAnswer": "A structured process to assess and evaluate employees' job performance and contributions within a specific period",
     "incorrectAnswers": [
-      "A method of assigning individuals in a work group to a limited number of categories",
-      "A framework defining the specific skill and knowledge requirements of a job",
-      "A database used to catalog information about the qualifications of employees"
+      "A method of assigning individuals in a work group to a limited number of categories following standard procedure in the private sector",
+      "A framework defining the specific skill and knowledge requirements of a job assuming no violations as management directs",
+      "A database used to catalog information about the qualifications of employees given proper notice per company policy"
     ],
     "rationale": "A performance appraisal system (or performance management system) provides a structured process to assess job performance over a specific period."
   },
@@ -4272,9 +4272,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does 'Performance Management' differ from an annual appraisal?",
     "correctAnswer": "It is a continuous process of setting objectives, assessing progress, and providing feedback to ensure goals are met",
     "incorrectAnswers": [
-      "It is a one-time evaluation conducted during an exit interview",
-      "It relies entirely on upward feedback from subordinates",
-      "It focuses exclusively on predicting the company's staffing needs"
+      "It is a one-time evaluation conducted during an exit interview subject to regional rules per company policy under normal operations",
+      "It relies entirely on upward feedback from subordinates reflecting recent updates pending an official review within the local region",
+      "It focuses exclusively on predicting the company's staffing needs for unionized members assuming no violations contingent on the contract"
     ],
     "rationale": "Performance management is a continuous, ongoing process of setting objectives, assessing progress, and providing feedback, unlike a once-a-year appraisal."
   },
@@ -4285,9 +4285,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Promotion' involve?",
     "correctAnswer": "The advancement of an employee by shifting them from a lower position to a higher position with more responsibilities and better remuneration",
     "incorrectAnswers": [
-      "Systematically moving workers from one job to another of the same level",
-      "Evaluating a candidate's suitability for a new external role",
-      "Hiring a new employee through references from current staff"
+      "Systematically moving workers from one job to another of the same level based on regulations for unionized members during the initial phase for covered employees",
+      "Evaluating a candidate's suitability for a new external role upon final approval as officially stated in most standard cases excluding special cases",
+      "Hiring a new employee through references from current staff reflecting recent updates during regular hours according to the mandate subject to compliance"
     ],
     "rationale": "Promotion is the advancement of an employee to a higher position with more responsibilities, remuneration, and status."
   },
@@ -4298,9 +4298,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is a 'Salary'?",
     "correctAnswer": "A fixed amount of money paid to an employee for performing a job role over a specific period, typically monthly or annually",
     "incorrectAnswers": [
-      "Additional monetary rewards given based on exceptional team performance",
-      "Non-wage compensations like insurance and retirement plans",
-      "A temporary payment given to candidates during miniature job training"
+      "Additional monetary rewards given based on exceptional team performance assuming no violations based on regulations following standard procedure",
+      "Non-wage compensations like insurance and retirement plans per company policy contingent on the contract subject to regional rules",
+      "A temporary payment given to candidates during miniature job training as officially stated under the labor code in most standard cases"
     ],
     "rationale": "Salary is a fixed amount of money paid over a specific period (monthly/annually) for performing a job."
   },
@@ -4311,9 +4311,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the benefit of 'Self-Appraisal'?",
     "correctAnswer": "Employees are given a chance to examine their own performance and determine their strengths and flaws",
     "incorrectAnswers": [
-      "It guarantees a promotion to a higher position with more responsibilities",
-      "It allows subordinates to rate their supervisor's performance anonymously",
-      "It provides an exact, unbiased quantitative measure of an employee's worth"
+      "It guarantees a promotion to a higher position with more responsibilities per company policy subject to regional rules",
+      "It allows subordinates to rate their supervisor's performance anonymously based on regulations subject to compliance",
+      "It provides an exact, unbiased quantitative measure of an employee's worth according to the mandate"
     ],
     "rationale": "Self-appraisal allows employees to evaluate their own performance, examine their work, and identify strengths and flaws."
   },
@@ -4324,9 +4324,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Staffing' refer to?",
     "correctAnswer": "The process of hiring eligible candidates in the organization or company for specific positions",
     "incorrectAnswers": [
-      "The process of systematically moving workers from one job to another",
-      "The act of hiring an external firm to handle HR needs",
-      "The continuous process of assessing progress and providing feedback"
+      "The process of systematically moving workers from one job to another subject to compliance",
+      "The act of hiring an external firm to handle HR needs for unionized members following standard procedure",
+      "The continuous process of assessing progress and providing feedback according to the mandate"
     ],
     "rationale": "Staffing refers broadly to the process of hiring eligible candidates for specific positions in an organization."
   },
@@ -4337,9 +4337,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does a 'Situational Judgment Test (SJT)' evaluate candidates?",
     "correctAnswer": "It presents hypothetical scenarios relevant to the job and asks respondents to choose the most appropriate action",
     "incorrectAnswers": [
-      "It measures a candidate's finger dexterity and reaction time",
-      "It asks a candidate to lift weights and jump rope",
-      "It ranks all candidates from best to worst based on a single trait"
+      "It measures a candidate's finger dexterity and reaction time pending an official review subject to regional rules under normal operations",
+      "It asks a candidate to lift weights and jump rope reflecting recent updates as officially stated during regular hours",
+      "It ranks all candidates from best to worst based on a single trait upon final approval according to the mandate for regular workers"
     ],
     "rationale": "An SJT presents hypothetical job-related scenarios and asks respondents to choose the most appropriate decision/action."
   },
@@ -4350,9 +4350,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Succession Planning' in HR?",
     "correctAnswer": "A proactive process of identifying and developing potential future leaders to fill key roles when they become vacant",
     "incorrectAnswers": [
-      "A process of predicting how a company's general staffing needs change with time",
-      "A systematic process used to assess the job performance of all employees annually",
-      "A method of assigning individuals to a limited number of performance categories"
+      "A process of predicting how a company's general staffing needs change with time according to the mandate for unionized members",
+      "A systematic process used to assess the job performance of all employees annually given proper notice subject to regional rules",
+      "A method of assigning individuals to a limited number of performance categories contingent on the contract during regular hours"
     ],
     "rationale": "Succession planning proactively identifies and develops potential future leaders to ensure a smooth transition for key roles."
   },
@@ -4364,8 +4364,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Teaching specific skills and knowledge to employees to improve their performance in current roles",
     "incorrectAnswers": [
       "Improving employees' existing competencies to prepare them for entirely different future roles",
-      "Assessing a candidate's adaptive thinking and problem-solving prior to hire",
-      "Identifying and filling job vacancies from the existing workforce"
+      "Assessing a candidate's adaptive thinking and problem-solving prior to hire for regular workers",
+      "Identifying and filling job vacancies from the existing workforce excluding special cases reflecting recent updates"
     ],
     "rationale": "Training specifically aims to teach skills and knowledge to improve an employee's performance in their current role."
   },
@@ -4376,9 +4376,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does 'Training and Development (T&D)' contribute to an organization?",
     "correctAnswer": "By equipping employees with knowledge and competencies to perform effectively and contribute to organizational success",
     "incorrectAnswers": [
-      "By replacing internal HR departments with external outsourcing firms",
-      "By ensuring all employees receive the exact same monetary bonus",
-      "By providing in-depth background checks on all job applicants"
+      "By replacing internal HR departments with external outsourcing firms during regular hours according to the mandate pending an official review",
+      "By ensuring all employees receive the exact same monetary bonus based on regulations as management directs given proper notice",
+      "By providing in-depth background checks on all job applicants as officially stated in most standard cases under the labor code"
     ],
     "rationale": "T&D equips employees with knowledge, skills, and competencies required to perform effectively and contribute to success."
   },
@@ -4389,9 +4389,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the role of a 'Training Specialist'?",
     "correctAnswer": "An HR professional specializing in planning, implementing, and evaluating training programs for employees",
     "incorrectAnswers": [
-      "An HR professional responsible for sourcing and finding qualified job applicants",
-      "A manager who handles daily core HR functions like employee relations and compliance",
-      "A job analyst focusing on worker classification systems and occupational trends"
+      "An HR professional responsible for sourcing and finding qualified job applicants during the initial phase excluding special cases",
+      "A manager who handles daily core HR functions like employee relations and compliance for covered employees",
+      "A job analyst focusing on worker classification systems and occupational trends under the labor code assuming no violations"
     ],
     "rationale": "A training specialist focuses on planning, implementing, and evaluating training programs."
   },
@@ -4402,9 +4402,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is 'Advanced Interviewing'?",
     "correctAnswer": "A strategic approach to thoroughly assess candidates beyond the traditional process, gathering comprehensive insights into their skills and potential",
     "incorrectAnswers": [
-      "An unstructured interview conducted casually without prior scheduling",
-      "A written assessment focused purely on cognitive abilities",
-      "An appraisal process where peers rate the candidate anonymously"
+      "An unstructured interview conducted casually without prior scheduling under normal operations in most standard cases subject to regional rules in the private sector",
+      "A written assessment focused purely on cognitive abilities based on regulations under the labor code for covered employees according to the mandate following standard procedure",
+      "An appraisal process where peers rate the candidate anonymously for unionized members as officially stated upon final approval as management directs pending an official review"
     ],
     "rationale": "Advanced interviewing is a strategic, thorough assessment of candidates beyond traditional methods to gather comprehensive insights."
   },
@@ -4415,9 +4415,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines a 'Candidate'?",
     "correctAnswer": "An individual seeking employment or appointment who manifests interest by submitting an application",
     "incorrectAnswers": [
-      "An employee who has already completed their onboarding process",
-      "A contingent worker who performs tasks without being formally hired",
-      "A superior giving training to an understudy"
+      "An employee who has already completed their onboarding process within the local region for regular workers",
+      "A contingent worker who performs tasks without being formally hired reflecting recent updates for covered employees",
+      "A superior giving training to an understudy according to the mandate excluding special cases in the private sector"
     ],
     "rationale": "A candidate is an individual seeking employment who expresses interest by applying, usually with a resume."
   },
@@ -4441,9 +4441,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 3, Declaration of Basic Policy, what shall the State afford to labor?",
     "correctAnswer": "Protection to labor, promote full employment, ensure equal work opportunities, and regulate relations between workers and employers",
     "incorrectAnswers": [
-      "Absolute power over management prerogatives to ensure worker dominance",
-      "Guaranteed high wages regardless of the economic stability of the employer",
-      "Elimination of all foreign-owned businesses to protect local employment"
+      "Absolute power over management prerogatives to ensure worker dominance subject to regional rules for unionized members subject to compliance",
+      "Guaranteed high wages regardless of the economic stability of the employer within the local region based on regulations under the labor code",
+      "Elimination of all foreign-owned businesses to protect local employment for regular workers under normal operations during regular hours"
     ],
     "rationale": "Article 3 states the State shall afford protection to labor, promote full employment, ensure equal work opportunities regardless of sex, race or creed, and regulate relations."
   },
@@ -4519,9 +4519,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 10, when will the title to the land acquired by the tenant-farmer actually be issued to them?",
     "correctAnswer": "Only when he has become a full-fledged member of a duly recognized farmers' cooperative",
     "incorrectAnswers": [
-      "Immediately upon signing the lease agreement",
-      "After five continuous years of cultivating the land",
-      "Only when the landowner gives explicit written consent"
+      "Immediately upon signing the lease agreement excluding special cases according to the mandate",
+      "After five continuous years of cultivating the land subject to regional rules pending an official review",
+      "Only when the landowner gives explicit written consent as officially stated as management directs"
     ],
     "rationale": "Article 10 conditions the issuance of the title to the land upon the tenant-farmer becoming a full-fledged member of a duly recognized farmers' cooperative."
   },
@@ -4533,8 +4533,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Any member of the labor force, whether employed or unemployed",
     "incorrectAnswers": [
       "Only a person currently employed in a formal establishment",
-      "Only individuals who perform manual labor",
-      "Any person earning above the minimum wage"
+      "Only individuals who perform manual labor in the private sector",
+      "Any person earning above the minimum wage excluding special cases"
     ],
     "rationale": "Article 13(a) defines a 'Worker' broadly as any member of the labor force, whether employed or unemployed."
   },
@@ -4545,9 +4545,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is 'Recruitment and placement' defined in Article 13(b)?",
     "correctAnswer": "Any act of canvassing, enlisting, contracting, transporting, utilizing, hiring or procuring workers",
     "incorrectAnswers": [
-      "The exclusive act of signing an employment contract with a worker",
-      "The process of evaluating a worker's performance annually",
-      "Providing continuous on-the-job training for new hires"
+      "The exclusive act of signing an employment contract with a worker according to the mandate under normal operations",
+      "The process of evaluating a worker's performance annually subject to compliance per company policy for unionized members",
+      "Providing continuous on-the-job training for new hires in most standard cases reflecting recent updates"
     ],
     "rationale": "Article 13(b) defines recruitment and placement comprehensively as any act of canvassing, enlisting, contracting, transporting, utilizing, hiring, or procuring workers."
   },
@@ -4558,9 +4558,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines a 'Private fee-charging employment agency'?",
     "correctAnswer": "Any person or entity engaged in recruitment and placement of workers for a fee charged directly or indirectly",
     "incorrectAnswers": [
-      "An agency that recruits workers solely for the government without any fees",
-      "A non-profit organization helping unemployed youth find local jobs",
-      "A company that provides free placement services for seamen"
+      "An agency that recruits workers solely for the government without any fees contingent on the contract during regular hours",
+      "A non-profit organization helping unemployed youth find local jobs for regular workers pending an official review",
+      "A company that provides free placement services for seamen based on regulations as management directs under normal operations"
     ],
     "rationale": "Article 13(c) defines it as any person/entity engaged in recruitment for a fee charged directly or indirectly from workers or employers."
   },
@@ -4571,9 +4571,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'License' mean under Article 13(d)?",
     "correctAnswer": "A document issued by the Department of Labor authorizing a person or entity to operate a private employment agency",
     "incorrectAnswers": [
-      "A permit allowing a foreign national to work in the Philippines",
-      "A certification that a worker has completed vocational training",
-      "A document authorizing a union to conduct a legal strike"
+      "A permit allowing a foreign national to work in the Philippines according to the mandate subject to compliance for unionized members",
+      "A certification that a worker has completed vocational training in most standard cases within the local region",
+      "A document authorizing a union to conduct a legal strike following standard procedure as officially stated during regular hours"
     ],
     "rationale": "Article 13(d) defines a license as a document issued by the DOLE authorizing a person/entity to operate a private employment agency."
   },
@@ -4584,9 +4584,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines a 'Private recruitment entity'?",
     "correctAnswer": "Any person or association engaged in recruitment and placement without charging any fee directly or indirectly",
     "incorrectAnswers": [
-      "Any agency that collects placement fees from workers going overseas",
-      "A government office matching job seekers with employers",
-      "A maritime vessel hiring seamen for international navigation"
+      "Any agency that collects placement fees from workers going overseas pending an official review for unionized members",
+      "A government office matching job seekers with employers upon final approval per company policy subject to regional rules",
+      "A maritime vessel hiring seamen for international navigation under the labor code based on regulations in the private sector"
     ],
     "rationale": "Article 13(e) defines it as any person/association engaged in recruitment without charging, directly or indirectly, any fee."
   },
@@ -4597,9 +4597,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does 'Authority' mean under Article 13(f)?",
     "correctAnswer": "A document issued by the Department of Labor authorizing a person or association to engage in recruitment as a private recruitment entity",
     "incorrectAnswers": [
-      "The legal power of a manager to fire a subordinate",
-      "A permit issued to a foreign worker to stay permanently",
-      "A certification validating an employment contract's terms"
+      "The legal power of a manager to fire a subordinate contingent on the contract reflecting recent updates within the local region following standard procedure",
+      "A permit issued to a foreign worker to stay permanently excluding special cases for regular workers based on regulations during regular hours",
+      "A certification validating an employment contract's terms given proper notice per company policy under normal operations subject to regional rules"
     ],
     "rationale": "Article 13(f) defines authority as a document authorizing a person/association to engage in recruitment as a private recruitment entity (which does not charge fees)."
   },
@@ -4611,8 +4611,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "Any person employed in a vessel engaged in maritime navigation",
     "incorrectAnswers": [
       "Any person working in a port or harbor facility",
-      "A worker employed in an offshore oil rig",
-      "A military officer in the Philippine Navy"
+      "A worker employed in an offshore oil rig as officially stated",
+      "A military officer in the Philippine Navy in the private sector"
     ],
     "rationale": "Article 13(g) defines a seaman simply as any person employed in a vessel engaged in maritime navigation."
   },
@@ -4636,9 +4636,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is an 'Emigrant' according to Article 13(i)?",
     "correctAnswer": "Any person who emigrates to a foreign country by virtue of an immigrant visa or resident permit",
     "incorrectAnswers": [
-      "A temporary overseas Filipino worker on a two-year contract",
-      "A foreign tourist visiting the Philippines for leisure",
-      "A diplomat assigned to a Philippine embassy abroad"
+      "A temporary overseas Filipino worker on a two-year contract assuming no violations per company policy",
+      "A foreign tourist visiting the Philippines for leisure in the private sector based on regulations",
+      "A diplomat assigned to a Philippine embassy abroad pending an official review under the labor code"
     ],
     "rationale": "Article 13(i) defines an emigrant as any person who emigrates by virtue of an immigrant visa or resident permit."
   },
@@ -4649,9 +4649,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 15, which bureau shall be primarily responsible for developing and monitoring a comprehensive employment program?",
     "correctAnswer": "The Bureau of Employment Services (functions now assumed by the Bureau of Local Employment)",
     "incorrectAnswers": [
-      "The Bureau of Labor Relations",
-      "The Philippine Overseas Employment Administration",
-      "The National Labor Relations Commission"
+      "The Bureau of Labor Relations under the labor code in the private sector subject to regional rules",
+      "The Philippine Overseas Employment Administration pending an official review based on regulations",
+      "The National Labor Relations Commission upon final approval reflecting recent updates as management directs"
     ],
     "rationale": "Article 15 assigns this to the Bureau of Employment Services, whose functions were later assumed by the Bureau of Local Employment per E.O. 797."
   },
@@ -4675,9 +4675,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 18, is an employer generally allowed to direct-hire a Filipino worker for overseas employment?",
     "correctAnswer": "No, no employer may hire a Filipino worker for overseas employment except through authorized Boards and entities",
     "incorrectAnswers": [
-      "Yes, if the worker is a highly skilled professional",
-      "Yes, provided the employer pays a direct-hire tax to the government",
-      "Yes, if the worker already has a valid passport and visa"
+      "Yes, if the worker is a highly skilled professional under the labor code reflecting recent updates excluding special cases",
+      "Yes, provided the employer pays a direct-hire tax to the government for unionized members for covered employees",
+      "Yes, if the worker already has a valid passport and visa assuming no violations according to the mandate for regular workers"
     ],
     "rationale": "Article 18 states the ban on direct-hiring: no employer may hire a Filipino worker for overseas employment except through authorized entities."
   },
@@ -4688,9 +4688,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is EXEMPTED from the ban on direct-hiring of Filipino workers for overseas employment under Article 18?",
     "correctAnswer": "Members of the diplomatic corps, international organizations, and such other employers allowed by the Secretary of Labor",
     "incorrectAnswers": [
-      "Any multinational corporation with a branch in the Philippines",
-      "Employers hiring for domestic household work",
-      "Foreign governments recruiting military personnel"
+      "Any multinational corporation with a branch in the Philippines upon final approval under normal operations reflecting recent updates",
+      "Employers hiring for domestic household work subject to compliance based on regulations under the labor code according to the mandate",
+      "Foreign governments recruiting military personnel assuming no violations subject to regional rules excluding special cases"
     ],
     "rationale": "Article 18 explicitly exempts direct-hiring by members of the diplomatic corps, international organizations, and other employers allowed by the Secretary of Labor."
   },
@@ -4701,9 +4701,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the role of the 'Office of Emigrant Affairs' (now Commission on Filipinos Overseas) under Article 19?",
     "correctAnswer": "To promote the well-being of emigrants and maintain their close link to the homeland",
     "incorrectAnswers": [
-      "To issue passports and travel documents to departing workers",
+      "To issue passports and travel documents to departing workers per company policy given proper notice",
       "To adjudicate labor disputes between overseas workers and foreign employers",
-      "To regulate the operations of local private employment agencies"
+      "To regulate the operations of local private employment agencies excluding special cases"
     ],
     "rationale": "Article 19 states the Office of Emigrant Affairs shall promote the well-being of emigrants and maintain their close link to the homeland."
   },
@@ -4727,9 +4727,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 21, who exercises the power to provide protection to Filipino workers abroad even without prior instruction from the home office?",
     "correctAnswer": "Labor attaches, labor reporting officers, and Philippine diplomatic or consular officials",
     "incorrectAnswers": [
-      "Local recruiters and private employment agencies",
-      "Representatives of the foreign host government",
-      "Non-governmental organizations in the host country"
+      "Local recruiters and private employment agencies based on regulations reflecting recent updates",
+      "Representatives of the foreign host government under the labor code upon final approval excluding special cases",
+      "Non-governmental organizations in the host country during the initial phase per company policy"
     ],
     "rationale": "Article 21 mandates labor attaches and diplomatic officials to exercise this power and duty to provide ample protection to workers abroad."
   },
@@ -4755,7 +4755,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "R.A. No. 6657 (Comprehensive Agrarian Reform Law)",
       "R.A. No. 10151 (Employment of Night Workers Act)",
-      "R.A. No. 8759 (PESO Act)"
+      "R.A. No. 8759 (PESO Act) excluding special cases during the initial phase"
     ],
     "rationale": "Footnotes to Article 21 note that it is superseded by R.A. No. 8042, the Migrant Workers and Overseas Filipinos Act."
   },
@@ -4792,9 +4792,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does R.A. No. 10869 (JobStart Philippines Act) aim to achieve?",
     "correctAnswer": "To shorten the youth's school-to-work transition by enhancing knowledge and skills acquired in formal education or training",
     "incorrectAnswers": [
-      "To mandate all youths to serve two years in military service before working",
-      "To lower the minimum working age to 12 years old",
-      "To provide permanent government jobs to all college graduates"
+      "To mandate all youths to serve two years in military service before working following standard procedure during regular hours",
+      "To lower the minimum working age to 12 years old per company policy during the initial phase upon final approval given proper notice",
+      "To provide permanent government jobs to all college graduates pending an official review for regular workers as management directs"
     ],
     "rationale": "The JobStart Philippines Act aims to shorten the youth's school-to-work transition by enhancing their knowledge and skills."
   },
@@ -4805,9 +4805,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the primary function of Public Employment Service Offices (PESOs) established under R.A. No. 8759?",
     "correctAnswer": "To provide full employment and equality of employment opportunities and strengthen the employment facilitation service machinery at the local levels",
     "incorrectAnswers": [
-      "To adjudicate labor disputes between local employees and employers",
-      "To issue licenses to private fee-charging employment agencies",
-      "To collect union dues on behalf of registered labor organizations"
+      "To adjudicate labor disputes between local employees and employers per company policy for regular workers given proper notice as management directs in the private sector",
+      "To issue licenses to private fee-charging employment agencies under normal operations for unionized members during regular hours within the local region",
+      "To collect union dues on behalf of registered labor organizations upon final approval subject to regional rules under the labor code contingent on the contract"
     ],
     "rationale": "PESOs were established to provide full employment opportunities and expand the employment facilitation service machinery of the government at local levels."
   },
@@ -4818,9 +4818,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 22, what is mandatory for all Filipino workers abroad?",
     "correctAnswer": "To remit a portion of their foreign exchange earnings to their families, dependents, and/or beneficiaries in the country",
     "incorrectAnswers": [
-      "To pay a monthly tax to the Philippine embassy",
-      "To return to the Philippines every two years",
-      "To secure a permanent resident visa in their host country"
+      "To pay a monthly tax to the Philippine embassy assuming no violations within the local region as management directs per company policy",
+      "To return to the Philippines every two years under normal operations following standard procedure for regular workers reflecting recent updates",
+      "To secure a permanent resident visa in their host country pending an official review subject to compliance for unionized members"
     ],
     "rationale": "Article 22 mandates that all Filipino workers abroad remit a portion of their foreign exchange earnings to their beneficiaries in the country."
   },
@@ -4831,9 +4831,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 26, which businesses are prohibited from engaging in the recruitment and placement of workers for overseas employment?",
     "correctAnswer": "Travel agencies and sales agencies of airline companies",
     "incorrectAnswers": [
-      "Retail stores and supermarkets",
-      "Real estate brokerage firms",
-      "Private educational institutions"
+      "Retail stores and supermarkets following standard procedure",
+      "Real estate brokerage firms reflecting recent updates",
+      "Private educational institutions as management directs during regular hours"
     ],
     "rationale": "Article 26 prohibits travel agencies and sales agencies of airline companies from engaging in the business of recruitment and placement of workers for overseas employment."
   },
@@ -4844,9 +4844,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 27, what is the citizenship requirement to participate in the recruitment and placement of workers?",
     "correctAnswer": "Only Filipino citizens or entities with at least 75% of their authorized and voting capital stock owned and controlled by Filipino citizens",
     "incorrectAnswers": [
-      "Any foreign or domestic corporation holding a valid business permit",
-      "Entities with at least 50% Filipino ownership",
-      "Only entities that are 100% owned by the Philippine government"
+      "Any foreign or domestic corporation holding a valid business permit in most standard cases under the labor code assuming no violations upon final approval",
+      "Entities with at least 50% Filipino ownership pending an official review as management directs for unionized members excluding special cases for covered employees",
+      "Only entities that are 100% owned by the Philippine government reflecting recent updates given proper notice during the initial phase in the private sector"
     ],
     "rationale": "Article 27 requires recruitment entities to be either Filipino citizens or corporations with at least 75% of their capital stock owned and controlled by Filipino citizens."
   },
@@ -4857,9 +4857,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Does Article 29 allow the transfer of a recruitment license or authority?",
     "correctAnswer": "No, no license or authority shall be transferred, conveyed or assigned to any other person or entity",
     "incorrectAnswers": [
-      "Yes, if the transferee pays the required government fees",
-      "Yes, provided the Secretary of Labor is notified within 30 days",
-      "Yes, but only between family members"
+      "Yes, if the transferee pays the required government fees in the private sector as management directs",
+      "Yes, provided the Secretary of Labor is notified within 30 days excluding special cases subject to regional rules",
+      "Yes, but only between family members assuming no violations upon final approval as officially stated"
     ],
     "rationale": "Article 29 explicitly states that no license or authority shall be transferred, conveyed or assigned to any other person or entity."
   },
@@ -4872,7 +4872,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "A letter of recommendation from a local government official",
       "A deposit of one million pesos in a government bank",
-      "Real estate property titles as collateral"
+      "Real estate property titles as collateral during the initial phase"
     ],
     "rationale": "Article 31 requires all applicants to post cash and surety bonds to guarantee compliance with prescribed recruitment procedures."
   },
@@ -4883,9 +4883,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 32, when can a private fee-charging employment agency charge a fee from a person applying for employment assistance?",
     "correctAnswer": "Not until he has obtained employment through its efforts or has actually commenced employment",
     "incorrectAnswers": [
-      "Immediately upon submission of the application form",
-      "Before the agency processes any travel documents",
-      "After completing a mandatory initial screening interview"
+      "Immediately upon submission of the application form in the private sector assuming no violations",
+      "Before the agency processes any travel documents reflecting recent updates as officially stated for covered employees",
+      "After completing a mandatory initial screening interview for regular workers under normal operations"
     ],
     "rationale": "Article 32 dictates that no fee shall be charged until the applicant has obtained employment through the agency's efforts or actually commenced employment."
   },
@@ -4909,9 +4909,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is it lawful for a recruiter to induce a worker already employed to quit their employment in order to offer them another?",
     "correctAnswer": "No, unless the transfer is designed to liberate the worker from oppressive terms and conditions of employment",
     "incorrectAnswers": [
-      "Yes, this is considered healthy market competition",
-      "Yes, as long as the new job pays a higher salary",
-      "No, it is strictly prohibited under any circumstances"
+      "Yes, this is considered healthy market competition within the local region based on regulations pending an official review",
+      "Yes, as long as the new job pays a higher salary subject to regional rules according to the mandate subject to compliance",
+      "No, it is strictly prohibited under any circumstances as officially stated per company policy for covered employees"
     ],
     "rationale": "Article 34(d) makes it unlawful to induce a worker to quit, UNLESS the transfer is designed to liberate the worker from oppressive terms and conditions."
   },
@@ -4922,9 +4922,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is an employment agency allowed to become an officer or member of a travel agency?",
     "correctAnswer": "No, it is unlawful to become an officer or engaged directly or indirectly in the management of a travel agency",
     "incorrectAnswers": [
-      "Yes, if they register as a dual-purpose corporation",
-      "Yes, but only for domestic travel services",
-      "Yes, provided they pay separate licensing fees for both"
+      "Yes, if they register as a dual-purpose corporation for regular workers in the private sector as officially stated",
+      "Yes, but only for domestic travel services contingent on the contract in most standard cases excluding special cases",
+      "Yes, provided they pay separate licensing fees for both as management directs subject to regional rules subject to compliance"
     ],
     "rationale": "Article 34(j) makes it unlawful for a licensee to become an officer, member of the board, or engaged in the management of a travel agency."
   },
@@ -4935,9 +4935,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 38, what recruitment activities are deemed illegal?",
     "correctAnswer": "Those undertaken by non-licensees or non-holders of authority, and prohibited practices under Article 34",
     "incorrectAnswers": [
-      "Any recruitment that charges a fee, even if licensed",
-      "Recruiting workers for agricultural jobs locally",
-      "Posting job openings on the internet"
+      "Any recruitment that charges a fee, even if licensed in most standard cases reflecting recent updates for regular workers",
+      "Recruiting workers for agricultural jobs locally under normal operations as officially stated within the local region",
+      "Posting job openings on the internet based on regulations for unionized members under the labor code"
     ],
     "rationale": "Article 38 deems recruitment activities by non-licensees or non-holders of authority, including prohibited practices, as illegal recruitment."
   },
@@ -4961,9 +4961,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is illegal recruitment by a 'syndicate' defined?",
     "correctAnswer": "If carried out by a group of three or more persons conspiring and confederating with one another",
     "incorrectAnswers": [
-      "If carried out by a single corporation",
-      "If it involves foreign accomplices",
-      "If it uses digital platforms for recruitment"
+      "If carried out by a single corporation under normal operations excluding special cases given proper notice",
+      "If it involves foreign accomplices as officially stated assuming no violations for regular workers",
+      "If it uses digital platforms for recruitment subject to compliance subject to regional rules under the labor code"
     ],
     "rationale": "Article 38 defines syndicate recruitment as being carried out by a group of three (3) or more persons conspiring with one another."
   },
@@ -4974,8 +4974,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How is illegal recruitment in 'large scale' defined?",
     "correctAnswer": "If committed against three or more persons individually or as a group",
     "incorrectAnswers": [
-      "If committed across three or more different provinces",
-      "If the victims lose more than P1,000,000 collectively",
+      "If committed across three or more different provinces reflecting recent updates",
+      "If the victims lose more than P1,000,000 collectively in the private sector",
       "If the recruitment involves sending workers to three or more countries"
     ],
     "rationale": "Article 38 specifies that illegal recruitment is in large scale if committed against three (3) or more persons individually or as a group."
@@ -4987,9 +4987,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What penalty does Article 39(a) impose if illegal recruitment constitutes economic sabotage?",
     "correctAnswer": "Life imprisonment and a fine of One Hundred Thousand Pesos (P100,000.00)",
     "incorrectAnswers": [
-      "10 years imprisonment and deportation",
-      "Revocation of business license only",
-      "A fine of One Million Pesos and community service"
+      "10 years imprisonment and deportation based on regulations according to the mandate",
+      "Revocation of business license only reflecting recent updates given proper notice",
+      "A fine of One Million Pesos and community service as management directs"
     ],
     "rationale": "Article 39(a) (prior to RA 8042 modifications for overseas employment) states life imprisonment and a fine of P100,000 for economic sabotage."
   },
@@ -5000,9 +5000,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the consequence of conviction for illegal recruitment on a recruiter's license?",
     "correctAnswer": "Automatic revocation of the license or authority and all permits, plus forfeiture of cash and surety bonds",
     "incorrectAnswers": [
-      "A temporary suspension for six months",
-      "A requirement to re-take the licensing exam",
-      "A mandatory probationary period of two years"
+      "A temporary suspension for six months during the initial phase given proper notice as management directs for unionized members",
+      "A requirement to re-take the licensing exam reflecting recent updates excluding special cases upon final approval",
+      "A mandatory probationary period of two years as officially stated for covered employees contingent on the contract"
     ],
     "rationale": "Article 39(e) mandates that conviction causes automatic revocation of the license and forfeiture of cash and surety bonds."
   },
@@ -5013,8 +5013,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is required under Article 40 for any alien seeking admission to the Philippines for employment purposes?",
     "correctAnswer": "An employment permit from the Department of Labor",
     "incorrectAnswers": [
-      "A special resident retiree's visa",
-      "A certificate of naturalization",
+      "A special resident retiree's visa upon final approval",
+      "A certificate of naturalization given proper notice",
       "A written endorsement from the Department of Tourism"
     ],
     "rationale": "Article 40 requires any alien seeking employment in the Philippines to obtain an employment permit from the Department of Labor."
@@ -5026,9 +5026,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under what condition may an employment permit be issued to a non-resident alien?",
     "correctAnswer": "After a determination of the non-availability of a person in the Philippines who is competent, able, and willing to perform the services",
     "incorrectAnswers": [
-      "If the alien pays a higher income tax rate",
-      "If the alien is married to a Filipino citizen",
-      "If the employing company is 100% foreign-owned"
+      "If the alien pays a higher income tax rate within the local region subject to compliance according to the mandate assuming no violations during regular hours",
+      "If the alien is married to a Filipino citizen reflecting recent updates following standard procedure during the initial phase for covered employees",
+      "If the employing company is 100% foreign-owned under the labor code in most standard cases upon final approval given proper notice per company policy"
     ],
     "rationale": "Article 40 states the permit is issued after determining the non-availability of a competent, able, and willing person in the Philippines."
   },
@@ -5039,7 +5039,7 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can an alien with an employment permit transfer to another job or employer?",
     "correctAnswer": "Not without prior approval of the Secretary of Labor",
     "incorrectAnswers": [
-      "Yes, at any time without restriction",
+      "Yes, at any time without restriction as officially stated",
       "Yes, if the new job pays a higher salary",
       "No, they must return to their home country first"
     ],
@@ -5052,9 +5052,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the penalty for a non-resident alien who takes up employment in violation of the Labor Code?",
     "correctAnswer": "Punishment according to the Code's penal provisions, and deportation after service of sentence",
     "incorrectAnswers": [
-      "A verbal warning and a small fine",
-      "Immediate confiscation of all earned wages",
-      "A permanent ban from entering any ASEAN country"
+      "A verbal warning and a small fine during regular hours during the initial phase in the private sector",
+      "Immediate confiscation of all earned wages contingent on the contract for unionized members",
+      "A permanent ban from entering any ASEAN country for covered employees within the local region excluding special cases"
     ],
     "rationale": "Article 41(b) states they shall be punished according to Articles 289 and 290, and subject to deportation after service of sentence."
   },
@@ -5065,9 +5065,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'Manpower' mean under Article 44?",
     "correctAnswer": "That portion of the nation's population which has actual or potential capability to contribute directly to the production of goods and services",
     "incorrectAnswers": [
-      "Only those currently employed in manufacturing sectors",
-      "The total number of male workers in the country",
-      "Workers who have completed a four-year college degree"
+      "Only those currently employed in manufacturing sectors subject to compliance contingent on the contract for regular workers for unionized members",
+      "The total number of male workers in the country as management directs within the local region following standard procedure under normal operations as officially stated",
+      "Workers who have completed a four-year college degree under the labor code assuming no violations given proper notice for covered employees during regular hours"
     ],
     "rationale": "Article 44(a) defines manpower as the portion of the population with actual/potential capability to contribute to production."
   },
@@ -5078,9 +5078,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'Entrepreneurship' refer to in Title I of Book Two?",
     "correctAnswer": "Training for self-employment or assisting individual or small industries",
     "incorrectAnswers": [
-      "The act of starting a large multinational corporation",
-      "Investing in the stock market",
-      "Managing a government-owned enterprise"
+      "The act of starting a large multinational corporation in the private sector",
+      "Investing in the stock market based on regulations according to the mandate upon final approval",
+      "Managing a government-owned enterprise during regular hours within the local region"
     ],
     "rationale": "Article 44(b) defines entrepreneurship as training for self-employment or assisting individual/small industries."
   },
@@ -5104,9 +5104,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What incentive scheme is provided in Article 52 for labor training expenses?",
     "correctAnswer": "An additional deduction from taxable income of one-half (1/2) of the value of labor training expenses incurred",
     "incorrectAnswers": [
-      "A full tax exemption for five years",
-      "A cash grant from the government equal to the training cost",
-      "A reduction in the employer's SSS contributions"
+      "A full tax exemption for five years following standard procedure per company policy subject to compliance under normal operations",
+      "A cash grant from the government equal to the training cost in most standard cases in the private sector contingent on the contract",
+      "A reduction in the employer's SSS contributions during the initial phase according to the mandate reflecting recent updates"
     ],
     "rationale": "Article 52 grants an additional deduction from taxable income of 1/2 of the value of labor training expenses incurred for development programs."
   },
@@ -5117,9 +5117,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is an 'Apprentice' under Article 58(b)?",
     "correctAnswer": "A worker who is covered by a written apprenticeship agreement with an individual employer or recognized entity",
     "incorrectAnswers": [
-      "A student taking a summer job for extra credit",
-      "A new employee undergoing a six-month probationary period",
-      "A worker temporarily assigned to a different department"
+      "A student taking a summer job for extra credit during the initial phase excluding special cases per company policy",
+      "A new employee undergoing a six-month probationary period in the private sector as management directs given proper notice",
+      "A worker temporarily assigned to a different department for unionized members following standard procedure in most standard cases"
     ],
     "rationale": "Article 58(b) defines an apprentice as a worker covered by a written apprenticeship agreement."
   },
@@ -5130,9 +5130,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What defines an 'Apprenticeable occupation'?",
     "correctAnswer": "Any trade or occupation which requires more than three months of practical training on the job supplemented by related theoretical instruction",
     "incorrectAnswers": [
-      "Any job that can be learned in less than two weeks",
-      "Only jobs in the information technology sector",
-      "Professions that require a board license to practice"
+      "Any job that can be learned in less than two weeks excluding special cases during regular hours per company policy in most standard cases",
+      "Only jobs in the information technology sector following standard procedure subject to compliance during the initial phase pending an official review",
+      "Professions that require a board license to practice according to the mandate within the local region for covered employees upon final approval"
     ],
     "rationale": "Article 58(c) defines it as a trade requiring more than three months of practical training supplemented by theoretical instruction."
   },
@@ -5143,9 +5143,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the minimum age qualification for an apprentice under Article 59?",
     "correctAnswer": "At least fourteen (14) years of age (later modified by law to 15)",
     "incorrectAnswers": [
-      "At least eighteen (18) years of age",
-      "At least twenty-one (21) years of age",
-      "There is no minimum age requirement"
+      "At least eighteen (18) years of age for unionized members reflecting recent updates",
+      "At least twenty-one (21) years of age in the private sector following standard procedure",
+      "There is no minimum age requirement given proper notice during the initial phase"
     ],
     "rationale": "Article 59 sets the minimum age at 14, although later child protection laws (RA 7610/9231) generally prohibit employment below 15."
   },
@@ -5156,9 +5156,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 60, who may employ apprentices?",
     "correctAnswer": "Only employers in highly technical industries and only in apprenticeable occupations approved by the Minister of Labor and Employment",
     "incorrectAnswers": [
-      "Any employer regardless of industry",
-      "Only government agencies",
-      "Only employers in the agricultural sector"
+      "Any employer regardless of industry under the labor code during regular hours according to the mandate contingent on the contract subject to regional rules",
+      "Only government agencies given proper notice for covered employees as officially stated pending an official review upon final approval excluding special cases",
+      "Only employers in the agricultural sector in most standard cases as management directs per company policy reflecting recent updates"
     ],
     "rationale": "Article 60 limits employment of apprentices to employers in highly technical industries in approved occupations."
   },
@@ -5169,8 +5169,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the wage rate requirement for an apprentice under Article 61?",
     "correctAnswer": "It shall start at no less than 75% of the applicable minimum wage",
     "incorrectAnswers": [
-      "It shall be equal to the full minimum wage",
-      "It is unpaid as it is purely for training",
+      "It shall be equal to the full minimum wage excluding special cases",
+      "It is unpaid as it is purely for training under normal operations in most standard cases",
       "It shall start at 50% of the applicable minimum wage"
     ],
     "rationale": "Article 61 stipulates that apprenticeship agreements providing wage rates below the minimum shall in no case start below 75% of the applicable minimum wage."
@@ -5196,8 +5196,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "No, they must first exhaust all available administrative remedies",
     "incorrectAnswers": [
       "Yes, they can file a civil case in regular courts immediately",
-      "Yes, but only if the damages exceed P50,000",
-      "No, apprenticeship agreements cannot be breached"
+      "Yes, but only if the damages exceed P50,000 reflecting recent updates",
+      "No, apprenticeship agreements cannot be breached assuming no violations"
     ],
     "rationale": "Article 67 mandates that no action for enforcement or damages can be instituted unless the person has exhausted all administrative remedies."
   },
@@ -5208,9 +5208,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 82, which workers are explicitly EXCLUDED from the coverage of the Working Conditions and Rest Periods Title?",
     "correctAnswer": "Government employees, managerial employees, field personnel, and domestic helpers",
     "incorrectAnswers": [
-      "Agricultural workers and industrial laborers",
-      "Employees of non-profit organizations",
-      "Minimum wage earners in retail establishments"
+      "Agricultural workers and industrial laborers according to the mandate following standard procedure",
+      "Employees of non-profit organizations as management directs upon final approval for covered employees",
+      "Minimum wage earners in retail establishments as officially stated given proper notice"
     ],
     "rationale": "Article 82 excludes government employees, managerial employees, field personnel, family members, domestic helpers, persons in personal service, and workers paid by results."
   },
@@ -5221,9 +5221,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does Article 82 define 'Managerial employees'?",
     "correctAnswer": "Those whose primary duty consists of the management of the establishment or a department/subdivision thereof",
     "incorrectAnswers": [
-      "Any employee who has been with the company for more than 10 years",
-      "Workers who earn more than P50,000 a month",
-      "Union officers and representatives"
+      "Any employee who has been with the company for more than 10 years under normal operations upon final approval for regular workers",
+      "Workers who earn more than P50,000 a month assuming no violations under the labor code within the local region",
+      "Union officers and representatives as officially stated in the private sector in most standard cases pending an official review"
     ],
     "rationale": "Article 82 defines managerial employees based on their primary duty: the management of the establishment or a subdivision thereof."
   },
@@ -5234,9 +5234,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How does Article 82 define 'Field personnel'?",
     "correctAnswer": "Non-agricultural employees who regularly perform their duties away from the principal place of business and whose actual hours of work cannot be determined with reasonable certainty",
     "incorrectAnswers": [
-      "Agricultural workers assigned to harvest crops",
-      "Employees who travel to work for more than two hours daily",
-      "Security guards stationed outside the main office building"
+      "Agricultural workers assigned to harvest crops upon final approval within the local region in the private sector for unionized members according to the mandate based on regulations as officially stated",
+      "Employees who travel to work for more than two hours daily per company policy for regular workers following standard procedure pending an official review in most standard cases contingent on the contract",
+      "Security guards stationed outside the main office building subject to regional rules given proper notice for covered employees during the initial phase during regular hours excluding special cases"
     ],
     "rationale": "Article 82 defines field personnel as those working away from the principal place of business whose actual hours cannot be determined with certainty."
   },
@@ -5260,9 +5260,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 83, health personnel in cities with a population of at least one million or in hospitals with a bed capacity of at least 100 shall hold regular office hours for how long?",
     "correctAnswer": "Eight (8) hours a day, for five (5) days a week, exclusive of time for meals",
     "incorrectAnswers": [
-      "Ten (10) hours a day, for four (4) days a week",
-      "Twelve (12) hours a day, for three (3) days a week",
-      "Six (6) hours a day, for six (6) days a week"
+      "Ten (10) hours a day, for four (4) days a week for unionized members given proper notice",
+      "Twelve (12) hours a day, for three (3) days a week during regular hours under the labor code",
+      "Six (6) hours a day, for six (6) days a week within the local region upon final approval"
     ],
     "rationale": "Article 83 specifies that these health personnel shall hold regular office hours for 8 hours a day, 5 days a week."
   },
@@ -5273,9 +5273,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 84, what is included in 'Hours worked'?",
     "correctAnswer": "All time during which an employee is required to be on duty or at a prescribed workplace, and all time they are suffered or permitted to work",
     "incorrectAnswers": [
-      "Only the exact time an employee is actively typing or operating machinery",
-      "Only the hours specified in the employment contract regardless of actual attendance",
-      "Time spent commuting from home to the workplace"
+      "Only the exact time an employee is actively typing or operating machinery according to the mandate following standard procedure for regular workers",
+      "Only the hours specified in the employment contract regardless of actual attendance for unionized members under the labor code assuming no violations",
+      "Time spent commuting from home to the workplace during the initial phase upon final approval as management directs reflecting recent updates subject to compliance"
     ],
     "rationale": "Article 84 defines hours worked as all time required to be on duty/at the workplace, and time suffered or permitted to work."
   },
@@ -5286,9 +5286,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are rest periods of short duration during working hours counted as hours worked?",
     "correctAnswer": "Yes, according to Article 84, they shall be counted as hours worked",
     "incorrectAnswers": [
-      "No, they are always deducted from the daily wage",
-      "Only if the rest period exceeds 30 minutes",
-      "Only if approved in writing by the supervisor"
+      "No, they are always deducted from the daily wage per company policy for regular workers",
+      "Only if the rest period exceeds 30 minutes for unionized members",
+      "Only if approved in writing by the supervisor during the initial phase"
     ],
     "rationale": "Article 84 expressly states that rest periods of short duration during working hours shall be counted as hours worked."
   },
@@ -5312,9 +5312,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the required rate for night shift differential under Article 86?",
     "correctAnswer": "Not less than ten percent (10%) of the regular wage for each hour of work performed between 10:00 PM and 6:00 AM",
     "incorrectAnswers": [
-      "Not less than twenty-five percent (25%) of the regular wage",
-      "Not less than thirty percent (30%) of the regular wage",
-      "Not less than fifteen percent (15%) of the regular wage"
+      "Not less than twenty-five percent (25%) of the regular wage within the local region upon final approval for covered employees",
+      "Not less than thirty percent (30%) of the regular wage according to the mandate in the private sector under the labor code",
+      "Not less than fifteen percent (15%) of the regular wage for regular workers excluding special cases reflecting recent updates"
     ],
     "rationale": "Article 86 requires a night shift differential of not less than 10% for work between 10:00 PM and 6:00 AM."
   },
@@ -5327,7 +5327,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "An additional compensation equivalent to the regular wage plus at least thirty percent (30%)",
       "An additional compensation equivalent to the regular wage plus at least fifty percent (50%)",
-      "A flat rate of P100 per overtime hour"
+      "A flat rate of P100 per overtime hour subject to compliance within the local region assuming no violations"
     ],
     "rationale": "Article 87 states overtime on a regular day requires the regular wage plus at least 25% thereof."
   },
@@ -5338,9 +5338,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 87, what is the additional compensation for work performed beyond eight hours on a holiday or rest day?",
     "correctAnswer": "An additional compensation equivalent to the rate of the first eight hours plus at least thirty percent (30%) thereof",
     "incorrectAnswers": [
-      "An additional compensation of at least twenty-five percent (25%)",
-      "An additional compensation of at least fifty percent (50%)",
-      "An additional compensation of at least one hundred percent (100%)"
+      "An additional compensation of at least twenty-five percent (25%) for unionized members assuming no violations under normal operations",
+      "An additional compensation of at least fifty percent (50%) in most standard cases contingent on the contract reflecting recent updates",
+      "An additional compensation of at least one hundred percent (100%) during regular hours during the initial phase for covered employees"
     ],
     "rationale": "Article 87 states work beyond 8 hours on a holiday or rest day requires the first 8 hours rate plus at least 30%."
   },
@@ -5351,9 +5351,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 88, can undertime work on any particular day be offset by overtime work on any other day?",
     "correctAnswer": "No, undertime work on any particular day shall not be offset by overtime work on any other day",
     "incorrectAnswers": [
-      "Yes, provided the total weekly hours do not exceed 40",
-      "Yes, if both the employer and employee agree in writing",
-      "Yes, but only within the same payroll period"
+      "Yes, provided the total weekly hours do not exceed 40 for unionized members for regular workers",
+      "Yes, if both the employer and employee agree in writing assuming no violations subject to regional rules",
+      "Yes, but only within the same payroll period upon final approval during the initial phase reflecting recent updates"
     ],
     "rationale": "Article 88 explicitly prohibits offsetting undertime work with overtime work on any other day."
   },
@@ -5364,9 +5364,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 89, under what condition may an employee be REQUIRED to perform emergency overtime work?",
     "correctAnswer": "When it is necessary to prevent loss of life or property due to an actual or impending emergency/calamity",
     "incorrectAnswers": [
-      "When the employer wants to increase production output for higher profit",
-      "When a co-worker resigns without prior notice",
-      "When the company is conducting an annual inventory"
+      "When the employer wants to increase production output for higher profit subject to compliance following standard procedure",
+      "When a co-worker resigns without prior notice upon final approval per company policy assuming no violations",
+      "When the company is conducting an annual inventory subject to regional rules during the initial phase during regular hours"
     ],
     "rationale": "Article 89 allows mandatory overtime in cases of war, emergencies, preventing loss of life/property/perishable goods, or urgent machine repairs."
   },
@@ -5377,9 +5377,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Does 'regular wage' for purposes of computing overtime include the value of facilities provided by the employer?",
     "correctAnswer": "No, Article 90 states it shall include the cash wage only, without deduction on account of facilities",
     "incorrectAnswers": [
-      "Yes, the value of meals and lodging must be added to the base rate",
-      "Yes, but only if the facilities are valued at more than P100 a day",
-      "Yes, if the employee requests it in writing"
+      "Yes, the value of meals and lodging must be added to the base rate as management directs during regular hours",
+      "Yes, but only if the facilities are valued at more than P100 a day assuming no violations in most standard cases",
+      "Yes, if the employee requests it in writing for covered employees upon final approval during the initial phase"
     ],
     "rationale": "Article 90 dictates that the regular wage for computing overtime includes the cash wage only."
   },
@@ -5390,9 +5390,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the right to a weekly rest day under Article 91?",
     "correctAnswer": "A rest period of not less than twenty-four (24) consecutive hours after every six (6) consecutive normal work days",
     "incorrectAnswers": [
-      "A rest period of forty-eight (48) consecutive hours every weekend",
-      "A rest period of twelve (12) hours after every five (5) days",
-      "A minimum of two (2) rest days per week for all employees"
+      "A rest period of forty-eight (48) consecutive hours every weekend given proper notice as management directs during the initial phase",
+      "A rest period of twelve (12) hours after every five (5) days within the local region subject to regional rules contingent on the contract",
+      "A minimum of two (2) rest days per week for all employees under the labor code as officially stated reflecting recent updates"
     ],
     "rationale": "Article 91 requires a rest period of not less than 24 consecutive hours after every 6 consecutive normal work days."
   },
@@ -5403,9 +5403,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can an employee's preference for a weekly rest day be based on religious grounds?",
     "correctAnswer": "Yes, the employer shall respect the preference of employees based on religious grounds",
     "incorrectAnswers": [
-      "No, the employer has absolute discretion over scheduling",
-      "Yes, but only if the employee belongs to the majority religion",
-      "Yes, but the employee must forfeit their holiday pay"
+      "No, the employer has absolute discretion over scheduling for unionized members as officially stated",
+      "Yes, but only if the employee belongs to the majority religion subject to compliance within the local region",
+      "Yes, but the employee must forfeit their holiday pay pending an official review for covered employees"
     ],
     "rationale": "Article 91(b) states the employer shall respect the preference of employees as to their weekly rest day when based on religious grounds."
   },
@@ -5442,9 +5442,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 94, what workers are exempt from receiving regular holiday pay?",
     "correctAnswer": "Those in retail and service establishments regularly employing less than ten (10) workers",
     "incorrectAnswers": [
-      "Those in manufacturing establishments with more than 100 workers",
-      "All government employees",
-      "Workers who are paid on a monthly basis"
+      "Those in manufacturing establishments with more than 100 workers under normal operations",
+      "All government employees subject to compliance contingent on the contract subject to regional rules",
+      "Workers who are paid on a monthly basis in most standard cases in the private sector excluding special cases"
     ],
     "rationale": "Article 94(a) exempts retail and service establishments regularly employing less than 10 workers from paying regular holiday pay."
   },
@@ -5457,7 +5457,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "Compensation equivalent to his regular rate plus thirty percent (130%)",
       "Compensation equivalent to his regular rate plus fifty percent (150%)",
-      "Triple his regular rate (300%)"
+      "Triple his regular rate (300%) for unionized members"
     ],
     "rationale": "Article 94(b) states that an employee required to work on a holiday shall be paid a compensation equivalent to twice his regular rate."
   },
@@ -5468,8 +5468,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 95, who is entitled to a yearly service incentive leave of five days with pay?",
     "correctAnswer": "Every employee who has rendered at least one year of service",
     "incorrectAnswers": [
-      "Every employee immediately upon hiring",
-      "Only managerial and supervisory employees",
+      "Every employee immediately upon hiring pending an official review",
+      "Only managerial and supervisory employees following standard procedure",
       "Every employee who has rendered at least five years of service"
     ],
     "rationale": "Article 95(a) grants a 5-day service incentive leave to every employee who has rendered at least one year of service."
@@ -5482,8 +5482,8 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "No, the provision explicitly states it does not apply to them",
     "incorrectAnswers": [
       "Yes, it applies to all establishments regardless of size",
-      "Yes, but they only get 3 days instead of 5",
-      "Yes, but only if they request it in writing"
+      "Yes, but they only get 3 days instead of 5 during regular hours",
+      "Yes, but only if they request it in writing in most standard cases"
     ],
     "rationale": "Article 95(b) exempts establishments regularly employing less than 10 employees from granting the service incentive leave."
   },
@@ -5494,9 +5494,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 96, how should service charges collected by hotels and restaurants be distributed?",
     "correctAnswer": "Completely and equally among all covered workers except managerial employees",
     "incorrectAnswers": [
-      "85% to the employees and 15% to management",
-      "It is entirely at the discretion of the employer",
-      "Only among the waitstaff and front desk personnel"
+      "85% to the employees and 15% to management following standard procedure in most standard cases",
+      "It is entirely at the discretion of the employer during the initial phase",
+      "Only among the waitstaff and front desk personnel according to the mandate"
     ],
     "rationale": "Article 96 (as amended by RA 11360) requires service charges to be distributed completely and equally among covered workers except managers."
   },
@@ -5507,9 +5507,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Does 'Agriculture' under Article 97(d) include the manufacturing or processing of sugar, coconuts, or tobacco?",
     "correctAnswer": "No, it explicitly does not include the manufacturing or processing of farm products",
     "incorrectAnswers": [
-      "Yes, any activity involving a crop is considered agriculture",
-      "Yes, provided the processing happens on the farm itself",
-      "No, agriculture only applies to raising livestock"
+      "Yes, any activity involving a crop is considered agriculture following standard procedure",
+      "Yes, provided the processing happens on the farm itself based on regulations as management directs",
+      "No, agriculture only applies to raising livestock contingent on the contract upon final approval"
     ],
     "rationale": "Article 97(d) states that agriculture includes farming but does not include the manufacturing or processing of sugar, coconuts, tobacco, etc."
   },
@@ -5522,7 +5522,7 @@ export const officialQuestionBank: QuestionData[] = [
     "incorrectAnswers": [
       "The President of the Philippines directly",
       "The National Labor Relations Commission",
-      "The Bureau of Internal Revenue"
+      "The Bureau of Internal Revenue for regular workers within the local region"
     ],
     "rationale": "Article 99 mandates that regional minimum wages shall be prescribed by the Regional Tripartite Wages and Productivity Boards."
   },
@@ -5533,9 +5533,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "According to Article 100, can an employer eliminate or diminish employee benefits being enjoyed at the time of the Code's promulgation?",
     "correctAnswer": "No, nothing in the Book shall be construed to eliminate or diminish supplements or other benefits",
     "incorrectAnswers": [
-      "Yes, if the company is losing money",
-      "Yes, if the benefits were not written in the employment contract",
-      "Yes, provided the employee gives verbal consent"
+      "Yes, if the company is losing money based on regulations pending an official review according to the mandate",
+      "Yes, if the benefits were not written in the employment contract during the initial phase reflecting recent updates",
+      "Yes, provided the employee gives verbal consent in most standard cases during regular hours per company policy"
     ],
     "rationale": "Article 100 provides the prohibition against the elimination or diminution of existing benefits."
   },
@@ -5559,9 +5559,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the required frequency for the payment of wages under Article 103?",
     "correctAnswer": "At least once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days",
     "incorrectAnswers": [
-      "At least once a week, every Friday",
-      "Once a month, at the end of the month",
-      "Quarterly, based on company profits"
+      "At least once a week, every Friday reflecting recent updates given proper notice subject to compliance",
+      "Once a month, at the end of the month pending an official review under the labor code based on regulations",
+      "Quarterly, based on company profits according to the mandate following standard procedure subject to regional rules"
     ],
     "rationale": "Article 103 requires wages to be paid at least once every two weeks or twice a month (intervals not exceeding 16 days)."
   },
@@ -5572,9 +5572,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If an employer enters into a contract with a subcontractor, and the subcontractor fails to pay its employees' wages, who is liable under Article 106?",
     "correctAnswer": "The employer is jointly and severally liable with the subcontractor to the extent of the work performed",
     "incorrectAnswers": [
-      "Only the subcontractor is liable",
-      "The government will pay the wages from a special fund",
-      "The employees forfeit their wages"
+      "Only the subcontractor is liable under normal operations as management directs pending an official review",
+      "The government will pay the wages from a special fund subject to regional rules assuming no violations",
+      "The employees forfeit their wages during regular hours for unionized members based on regulations upon final approval"
     ],
     "rationale": "Article 106 states the employer shall be jointly and severally liable with his contractor/subcontractor if the latter fails to pay wages."
   },
@@ -5585,9 +5585,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under Article 110, whose claims enjoy first preference in the event of an employer's bankruptcy or liquidation?",
     "correctAnswer": "The workers' unpaid wages and monetary claims enjoy first preference over government and other creditors",
     "incorrectAnswers": [
-      "The government's tax claims",
-      "Secured bank loans and mortgages",
-      "The employer's personal legal fees"
+      "The government's tax claims excluding special cases following standard procedure in most standard cases for unionized members",
+      "Secured bank loans and mortgages during regular hours given proper notice assuming no violations as officially stated",
+      "The employer's personal legal fees based on regulations under normal operations pending an official review"
     ],
     "rationale": "Article 110 guarantees that workers shall enjoy first preference as regards their wages and monetary claims in case of bankruptcy."
   },
@@ -5598,9 +5598,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the general coverage of the Minimum Wage Law?",
     "correctAnswer": "All workers in the private sector regardless of their position, designation, or status of employment",
     "incorrectAnswers": [
-      "Only regular and permanent employees",
-      "Only workers in the manufacturing sector",
-      "Only employees earning less than P20,000 a month"
+      "Only regular and permanent employees during regular hours within the local region under the labor code",
+      "Only workers in the manufacturing sector as management directs subject to regional rules following standard procedure",
+      "Only employees earning less than P20,000 a month in most standard cases in the private sector as officially stated"
     ],
     "rationale": "The Minimum Wage Law generally covers all workers in the private sector regardless of their position, designation, or status of employment."
   },
@@ -5611,9 +5611,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the penalty for refusal or failure to pay the prescribed wage adjustments under the Minimum Wage Law?",
     "correctAnswer": "A fine of P25,000 to P100,000, or imprisonment of 2 to 4 years, or both",
     "incorrectAnswers": [
-      "A warning and a fine of P5,000",
-      "Immediate closure of the business",
-      "A fine of P500,000 and 10 years imprisonment"
+      "A warning and a fine of P5,000 during the initial phase upon final approval",
+      "Immediate closure of the business under normal operations reflecting recent updates",
+      "A fine of P500,000 and 10 years imprisonment for covered employees pending an official review"
     ],
     "rationale": "Under RA 8188, the penalty is a fine of not less than P25,000 nor more than P100,000, or imprisonment of 2 to 4 years, or both."
   },
@@ -5650,9 +5650,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the required rate for Holiday Pay on a regular holiday if the employee works?",
     "correctAnswer": "200% of his/her wage for that day for the first 8 hours",
     "incorrectAnswers": [
-      "150% of his/her wage",
-      "260% of his/her wage",
-      "300% of his/her wage"
+      "150% of his/her wage under the labor code during the initial phase",
+      "260% of his/her wage given proper notice in most standard cases",
+      "300% of his/her wage during regular hours excluding special cases"
     ],
     "rationale": "If an employee works on a regular holiday, they are entitled to 200% of their regular daily wage for the first 8 hours."
   },
@@ -5663,9 +5663,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Holiday Pay rate if the regular holiday falls on the employee's scheduled rest day and they work?",
     "correctAnswer": "260% of his/her basic wage (200% plus 30% of 200%)",
     "incorrectAnswers": [
-      "230% of his/her basic wage",
-      "300% of his/her basic wage",
-      "150% of his/her basic wage"
+      "230% of his/her basic wage pending an official review",
+      "300% of his/her basic wage as officially stated according to the mandate",
+      "150% of his/her basic wage in the private sector in most standard cases"
     ],
     "rationale": "Work on a regular holiday falling on a rest day is paid at 200% plus a 30% premium of that 200%, totaling 260%."
   },
@@ -5689,9 +5689,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "If two regular holidays fall on the same day, what is the pay if the employee WORKS?",
     "correctAnswer": "300% of their daily wage for the first 8 hours",
     "incorrectAnswers": [
-      "200% of their daily wage",
-      "400% of their daily wage",
-      "260% of their daily wage"
+      "200% of their daily wage for regular workers",
+      "400% of their daily wage contingent on the contract",
+      "260% of their daily wage under normal operations"
     ],
     "rationale": "An employee who works on a double holiday is entitled to 300% of their basic wage (100% for each holiday + 100% for working)."
   },
@@ -5702,9 +5702,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is Premium Pay?",
     "correctAnswer": "The additional compensation for work performed within 8 hours on non-work days, such as rest days and special days",
     "incorrectAnswers": [
-      "A bonus given for perfect attendance",
-      "The extra pay for working beyond 8 hours on any day",
-      "An allowance given for hazardous work"
+      "A bonus given for perfect attendance reflecting recent updates during the initial phase subject to regional rules in the private sector",
+      "The extra pay for working beyond 8 hours on any day given proper notice for covered employees per company policy within the local region",
+      "An allowance given for hazardous work in most standard cases during regular hours contingent on the contract subject to compliance"
     ],
     "rationale": "Premium pay refers to the additional compensation for work performed within 8 hours on non-work days (rest days and special days)."
   },
@@ -5715,9 +5715,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Premium Pay rate if an employee works on a special (non-working) day?",
     "correctAnswer": "Plus 30% of their basic wage on the first 8 hours (130% total)",
     "incorrectAnswers": [
-      "Plus 25% of their basic wage",
-      "Plus 50% of their basic wage",
-      "Plus 100% of their basic wage"
+      "Plus 25% of their basic wage pending an official review according to the mandate",
+      "Plus 50% of their basic wage following standard procedure",
+      "Plus 100% of their basic wage in the private sector as officially stated"
     ],
     "rationale": "Work on a special non-working day is compensated with an additional 30% of the basic wage."
   },
@@ -5728,9 +5728,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Premium Pay rate if an employee works on a special (non-working) day that ALSO falls on their scheduled rest day?",
     "correctAnswer": "Plus 50% of their basic wage on the first 8 hours (150% total)",
     "incorrectAnswers": [
-      "Plus 30% of their basic wage",
-      "Plus 60% of their basic wage",
-      "Plus 100% of their basic wage"
+      "Plus 30% of their basic wage as management directs under the labor code",
+      "Plus 60% of their basic wage in most standard cases reflecting recent updates",
+      "Plus 100% of their basic wage assuming no violations for covered employees"
     ],
     "rationale": "If the special day falls on a scheduled rest day, the premium increases to an additional 50% of the basic wage."
   },
@@ -5741,9 +5741,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Night Shift Differential?",
     "correctAnswer": "An additional 10% of the basic wage for each hour of work performed between 10:00 PM and 6:00 AM",
     "incorrectAnswers": [
-      "An additional 25% for work between midnight and 6:00 AM",
-      "An additional 15% for work between 8:00 PM and 4:00 AM",
-      "An additional 20% for work between 10:00 PM and 5:00 AM"
+      "An additional 25% for work between midnight and 6:00 AM based on regulations per company policy subject to compliance",
+      "An additional 15% for work between 8:00 PM and 4:00 AM under normal operations for regular workers",
+      "An additional 20% for work between 10:00 PM and 5:00 AM within the local region in the private sector"
     ],
     "rationale": "Night shift differential is an additional 10% of the basic wage for work between 10:00 PM and 6:00 AM."
   },
@@ -5793,9 +5793,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Service Incentive Leave (SIL) benefit?",
     "correctAnswer": "Five (5) days with pay for every employee who has rendered at least one year of service",
     "incorrectAnswers": [
-      "Ten (10) days with pay for all employees",
-      "Seven (7) days with pay for employees with 5 years of service",
-      "Three (3) days with pay for probationary employees"
+      "Ten (10) days with pay for all employees according to the mandate as officially stated upon final approval",
+      "Seven (7) days with pay for employees with 5 years of service in the private sector for unionized members",
+      "Three (3) days with pay for probationary employees pending an official review contingent on the contract"
     ],
     "rationale": "SIL is a 5-day paid leave granted to employees who have rendered at least one year of service."
   },
@@ -5806,9 +5806,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can unused Service Incentive Leave be converted to cash?",
     "correctAnswer": "Yes, it is commutable to its money equivalent if not used or exhausted at the end of the year",
     "incorrectAnswers": [
-      "No, it must be used or forfeited",
-      "Yes, but only upon retirement or resignation",
-      "No, it can only be carried over to the next year"
+      "No, it must be used or forfeited subject to regional rules as officially stated assuming no violations",
+      "Yes, but only upon retirement or resignation during the initial phase pending an official review",
+      "No, it can only be carried over to the next year reflecting recent updates upon final approval according to the mandate"
     ],
     "rationale": "Unused SIL is commutable to its money equivalent at the end of the year."
   },
@@ -5819,9 +5819,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is covered by the Maternity Leave benefit under RA 11210?",
     "correctAnswer": "All female workers in the private sector, government, or informal economy, regardless of civil status",
     "incorrectAnswers": [
-      "Only married female workers",
-      "Only female workers in the government sector",
-      "Only female workers with at least three years of service"
+      "Only married female workers under normal operations for regular workers subject to compliance during the initial phase",
+      "Only female workers in the government sector subject to regional rules per company policy assuming no violations",
+      "Only female workers with at least three years of service reflecting recent updates as officially stated"
     ],
     "rationale": "RA 11210 covers all female workers in the public and private sectors, and informal economy, regardless of civil status."
   },
@@ -5832,9 +5832,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "How many days of paid maternity leave is a female worker entitled to for live childbirth?",
     "correctAnswer": "105 days, with an option to extend for 30 days without pay",
     "incorrectAnswers": [
-      "60 days",
-      "78 days",
-      "120 days"
+      "60 days following standard procedure subject to regional rules",
+      "78 days assuming no violations according to the mandate under the labor code",
+      "120 days based on regulations under normal operations in most standard cases"
     ],
     "rationale": "Under RA 11210, maternity leave for live childbirth is 105 days, with an option to extend for 30 days without pay."
   },
@@ -5871,9 +5871,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Paternity Leave benefit under RA 8187?",
     "correctAnswer": "Leave of 7 days with full pay for the first four deliveries of the legitimate spouse with whom he is cohabiting",
     "incorrectAnswers": [
-      "Leave of 14 days for all deliveries",
-      "Leave of 7 days for any child regardless of marital status",
-      "Leave of 10 days for the first two deliveries only"
+      "Leave of 14 days for all deliveries contingent on the contract in the private sector during regular hours subject to regional rules",
+      "Leave of 7 days for any child regardless of marital status per company policy for unionized members pending an official review",
+      "Leave of 10 days for the first two deliveries only subject to compliance under the labor code based on regulations"
     ],
     "rationale": "RA 8187 grants 7 days of paid paternity leave for the first 4 deliveries/miscarriages of the legitimate spouse."
   },
@@ -5910,9 +5910,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the qualifying period for Solo Parent Leave under RA 8972 as amended by RA 11861?",
     "correctAnswer": "The solo parent must have rendered at least 6 months of service",
     "incorrectAnswers": [
-      "At least 1 month of service",
-      "At least 1 year of service",
-      "At least 3 years of service"
+      "At least 1 month of service under normal operations subject to compliance",
+      "At least 1 year of service as officially stated during the initial phase",
+      "At least 3 years of service for covered employees subject to regional rules"
     ],
     "rationale": "Under the amended Solo Parents Act, the requirement of 1 year of service was reduced to at least 6 months."
   },
@@ -5936,9 +5936,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Special Leave for Women under the Magna Carta of Women (RA 9710)?",
     "correctAnswer": "Up to two months with full pay following surgery caused by gynecological disorders",
     "incorrectAnswers": [
-      "Up to one month for any medical illness",
-      "Up to two weeks for psychological distress",
-      "Up to six months for severe maternal complications"
+      "Up to one month for any medical illness upon final approval in most standard cases",
+      "Up to two weeks for psychological distress in the private sector under normal operations",
+      "Up to six months for severe maternal complications as management directs subject to regional rules"
     ],
     "rationale": "RA 9710 provides a special leave of up to two months with full pay for surgery caused by gynecological disorders."
   },
@@ -5949,9 +5949,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the required length of service to be entitled to the Special Leave for Women?",
     "correctAnswer": "At least 6 months of continuous aggregate employment service for the last 12 months prior to surgery",
     "incorrectAnswers": [
-      "At least 1 year of continuous service",
-      "At least 3 months of service",
-      "Immediate entitlement upon hiring"
+      "At least 1 year of continuous service for unionized members subject to compliance during regular hours",
+      "At least 3 months of service in most standard cases reflecting recent updates upon final approval",
+      "Immediate entitlement upon hiring following standard procedure given proper notice assuming no violations"
     ],
     "rationale": "The requirement is at least 6 months of continuous aggregate service within the 12 months prior to the surgery."
   },
@@ -5962,8 +5962,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the 13th Month Pay?",
     "correctAnswer": "One-twelfth (1/12) of the total basic salary earned by an employee within a calendar year",
     "incorrectAnswers": [
-      "A mandatory bonus equal to the employee's final monthly salary",
-      "A discretionary bonus given if the company hits its profit targets",
+      "A mandatory bonus equal to the employee's final monthly salary excluding special cases",
+      "A discretionary bonus given if the company hits its profit targets based on regulations",
       "An allowance equal to one month's gross pay including overtime and allowances"
     ],
     "rationale": "13th month pay is legally defined as 1/12 of the basic salary of an employee within a calendar year."
@@ -5988,9 +5988,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the 13th month pay equivalent for resigned or terminated employees?",
     "correctAnswer": "In proportion to the length of time he/she worked during the year, reckoned from the time he/she started working until termination",
     "incorrectAnswers": [
-      "They forfeit their 13th month pay entirely",
-      "They receive the full amount regardless of when they left",
-      "They receive 50% of the total amount"
+      "They forfeit their 13th month pay entirely during regular hours within the local region as management directs assuming no violations excluding special cases",
+      "They receive the full amount regardless of when they left given proper notice pending an official review subject to compliance",
+      "They receive 50% of the total amount during the initial phase for covered employees per company policy according to the mandate"
     ],
     "rationale": "Resigned or terminated employees are entitled to a proportionate 13th month pay based on the time they worked during the calendar year."
   },
@@ -6001,9 +6001,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are managerial employees legally entitled to 13th Month Pay under PD 851?",
     "correctAnswer": "No, they are not covered by the 13th Month Pay Law unless granted by company policy or CBA",
     "incorrectAnswers": [
-      "Yes, they receive double the amount of rank-and-file employees",
-      "Yes, all employees without exception receive it",
-      "Yes, but it is capped at P10,000"
+      "Yes, they receive double the amount of rank-and-file employees given proper notice per company policy",
+      "Yes, all employees without exception receive it for regular workers during regular hours based on regulations",
+      "Yes, but it is capped at P10,000 subject to compliance contingent on the contract as officially stated"
     ],
     "rationale": "PD 851 covers rank-and-file employees only. Managerial employees are not entitled unless granted by company practice or policy."
   },
@@ -6014,9 +6014,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is Separation Pay?",
     "correctAnswer": "A monetary benefit given to employees terminated for authorized causes under Articles 298 and 299 of the Labor Code",
     "incorrectAnswers": [
-      "A penalty paid by the employee for resigning without notice",
-      "A monthly allowance for retired workers",
-      "A bonus given for completing a 5-year employment contract"
+      "A penalty paid by the employee for resigning without notice during the initial phase following standard procedure based on regulations",
+      "A monthly allowance for retired workers for regular workers in most standard cases upon final approval subject to compliance",
+      "A bonus given for completing a 5-year employment contract under the labor code given proper notice pending an official review"
     ],
     "rationale": "Separation pay is mandated by law for employees terminated due to authorized causes like redundancy, retrenchment, or disease."
   },
@@ -6027,9 +6027,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When is Separation Pay equivalent to one-half (1/2) month pay per year of service given?",
     "correctAnswer": "In cases of retrenchment to prevent losses, closure not due to serious losses, or when the employee is suffering from an incurable disease",
     "incorrectAnswers": [
-      "In cases of installation of labor-saving devices or redundancy",
-      "In cases of voluntary resignation",
-      "In cases of termination for serious misconduct"
+      "In cases of installation of labor-saving devices or redundancy during the initial phase as officially stated for unionized members within the local region",
+      "In cases of voluntary resignation reflecting recent updates in the private sector pending an official review contingent on the contract",
+      "In cases of termination for serious misconduct following standard procedure per company policy subject to compliance under the labor code as management directs"
     ],
     "rationale": "1/2 month pay per year of service is the rate for retrenchment, closure not due to serious losses, or disease."
   },
@@ -6040,9 +6040,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When is Separation Pay equivalent to one (1) month pay per year of service given?",
     "correctAnswer": "In cases of installation of labor-saving devices, redundancy, or impossible reinstatement",
     "incorrectAnswers": [
-      "In cases of retrenchment to prevent losses",
-      "In cases of closure of establishment not due to serious losses",
-      "In cases of voluntary resignation after 10 years"
+      "In cases of retrenchment to prevent losses according to the mandate for covered employees",
+      "In cases of closure of establishment not due to serious losses during the initial phase",
+      "In cases of voluntary resignation after 10 years pending an official review in the private sector"
     ],
     "rationale": "1 month pay per year of service is given for installation of labor-saving devices, redundancy, or when reinstatement is impossible."
   },
@@ -6053,9 +6053,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is Separation Pay required when an employee is terminated for just causes like serious misconduct or willful disobedience?",
     "correctAnswer": "No, employees terminated for just causes are not entitled to separation pay",
     "incorrectAnswers": [
-      "Yes, they receive 1/2 month pay per year of service",
-      "Yes, but they only receive 25% of their total pay",
-      "Yes, they receive a fixed amount of P10,000"
+      "Yes, they receive 1/2 month pay per year of service reflecting recent updates",
+      "Yes, but they only receive 25% of their total pay assuming no violations for unionized members",
+      "Yes, they receive a fixed amount of P10,000 under the labor code following standard procedure"
     ],
     "rationale": "Termination for just causes (Art 297) does not entitle the employee to separation pay under the law."
   },
@@ -6066,9 +6066,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is Separation Pay required when an employee voluntarily resigns?",
     "correctAnswer": "No, unless there is a company policy, practice, or CBA providing for it",
     "incorrectAnswers": [
-      "Yes, they receive 1/2 month pay per year of service",
-      "Yes, but only if they have worked for more than 5 years",
-      "Yes, all resigned employees must be paid separation pay"
+      "Yes, they receive 1/2 month pay per year of service reflecting recent updates",
+      "Yes, but only if they have worked for more than 5 years for regular workers",
+      "Yes, all resigned employees must be paid separation pay excluding special cases"
     ],
     "rationale": "Voluntary resignation generally does not entitle an employee to separation pay unless stipulated by contract, CBA, or established practice."
   },
@@ -6079,9 +6079,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is Separation Pay subject to income tax?",
     "correctAnswer": "No, separation pay due to causes beyond the control of the employee is exempt from income tax",
     "incorrectAnswers": [
-      "Yes, it is taxed at a flat rate of 20%",
-      "Yes, it is subject to regular withholding tax",
-      "Yes, but only the amount exceeding P90,000"
+      "Yes, it is taxed at a flat rate of 20% based on regulations as management directs given proper notice",
+      "Yes, it is subject to regular withholding tax during the initial phase as officially stated subject to regional rules",
+      "Yes, but only the amount exceeding P90,000 within the local region reflecting recent updates for unionized members"
     ],
     "rationale": "Under the Tax Code, separation pay received due to death, sickness, or physical disability, or any cause beyond the control of the employee, is tax-exempt."
   },
@@ -6092,9 +6092,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is Retirement Pay?",
     "correctAnswer": "A monetary benefit given to an employee upon reaching the retirement age established in the CBA, contract, or by law",
     "incorrectAnswers": [
-      "A monthly pension given by the employer for life",
-      "A refund of all the employee's SSS contributions",
-      "A bonus given upon reaching 10 years of service regardless of age"
+      "A monthly pension given by the employer for life pending an official review subject to compliance for regular workers",
+      "A refund of all the employee's SSS contributions for unionized members given proper notice as management directs within the local region",
+      "A bonus given upon reaching 10 years of service regardless of age as officially stated per company policy under normal operations"
     ],
     "rationale": "Retirement pay under RA 7641 is a lump-sum monetary benefit given upon reaching retirement age."
   },
@@ -6118,9 +6118,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the Labor Code, what is the optional retirement age?",
     "correctAnswer": "60 years old or more, provided the employee has served at least 5 years",
     "incorrectAnswers": [
-      "50 years old with 10 years of service",
-      "55 years old with 5 years of service",
-      "45 years old with 20 years of service"
+      "50 years old with 10 years of service based on regulations subject to compliance",
+      "55 years old with 5 years of service contingent on the contract given proper notice",
+      "45 years old with 20 years of service during regular hours assuming no violations"
     ],
     "rationale": "Optional retirement age is 60 years old, provided the employee has served at least 5 years in the establishment."
   },
@@ -6132,7 +6132,7 @@ export const officialQuestionBank: QuestionData[] = [
     "correctAnswer": "At least one-half (1/2) month salary for every year of service",
     "incorrectAnswers": [
       "At least one (1) month salary for every year of service",
-      "A flat rate of P100,000",
+      "A flat rate of P100,000 contingent on the contract based on regulations",
       "Equal to the employee's final monthly salary multiplied by 1.5"
     ],
     "rationale": "RA 7641 sets the minimum retirement pay at 1/2 month salary for every year of service."
@@ -6144,9 +6144,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "For the purpose of computing minimum retirement pay, what does 'one-half (1/2) month salary' legally include?",
     "correctAnswer": "15 days basic salary + 5 days SIL + 1/12 of the 13th month pay, totaling 22.5 days per year of service",
     "incorrectAnswers": [
-      "Exactly 15 days of the basic salary",
-      "30 days of the basic salary plus allowances",
-      "14 days of basic salary only"
+      "Exactly 15 days of the basic salary during regular hours subject to regional rules pending an official review",
+      "30 days of the basic salary plus allowances based on regulations in most standard cases excluding special cases",
+      "14 days of basic salary only under normal operations in the private sector for unionized members for covered employees"
     ],
     "rationale": "The Supreme Court and DOLE have clarified that '1/2 month salary' translates to 22.5 days of pay per year of service for retirement computation."
   },
@@ -6170,9 +6170,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under RA 10757, what is the optional retirement age for surface mine workers?",
     "correctAnswer": "50 years old, provided they have served at least 5 years",
     "incorrectAnswers": [
-      "55 years old",
-      "60 years old",
-      "45 years old"
+      "55 years old for unionized members during regular hours",
+      "60 years old for covered employees contingent on the contract",
+      "45 years old within the local region excluding special cases"
     ],
     "rationale": "RA 10757 reduced the retirement age for surface mine workers to an optional age of 50."
   },
@@ -6196,9 +6196,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are retirement benefits subject to income tax?",
     "correctAnswer": "No, provided the employee has served at least 10 years, is at least 50 years old, and avails of the exemption for the first time",
     "incorrectAnswers": [
-      "Yes, they are subject to 20% final tax",
-      "Yes, they are added to gross income and taxed accordingly",
-      "No, they are tax-exempt regardless of age and tenure"
+      "Yes, they are subject to 20% final tax excluding special cases under the labor code upon final approval assuming no violations in the private sector",
+      "Yes, they are added to gross income and taxed accordingly pending an official review per company policy in most standard cases within the local region",
+      "No, they are tax-exempt regardless of age and tenure given proper notice contingent on the contract reflecting recent updates as management directs"
     ],
     "rationale": "Under the Tax Code, retirement pay is tax-exempt if the employee is 50+, has 10 years of service, and it's the first time availing."
   },
@@ -6209,9 +6209,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Employees' Compensation (EC) Program?",
     "correctAnswer": "A program designed to provide workers and their dependents with income, medical, or related benefits in the event of work-connected disability or death",
     "incorrectAnswers": [
-      "A program that provides loans to employees",
-      "A program to fund union activities",
-      "A program that provides unemployment insurance"
+      "A program that provides loans to employees as management directs under the labor code pending an official review during regular hours subject to compliance",
+      "A program to fund union activities contingent on the contract for unionized members in the private sector for covered employees excluding special cases according to the mandate",
+      "A program that provides unemployment insurance following standard procedure as officially stated under normal operations subject to regional rules for regular workers"
     ],
     "rationale": "The EC program provides a tax-exempt compensation package for employees in the event of work-connected sickness, injury, disability, or death."
   },
@@ -6222,9 +6222,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who is covered by the EC Program?",
     "correctAnswer": "All employees in the private sector registered with SSS and all government employees registered with GSIS",
     "incorrectAnswers": [
-      "Only employees in hazardous industries",
-      "Only employees who pay an extra premium",
-      "Only government employees"
+      "Only employees in hazardous industries upon final approval during the initial phase according to the mandate",
+      "Only employees who pay an extra premium assuming no violations under normal operations following standard procedure",
+      "Only government employees excluding special cases reflecting recent updates per company policy based on regulations"
     ],
     "rationale": "Coverage is compulsory for all employers and their employees who are registered with the SSS or GSIS."
   },
@@ -6248,9 +6248,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the EC Program, what is Temporary Total Disability (TTD)?",
     "correctAnswer": "A disability that prevents an employee from performing their work for a continuous period not exceeding 120 days",
     "incorrectAnswers": [
-      "A permanent loss of a limb",
-      "A disability lasting more than 240 days",
-      "A minor injury requiring only first aid"
+      "A permanent loss of a limb contingent on the contract based on regulations reflecting recent updates per company policy",
+      "A disability lasting more than 240 days pending an official review given proper notice for unionized members subject to regional rules",
+      "A minor injury requiring only first aid subject to compliance for regular workers as management directs according to the mandate"
     ],
     "rationale": "TTD is defined as a disability that prevents an employee from performing his work for a continuous period not exceeding 120 days."
   },
@@ -6261,9 +6261,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the benefit for Permanent Partial Disability (PPD) under the EC Program?",
     "correctAnswer": "A monthly income benefit for a designated number of months depending on the body part lost",
     "incorrectAnswers": [
-      "A lump sum payment of one million pesos",
-      "Full salary for life",
-      "Reimbursement of medical expenses only"
+      "A lump sum payment of one million pesos for covered employees during regular hours as officially stated",
+      "Full salary for life as management directs within the local region during the initial phase according to the mandate",
+      "Reimbursement of medical expenses only pending an official review in the private sector subject to compliance"
     ],
     "rationale": "For PPD, the benefit is a monthly income benefit for a designated number of months, based on the specific body part affected."
   },
@@ -6274,9 +6274,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who pays for the EC contributions?",
     "correctAnswer": "It is paid entirely by the employer; no deduction from the employee's wages",
     "incorrectAnswers": [
-      "It is deducted entirely from the employee's wages",
-      "It is split 50/50 between the employer and employee",
-      "It is paid by the government"
+      "It is deducted entirely from the employee's wages reflecting recent updates for unionized members",
+      "It is split 50/50 between the employer and employee subject to compliance",
+      "It is paid by the government based on regulations for regular workers according to the mandate"
     ],
     "rationale": "EC contributions are solely the obligation of the employer, with no deductions from the employee's salary."
   },
@@ -6287,9 +6287,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can an employee claim benefits from both SSS/GSIS and the EC Program for the same contingency?",
     "correctAnswer": "Yes, EC benefits can be claimed simultaneously with SSS/GSIS benefits",
     "incorrectAnswers": [
-      "No, an employee must choose only one",
-      "Yes, but only if the SSS benefit is denied",
-      "No, they are mutually exclusive"
+      "No, an employee must choose only one excluding special cases according to the mandate",
+      "Yes, but only if the SSS benefit is denied in the private sector given proper notice",
+      "No, they are mutually exclusive within the local region under the labor code"
     ],
     "rationale": "Simultaneous recovery under the EC program and the regular SSS/GSIS program is allowed."
   },
@@ -6300,9 +6300,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When should a claim for EC benefits be filed?",
     "correctAnswer": "Within 3 years from the time the cause of action accrued",
     "incorrectAnswers": [
-      "Within 1 year",
-      "Within 30 days",
-      "Within 10 years"
+      "Within 1 year assuming no violations under the labor code per company policy",
+      "Within 30 days subject to compliance pending an official review",
+      "Within 10 years during regular hours reflecting recent updates"
     ],
     "rationale": "Claims for EC benefits must be filed within three (3) years from the time the cause of action accrued."
   },
@@ -6313,9 +6313,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What does the term 'Work-Connected' mean in EC claims?",
     "correctAnswer": "The injury/sickness arose out of and in the course of employment",
     "incorrectAnswers": [
-      "The employee was wearing a company uniform",
+      "The employee was wearing a company uniform according to the mandate",
       "The injury happened anywhere during the calendar year",
-      "The sickness was pre-existing before employment"
+      "The sickness was pre-existing before employment in most standard cases"
     ],
     "rationale": "For an injury or sickness to be compensable, it must be 'work-connected', meaning it arose out of and in the course of employment."
   },
@@ -6326,9 +6326,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the Kasambahay Law (RA 10361)?",
     "correctAnswer": "A law instituting policies for the protection and welfare of domestic workers",
     "incorrectAnswers": [
-      "A law regulating the employment of foreign workers",
-      "A law providing benefits for public school teachers",
-      "A law on the rights of agricultural tenant farmers"
+      "A law regulating the employment of foreign workers within the local region",
+      "A law providing benefits for public school teachers for covered employees following standard procedure",
+      "A law on the rights of agricultural tenant farmers during the initial phase"
     ],
     "rationale": "RA 10361, the Domestic Workers Act or Batas Kasambahay, protects the rights and welfare of domestic workers."
   },
@@ -6352,9 +6352,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Are domestic workers entitled to 5 days Service Incentive Leave?",
     "correctAnswer": "Yes, provided they have rendered at least one year of service",
     "incorrectAnswers": [
-      "No, they are not entitled to SIL",
-      "Yes, but only 3 days",
-      "Yes, they receive it immediately upon hiring"
+      "No, they are not entitled to SIL as management directs for regular workers",
+      "Yes, but only 3 days for unionized members under the labor code",
+      "Yes, they receive it immediately upon hiring given proper notice"
     ],
     "rationale": "Under RA 10361, a kasambahay who has rendered at least one (1) year of service shall be entitled to an annual service incentive leave of five (5) days with pay."
   },
@@ -6378,8 +6378,8 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the Kasambahay Law, how many days of rest are domestic workers entitled to per week?",
     "correctAnswer": "At least twenty-four (24) consecutive hours of rest in a week",
     "incorrectAnswers": [
-      "At least forty-eight (48) consecutive hours",
-      "At least twelve (12) hours in a week",
+      "At least forty-eight (48) consecutive hours for covered employees",
+      "At least twelve (12) hours in a week within the local region",
       "Rest days are determined solely by the employer's discretion"
     ],
     "rationale": "Under RA 10361, a kasambahay is entitled to at least 24 consecutive hours of rest in a week."
@@ -6404,9 +6404,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Who pays for the SSS, PhilHealth, and Pag-IBIG contributions of a Kasambahay?",
     "correctAnswer": "The employer pays the full amount, unless the Kasambahay's wage is P5,000 or above, in which case the Kasambahay pays their proportionate share",
     "incorrectAnswers": [
-      "The Kasambahay pays the full amount through salary deductions",
-      "The government subsidizes the entire amount",
-      "The employer and the Kasambahay always split it 50/50 regardless of wage"
+      "The Kasambahay pays the full amount through salary deductions subject to compliance based on regulations pending an official review during regular hours",
+      "The government subsidizes the entire amount in most standard cases contingent on the contract assuming no violations reflecting recent updates for regular workers",
+      "The employer and the Kasambahay always split it 50/50 regardless of wage according to the mandate in the private sector subject to regional rules during the initial phase"
     ],
     "rationale": "Under the law, if the wage is less than P5,000/month, the employer pays the premium in full. If P5,000 or more, the kasambahay pays their proportionate share."
   },
@@ -6417,9 +6417,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the required form of payment for a Kasambahay's wages?",
     "correctAnswer": "Cash, at least once a month; payment by promissory notes, vouchers, coupons, tokens, or tickets is prohibited",
     "incorrectAnswers": [
-      "Groceries or goods equivalent to the wage amount",
-      "Checks dated three months in advance",
-      "Promissory notes if the employer is currently unemployed"
+      "Groceries or goods equivalent to the wage amount subject to regional rules for regular workers in most standard cases",
+      "Checks dated three months in advance based on regulations given proper notice per company policy during the initial phase",
+      "Promissory notes if the employer is currently unemployed pending an official review under the labor code reflecting recent updates"
     ],
     "rationale": "RA 10361 requires payment of wages in cash at least once a month. Payment by promissory notes or tokens is strictly prohibited."
   },
@@ -6430,9 +6430,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Under the Kasambahay Law, is it legal for an employer to withhold the wages of a domestic worker?",
     "correctAnswer": "No, it is unlawful for an employer to withhold the wages of the Kasambahay without the latter's consent",
     "incorrectAnswers": [
-      "Yes, if the kasambahay broke a household appliance",
-      "Yes, for the first three months as a security deposit",
-      "Yes, to ensure they do not leave without notice"
+      "Yes, if the kasambahay broke a household appliance in most standard cases excluding special cases under the labor code",
+      "Yes, for the first three months as a security deposit reflecting recent updates subject to regional rules",
+      "Yes, to ensure they do not leave without notice as officially stated for covered employees within the local region"
     ],
     "rationale": "It is unlawful for an employer to withhold wages without the Kasambahay's consent, except for legally authorized deductions."
   },
@@ -6443,9 +6443,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Is a Kasambahay entitled to the 13th Month Pay?",
     "correctAnswer": "Yes, a Kasambahay who has rendered at least one (1) month of service is entitled to a 13th month pay",
     "incorrectAnswers": [
-      "No, 13th month pay is only for corporate employees",
-      "Yes, but only if they have worked for more than one year",
-      "Yes, but it is capped at P2,000"
+      "No, 13th month pay is only for corporate employees subject to regional rules during the initial phase for covered employees",
+      "Yes, but only if they have worked for more than one year based on regulations for unionized members reflecting recent updates",
+      "Yes, but it is capped at P2,000 following standard procedure within the local region in the private sector"
     ],
     "rationale": "A kasambahay is entitled to a 13th-month pay provided they have rendered at least one month of service."
   },
@@ -6456,9 +6456,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "What is the 'Non-Diminution of Benefits' principle?",
     "correctAnswer": "An employer cannot unilaterally withdraw or reduce benefits that have been freely and consistently given to employees",
     "incorrectAnswers": [
-      "Employees cannot ask for wage increases during an economic crisis",
-      "Benefits are fixed at hiring and can never be increased",
-      "The government cannot reduce the minimum wage once set"
+      "Employees cannot ask for wage increases during an economic crisis under normal operations as management directs for unionized members",
+      "Benefits are fixed at hiring and can never be increased as officially stated for covered employees based on regulations",
+      "The government cannot reduce the minimum wage once set assuming no violations per company policy during regular hours upon final approval"
     ],
     "rationale": "The principle of non-diminution of benefits states that an employer cannot withdraw or reduce benefits that have ripened into practice or are part of an express policy."
   },
@@ -6469,9 +6469,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "When does a bonus become a demandable and enforceable obligation?",
     "correctAnswer": "When it is made part of the wage/salary, granted based on an express policy/CBA, or has ripened into practice over a long period",
     "incorrectAnswers": [
-      "It is always demandable regardless of company policy",
-      "Only when the company declares a net profit of over 10 million pesos",
-      "When the employee has perfect attendance for the year"
+      "It is always demandable regardless of company policy as management directs according to the mandate reflecting recent updates",
+      "Only when the company declares a net profit of over 10 million pesos under the labor code subject to regional rules for unionized members",
+      "When the employee has perfect attendance for the year within the local region as officially stated pending an official review based on regulations"
     ],
     "rationale": "A bonus is generally a management prerogative, but becomes demandable if it is part of the wage, stated in the CBA/policy, or has ripened into a consistent practice."
   },
@@ -6495,9 +6495,9 @@ export const officialQuestionBank: QuestionData[] = [
     "text": "Can a Kasambahay's employment be terminated by the employer without just cause?",
     "correctAnswer": "No, if terminated without just cause, the employer shall pay the earned compensation plus compensation for 15 days",
     "incorrectAnswers": [
-      "Yes, domestic workers are 'at-will' employees",
-      "Yes, but the employer must provide a one-way ticket back to their home province",
-      "No, they can never be terminated during their contract period"
+      "Yes, domestic workers are 'at-will' employees pending an official review as officially stated following standard procedure",
+      "Yes, but the employer must provide a one-way ticket back to their home province within the local region subject to regional rules",
+      "No, they can never be terminated during their contract period for regular workers for covered employees for unionized members"
     ],
     "rationale": "If the employer terminates the employment without just cause, the kasambahay is entitled to earned compensation plus an indemnity of 15 days' pay."
   }
