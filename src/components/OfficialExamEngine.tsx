@@ -4,7 +4,7 @@ import { useAuth } from "@/context/AuthContext";
 import ProgressBar from "./ProgressBar";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
-import { QuestionData } from "@/data/officialQuestionBank";
+import { QuestionData } from "@/data/questionBank";
 
 const shuffle = <T,>(array: T[]): T[] => {
   const arr = [...array];
