@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
 import { useEffect, useState } from "react";
 import { db } from "@/lib/firebase";
-import { collection, query, orderBy, getDocs, limit } from "firebase/firestore";
+import { collection, query, orderBy, getDocs, limit } from "@firebase/firestore";
 
 interface ExamResult {
   id: string;
@@ -21,9 +21,12 @@ export default function Dashboard() {
   const [history, setHistory] = useState<ExamResult[]>([]);
   const [fetching, setFetching] = useState(true);
   const [showExamModal, setShowExamModal] = useState(false);
+  const [showCustomModal, setShowCustomModal] = useState(false);
+  const [showOfficialModal, setShowOfficialModal] = useState(false);
+  const [showOfficialExamModal, setShowOfficialExamModal] = useState(false);
 
   const [overallAccuracy, setOverallAccuracy] = useState(0);
-  const [categoryStats, setCategoryStats] = useState<{name: string, accuracy: number, correct: number, total: number}[]>([]);
+  const [categoryStats, setCategoryStats] = useState<{ name: string, accuracy: number, correct: number, total: number }[]>([]);
   const [examsPassed, setExamsPassed] = useState(0);
 
   useEffect(() => {
@@ -40,7 +43,7 @@ export default function Dashboard() {
         );
         const querySnapshot = await getDocs(q);
         const results: ExamResult[] = [];
-        querySnapshot.forEach((doc) => {
+        querySnapshot.forEach((doc: any) => {
           results.push({ id: doc.id, ...doc.data() } as ExamResult);
         });
         setHistory(results);
@@ -63,7 +66,7 @@ export default function Dashboard() {
 
       history.forEach(h => {
         if (h.passedOverall) passed++;
-        
+
         if (h.scoreA !== undefined && h.scoreA !== null) {
           totalQuestions += 100;
           totalCorrect += h.scoreA;
@@ -113,34 +116,71 @@ export default function Dashboard() {
 
       <div className="grid-cards" style={{ marginBottom: '2rem' }}>
         <div className="glass-card">
-          <h3>Study Modules</h3>
+          <h3>Custom Made Reviewer</h3>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-            Review Labor Laws, Statutory Benefits, and HR Principles.
+            Study and take exams using our custom made reviewer.
           </p>
-          <Link href="/modules" className="btn btn-primary" style={{ width: '100%' }}>
-            Start Studying
-          </Link>
+          <button onClick={() => setShowCustomModal(true)} className="btn btn-primary" style={{ width: '100%' }}>
+            Study and Take Exam custom made reviewer
+          </button>
         </div>
 
         <div className="glass-card">
-          <h3>Practice Exams</h3>
+          <h3>Official Reviewer</h3>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-            Test your knowledge with timed practice quizzes.
+            Study and review official materials (PDFs).
           </p>
-          <button onClick={() => setShowExamModal(true)} className="btn btn-primary" style={{ width: '100%', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none', cursor: 'pointer' }}>
-            Take Exam
+          <button onClick={() => setShowOfficialModal(true)} className="btn btn-primary" style={{ width: '100%', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none', cursor: 'pointer' }}>
+            Study and Taxe Exam official reviewer
           </button>
         </div>
       </div>
 
+      {showCustomModal && (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => setShowCustomModal(false)}>
+          <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '2rem' }} onClick={e => e.stopPropagation()}>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Custom Made Reviewer</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <Link href="/modules" className="btn btn-primary" style={{ textAlign: 'center' }}>Start Studying</Link>
+              <button onClick={() => { setShowCustomModal(false); setShowExamModal(true); }} className="btn btn-primary" style={{ textAlign: 'center', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none' }}>Take Exam</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showOfficialModal && (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => setShowOfficialModal(false)}>
+          <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '2rem' }} onClick={e => e.stopPropagation()}>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Official Reviewer</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <Link href="/official-modules" className="btn btn-primary" style={{ textAlign: 'center' }}>Start Studying Official Material</Link>
+              <button onClick={() => { setShowOfficialModal(false); setShowOfficialExamModal(true); }} className="btn btn-primary" style={{ textAlign: 'center', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none' }}>Take Official Exam</button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {showExamModal && (
         <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => setShowExamModal(false)}>
           <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '2rem' }} onClick={e => e.stopPropagation()}>
-            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Select Exam Set</h3>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Select Custom Exam Set</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <Link href="/practice/exam?mode=A" className="btn btn-primary" style={{ textAlign: 'center' }}>Set A Only (100 items)</Link>
               <Link href="/practice/exam?mode=B" className="btn btn-primary" style={{ textAlign: 'center' }}>Set B Only (100 items)</Link>
               <Link href="/practice/exam?mode=Both" className="btn btn-primary" style={{ textAlign: 'center' }}>Both Sets (200 items)</Link>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showOfficialExamModal && (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => setShowOfficialExamModal(false)}>
+          <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '2rem' }} onClick={e => e.stopPropagation()}>
+            <h3 style={{ marginBottom: '1rem', textAlign: 'center' }}>Select Official Exam Set</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <Link href="/official-practice/exam?mode=A" className="btn btn-primary" style={{ textAlign: 'center' }}>Set A Only (100 items)</Link>
+              <Link href="/official-practice/exam?mode=B" className="btn btn-primary" style={{ textAlign: 'center' }}>Set B Only (100 items)</Link>
+              <Link href="/official-practice/exam?mode=Both" className="btn btn-primary" style={{ textAlign: 'center' }}>Both Sets (200 items)</Link>
             </div>
           </div>
         </div>
@@ -176,13 +216,13 @@ export default function Dashboard() {
                         <span style={{ color: 'var(--text-secondary)' }}>{cat.accuracy}%</span>
                       </div>
                       <div style={{ width: '100%', backgroundColor: 'var(--background-color)', height: '8px', borderRadius: '4px', overflow: 'hidden' }}>
-                        <div 
-                          style={{ 
-                            height: '100%', 
-                            width: `${cat.accuracy}%`, 
+                        <div
+                          style={{
+                            height: '100%',
+                            width: `${cat.accuracy}%`,
                             backgroundColor: cat.accuracy >= 75 ? 'var(--success-color)' : cat.accuracy >= 50 ? 'var(--warning-color)' : 'var(--error-color)',
                             transition: 'width 1s ease-in-out'
-                          }} 
+                          }}
                         />
                       </div>
                     </div>
