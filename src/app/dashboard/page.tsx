@@ -14,6 +14,7 @@ interface ExamResult {
   passedOverall: boolean;
   timestamp: any;
   categoryScores?: Record<string, { correct: number, total: number }>;
+  type?: string;
 }
 
 export default function Dashboard() {
@@ -36,17 +37,33 @@ export default function Dashboard() {
     }
     const fetchHistory = async () => {
       try {
-        const q = query(
+        const q1 = query(
           collection(db, "usersREVIEWER", user.uid, "historyREVIEWER"),
           orderBy("timestamp", "desc"),
-          limit(20) // Fetch up to 20 past exams for robust analytics
+          limit(20)
         );
-        const querySnapshot = await getDocs(q);
+        const q2 = query(
+          collection(db, "usersREVIEWER", user.uid, "historyOFFICIAL"),
+          orderBy("timestamp", "desc"),
+          limit(20)
+        );
+        
+        const [snap1, snap2] = await Promise.all([getDocs(q1), getDocs(q2)]);
         const results: ExamResult[] = [];
-        querySnapshot.forEach((doc: any) => {
-          results.push({ id: doc.id, ...doc.data() } as ExamResult);
+        snap1.forEach((doc: any) => {
+          results.push({ id: doc.id, type: 'Custom', ...doc.data() } as ExamResult);
         });
-        setHistory(results);
+        snap2.forEach((doc: any) => {
+          results.push({ id: doc.id, type: 'Official', ...doc.data() } as ExamResult);
+        });
+        
+        results.sort((a, b) => {
+          if (!a.timestamp) return 1;
+          if (!b.timestamp) return -1;
+          return b.timestamp.toMillis() - a.timestamp.toMillis();
+        });
+        
+        setHistory(results.slice(0, 20));
       } catch (error) {
         console.error("Error fetching history", error);
       } finally {
@@ -238,7 +255,7 @@ export default function Dashboard() {
                 {history.map((h, i) => (
                   <div key={h.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', backgroundColor: 'var(--background-color)', borderRadius: '8px', borderLeft: h.passedOverall ? '4px solid var(--success-color)' : '4px solid var(--error-color)' }}>
                     <div>
-                      <strong>Attempt {history.length - i}</strong>
+                      <strong>Attempt {history.length - i} <span style={{ fontSize: '0.8rem', color: 'var(--primary-color)', marginLeft: '0.5rem', fontWeight: 'normal', backgroundColor: 'var(--background-color)', padding: '0.1rem 0.5rem', borderRadius: '4px', border: '1px solid var(--glass-border)' }}>{h.type}</span></strong>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
                         {h.timestamp ? new Date(h.timestamp.toDate()).toLocaleDateString() : 'Just now'}
                       </div>
