@@ -1,12 +1,4 @@
-export interface QuestionData {
-  id?: string;
-  setId: string;
-  category: string;
-  text: string;
-  correctAnswer: string;
-  incorrectAnswers: string[];
-  rationale: string;
-}
+import { QuestionData } from "./questionBank";
 
 export const officialQuestionBank: QuestionData[] = [
   {
@@ -2197,10 +2189,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_169",
     "setId": "A",
     "category": "Introduction to HRM",
-    "text": "In small organizations, line managers frequently handle all personnel duties without the assistance of a human resource staff.",
-    "correctAnswer": "True",
+    "text": "Who frequently handles all personnel duties in small organizations without the assistance of a human resource staff?",
+    "correctAnswer": "Line managers",
     "incorrectAnswers": [
-      "False"
+      "The CEO exclusively",
+      "External consultants",
+      "The Board of Directors"
     ],
     "rationale": "It is true that in small organizations, line managers frequently handle personnel duties themselves."
   },
@@ -2247,10 +2241,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_173",
     "setId": "A",
     "category": "Training and Development",
-    "text": "Employee orientation programs range from brief, informal introductions to lengthy, formal courses.",
-    "correctAnswer": "True",
+    "text": "What is true about the format and duration of employee orientation programs?",
+    "correctAnswer": "They can range from brief, informal introductions to lengthy, formal courses.",
     "incorrectAnswers": [
-      "False"
+      "They are strictly limited to one-hour informal meetings.",
+      "They are strictly mandated to be 30-day formal courses.",
+      "They only apply to managerial-level positions."
     ],
     "rationale": "It is true that orientation programs can range from brief and informal to lengthy and formal, depending on the organization."
   },
@@ -2258,10 +2254,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_174",
     "setId": "A",
     "category": "Training and Development",
-    "text": "Hiring highly skilled employees with great potential eliminates the need to provide orientation and training.",
-    "correctAnswer": "False",
+    "text": "Does hiring highly skilled employees with great potential eliminate the need to provide orientation and training?",
+    "correctAnswer": "No, even highly skilled employees require orientation and training to understand company-specific processes.",
     "incorrectAnswers": [
-      "True"
+      "Yes, skilled employees do not need any further training.",
+      "Yes, but only if they have more than 10 years of experience.",
+      "No, but they only require orientation and no training."
     ],
     "rationale": "It is false. Even highly skilled employees need orientation to understand specific company policies, culture, and procedures."
   },
@@ -2334,10 +2332,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_180",
     "setId": "A",
     "category": "Training and Development",
-    "text": "Training sessions should be half-day or three-fourths day in length rather than a full day, because the learning curve goes down late in the day.",
-    "correctAnswer": "True",
+    "text": "Why is it recommended that training sessions be half-day or three-fourths day in length rather than a full day?",
+    "correctAnswer": "Because the learning curve goes down late in the day",
     "incorrectAnswers": [
-      "False"
+      "Because trainers charge strictly by the half-day",
+      "Because employees are not allowed to work full days during training",
+      "Because facilities are only available for half days"
     ],
     "rationale": "It is true that shorter training sessions are often more effective because attention and learning curves tend to drop late in a full-day session."
   },
@@ -2579,10 +2579,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_199",
     "setId": "A",
     "category": "Personnel Planning and Recruitment",
-    "text": "Publicizing an open job to current employees through a firm's intranet or bulletin board is known as job posting.",
-    "correctAnswer": "True",
+    "text": "What is the process of publicizing an open job to current employees through a firm's intranet or bulletin board called?",
+    "correctAnswer": "Job posting",
     "incorrectAnswers": [
-      "False"
+      "Headhunting",
+      "Job enlargement",
+      "Campus recruiting"
     ],
     "rationale": "Job posting is the procedure of publicizing open jobs to employees (often by literally posting it on bulletin boards or intranets)."
   },
@@ -2694,10 +2696,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_208",
     "setId": "A",
     "category": "Performance Appraisal",
-    "text": "Supervisors should provide employees with feedback, development, and incentives necessary to help employees eliminate performance deficiencies or to continue to perform well.",
-    "correctAnswer": "True",
+    "text": "What should supervisors provide to help employees eliminate performance deficiencies or continue to perform well?",
+    "correctAnswer": "Feedback, development, and incentives",
     "incorrectAnswers": [
-      "False"
+      "Warning letters and immediate salary deductions",
+      "Strict surveillance and micromanagement",
+      "Unpaid leave and demotions"
     ],
     "rationale": "Providing feedback and coaching to help employees improve is a key role of the supervisor in the performance management process."
   },
@@ -2705,10 +2709,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_209",
     "setId": "A",
     "category": "Performance Appraisal",
-    "text": "The HR department monitors the performance appraisal system, but it is typically not involved in rating employees.",
-    "correctAnswer": "True",
+    "text": "What is the typical role of the HR department in the performance appraisal system?",
+    "correctAnswer": "It monitors the system but is typically not involved in rating employees",
     "incorrectAnswers": [
-      "False"
+      "It directly rates all employees across all departments.",
+      "It is completely uninvolved in the performance appraisal process.",
+      "It only handles appraisals for executive management."
     ],
     "rationale": "The HR department serves an advisory role in the appraisal process but the actual rating is done by supervisors."
   },
@@ -2716,10 +2722,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_210",
     "setId": "A",
     "category": "Performance Appraisal",
-    "text": "In order to ensure that performance appraisals are effective, Felicia, a line supervisor, should make sure to schedule a feedback session to address each subordinate's performance, progress, and future development plans.",
-    "correctAnswer": "True",
+    "text": "To ensure performance appraisals are effective, what should a line supervisor schedule with each subordinate?",
+    "correctAnswer": "A feedback session to address performance, progress, and future development plans",
     "incorrectAnswers": [
-      "False"
+      "A public ranking session with the entire team",
+      "A disciplinary hearing",
+      "A salary negotiation meeting"
     ],
     "rationale": "A feedback session is a crucial component of an effective performance appraisal, allowing for discussion of progress and development plans."
   },
@@ -2766,10 +2774,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_214",
     "setId": "A",
     "category": "Performance Appraisal",
-    "text": "Management by objectives requires a manager to set specific measurable, organizationally relevant goals with each employee and then periodically discuss the employee's progress toward these goals.",
-    "correctAnswer": "True",
+    "text": "What does the 'Management by Objectives' (MBO) approach require from a manager?",
+    "correctAnswer": "To set specific, measurable, organizationally relevant goals with each employee and periodically discuss progress",
     "incorrectAnswers": [
-      "False"
+      "To vaguely assign tasks without checking back until the end of the year",
+      "To micromanage daily tasks without setting long-term goals",
+      "To allow employees to set their own goals without any managerial input"
     ],
     "rationale": "Management by objectives (MBO) is a goal-setting and appraisal program that involves manager and employee jointly setting goals and evaluating progress."
   },
@@ -2777,10 +2787,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_215",
     "setId": "A",
     "category": "Job Analysis and Talent Management",
-    "text": "In an effective talent management system, an employee's performance appraisal would initiate training and development opportunities.",
-    "correctAnswer": "True",
+    "text": "In an effective talent management system, what is one of the key outcomes initiated by an employee's performance appraisal?",
+    "correctAnswer": "Training and development opportunities",
     "incorrectAnswers": [
-      "False"
+      "Immediate termination for minor errors",
+      "Mandatory salary reductions",
+      "Automatic promotions regardless of score"
     ],
     "rationale": "Talent management integrates all HR activities; thus, a performance appraisal directly informs training and development needs."
   },
@@ -2788,10 +2800,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_216",
     "setId": "A",
     "category": "Job Analysis and Talent Management",
-    "text": "Effective talent management focuses on developing employee competencies that align with strategic goals.",
-    "correctAnswer": "True",
+    "text": "What does effective talent management focus on developing?",
+    "correctAnswer": "Employee competencies that align with strategic goals",
     "incorrectAnswers": [
-      "False"
+      "Competencies that only benefit the employee's personal hobbies",
+      "Short-term skills that ignore the organization's long-term strategy",
+      "Only administrative tasks unrelated to core business"
     ],
     "rationale": "Talent management is the goal-oriented and integrated process of planning, recruiting, developing, managing, and compensating employees to achieve strategic goals."
   },
@@ -2877,10 +2891,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_223",
     "setId": "A",
     "category": "Job Analysis and Talent Management",
-    "text": "Conducting the job analysis is the sole responsibility of the HR specialist.",
-    "correctAnswer": "False",
+    "text": "Is conducting the job analysis the sole responsibility of the HR specialist?",
+    "correctAnswer": "No, it typically requires cooperation between the HR specialist, the worker, and the supervisor",
     "incorrectAnswers": [
-      "True"
+      "Yes, only the HR specialist is allowed to conduct a job analysis.",
+      "Yes, because line managers do not understand job duties.",
+      "No, it is the sole responsibility of the company CEO."
     ],
     "rationale": "Job analysis is generally a joint effort involving the HR specialist, the worker, and the worker's supervisor."
   },
@@ -2914,10 +2930,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_226",
     "setId": "A",
     "category": "Job Analysis and Talent Management",
-    "text": "Informal interviews provide quantitative job analysis information, which is why they are frequently used by managers who need to determine the relative worth of a job for pay purposes.",
-    "correctAnswer": "False",
+    "text": "Do informal interviews provide quantitative job analysis information for determining the relative worth of a job for pay purposes?",
+    "correctAnswer": "No, informal interviews generally provide qualitative information, not quantitative",
     "incorrectAnswers": [
-      "True"
+      "Yes, they are the most statistically accurate method available.",
+      "Yes, they easily convert all subjective opinions into numerical data.",
+      "No, because informal interviews are strictly prohibited by law."
     ],
     "rationale": "Informal interviews generally provide qualitative, not quantitative, job analysis information. Questionnaires like the PAQ provide quantitative data."
   },
@@ -2964,10 +2982,12 @@ export const officialQuestionBank: QuestionData[] = [
     "id": "A_230",
     "setId": "A",
     "category": "Employee Testing and Selection",
-    "text": "Selection tests should be used as supplements to other tools like interviews and background checks.",
-    "correctAnswer": "True",
+    "text": "How should selection tests be utilized in the hiring process?",
+    "correctAnswer": "As supplements to other tools like interviews and background checks",
     "incorrectAnswers": [
-      "False"
+      "As the sole determinant for hiring an applicant",
+      "As a complete replacement for background checks",
+      "As an optional step only used after the employee is hired"
     ],
     "rationale": "Selection tests are most effective when used as part of a comprehensive selection process, supplementing interviews and background checks."
   },
